@@ -1,0 +1,47 @@
+
+~~CREDIT TO THE MAIN MOD THIS IS AN ADD ON TO~~~
+ALL MODELS AND ANIMATIONS (unless otherwise specified below) ARE FROM THE SWEM MOD and their team of talented animators, coders, and designers. This mod makes no claim to their models and designs. When they are used explicit credit is given, and they are only used in their original format or in ways to be true to their original formats.
+
+Please see their mod at the link below.
+https://modrinth.com/mod/swem
+
+Join their discord
+https://www.discord.gg/swem
+
+Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
+
+~~CREDIT TO THE TEXTURE ARTIST~~
+Moon Flower is the artist who made the wonderful Rainbow Tack that this mod adds. Please click the link below to learn more about her amazing work
+https://moon-flower-info.carrd.co/
+
+~~GUIDANCE CREDIT~~
+Thank you to MagnusHJenson (legenden) for your support in helping make this add on to your mod (SWEM). Thank you for answering so many questions!
+
+Thank you to Kaupenjoe for your amazing courses and YouTube tutorials. I have learned so much <3
+https://courses.kaupenjoe.net/
+
+-----------------------------------------------------------------------
+
+~~~~CREDIT TO THE NEW FILES OF THIS MOD~~~~
+Custom models and textures included
+
+===MODELS AND TEXTURES===
+----kyraltre----
+BUTTERFLY
+PUMPKIN_GRAND
+PUMPKIN_RESERVE
+
+===TEXTURES ONLY===
+----kyraltre----
+pasture_blanket_rainbow_icon
+pasture_blanket_rainbow_armored_icon
+PASTURE_BLANKET_[1 thru 12]
+RIBBON_THREE_TAILS_[1 thru 6]
+RIBBON_TWO_TAILS_[1 thru 6]
+RIBBON_ONE_TAIL_[1 thru 6]
+ROSETTE_[1 thru 6]
+TROPHY_[1 thru 3]
+
+----Moon_Flower----
+PASTURE_BLANKET_RAINBOW
+PASTURE_BLANKET_RAINBOW_ARMORED
