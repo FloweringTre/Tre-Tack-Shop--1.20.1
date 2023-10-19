@@ -3,8 +3,8 @@
 	"parent": "block/block",
 	"texture_size": [64, 64],
 	"textures": {
-		"particle": "tretackshop:items/awards/rosette/rosette_1",
-		"texture": "tretackshop:items/awards/rosette/rosette_1"
+		"particle": "tretackshop:item/awards/rosette/rosette_1",
+		"texture": "tretackshop:item/awards/rosette/rosette_1"
 	},
 	"elements": [
 		{
