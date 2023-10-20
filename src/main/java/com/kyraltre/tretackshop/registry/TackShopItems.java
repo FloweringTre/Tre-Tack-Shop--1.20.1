@@ -5,7 +5,7 @@
 
 package com.kyraltre.tretackshop.registry;
 
-
+// FOR ITEMS THAT ARE ABLE TO BE RE-TEXTURED
 import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
 import java.util.ArrayList;
 import java.util.List;

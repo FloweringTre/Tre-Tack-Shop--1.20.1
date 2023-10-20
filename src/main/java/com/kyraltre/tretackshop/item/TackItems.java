@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
 
-
+// FOR ITEMS THAT WILL HAVE A SET TEXTURE
 public class TackItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TreTackShop.MOD_ID);
@@ -20,6 +20,12 @@ public class TackItems {
     public static final RegistryObject<Item> BUTTERFLY = ITEMS.register("butterfly",
             () -> new Item(new Item.Properties()))
             ;// Icon for mod
+
+    public static final RegistryObject<Item> PUMPKIN_GRAND = ITEMS.register("pumpkin_grand",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PUMPKIN_RESERVE = ITEMS.register("pumpkin_reserve",
+            () -> new Item(new Item.Properties()));
+
 
     public static final RegistryObject<Item> TROPHY_1 = ITEMS.register("trophy_1",
             () -> new Item(new Item.Properties()));

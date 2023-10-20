@@ -51,8 +51,8 @@ public class TackShopCreativeModTab {
             return CreativeModeTab.builder().title(Component.translatable("creativetab.tretack_tab")).icon(() -> new ItemStack(TackItems.BUTTERFLY.get()))
                 .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(TackItems.BUTTERFLY.get());
-//                pOutput.accept(TackShopBlocks.PUMPKIN_GRAND.get());
-//                pOutput.accept(TackShopBlocks.PUMPKIN_RESERVE.get());
+                pOutput.accept(TackItems.PUMPKIN_GRAND.get());
+                pOutput.accept(TackItems.PUMPKIN_RESERVE.get());
 
                 pOutput.accept(TackItems.PASTURE_BLANKET_RAINBOW.get());
                 pOutput.accept(TackItems.PASTURE_BLANKET_RAINBOW_ARMORED.get());

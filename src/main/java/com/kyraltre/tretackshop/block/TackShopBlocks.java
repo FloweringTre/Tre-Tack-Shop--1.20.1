@@ -1,7 +1,6 @@
 package com.kyraltre.tretackshop.block;
 
 import com.kyraltre.tretackshop.TreTackShop;
-import com.kyraltre.tretackshop.block.custom.PumpkinTrophy;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackItems;
 import net.minecraft.world.item.BlockItem;
@@ -21,6 +20,7 @@ public class TackShopBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TreTackShop.MOD_ID);
 
+    //REMOVED BLOCK pumpkin stature, only item frame variant now
 //    public static final RegistryObject<Block> PUMPKIN_GRAND = registerBlock("pumpkin_grand",
 //            () -> new PumpkinTrophy(BlockBehaviour.Properties.copy(Blocks.PUMPKIN).noOcclusion().strength(1.0F)
 //            ));
