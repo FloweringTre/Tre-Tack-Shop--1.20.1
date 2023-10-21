@@ -1,11 +1,7 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package com.kyraltre.tretackshop.registry;
 
 // FOR ITEMS THAT ARE ABLE TO BE RE-TEXTURED
+import com.alaharranhonor.swem.forge.items.tack.HalterItem;
 import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,12 +16,23 @@ import net.minecraftforge.registries.ForgeRegistries.Keys;
 
 public class TackShopItems {
     public static final DeferredRegister<Item> REGISTRY;
+    public static final RegistryObject<Item> BUTTERFLY;
+    public static final RegistryObject<HalterItem> HALTER_RAINBOW;
+    public static final List<RegistryObject<HalterItem>> HALTERS;
+    public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW;
+    public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW_ARMORED;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS_ARMORED;
     public static final List<RegistryObject<Item>> RIBBON_THREE_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
     public static final List<RegistryObject<Item>> ROSETTE;
+    public static final RegistryObject<Item> TROPHY_1;
+    public static final RegistryObject<Item> TROPHY_2;
+    public static final RegistryObject<Item> TROPHY_3;
+    public static final RegistryObject<Item> PUMPKIN_GRAND;
+    public static final RegistryObject<Item> PUMPKIN_RESERVE;
+
 
 
 
@@ -38,10 +45,28 @@ public class TackShopItems {
 
     static {
         REGISTRY = DeferredRegister.create(Keys.ITEMS, "tretackshop");
+        // Mod icon <3
+        BUTTERFLY = REGISTRY.register("butterfly",
+                () -> new Item(new Item.Properties()));
 
+        // RAINBOW TACK ITEMS
+        HALTER_RAINBOW = REGISTRY.register("halter_rainbow",
+                () -> new HalterItem("halter_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
+
+        PASTURE_BLANKET_RAINBOW = REGISTRY.register("pasture_blanket_rainbow",
+                () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                        "pasture_blanket_rainbow", new Item.Properties().stacksTo(16)));
+
+        PASTURE_BLANKET_RAINBOW_ARMORED = REGISTRY.register("pasture_blanket_rainbow_armored",
+                () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
+                        "pasture_blanket_rainbow_armored",
+                        (new Item.Properties()).stacksTo(16)));
+
+        //12 count items
         PASTURE_BLANKETS = new ArrayList();
         PASTURE_BLANKETS_ARMORED = new ArrayList();
-        //DyeColor[] var0 = DyeColor.values();
+        HALTERS = new ArrayList();
         int var1 = 13;
         var rContext = new Object() {
             int var2 = 1;
@@ -61,10 +86,15 @@ public class TackShopItems {
                         "pasture_blanket_" + Integer.toString(counter) + "_armored", (new Item.Properties())
                         .stacksTo(16));
             }));
+
+            HALTERS.add(REGISTRY.register("halter_" + Integer.toString(counter), () -> {
+                return new HalterItem("halter_" + Integer.toString(counter), (new Item.Properties())
+                        .stacksTo(16));
+            }));
             ++rContext.var2;
         }
 
-
+        // 6 count items
         RIBBON_THREE_TAILS = new ArrayList();
         RIBBON_TWO_TAILS = new ArrayList();
         RIBBON_ONE_TAIL = new ArrayList();
@@ -92,6 +122,22 @@ public class TackShopItems {
 
              ++Context.b;
          }
+
+        TROPHY_1 = REGISTRY.register("trophy_1",
+                () -> new Item(new Item.Properties()));
+
+        TROPHY_2 = REGISTRY.register("trophy_2",
+                () -> new Item(new Item.Properties()));
+
+        TROPHY_3 = REGISTRY.register("trophy_3",
+                () -> new Item(new Item.Properties()))
+                ; // Adding 3 CIT trophy variants
+
+        PUMPKIN_GRAND = REGISTRY.register("pumpkin_grand",
+                () -> new Item(new Item.Properties()));
+
+        PUMPKIN_RESERVE = REGISTRY.register("pumpkin_reserve",
+                () -> new Item(new Item.Properties()));
 
     }
 }

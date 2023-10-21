@@ -1,7 +1,6 @@
 package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
-import com.kyraltre.tretackshop.item.TackItems;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
@@ -28,7 +27,6 @@ public class TreTackShop {
 
         TackShopCreativeModTab.init(modEventBus);
 
-        TackItems.register(modEventBus);
         TackShopBlocks.register(modEventBus);
         TackShopItems.init(modEventBus);
 

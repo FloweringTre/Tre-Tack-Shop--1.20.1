@@ -2,7 +2,7 @@ package com.kyraltre.tretackshop.block;
 
 import com.kyraltre.tretackshop.TreTackShop;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
-import com.kyraltre.tretackshop.item.TackItems;
+import com.kyraltre.tretackshop.registry.TackShopItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -36,7 +36,7 @@ public class TackShopBlocks {
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return TackItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        return TackShopItems.REGISTRY.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus){
