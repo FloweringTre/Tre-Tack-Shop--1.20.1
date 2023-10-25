@@ -1,8 +1,8 @@
 package com.kyraltre.tretackshop.registry;
 
 // FOR ITEMS THAT ARE ABLE TO BE RE-TEXTURED
-import com.alaharranhonor.swem.forge.items.tack.HalterItem;
-import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
+import com.alaharranhonor.swem.forge.items.tack.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,10 +19,17 @@ public class TackShopItems {
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<HalterItem> HALTER_RAINBOW;
     public static final List<RegistryObject<HalterItem>> HALTERS;
+    public static final List<RegistryObject<HalterItem>> FLYMASKS;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_RAINBOW_ARMORED;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS_ARMORED;
+    public static final RegistryObject<AdventureBlanketItem> ADVENTURE_BLANKET_RAINBOW;
+    public static final RegistryObject<EnglishBlanketItem> ENGLISH_BLANKET_RAINBOW;
+    public static final RegistryObject<WesternBlanketItem> WESTERN_BLANKET_RAINBOW;
+    public static final List<RegistryObject<AdventureBlanketItem>> ADVENTURE_BLANKETS;
+    public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKETS;
+    public static final List<RegistryObject<WesternBlanketItem>> WESTERN_BLANKETS;
     public static final List<RegistryObject<Item>> RIBBON_THREE_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
@@ -54,6 +61,18 @@ public class TackShopItems {
                 () -> new HalterItem("halter_rainbow", (new Item.Properties())
                         .stacksTo(16)));
 
+        ADVENTURE_BLANKET_RAINBOW = REGISTRY.register("adventure_blanket_rainbow",
+                () -> new AdventureBlanketItem("adventure_blanket_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
+
+        WESTERN_BLANKET_RAINBOW = REGISTRY.register("western_blanket_rainbow",
+                () -> new WesternBlanketItem("western_blanket_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
+
+        ENGLISH_BLANKET_RAINBOW = REGISTRY.register("english_blanket_rainbow",
+                () -> new EnglishBlanketItem("english_blanket_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
+
         PASTURE_BLANKET_RAINBOW = REGISTRY.register("pasture_blanket_rainbow",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_rainbow", new Item.Properties().stacksTo(16)));
@@ -67,6 +86,10 @@ public class TackShopItems {
         PASTURE_BLANKETS = new ArrayList();
         PASTURE_BLANKETS_ARMORED = new ArrayList();
         HALTERS = new ArrayList();
+        FLYMASKS = new ArrayList();
+        ADVENTURE_BLANKETS = new ArrayList();
+        WESTERN_BLANKETS = new ArrayList();
+        ENGLISH_BLANKETS = new ArrayList();
         int var1 = 13;
         var rContext = new Object() {
             int var2 = 1;
@@ -75,6 +98,31 @@ public class TackShopItems {
         while (rContext.var2 < var1) {
             //DyeColor color = var0[var2];
             int counter = rContext.var2;
+            HALTERS.add(REGISTRY.register("halter_" + Integer.toString(counter), () -> {
+                return new HalterItem("halter_" + Integer.toString(counter), (new Item.Properties())
+                        .stacksTo(16));
+            }));
+
+            FLYMASKS.add(REGISTRY.register("flymask_" + Integer.toString(counter), () -> {
+                return new HalterItem("flymask_" + Integer.toString(counter), (new Item.Properties())
+                        .stacksTo(16));
+            }));
+
+            ADVENTURE_BLANKETS.add(REGISTRY.register("adventure_blanket_" + Integer.toString(counter), () -> {
+                return new AdventureBlanketItem("adventure_blanket_" + Integer.toString(counter), (new Item.Properties())
+                        .stacksTo(16));
+            }));
+
+            WESTERN_BLANKETS.add(REGISTRY.register("western_blanket_" + Integer.toString(counter), () -> {
+                return new WesternBlanketItem("western_blanket_" + Integer.toString(counter), (new Item.Properties())
+                       .stacksTo(16));
+            }));
+
+            ENGLISH_BLANKETS.add(REGISTRY.register("english_blanket_" + Integer.toString(counter), () -> {
+                return new EnglishBlanketItem("english_blanket_" + Integer.toString(counter), (new Item.Properties())
+                        .stacksTo(16));
+            }));
+
             PASTURE_BLANKETS.add(REGISTRY.register("pasture_blanket_" + Integer.toString(counter), () -> {
                 return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_" + Integer.toString(counter), (new Item.Properties())
@@ -87,10 +135,6 @@ public class TackShopItems {
                         .stacksTo(16));
             }));
 
-            HALTERS.add(REGISTRY.register("halter_" + Integer.toString(counter), () -> {
-                return new HalterItem("halter_" + Integer.toString(counter), (new Item.Properties())
-                        .stacksTo(16));
-            }));
             ++rContext.var2;
         }
 

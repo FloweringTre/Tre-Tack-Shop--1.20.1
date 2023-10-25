@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tretackshop:items/halters/flymask_10"
+    "layer0": "tretackshop:item/halters/flymask_10"
   }
 }
