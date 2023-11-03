@@ -8,6 +8,7 @@ import java.util.List;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,9 +28,17 @@ public class TackShopItems {
     public static final RegistryObject<AdventureBlanketItem> ADVENTURE_BLANKET_RAINBOW;
     public static final RegistryObject<EnglishBlanketItem> ENGLISH_BLANKET_RAINBOW;
     public static final RegistryObject<WesternBlanketItem> WESTERN_BLANKET_RAINBOW;
+    public static final RegistryObject<AdventureLegWraps> ADVENTURE_LEG_WRAPS_RAINBOW;
+    public static final RegistryObject<LegWrapsItem> ENGLISH_LEG_WRAPS_RAINBOW;
+    public static final RegistryObject<LegWrapsItem> WESTERN_LEG_WRAPS_RAINBOW;
     public static final List<RegistryObject<AdventureBlanketItem>> ADVENTURE_BLANKETS;
     public static final List<RegistryObject<EnglishBlanketItem>> ENGLISH_BLANKETS;
     public static final List<RegistryObject<WesternBlanketItem>> WESTERN_BLANKETS;
+    public static final List<RegistryObject<AdventureLegWraps>> ADVENTURE_LEG_WRAPS;
+    public static final List<RegistryObject<LegWrapsItem>> ENGLISH_LEG_WRAPS;
+    public static final List<RegistryObject<LegWrapsItem>> WESTERN_LEG_WRAPS;
+    public static  final RegistryObject<Item> RIBBON_THREE_TAILS_GRAND;
+    public static  final RegistryObject<Item> RIBBON_THREE_TAILS_RESERVE;
     public static final List<RegistryObject<Item>> RIBBON_THREE_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
@@ -73,6 +82,18 @@ public class TackShopItems {
                 () -> new EnglishBlanketItem("english_blanket_rainbow", (new Item.Properties())
                         .stacksTo(16)));
 
+        ADVENTURE_LEG_WRAPS_RAINBOW = REGISTRY.register("adventure_leg_wraps_rainbow",
+                () -> new AdventureLegWraps("adventure_leg_wraps_rainbow", (new Item.Properties())
+                        .stacksTo(64)));
+
+        WESTERN_LEG_WRAPS_RAINBOW = REGISTRY.register("western_leg_wraps_rainbow",
+                () ->  new WesternLegWraps("western_leg_wraps_rainbow", (new Item.Properties())
+                        .stacksTo(64)));
+
+        ENGLISH_LEG_WRAPS_RAINBOW = REGISTRY.register("english_leg_wraps_rainbow",
+                () -> new EnglishLegWraps("english_leg_wraps_rainbow", (new Item.Properties())
+                        .stacksTo(64)));
+
         PASTURE_BLANKET_RAINBOW = REGISTRY.register("pasture_blanket_rainbow",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_rainbow", new Item.Properties().stacksTo(16)));
@@ -90,6 +111,9 @@ public class TackShopItems {
         ADVENTURE_BLANKETS = new ArrayList();
         WESTERN_BLANKETS = new ArrayList();
         ENGLISH_BLANKETS = new ArrayList();
+        ENGLISH_LEG_WRAPS = new ArrayList();
+        WESTERN_LEG_WRAPS = new ArrayList();
+        ADVENTURE_LEG_WRAPS = new ArrayList();
         int var1 = 13;
         var rContext = new Object() {
             int var2 = 1;
@@ -123,6 +147,21 @@ public class TackShopItems {
                         .stacksTo(16));
             }));
 
+            ADVENTURE_LEG_WRAPS.add(REGISTRY.register("adventure_leg_wraps_" + Integer.toString(counter), () -> {
+                return new AdventureLegWraps("adventure_leg_wraps_" + Integer.toString(counter), (new Item.Properties())
+                        .stacksTo(64));
+            }));
+
+            WESTERN_LEG_WRAPS.add(REGISTRY.register("western_leg_wraps_" + Integer.toString(counter), () -> {
+                return new WesternLegWraps("western_leg_wraps_" + Integer.toString(counter), (new Item.Properties())
+                        .stacksTo(64));
+            }));
+
+            ENGLISH_LEG_WRAPS.add(REGISTRY.register("english_leg_wraps_" + Integer.toString(counter), () -> {
+                return new EnglishLegWraps("english_leg_wraps_" + Integer.toString(counter), (new Item.Properties())
+                        .stacksTo(64));
+            }));
+
             PASTURE_BLANKETS.add(REGISTRY.register("pasture_blanket_" + Integer.toString(counter), () -> {
                 return new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_" + Integer.toString(counter), (new Item.Properties())
@@ -143,43 +182,40 @@ public class TackShopItems {
         RIBBON_TWO_TAILS = new ArrayList();
         RIBBON_ONE_TAIL = new ArrayList();
         ROSETTE = new ArrayList();
-         int r = 7;
-         var Context = new Object() {
-             int b = 1;
-         };
+        DyeColor[] var0 = DyeColor.values();
+        int var3 = var0.length;
 
-         while (Context.b < r) {
-             int counter = Context.b;
-
-             RIBBON_THREE_TAILS.add(REGISTRY.register("ribbon_three_tails_" + Integer.toString(counter), () -> {
+        for(int var2 = 0; var2 < var3; ++var2) {
+            DyeColor color = var0[var2];
+             RIBBON_THREE_TAILS.add(REGISTRY.register("ribbon_three_tails_" + color.getName(), () -> {
                  return new Item(new Item.Properties());
              }));
-             RIBBON_TWO_TAILS.add(REGISTRY.register("ribbon_two_tails_" + Integer.toString(counter), () -> {
+             RIBBON_TWO_TAILS.add(REGISTRY.register("ribbon_two_tails_" + color.getName(), () -> {
                  return new Item(new Item.Properties());
              }));
-             RIBBON_ONE_TAIL.add(REGISTRY.register("ribbon_one_tail_" + Integer.toString(counter), () -> {
+             RIBBON_ONE_TAIL.add(REGISTRY.register("ribbon_one_tail_" + color.getName(), () -> {
                  return new Item(new Item.Properties());
              }));
-             ROSETTE.add(REGISTRY.register("rosette_" + Integer.toString(counter), () -> {
+             ROSETTE.add(REGISTRY.register("rosette_" + color.getName(), () -> {
                  return new Item(new Item.Properties());
              }));
-
-             ++Context.b;
          }
+
+        RIBBON_THREE_TAILS_GRAND = REGISTRY.register("ribbon_three_tails_grand",
+                () -> new Item(new Item.Properties()));
+        RIBBON_THREE_TAILS_RESERVE = REGISTRY.register("ribbon_three_tails_reserve",
+                () -> new Item(new Item.Properties()));
 
         TROPHY_1 = REGISTRY.register("trophy_1",
                 () -> new Item(new Item.Properties()));
-
         TROPHY_2 = REGISTRY.register("trophy_2",
                 () -> new Item(new Item.Properties()));
-
         TROPHY_3 = REGISTRY.register("trophy_3",
                 () -> new Item(new Item.Properties()))
                 ; // Adding 3 CIT trophy variants
 
         PUMPKIN_GRAND = REGISTRY.register("pumpkin_grand",
                 () -> new Item(new Item.Properties()));
-
         PUMPKIN_RESERVE = REGISTRY.register("pumpkin_reserve",
                 () -> new Item(new Item.Properties()));
 
