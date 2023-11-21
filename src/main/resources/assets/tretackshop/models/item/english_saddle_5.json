@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tretackshop:items/saddles/english_saddle_5"
+    "layer0": "tretackshop:item/saddles/english_saddle_5"
   }
 }
