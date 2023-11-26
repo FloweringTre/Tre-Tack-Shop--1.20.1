@@ -4,6 +4,7 @@ import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,6 +22,9 @@ import org.slf4j.Logger;
 public class TreTackShop {
     public static final String MOD_ID = "tretackshop";
     public static final Logger LOGGER = LogUtils.getLogger();
+    public static ResourceLocation resloc(String name) {
+        return new ResourceLocation("tretackshop", name);
+    }
 
     public TreTackShop() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
