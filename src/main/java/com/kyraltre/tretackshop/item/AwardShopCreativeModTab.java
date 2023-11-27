@@ -6,7 +6,6 @@
 package com.kyraltre.tretackshop.item;
 
 import com.kyraltre.tretackshop.registry.AwardShopItems;
-import com.kyraltre.tretackshop.registry.TackShopItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -28,8 +27,8 @@ public class AwardShopCreativeModTab {
 
     static {
         REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "treawardtab");
-        MAIN = REGISTRY.register("main", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.tretack_tab")).icon(() -> new ItemStack(AwardShopItems.RIBBON_THREE_TAILS_GRAND.get()))
-            .displayItems((pParameters, pOutput) -> TackShopItems.REGISTRY.getEntries().forEach((registeredItem) -> {
+        MAIN = REGISTRY.register("main", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.treaward_tab")).icon(() -> new ItemStack(AwardShopItems.RIBBON_THREE_TAILS_GRAND.get()))
+            .displayItems((pParameters, pOutput) -> AwardShopItems.REGISTRY.getEntries().forEach((registeredItem) -> {
                 Item item = registeredItem.get();
                 pOutput.accept(item);
             })).withSearchBar().build());

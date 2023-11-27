@@ -1,7 +1,9 @@
 package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
+import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
+import com.kyraltre.tretackshop.registry.AwardShopItems;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
@@ -30,9 +32,11 @@ public class TreTackShop {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         TackShopCreativeModTab.init(modEventBus);
+        AwardShopCreativeModTab.init(modEventBus);
 
         TackShopBlocks.register(modEventBus);
         TackShopItems.init(modEventBus);
+        AwardShopItems.init(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
