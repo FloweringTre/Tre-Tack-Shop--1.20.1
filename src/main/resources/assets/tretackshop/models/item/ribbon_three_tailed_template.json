@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench - FROM THE SWEM MOD - ALL RIGHTS RESERVED -- Only change is how item is displayed in item frame & GUI",
+	"credit": "Made with Blockbench - FROM THE SWEM MOD - ALL RIGHTS RESERVED -- Only change is howitem is displayed initem frame & GUI",
 	"parent": "block/block",
 	"texture_size": [64, 64],
 	"textures": {
