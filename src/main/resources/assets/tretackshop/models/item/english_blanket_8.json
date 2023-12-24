@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tretackshop:item/blanket/english_blanket_8"
+    "layer0": "tretackshop:item/blankets/english_blanket_8"
   }
 }

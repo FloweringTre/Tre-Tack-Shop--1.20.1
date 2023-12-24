@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tretackshop:item/blanket/western_blanket_2"
+    "layer0": "tretackshop:item/blankets/western_blanket_2"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tretackshop:item/breast_collars/cloth_girth_strap_6"
+    "layer0": "tretackshop:item/girth_straps/cloth_girth_strap_6"
   }
 }
