@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
+import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,11 +19,23 @@ public class TackShopItems {
     public static final DeferredRegister<Item> REGISTRY;
 
     // THIS IS FOR TACK ITEMS THAT __CAN__ BE CRAFTED
+    public static final RegistryObject<Item> BUTTERFLY;
+    public static final RegistryObject<Item> BUTTERFLY_MONARCH;
+    public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
 
     // TACK ITEMS
 
     // DYED TACK
     //public static final RegistryObject<DyedPastureBlanket> PASTURE_BLANKET_DYED;
+
+    //ONE OFF TACK
+    public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BLACK;
+    public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BROWN;
+    public static final RegistryObject<AdventureBridleItem> DOUBLE_BRIDLE;
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE;
+    public static final RegistryObject<WesternSaddleItem> BAREBACK_SADDLE;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET;
+    public static final RegistryObject<WesternGirthStrapItem> BAREBACK_GIRTH_STRAP;
 
     // RAINBOW TACK
     public static final RegistryObject<HalterItem> HALTER_RAINBOW;
@@ -39,6 +53,14 @@ public class TackShopItems {
     public static final RegistryObject<AdventureBreastCollarItem> ADVENTURE_BREAST_COLLAR_RAINBOW;
     public static final RegistryObject<WesternBreastCollarItem> WESTERN_BREAST_COLLAR_RAINBOW;
     public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_RAINBOW;
+    public static final RegistryObject<AdventureBreastCollarItem> QUARTER_SHEET_BLACK_RAINBOW;
+    public static final RegistryObject<AdventureBreastCollarItem> QUARTER_SHEET_WHITE_RAINBOW;
+    public static final RegistryObject<AdventureBridleItem> ADVENTURE_BRIDLE_RAINBOW;
+    public static final RegistryObject<WesternBridleItem> WESTERN_BRIDLE_RAINBOW;
+    public static final RegistryObject<EnglishBridleItem> ENGLISH_BRIDLE_RAINBOW;
+    public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_RAINBOW;
+    public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_RAINBOW;
+    public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_RAINBOW;
 
     // CRAFTABLE NUMBERED TACK
     public static final List<RegistryObject<HalterItem>> HALTERS;
@@ -58,6 +80,16 @@ public class TackShopItems {
     public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_BREAST_COLLARS;
     public static final List<RegistryObject<EnglishBreastCollar>> ENGLISH_BREAST_COLLARS;
     public static final List<RegistryObject<EnglishBreastCollar>> CLOTH_BREAST_COLLARS;
+    public static final List<RegistryObject<AdventureBreastCollarItem>> QUARTER_SHEETS_DYED;
+    public static final List<RegistryObject<AdventureBreastCollarItem>> QUARTER_SHEETS_NUMBERED;
+    public static final List<RegistryObject<AdventureBridleItem>> ADVENTURE_BRIDLES;
+    public static final List<RegistryObject<WesternBridleItem>> WESTERN_BRIDLES;
+    public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLES;
+    public static final List<RegistryObject<EnglishBridleItem>> CLOTH_BRIDLES;
+    public static final List<RegistryObject<AdventureGirthStrapItem>> ADVENTURE_GIRTH_STRAPS;
+    public static final List<RegistryObject<WesternGirthStrapItem>> WESTERN_GIRTH_STRAPS;
+    public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS;
+    public static final List<RegistryObject<EnglishGirthStrap>> CLOTH_GIRTH_STRAPS;
 
     public TackShopItems() {
     }
@@ -65,10 +97,42 @@ public class TackShopItems {
 
     static {
          REGISTRY = DeferredRegister.create(Keys.ITEMS, "tretackshop");
+
+        BUTTERFLY = REGISTRY.register("butterfly",
+                () -> new Item(new Item.Properties()));
+        BUTTERFLY_MONARCH = REGISTRY.register("butterfly_monarch",
+                () -> new Item(new Item.Properties()));
+
+        RAINBOW_INA_BOTTLE = REGISTRY.register("rainbow_ina_bottle",
+                () -> new Item(new Item.Properties()));
+        // This is what we use to make the rainbow tack
         
 // TACK ITEMS
 
         // Dyed Items
+
+        // ONE OFF TACK
+        PELHAM_BRIDLE_BLACK = REGISTRY.register("pelham_bridle_black",
+                () -> new AdventureBridleItem("pelham_bridle_black", "pelham_bridle_black", (new Item.Properties())
+                        .stacksTo(16)));
+        PELHAM_BRIDLE_BROWN = REGISTRY.register("pelham_bridle_brown",
+                () -> new AdventureBridleItem("pelham_bridle_brown", "pelham_bridle_brown", (new Item.Properties())
+                        .stacksTo(16)));
+        DOUBLE_BRIDLE = REGISTRY.register("double_bridle",
+                () -> new AdventureBridleItem("double_bridle", "double_bridle", (new Item.Properties())
+                        .stacksTo(16)));
+        BITLESS_BRIDLE = REGISTRY.register("bitless_bridle",
+                () -> new EnglishBridleItem("bitless_bridle", (new Item.Properties())
+                        .stacksTo(16)));
+        BAREBACK_SADDLE = REGISTRY.register("bareback_saddle",
+                () -> new WesternSaddleItem("bareback_saddle", (new Item.Properties())
+                        .stacksTo(1)));
+        BAREBACK_BLANKET = REGISTRY.register("bareback_blanket",
+                () -> new WesternBlanketItem("bareback_blanket", (new Item.Properties())
+                        .stacksTo(16)));
+        BAREBACK_GIRTH_STRAP = REGISTRY.register("bareback_girth_strap",
+                () -> new WesternGirthStrapItem("bareback_girth_strap", (new Item.Properties())
+                        .stacksTo(16)));
 
 
         // Rainbow Tack
@@ -88,6 +152,12 @@ public class TackShopItems {
         ADVENTURE_LEG_WRAPS_RAINBOW =  REGISTRY.register("adventure_leg_wraps_rainbow",
                 () -> new AdventureLegWraps("adventure_leg_wraps_rainbow", (new Item.Properties())
                          .stacksTo(64)));
+        ADVENTURE_BRIDLE_RAINBOW = REGISTRY.register("adventure_bridle_rainbow",
+                () -> new AdventureBridleItem("adventure_bridle_rainbow", "adventure_bridle_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
+        ADVENTURE_GIRTH_STRAP_RAINBOW = REGISTRY.register("adventure_girth_strap_rainbow",
+                () -> new AdventureGirthStrapItem("adventure_girth_strap_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
 
         WESTERN_SADDLE_RAINBOW =  REGISTRY.register("western_saddle_rainbow",
                 () -> new WesternSaddleItem("western_saddle_rainbow", (new Item.Properties())
@@ -101,6 +171,12 @@ public class TackShopItems {
         WESTERN_LEG_WRAPS_RAINBOW =  REGISTRY.register("western_leg_wraps_rainbow",
                 () ->  new WesternLegWraps("western_leg_wraps_rainbow", (new Item.Properties())
                          .stacksTo(64)));
+        WESTERN_BRIDLE_RAINBOW = REGISTRY.register("western_bridle_rainbow",
+                () -> new WesternBridleItem("western_bridle_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
+        WESTERN_GIRTH_STRAP_RAINBOW = REGISTRY.register("western_girth_strap_rainbow",
+                () -> new WesternGirthStrapItem("western_girth_strap_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
 
         ENGLISH_SADDLE_RAINBOW =  REGISTRY.register("english_saddle_rainbow",
                 () -> new EnglishSaddleItem("english_saddle_rainbow", (new Item.Properties())
@@ -114,6 +190,12 @@ public class TackShopItems {
         ENGLISH_LEG_WRAPS_RAINBOW =  REGISTRY.register("english_leg_wraps_rainbow",
                 () -> new EnglishLegWraps("english_leg_wraps_rainbow", (new Item.Properties())
                          .stacksTo(64)));
+        ENGLISH_BRIDLE_RAINBOW = REGISTRY.register("english_bridle_rainbow",
+                () -> new EnglishBridleItem("english_bridle_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
+        ENGLISH_GIRTH_STRAP_RAINBOW = REGISTRY.register("english_girth_strap_rainbow",
+                () -> new EnglishGirthStrap("english_girth_strap_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
 
         PASTURE_BLANKET_RAINBOW =  REGISTRY.register("pasture_blanket_rainbow",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
@@ -123,6 +205,12 @@ public class TackShopItems {
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
                         "pasture_blanket_rainbow_armored", (new Item.Properties())
                          .stacksTo(16)));
+        QUARTER_SHEET_BLACK_RAINBOW = REGISTRY.register("quarter_sheet_black_rainbow",
+                () -> new AdventureBreastCollarItem("quarter_sheet_black_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
+        QUARTER_SHEET_WHITE_RAINBOW = REGISTRY.register("quarter_sheet_white_rainbow",
+                () -> new AdventureBreastCollarItem("quarter_sheet_white_rainbow", (new Item.Properties())
+                        .stacksTo(16)));
 
 
 
@@ -144,6 +232,15 @@ public class TackShopItems {
         WESTERN_BREAST_COLLARS = new ArrayList<>();
         ENGLISH_BREAST_COLLARS = new ArrayList<>();
         CLOTH_BREAST_COLLARS = new ArrayList<>();
+        ADVENTURE_BRIDLES = new ArrayList<>();
+        WESTERN_BRIDLES = new ArrayList<>();
+        ENGLISH_BRIDLES = new ArrayList<>();
+        CLOTH_BRIDLES = new ArrayList<>();
+        ADVENTURE_GIRTH_STRAPS = new ArrayList<>();
+        WESTERN_GIRTH_STRAPS = new ArrayList<>();
+        ENGLISH_GIRTH_STRAPS = new ArrayList<>();
+        CLOTH_GIRTH_STRAPS = new ArrayList<>();
+        QUARTER_SHEETS_NUMBERED = new ArrayList<>();
 
         int var1 = 13;
         var rContext = new Object() {
@@ -178,6 +275,14 @@ public class TackShopItems {
                     new AdventureLegWraps("adventure_leg_wraps_" + counter, (new Item.Properties())
                              .stacksTo(64))
             ));
+            ADVENTURE_BRIDLES.add(REGISTRY.register("adventure_bridle_" + counter,
+                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "adventure_bridle_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            ADVENTURE_GIRTH_STRAPS.add(REGISTRY.register("adventure_girth_strap_" + counter,
+                    () -> new AdventureGirthStrapItem("adventure_girth_strap_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
 
             WESTERN_SADDLES.add( REGISTRY.register("western_saddle_" + counter, () ->
                     new WesternSaddleItem("western_saddle_" + counter, (new Item.Properties())
@@ -195,6 +300,14 @@ public class TackShopItems {
                     new WesternLegWraps("western_leg_wraps_" + counter, (new Item.Properties())
                              .stacksTo(64))
             ));
+            WESTERN_BRIDLES.add(REGISTRY.register("western_bridle_" + counter,
+                    () -> new WesternBridleItem("western_bridle_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            WESTERN_GIRTH_STRAPS.add(REGISTRY.register("western_girth_strap_" + counter,
+                    () -> new WesternGirthStrapItem("western_girth_strap_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
 
             ENGLISH_SADDLES.add( REGISTRY.register("english_saddle_" + counter, () ->
                     new EnglishSaddleItem("english_saddle_" + counter, (new Item.Properties())
@@ -208,13 +321,30 @@ public class TackShopItems {
                     new EnglishBreastCollar("english_breast_collar_" + counter, (new Item.Properties())
                              .stacksTo(16))
             ));
-            CLOTH_BREAST_COLLARS.add( REGISTRY.register("cloth_breast_collar_" + counter, () ->
-                    new EnglishBreastCollar("cloth_breast_collar_" + counter, (new Item.Properties())
-                             .stacksTo(16))
-            ));
             ENGLISH_LEG_WRAPS.add( REGISTRY.register("english_leg_wraps_" + counter, () ->
                     new EnglishLegWraps("english_leg_wraps_" + counter, (new Item.Properties())
                              .stacksTo(64))
+            ));
+            ENGLISH_BRIDLES.add(REGISTRY.register("english_bridle_" + counter,
+                    () -> new EnglishBridleItem("english_bridle_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            ENGLISH_GIRTH_STRAPS.add(REGISTRY.register("english_girth_strap_" + counter,
+                    () -> new EnglishGirthStrap("english_girth_strap_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+
+            CLOTH_BREAST_COLLARS.add(REGISTRY.register("cloth_breast_collar_" + counter, () ->
+                    new EnglishBreastCollar("cloth_breast_collar_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            CLOTH_BRIDLES.add(REGISTRY.register("cloth_bridle_" + counter,
+                    () -> new EnglishBridleItem("cloth_bridle_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            CLOTH_GIRTH_STRAPS.add(REGISTRY.register("cloth_girth_strap_" + counter,
+                    () -> new EnglishGirthStrap("cloth_girth_strap_" + counter, (new Item.Properties())
+                            .stacksTo(16))
             ));
 
             PASTURE_BLANKETS.add( REGISTRY.register("pasture_blanket_" + counter, () ->
@@ -227,8 +357,27 @@ public class TackShopItems {
                             "pasture_blanket_" + counter + "_armored", (new Item.Properties())
                              .stacksTo(16))
             ));
+            QUARTER_SHEETS_NUMBERED.add(REGISTRY.register("quarter_sheet_" + counter, () ->
+                    new AdventureBreastCollarItem("quarter_sheet_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            
 
             ++rContext.var2;
+        }
+        
+        //DYED TACK ITEMS - Craftable still :3
+        QUARTER_SHEETS_DYED = new ArrayList<>();
+
+        DyeColor[] var0 = DyeColor.values();
+        int var3 = var0.length;
+
+        for (int var2 = 0; var2 < var3; ++var2) {
+            DyeColor color = var0[var2];
+            QUARTER_SHEETS_DYED.add(REGISTRY.register("quarter_sheet_" + color.getName(), () ->
+                    new AdventureBreastCollarItem("quarter_sheet_" + color.getName(), (new Item.Properties())
+                            .stacksTo(16))
+            ));
         }
     }
 }

@@ -28,7 +28,7 @@ public class TackShopCreativeModTab {
 
     static {
         REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "tretacktab");
-        MAIN = REGISTRY.register("main", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.tretack_tab")).icon(() -> new ItemStack(AwardShopItems.BUTTERFLY.get()))
+        MAIN = REGISTRY.register("main", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.tretack_tab")).icon(() -> new ItemStack(TackShopItems.BUTTERFLY.get()))
             .displayItems((pParameters, pOutput) -> TackShopItems.REGISTRY.getEntries().forEach((registeredItem) -> {
                 Item item = registeredItem.get();
                 pOutput.accept(item);

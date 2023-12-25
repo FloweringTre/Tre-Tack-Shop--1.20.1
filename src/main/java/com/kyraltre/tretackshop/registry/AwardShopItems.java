@@ -3,6 +3,7 @@ package com.kyraltre.tretackshop.registry;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
+import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,11 +16,58 @@ import java.util.List;
 
 public class AwardShopItems {
     public static final DeferredRegister<Item> REGISTRY;
-    public static final RegistryObject<Item> BUTTERFLY;
 
 // THIS IS FOR AWARD ITEMS THAT CAN NOT BE CRAFTED
-   
-// TACK ITEMS
+
+    // BUTTERFLY TACK ITEMS - MORPHO
+    public static final RegistryObject<HalterItem> HALTER_MORPHO;
+    public static final RegistryObject<HalterItem> FLYMASK_MORPHO;
+    public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_MORPHO;
+    public static final RegistryObject<AdventureBlanketItem> ADVENTURE_BLANKET_MORPHO;
+    public static final RegistryObject<EnglishBlanketItem> ENGLISH_BLANKET_MORPHO;
+    public static final RegistryObject<WesternBlanketItem> WESTERN_BLANKET_MORPHO;
+    public static final RegistryObject<AdventureLegWraps> ADVENTURE_LEG_WRAPS_MORPHO;
+    public static final RegistryObject<LegWrapsItem> ENGLISH_LEG_WRAPS_MORPHO;
+    public static final RegistryObject<LegWrapsItem> WESTERN_LEG_WRAPS_MORPHO;
+    public static final RegistryObject<AdventureSaddleItem> ADVENTURE_SADDLE_MORPHO;
+    public static final RegistryObject<WesternSaddleItem> WESTERN_SADDLE_MORPHO;
+    public static final RegistryObject<EnglishSaddleItem> ENGLISH_SADDLE_MORPHO;
+    public static final RegistryObject<AdventureBreastCollarItem> ADVENTURE_BREAST_COLLAR_MORPHO;
+    public static final RegistryObject<WesternBreastCollarItem> WESTERN_BREAST_COLLAR_MORPHO;
+    public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_MORPHO;
+    public static final RegistryObject<AdventureBreastCollarItem> QUARTER_SHEET_MORPHO;
+    public static final RegistryObject<AdventureBridleItem> ADVENTURE_BRIDLE_MORPHO;
+    public static final RegistryObject<WesternBridleItem> WESTERN_BRIDLE_MORPHO;
+    public static final RegistryObject<EnglishBridleItem> ENGLISH_BRIDLE_MORPHO;
+    public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_MORPHO;
+    public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_MORPHO;
+    public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MORPHO;
+
+    // BUTTERFLY TACK ITEMS - MONARCH
+    public static final RegistryObject<HalterItem> HALTER_MONARCH;
+    public static final RegistryObject<HalterItem> FLYMASK_MONARCH;
+    public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_MONARCH;
+    public static final RegistryObject<AdventureBlanketItem> ADVENTURE_BLANKET_MONARCH;
+    public static final RegistryObject<EnglishBlanketItem> ENGLISH_BLANKET_MONARCH;
+    public static final RegistryObject<WesternBlanketItem> WESTERN_BLANKET_MONARCH;
+    public static final RegistryObject<AdventureLegWraps> ADVENTURE_LEG_WRAPS_MONARCH;
+    public static final RegistryObject<LegWrapsItem> ENGLISH_LEG_WRAPS_MONARCH;
+    public static final RegistryObject<LegWrapsItem> WESTERN_LEG_WRAPS_MONARCH;
+    public static final RegistryObject<AdventureSaddleItem> ADVENTURE_SADDLE_MONARCH;
+    public static final RegistryObject<WesternSaddleItem> WESTERN_SADDLE_MONARCH;
+    public static final RegistryObject<EnglishSaddleItem> ENGLISH_SADDLE_MONARCH;
+    public static final RegistryObject<AdventureBreastCollarItem> ADVENTURE_BREAST_COLLAR_MONARCH;
+    public static final RegistryObject<WesternBreastCollarItem> WESTERN_BREAST_COLLAR_MONARCH;
+    public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_MONARCH;
+    public static final RegistryObject<AdventureBreastCollarItem> QUARTER_SHEET_MONARCH;
+    public static final RegistryObject<AdventureBridleItem> ADVENTURE_BRIDLE_MONARCH;
+    public static final RegistryObject<WesternBridleItem> WESTERN_BRIDLE_MONARCH;
+    public static final RegistryObject<EnglishBridleItem> ENGLISH_BRIDLE_MONARCH;
+    public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_MONARCH;
+    public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_MONARCH;
+    public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MONARCH;
+
+    // TACK ITEMS
     public static final List<RegistryObject<HalterItem>> AWARD_HALTERS;
     public static final List<RegistryObject<HalterItem>> AWARD_FLYMASKS;
     public static final List<RegistryObject<PastureBlanketItem>> AWARD_PASTURE_BLANKETS;
@@ -61,10 +109,155 @@ public class AwardShopItems {
 
     static {
          REGISTRY = DeferredRegister.create(Keys.ITEMS, "tretackshop");
-        // Mod icon <3
-        BUTTERFLY =  REGISTRY.register("butterfly",
-                () -> new Item(new Item.Properties()));
+         
 // TACK ITEMS
+        // BUTTERFLY - MORPHO -- Uncraftable Blue Morpho Tack
+        HALTER_MORPHO = REGISTRY.register("halter_morpho",
+                () -> new HalterItem("halter_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        FLYMASK_MORPHO = REGISTRY.register("flymask_morpho",
+                () -> new HalterItem("flymask_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+
+        ADVENTURE_SADDLE_MORPHO = REGISTRY.register("adventure_saddle_morpho",
+                () -> new AdventureSaddleItem("adventure_saddle_morpho", (new Item.Properties())
+                        .stacksTo(1)));
+        ADVENTURE_BLANKET_MORPHO = REGISTRY.register("adventure_blanket_morpho",
+                () -> new AdventureBlanketItem("adventure_blanket_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        ADVENTURE_BREAST_COLLAR_MORPHO = REGISTRY.register("adventure_breast_collar_morpho",
+                () -> new AdventureBreastCollarItem("adventure_breast_collar_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        ADVENTURE_LEG_WRAPS_MORPHO = REGISTRY.register("adventure_leg_wraps_morpho",
+                () -> new AdventureLegWraps("adventure_leg_wraps_morpho", (new Item.Properties())
+                        .stacksTo(64)));
+        ADVENTURE_BRIDLE_MORPHO = REGISTRY.register("adventure_bridle_morpho",
+                () -> new AdventureBridleItem("adventure_bridle_morpho", "adventure_bridle_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        ADVENTURE_GIRTH_STRAP_MORPHO = REGISTRY.register("adventure_girth_strap_morpho",
+                () -> new AdventureGirthStrapItem("adventure_girth_strap_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+
+        WESTERN_SADDLE_MORPHO = REGISTRY.register("western_saddle_morpho",
+                () -> new WesternSaddleItem("western_saddle_morpho", (new Item.Properties())
+                        .stacksTo(1)));
+        WESTERN_BLANKET_MORPHO = REGISTRY.register("western_blanket_morpho",
+                () -> new WesternBlanketItem("western_blanket_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        WESTERN_BREAST_COLLAR_MORPHO = REGISTRY.register("western_breast_collar_morpho",
+                () -> new WesternBreastCollarItem("western_breast_collar_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        WESTERN_LEG_WRAPS_MORPHO = REGISTRY.register("western_leg_wraps_morpho",
+                () ->  new WesternLegWraps("western_leg_wraps_morpho", (new Item.Properties())
+                        .stacksTo(64)));
+        WESTERN_BRIDLE_MORPHO = REGISTRY.register("western_bridle_morpho",
+                () -> new WesternBridleItem("western_bridle_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        WESTERN_GIRTH_STRAP_MORPHO = REGISTRY.register("western_girth_strap_morpho",
+                () -> new WesternGirthStrapItem("western_girth_strap_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+
+        ENGLISH_SADDLE_MORPHO = REGISTRY.register("english_saddle_morpho",
+                () -> new EnglishSaddleItem("english_saddle_morpho", (new Item.Properties())
+                        .stacksTo(1)));
+        ENGLISH_BLANKET_MORPHO = REGISTRY.register("english_blanket_morpho",
+                () -> new EnglishBlanketItem("english_blanket_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        ENGLISH_BREAST_COLLAR_MORPHO = REGISTRY.register("english_breast_collar_morpho",
+                () -> new EnglishBreastCollar("english_breast_collar_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        ENGLISH_LEG_WRAPS_MORPHO = REGISTRY.register("english_leg_wraps_morpho",
+                () -> new EnglishLegWraps("english_leg_wraps_morpho", (new Item.Properties())
+                        .stacksTo(64)));
+        ENGLISH_BRIDLE_MORPHO = REGISTRY.register("english_bridle_morpho",
+                () -> new EnglishBridleItem("english_bridle_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        ENGLISH_GIRTH_STRAP_MORPHO = REGISTRY.register("english_girth_strap_morpho",
+                () -> new EnglishGirthStrap("english_girth_strap_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+
+        PASTURE_BLANKET_MORPHO = REGISTRY.register("pasture_blanket_morpho",
+                () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                        "pasture_blanket_morpho", new Item.Properties()
+                        .stacksTo(16)));
+        QUARTER_SHEET_MORPHO = REGISTRY.register("quarter_sheet_morpho",
+                () -> new AdventureBreastCollarItem("quarter_sheet_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+
+        //BUTTERFLY - MONARCH -- Uncraftable Yellow Monarch Tack
+        HALTER_MONARCH = REGISTRY.register("halter_monarch",
+                () -> new HalterItem("halter_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        FLYMASK_MONARCH = REGISTRY.register("flymask_monarch",
+                () -> new HalterItem("flymask_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+
+        ADVENTURE_SADDLE_MONARCH = REGISTRY.register("adventure_saddle_monarch",
+                () -> new AdventureSaddleItem("adventure_saddle_monarch", (new Item.Properties())
+                        .stacksTo(1)));
+        ADVENTURE_BLANKET_MONARCH = REGISTRY.register("adventure_blanket_monarch",
+                () -> new AdventureBlanketItem("adventure_blanket_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        ADVENTURE_BREAST_COLLAR_MONARCH = REGISTRY.register("adventure_breast_collar_monarch",
+                () -> new AdventureBreastCollarItem("adventure_breast_collar_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        ADVENTURE_LEG_WRAPS_MONARCH = REGISTRY.register("adventure_leg_wraps_monarch",
+                () -> new AdventureLegWraps("adventure_leg_wraps_monarch", (new Item.Properties())
+                        .stacksTo(64)));
+        ADVENTURE_BRIDLE_MONARCH = REGISTRY.register("adventure_bridle_monarch",
+                () -> new AdventureBridleItem("adventure_bridle_monarch", "adventure_bridle_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        ADVENTURE_GIRTH_STRAP_MONARCH = REGISTRY.register("adventure_girth_strap_monarch",
+                () -> new AdventureGirthStrapItem("adventure_girth_strap_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+
+        WESTERN_SADDLE_MONARCH = REGISTRY.register("western_saddle_monarch",
+                () -> new WesternSaddleItem("western_saddle_monarch", (new Item.Properties())
+                        .stacksTo(1)));
+        WESTERN_BLANKET_MONARCH = REGISTRY.register("western_blanket_monarch",
+                () -> new WesternBlanketItem("western_blanket_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        WESTERN_BREAST_COLLAR_MONARCH = REGISTRY.register("western_breast_collar_monarch",
+                () -> new WesternBreastCollarItem("western_breast_collar_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        WESTERN_LEG_WRAPS_MONARCH = REGISTRY.register("western_leg_wraps_monarch",
+                () ->  new WesternLegWraps("western_leg_wraps_monarch", (new Item.Properties())
+                        .stacksTo(64)));
+        WESTERN_BRIDLE_MONARCH = REGISTRY.register("western_bridle_monarch",
+                () -> new WesternBridleItem("western_bridle_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        WESTERN_GIRTH_STRAP_MONARCH = REGISTRY.register("western_girth_strap_monarch",
+                () -> new WesternGirthStrapItem("western_girth_strap_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+
+        ENGLISH_SADDLE_MONARCH = REGISTRY.register("english_saddle_monarch",
+                () -> new EnglishSaddleItem("english_saddle_monarch", (new Item.Properties())
+                        .stacksTo(1)));
+        ENGLISH_BLANKET_MONARCH = REGISTRY.register("english_blanket_monarch",
+                () -> new EnglishBlanketItem("english_blanket_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        ENGLISH_BREAST_COLLAR_MONARCH = REGISTRY.register("english_breast_collar_monarch",
+                () -> new EnglishBreastCollar("english_breast_collar_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        ENGLISH_LEG_WRAPS_MONARCH = REGISTRY.register("english_leg_wraps_monarch",
+                () -> new EnglishLegWraps("english_leg_wraps_monarch", (new Item.Properties())
+                        .stacksTo(64)));
+        ENGLISH_BRIDLE_MONARCH = REGISTRY.register("english_bridle_monarch",
+                () -> new EnglishBridleItem("english_bridle_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        ENGLISH_GIRTH_STRAP_MONARCH = REGISTRY.register("english_girth_strap_monarch",
+                () -> new EnglishGirthStrap("english_girth_strap_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+
+        PASTURE_BLANKET_MONARCH = REGISTRY.register("pasture_blanket_monarch",
+                () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
+                        "pasture_blanket_monarch", new Item.Properties()
+                        .stacksTo(16)));
+        QUARTER_SHEET_MONARCH = REGISTRY.register("quarter_sheet_monarch",
+                () -> new AdventureBreastCollarItem("quarter_sheet_monarch", (new Item.Properties())
+                        .stacksTo(16)));    
+        
+        
     // AWARD - Uncraftable Numbered Tack Items -- 12 Count Items
         AWARD_PASTURE_BLANKETS = new ArrayList<>();
         AWARD_PASTURE_BLANKETS_ARMORED = new ArrayList<>();
