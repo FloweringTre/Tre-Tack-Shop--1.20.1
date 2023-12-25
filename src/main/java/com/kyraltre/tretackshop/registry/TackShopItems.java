@@ -242,7 +242,7 @@ public class TackShopItems {
         CLOTH_GIRTH_STRAPS = new ArrayList<>();
         QUARTER_SHEETS_NUMBERED = new ArrayList<>();
 
-        int var1 = 13;
+        int var1 = 15;
         var rContext = new Object() {
             int var2 = 1;
         };
