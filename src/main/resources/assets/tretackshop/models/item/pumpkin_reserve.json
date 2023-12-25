@@ -2,8 +2,8 @@
 "credit": "Made with Blockbench",
 "parent": "block/block",
 "textures": {
-"particle": "tretackshop:blocks/pumpkin_reserve",
-"texture": "tretackshop:blocks/pumpkin_reserve"
+  "particle": "tretackshop:item/awards/pumpkin_reserve",
+  "texture": "tretackshop:item/awards/pumpkin_reserve"
 },
 "elements": [
 {
