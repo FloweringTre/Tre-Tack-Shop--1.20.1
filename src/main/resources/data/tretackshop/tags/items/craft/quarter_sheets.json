@@ -1,5 +1,4 @@
 {
-  "replace": false,
   "values": [
     "tretackshop:quarter_sheet_1",
     "tretackshop:quarter_sheet_2",
@@ -15,7 +14,8 @@
     "tretackshop:quarter_sheet_12",
     "tretackshop:quarter_sheet_13",
     "tretackshop:quarter_sheet_14",
-
+    "tretackshop:quarter_sheet_white_rainbow",
+    "tretackshop:quarter_sheet_black_rainbow",
     "tretackshop:quarter_sheet_black",
     "tretackshop:quarter_sheet_blue",
     "tretackshop:quarter_sheet_brown",
@@ -32,6 +32,5 @@
     "tretackshop:quarter_sheet_red",
     "tretackshop:quarter_sheet_white",
     "tretackshop:quarter_sheet_yellow"
-
   ]
 }

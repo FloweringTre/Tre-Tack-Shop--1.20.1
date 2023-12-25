@@ -1,5 +1,4 @@
 {
-  "replace": false,
   "values": [
     "tretackshop:adventure_blanket_rainbow",
     "tretackshop:adventure_blanket_1",
@@ -16,7 +15,6 @@
     "tretackshop:adventure_blanket_12",
     "tretackshop:adventure_blanket_13",
     "tretackshop:adventure_blanket_14",
-
     "swem:adventure_blanket"
   ]
 }
