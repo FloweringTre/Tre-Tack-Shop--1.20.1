@@ -23,7 +23,10 @@ public class TreTags {
     public static final TagKey<Item> ENGLISH_BREAST_COLLARS = ItemTags.create(TreTackShop.resloc("craft/english_breast_collars"));
     public static final TagKey<Item> WESTERN_BREAST_COLLARS = ItemTags.create(TreTackShop.resloc("craft/western/breast_collars"));
     public static final TagKey<Item> CLOTH_BREAST_COLLARS = ItemTags.create(TreTackShop.resloc("craft/cloth_breast_collars"));
-
+    public static final TagKey<Item> FLAGS = ItemTags.create(TreTackShop.resloc("craft/flags"));
+    public static final TagKey<Item> FLAGS_PLAIN = ItemTags.create(TreTackShop.resloc("craft/flags_plain"));
+    public static final TagKey<Item> FLAGS_BUTTERFLY = ItemTags.create(TreTackShop.resloc("craft/flags_butterfly"));
+    public static final TagKey<Item> BUTTERFLY = ItemTags.create(TreTackShop.resloc("craft/butterfly"));
     public TreTags () {
 
     }

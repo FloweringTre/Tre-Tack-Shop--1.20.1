@@ -22,6 +22,9 @@ public class TackShopItems {
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<Item> BUTTERFLY_MONARCH;
     public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
+    public static final List<RegistryObject<Item>> FLAGS;
+    public static final List<RegistryObject<Item>> FLAGS_BUTTERFLY;
+    public static final List<RegistryObject<Item>> FLAGS_DYED;
 
     // TACK ITEMS
 
@@ -90,6 +93,7 @@ public class TackShopItems {
     public static final List<RegistryObject<WesternGirthStrapItem>> WESTERN_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> CLOTH_GIRTH_STRAPS;
+    public static final List<RegistryObject<HalterItem>> FLYMASKS_DYED;
 
     public TackShopItems() {
     }
@@ -241,6 +245,8 @@ public class TackShopItems {
         ENGLISH_GIRTH_STRAPS = new ArrayList<>();
         CLOTH_GIRTH_STRAPS = new ArrayList<>();
         QUARTER_SHEETS_NUMBERED = new ArrayList<>();
+        FLAGS = new ArrayList<>();
+        FLAGS_BUTTERFLY = new ArrayList<>();
 
         int var1 = 15;
         var rContext = new Object() {
@@ -276,7 +282,7 @@ public class TackShopItems {
                              .stacksTo(64))
             ));
             ADVENTURE_BRIDLES.add(REGISTRY.register("adventure_bridle_" + counter,
-                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "adventure_bridle_" + counter, (new Item.Properties())
+                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "adventure_" + counter, (new Item.Properties())
                             .stacksTo(16))
             ));
             ADVENTURE_GIRTH_STRAPS.add(REGISTRY.register("adventure_girth_strap_" + counter,
@@ -361,13 +367,18 @@ public class TackShopItems {
                     new AdventureBreastCollarItem("quarter_sheet_" + counter, (new Item.Properties())
                             .stacksTo(16))
             ));
-            
+            FLAGS.add(REGISTRY.register("flag_" + counter, () ->
+                    new Item((new Item.Properties()))));
+            FLAGS_BUTTERFLY.add(REGISTRY.register("flag_butterfly_" + counter, () ->
+                    new Item((new Item.Properties()))));
 
             ++rContext.var2;
         }
         
         //DYED TACK ITEMS - Craftable still :3
         QUARTER_SHEETS_DYED = new ArrayList<>();
+        FLYMASKS_DYED = new ArrayList<>();
+        FLAGS_DYED = new ArrayList<>();
 
         DyeColor[] var0 = DyeColor.values();
         int var3 = var0.length;
@@ -378,6 +389,12 @@ public class TackShopItems {
                     new AdventureBreastCollarItem("quarter_sheet_" + color.getName(), (new Item.Properties())
                             .stacksTo(16))
             ));
+            FLYMASKS.add( REGISTRY.register("flymask_" + color.getName(), () ->
+                    new HalterItem("flymask_" + color.getName(), (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            FLAGS_DYED.add(REGISTRY.register("flag_" + color.getName(), () ->
+                    new Item((new Item.Properties()))));
         }
     }
 }

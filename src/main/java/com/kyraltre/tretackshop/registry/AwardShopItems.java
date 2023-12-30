@@ -18,6 +18,9 @@ public class AwardShopItems {
     public static final DeferredRegister<Item> REGISTRY;
 
 // THIS IS FOR AWARD ITEMS THAT CAN NOT BE CRAFTED
+    public static final List<RegistryObject<Item>> AWARD_FLAGS;
+    public static final RegistryObject<Item> FLAG_MONARCH;
+    public static final RegistryObject<Item> FLAG_MORPHO;
 
     // BUTTERFLY TACK ITEMS - MORPHO
     public static final RegistryObject<HalterItem> HALTER_MORPHO;
@@ -84,6 +87,13 @@ public class AwardShopItems {
     public static final List<RegistryObject<AdventureBreastCollarItem>> AWARD_ADVENTURE_BREAST_COLLARS;
     public static final List<RegistryObject<WesternBreastCollarItem>> AWARD_WESTERN_BREAST_COLLARS;
     public static final List<RegistryObject<EnglishBreastCollar>> AWARD_ENGLISH_BREAST_COLLARS;
+    public static final List<RegistryObject<AdventureBreastCollarItem>> AWARD_QUARTER_SHEETS;
+    public static final List<RegistryObject<AdventureBridleItem>> AWARD_ADVENTURE_BRIDLES;
+    public static final List<RegistryObject<WesternBridleItem>> AWARD_WESTERN_BRIDLES;
+    public static final List<RegistryObject<EnglishBridleItem>> AWARD_ENGLISH_BRIDLES;
+    public static final List<RegistryObject<AdventureGirthStrapItem>> AWARD_ADVENTURE_GIRTH_STRAPS;
+    public static final List<RegistryObject<WesternGirthStrapItem>> AWARD_WESTERN_GIRTH_STRAPS;
+    public static final List<RegistryObject<EnglishGirthStrap>> AWARD_ENGLISH_GIRTH_STRAPS;
 
 
 // AWARD RIBBONS AND TROPHIES
@@ -183,6 +193,8 @@ public class AwardShopItems {
         QUARTER_SHEET_MORPHO = REGISTRY.register("quarter_sheet_morpho",
                 () -> new AdventureBreastCollarItem("quarter_sheet_morpho", (new Item.Properties())
                         .stacksTo(16)));
+        FLAG_MORPHO = REGISTRY.register("flag_morpho",
+                () -> new Item(new Item.Properties()));
 
         //BUTTERFLY - MONARCH -- Uncraftable Yellow Monarch Tack
         HALTER_MONARCH = REGISTRY.register("halter_monarch",
@@ -255,7 +267,10 @@ public class AwardShopItems {
                         .stacksTo(16)));
         QUARTER_SHEET_MONARCH = REGISTRY.register("quarter_sheet_monarch",
                 () -> new AdventureBreastCollarItem("quarter_sheet_monarch", (new Item.Properties())
-                        .stacksTo(16)));    
+                        .stacksTo(16)));
+
+        FLAG_MONARCH = REGISTRY.register("flag_monarch",
+                () -> new Item(new Item.Properties()));
         
         
     // AWARD - Uncraftable Numbered Tack Items -- 12 Count Items
@@ -275,6 +290,14 @@ public class AwardShopItems {
         AWARD_ADVENTURE_BREAST_COLLARS = new ArrayList<>();
         AWARD_WESTERN_BREAST_COLLARS = new ArrayList<>();
         AWARD_ENGLISH_BREAST_COLLARS = new ArrayList<>();
+        AWARD_ADVENTURE_BRIDLES = new ArrayList<>();
+        AWARD_WESTERN_BRIDLES = new ArrayList<>();
+        AWARD_ENGLISH_BRIDLES = new ArrayList<>();
+        AWARD_ADVENTURE_GIRTH_STRAPS = new ArrayList<>();
+        AWARD_WESTERN_GIRTH_STRAPS = new ArrayList<>();
+        AWARD_ENGLISH_GIRTH_STRAPS = new ArrayList<>();
+        AWARD_QUARTER_SHEETS = new ArrayList<>();
+        AWARD_FLAGS = new ArrayList<>();
         int var1 = 15;
         
         for(int var2 = 1; var2 < var1; ++var2) {
@@ -304,6 +327,14 @@ public class AwardShopItems {
                     () -> new AdventureLegWraps("award_adventure_leg_wraps_" + counter, (new Item.Properties())
                          .stacksTo(64))
             ));
+            AWARD_ADVENTURE_BRIDLES .add(REGISTRY.register("award_adventure_bridle_"+ counter,
+                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "award_adventure_"+ counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            AWARD_ADVENTURE_GIRTH_STRAPS .add(REGISTRY.register("award_adventure_girth_strap_"+ counter,
+                    () -> new AdventureGirthStrapItem("award_adventure_girth_strap_"+ counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
 
             AWARD_WESTERN_SADDLES.add( REGISTRY.register("award_western_saddle_" + counter,
                     () -> new WesternSaddleItem("award_western_saddle_" + counter, (new Item.Properties())
@@ -320,6 +351,14 @@ public class AwardShopItems {
             AWARD_WESTERN_LEG_WRAPS.add( REGISTRY.register("award_western_leg_wraps_" + counter,
                     () -> new WesternLegWraps("award_western_leg_wraps_" + counter, (new Item.Properties())
                          .stacksTo(64))
+            ));
+            AWARD_WESTERN_BRIDLES .add(REGISTRY.register("award_western_bridle_"+ counter,
+                    () -> new WesternBridleItem("award_western_bridle_"+ counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            AWARD_WESTERN_GIRTH_STRAPS .add(REGISTRY.register("award_western_girth_strap_"+ counter,
+                    () -> new WesternGirthStrapItem("award_western_girth_strap_"+ counter, (new Item.Properties())
+                            .stacksTo(16))
             ));
 
             AWARD_ENGLISH_SADDLES.add( REGISTRY.register("award_english_saddle_" + counter,
@@ -338,7 +377,19 @@ public class AwardShopItems {
                     () -> new EnglishLegWraps("award_english_leg_wraps_" + counter, (new Item.Properties())
                          .stacksTo(64))
             ));
+            AWARD_ENGLISH_BRIDLES .add(REGISTRY.register("award_english_bridle_"+ counter,
+                    () -> new EnglishBridleItem("award_english_bridle_"+ counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            AWARD_ENGLISH_GIRTH_STRAPS .add(REGISTRY.register("award_english_girth_strap_"+ counter,
+                    () -> new EnglishGirthStrap("award_english_girth_strap_"+ counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
 
+            AWARD_QUARTER_SHEETS.add(REGISTRY.register("award_quarter_sheet_" + counter,
+                    () -> new AdventureBreastCollarItem("award_quarter_sheet_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
             AWARD_PASTURE_BLANKETS.add( REGISTRY.register("award_pasture_blanket_" + counter,
                     () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                     "award_pasture_blanket_" + counter, (new Item.Properties())
@@ -349,6 +400,8 @@ public class AwardShopItems {
                     "award_pasture_blanket_" + counter + "_armored", (new Item.Properties())
                          .stacksTo(16))
             ));
+            AWARD_FLAGS.add(REGISTRY.register("award_flag_" + counter, () ->
+                    new Item((new Item.Properties()))));
         }
 
 // AWARD ITEMS
