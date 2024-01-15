@@ -3,7 +3,6 @@ package com.kyraltre.tretackshop.registry;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
-import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -45,6 +44,9 @@ public class AwardShopItems {
     public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MORPHO;
+    public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MORPHO;
+    public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
+    
 
     // BUTTERFLY TACK ITEMS - MONARCH
     public static final RegistryObject<HalterItem> HALTER_MONARCH;
@@ -69,6 +71,8 @@ public class AwardShopItems {
     public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MONARCH;
+    public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MONARCH;
+    public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MONARCH;
 
     // TACK ITEMS
     public static final List<RegistryObject<HalterItem>> AWARD_HALTERS;
@@ -94,6 +98,8 @@ public class AwardShopItems {
     public static final List<RegistryObject<AdventureGirthStrapItem>> AWARD_ADVENTURE_GIRTH_STRAPS;
     public static final List<RegistryObject<WesternGirthStrapItem>> AWARD_WESTERN_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> AWARD_ENGLISH_GIRTH_STRAPS;
+    public static final List<RegistryObject<SaddlebagItem>> AWARD_SADDLE_BAGS;
+    public static final List<RegistryObject<SWEMHorseArmorItem>> AWARD_CLOTH_ARMOR;
 
 
 // AWARD RIBBONS AND TROPHIES
@@ -146,6 +152,12 @@ public class AwardShopItems {
                         .stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MORPHO = REGISTRY.register("adventure_girth_strap_morpho",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        CLOTH_HORSE_ARMOR_MORPHO = REGISTRY.register("cloth_horse_armor_morpho",
+                () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        SADDLE_BAG_MORPHO = REGISTRY.register("saddle_bag_morpho",
+                () -> new SaddlebagItem("saddle_bag_morpho", (new Item.Properties())
                         .stacksTo(16)));
 
         WESTERN_SADDLE_MORPHO = REGISTRY.register("western_saddle_morpho",
@@ -221,6 +233,12 @@ public class AwardShopItems {
                         .stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MONARCH = REGISTRY.register("adventure_girth_strap_monarch",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        CLOTH_HORSE_ARMOR_MONARCH = REGISTRY.register("cloth_horse_armor_monarch",
+                () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        SADDLE_BAG_MONARCH = REGISTRY.register("saddle_bag_monarch",
+                () -> new SaddlebagItem("saddle_bag_monarch", (new Item.Properties())
                         .stacksTo(16)));
 
         WESTERN_SADDLE_MONARCH = REGISTRY.register("western_saddle_monarch",
@@ -298,6 +316,9 @@ public class AwardShopItems {
         AWARD_ENGLISH_GIRTH_STRAPS = new ArrayList<>();
         AWARD_QUARTER_SHEETS = new ArrayList<>();
         AWARD_FLAGS = new ArrayList<>();
+        AWARD_SADDLE_BAGS = new ArrayList<>();
+        AWARD_CLOTH_ARMOR = new ArrayList<>();
+        
         int var1 = 15;
         
         for(int var2 = 1; var2 < var1; ++var2) {
@@ -333,6 +354,14 @@ public class AwardShopItems {
             ));
             AWARD_ADVENTURE_GIRTH_STRAPS .add(REGISTRY.register("award_adventure_girth_strap_"+ counter,
                     () -> new AdventureGirthStrapItem("award_adventure_girth_strap_"+ counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            AWARD_CLOTH_ARMOR.add(REGISTRY.register("award_cloth_horse_armor_" + counter,
+                    () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "award_cloth_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            AWARD_SADDLE_BAGS.add(REGISTRY.register("award_saddle_bag_" + counter, () ->
+                    new SaddlebagItem("award_saddle_bag_" + counter, (new Item.Properties())
                             .stacksTo(16))
             ));
 
