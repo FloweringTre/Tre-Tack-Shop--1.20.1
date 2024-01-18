@@ -115,8 +115,7 @@ public class AwardShopItems {
     public static final RegistryObject<Item> MEDAL_1;
     public static final RegistryObject<Item> MEDAL_2;
     public static final RegistryObject<Item> MEDAL_3;
-    public static final RegistryObject<Item> PUMPKIN_GRAND;
-    public static final RegistryObject<Item> PUMPKIN_RESERVE;
+
 
 
     public AwardShopItems() {
@@ -476,9 +475,5 @@ public class AwardShopItems {
                 () -> new Item(new Item.Properties() ));
         MEDAL_3 =  REGISTRY.register("medal_3",
                 () -> new Item(new Item.Properties() ));
-        PUMPKIN_GRAND =  REGISTRY.register("pumpkin_grand",
-                () -> new Item(new Item.Properties()));
-        PUMPKIN_RESERVE =  REGISTRY.register("pumpkin_reserve",
-                () -> new Item(new Item.Properties()));
     }
 }
