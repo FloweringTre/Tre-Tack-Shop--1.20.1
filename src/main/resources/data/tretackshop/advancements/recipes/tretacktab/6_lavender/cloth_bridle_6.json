@@ -6,12 +6,12 @@
     ]
   },
   "criteria": {
-    "has_carpets": {
+    "has_wool_carpets": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:carpets"
+            "tag": "minecraft:wool_carpets"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_carpets",
+      "has_wool_carpets",
       "has_the_recipe"
     ]
   ]

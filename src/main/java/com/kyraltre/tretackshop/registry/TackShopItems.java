@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
-import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -64,6 +63,9 @@ public class TackShopItems {
     public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_RAINBOW;
     public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_RAINBOW;
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_RAINBOW;
+    public static final RegistryObject<SWEMHorseArmorItem> AMETHYST_HORSE_ARMOR_RAINBOW;
+    public static final RegistryObject<SWEMHorseArmorItem> IRON_HORSE_ARMOR_RAINBOW;
+    public static final RegistryObject<SaddlebagItem> SADDLE_BAG_RAINBOW;
 
     // CRAFTABLE NUMBERED TACK
     public static final List<RegistryObject<HalterItem>> HALTERS;
@@ -94,6 +96,8 @@ public class TackShopItems {
     public static final List<RegistryObject<EnglishGirthStrap>> ENGLISH_GIRTH_STRAPS;
     public static final List<RegistryObject<EnglishGirthStrap>> CLOTH_GIRTH_STRAPS;
     public static final List<RegistryObject<HalterItem>> FLYMASKS_DYED;
+    public static final List<RegistryObject<SaddlebagItem>> SADDLE_BAGS;
+    public static final List<RegistryObject<SWEMHorseArmorItem>> CLOTH_ARMOR;
 
     public TackShopItems() {
     }
@@ -162,6 +166,14 @@ public class TackShopItems {
         ADVENTURE_GIRTH_STRAP_RAINBOW = REGISTRY.register("adventure_girth_strap_rainbow",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_rainbow", (new Item.Properties())
                         .stacksTo(16)));
+        SADDLE_BAG_RAINBOW = REGISTRY.register("saddle_bag_rainbow", () ->
+                new SaddlebagItem("saddle_bag_rainbow", (new Item.Properties()).stacksTo(16)));
+        AMETHYST_HORSE_ARMOR_RAINBOW = REGISTRY.register("amethyst_horse_armor_rainbow", () ->
+                new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.AMETHYST, 50,
+                        "amethyst_rainbow", (new Item.Properties()).stacksTo(1)));
+        IRON_HORSE_ARMOR_RAINBOW = REGISTRY.register("iron_horse_armor_rainbow", () ->
+                new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.IRON, 30,
+                        "iron_rainbow", (new Item.Properties()).stacksTo(1)));
 
         WESTERN_SADDLE_RAINBOW =  REGISTRY.register("western_saddle_rainbow",
                 () -> new WesternSaddleItem("western_saddle_rainbow", (new Item.Properties())
@@ -247,6 +259,8 @@ public class TackShopItems {
         QUARTER_SHEETS_NUMBERED = new ArrayList<>();
         FLAGS = new ArrayList<>();
         FLAGS_BUTTERFLY = new ArrayList<>();
+        SADDLE_BAGS = new ArrayList<>();
+        CLOTH_ARMOR = new ArrayList<>();
 
         int var1 = 15;
         var rContext = new Object() {
@@ -287,6 +301,14 @@ public class TackShopItems {
             ));
             ADVENTURE_GIRTH_STRAPS.add(REGISTRY.register("adventure_girth_strap_" + counter,
                     () -> new AdventureGirthStrapItem("adventure_girth_strap_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            CLOTH_ARMOR.add(REGISTRY.register("cloth_horse_armor_" + counter,
+                    () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_" + counter, (new Item.Properties())
+                            .stacksTo(16))
+            ));
+            SADDLE_BAGS.add(REGISTRY.register("saddle_bag_" + counter, () ->
+                    new SaddlebagItem("saddle_bag_" + counter, (new Item.Properties())
                             .stacksTo(16))
             ));
 

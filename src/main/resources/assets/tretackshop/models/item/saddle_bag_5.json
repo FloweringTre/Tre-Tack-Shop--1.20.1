@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:item/saddle_bags/saddle_bag_5_icon"
+  }
+}
