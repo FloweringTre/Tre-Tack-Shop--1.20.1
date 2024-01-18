@@ -4,6 +4,8 @@
   "item.tretackshop.rainbow_ina_bottle": "Rainbow in a Bottle",
   "block.tretackshop.pumpkin_grand": "Pumpkin Grand Champion Trophy",
   "block.tretackshop.pumpkin_reserve": "Pumpkin Reserve Grand Champion Trophy",
+  "block.tretackshop.snowflake_grand": "Snowflake Grand Champion Trophy",
+  "block.tretackshop.snowflake_reserve": "Snowflake Reserve Grand Champion Trophy",
   "creativetab.tretack_tab": "Tre's Tack",
   "creativetab.treaward_tab": "Tre's Awards",
 
@@ -1004,6 +1006,7 @@
   "item.tretackshop.saddle_bag_14": "Topaz Saddle Bag",
 
   "item.tretackshop.amethyst_horse_armor_rainbow": "Rainbow Amethyst Armor",
+  "item.tretackshop.iron_horse_armor_rainbow": "Rainbow Iron Armor",
   "item.tretackshop.cloth_horse_armor_morpho": "Blue Morpho Cloth Armor",
   "item.tretackshop.cloth_horse_armor_monarch": "Monarch Cloth Armor",
   "item.tretackshop.cloth_horse_armor_1": "Rose Cloth Armor",
