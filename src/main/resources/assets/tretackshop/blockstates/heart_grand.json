@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tretackshop:block/heart_grand"
+    },
+    "facing=east": {
+      "model": "tretackshop:block/heart_grand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tretackshop:block/heart_grand"
+    },
+    "facing=west": {
+      "model": "tretackshop:block/heart_grand",
+      "y": 90
+    }
+  }
+}
