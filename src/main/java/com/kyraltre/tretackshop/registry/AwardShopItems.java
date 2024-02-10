@@ -322,8 +322,8 @@ public class AwardShopItems {
         AWARD_CLOTH_ARMOR = new ArrayList<>();
 
         //ADVENTURE TACK
-        for(int var1 = 1; var1 < (AWARD_ADVENTURE_TACK_SETS.get()); ++var1) {
-            int counter = var1;
+        for(int var1 = 0; AWARD_ADVENTURE_TACK_SETS.get() > var1; ++var1) {
+            int counter = var1+1;
             AWARD_ADVENTURE_SADDLES.add(REGISTRY.register("award_adventure_saddle_" + counter, () ->
                     new AdventureSaddleItem("award_adventure_saddle_" + counter, (new Item.Properties())
                             .stacksTo(16))

@@ -2,6 +2,7 @@ package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.config.TackShopCommonConfigs;
+import com.kyraltre.tretackshop.config.TackShopConfig;
 import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
@@ -36,7 +37,6 @@ public class TreTackShop {
 
     public TreTackShop() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
         TackShopCreativeModTab.init(modEventBus);
         AwardShopCreativeModTab.init(modEventBus);
 
@@ -45,10 +45,10 @@ public class TreTackShop {
         AwardShopItems.init(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TackShopCommonConfigs.SPEC, "tretackshop-common.toml");
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+        TackShopConfig.register();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
