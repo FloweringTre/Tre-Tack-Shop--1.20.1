@@ -2,7 +2,6 @@ package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.config.TackShopCommonConfigs;
-import com.kyraltre.tretackshop.config.TackShopConfig;
 import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
@@ -28,15 +27,18 @@ import org.slf4j.Logger;
 public class TreTackShop {
     public static final String MOD_ID = "tretackshop";
     public static final Logger LOGGER = LogUtils.getLogger();
+
     public static ResourceLocation resloc(String name) {
         return new ResourceLocation("tretackshop", name);
     }
+
     public static ResourceLocation swresloc(String name) {
         return new ResourceLocation("swem", name);
     }
 
     public TreTackShop() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TackShopCommonConfigs.SPEC, "tretackshop-common.toml");
         TackShopCreativeModTab.init(modEventBus);
         AwardShopCreativeModTab.init(modEventBus);
 
@@ -48,11 +50,16 @@ public class TreTackShop {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-        TackShopConfig.register();
+//        TackShopConfig.register();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        LOGGER.info("Tre says plant a tree <3");
+        LOGGER.info(TackShopCommonConfigs.adventureTackSetsLoaded + " Award Adventure Sets Loaded.");
+        LOGGER.info(TackShopCommonConfigs.armorNSaddlebagsTackSetsLoaded + " Award Armor and Saddlebag Sets Loaded.");
+        LOGGER.info(TackShopCommonConfigs.westernTackSetsLoaded + " Award Western Sets Loaded.");
+        LOGGER.info(TackShopCommonConfigs.englishTackSetsLoaded + " Award English Sets Loaded.");
+        LOGGER.info(TackShopCommonConfigs.paddockTackSetsLoaded + " Award Paddock Sets Loaded.");
     }
 
     // Add the example block item to the building blocks tab
