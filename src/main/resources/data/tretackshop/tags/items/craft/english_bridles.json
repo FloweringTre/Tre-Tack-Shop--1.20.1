@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "tretackshop:english_bridle_1",
     "tretackshop:english_bridle_2",
@@ -15,6 +16,7 @@
     "tretackshop:english_bridle_13",
     "tretackshop:english_bridle_14",
     "tretackshop:english_bridle_rainbow",
+    "tretackshop:english_bridle_trans",
 
     "tretackshop:pelham_bridle_brown",
     "tretackshop:pelham_bridle_black",

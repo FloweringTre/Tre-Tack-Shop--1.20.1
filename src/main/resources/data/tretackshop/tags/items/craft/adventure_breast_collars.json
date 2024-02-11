@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "tretackshop:adventure_breast_collar_rainbow",
     "tretackshop:adventure_breast_collar_1",
@@ -15,6 +16,8 @@
     "tretackshop:adventure_breast_collar_12",
     "tretackshop:adventure_breast_collar_13",
     "tretackshop:adventure_breast_collar_14",
+    "tretackshop:adventure_breast_collar_trans",
+
     "swem:adventure_breast_collar"
   ]
 }
