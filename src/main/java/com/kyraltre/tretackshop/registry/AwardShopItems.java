@@ -354,7 +354,7 @@ public class AwardShopItems {
 
 
         //SADDLE BAGS AND CLOTH ARMOR
-        for(int var1 = 0; var1 < AWARD_ARMOR_EXTRAS_TACK_SETS.get(); ++var1) {
+        for(int var1 = 0; var1 < armorNSaddlebagsTackSetsLoaded; ++var1) {
             int counter = var1+1;
             AWARD_CLOTH_ARMOR.add(REGISTRY.register("award_cloth_horse_armor_" + counter,
                     () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "award_cloth_" + counter, (new Item.Properties())
