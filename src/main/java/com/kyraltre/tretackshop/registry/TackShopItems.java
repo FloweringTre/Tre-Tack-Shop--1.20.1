@@ -39,6 +39,10 @@ public class TackShopItems {
     public static final RegistryObject<WesternSaddleItem> BAREBACK_SADDLE;
     public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET;
     public static final RegistryObject<WesternGirthStrapItem> BAREBACK_GIRTH_STRAP;
+    public static final RegistryObject<WesternSaddleItem> DRESSAGE_SADDLE;
+    public static final RegistryObject<WesternBlanketItem> DRESSAGE_BLANKET;
+    public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BROWN;
+    public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BLACK;
 
     // RAINBOW TACK
     public static final RegistryObject<HalterItem> HALTER_RAINBOW;
@@ -158,6 +162,19 @@ public class TackShopItems {
         BAREBACK_GIRTH_STRAP = REGISTRY.register("bareback_girth_strap",
                 () -> new WesternGirthStrapItem("bareback_girth_strap", (new Item.Properties())
                         .stacksTo(16)));
+
+        DRESSAGE_SADDLE = REGISTRY.register("dressage_saddle",
+                () -> new WesternSaddleItem("dressage_saddle", (new Item.Properties())
+                        .stacksTo(1)));
+        DRESSAGE_BLANKET = REGISTRY.register("dressage_blanket",
+                () -> new WesternBlanketItem("dressage_blanket", (new Item.Properties())
+                        .stacksTo(16)));
+        RACING_SADDLE_BROWN = REGISTRY.register("racing_saddle_brown",
+                () -> new EnglishSaddleItem("racing_saddle_brown", (new Item.Properties())
+                        .stacksTo(1)));
+        RACING_SADDLE_BLACK = REGISTRY.register("racing_saddle_black",
+                () -> new EnglishSaddleItem("racing_saddle_black", (new Item.Properties())
+                        .stacksTo(1)));
 
 
         // Rainbow Tack
