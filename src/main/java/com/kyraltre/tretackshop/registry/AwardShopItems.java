@@ -51,6 +51,8 @@ public class AwardShopItems {
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MORPHO;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MORPHO;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MORPHO;
     
 
     // BUTTERFLY TACK ITEMS - MONARCH
@@ -78,6 +80,8 @@ public class AwardShopItems {
     public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MONARCH;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MONARCH;
+    public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MONARCH;
+    public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET_MONARCH;
 
     // TACK ITEMS
     public static final List<RegistryObject<HalterItem>> AWARD_HALTERS;
@@ -202,6 +206,13 @@ public class AwardShopItems {
                 () -> new EnglishGirthStrap("english_girth_strap_morpho", (new Item.Properties())
                         .stacksTo(16)));
 
+        BITLESS_BRIDLE_MORPHO = REGISTRY.register("english_bridle_bitless_morpho",
+                () -> new EnglishBridleItem("english_bridle_bitless_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+        BAREBACK_BLANKET_MORPHO = REGISTRY.register("bareback_blanket_morpho",
+                () -> new WesternBlanketItem("bareback_blanket_morpho", (new Item.Properties())
+                        .stacksTo(16)));
+
         PASTURE_BLANKET_MORPHO = REGISTRY.register("pasture_blanket_morpho",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_morpho", new Item.Properties()
@@ -281,6 +292,13 @@ public class AwardShopItems {
                         .stacksTo(16)));
         ENGLISH_GIRTH_STRAP_MONARCH = REGISTRY.register("english_girth_strap_monarch",
                 () -> new EnglishGirthStrap("english_girth_strap_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+
+        BITLESS_BRIDLE_MONARCH = REGISTRY.register("english_bridle_bitless_monarch",
+                () -> new EnglishBridleItem("english_bridle_bitless_monarch", (new Item.Properties())
+                        .stacksTo(16)));
+        BAREBACK_BLANKET_MONARCH = REGISTRY.register("bareback_blanket_monarch",
+                () -> new WesternBlanketItem("bareback_blanket_monarch", (new Item.Properties())
                         .stacksTo(16)));
 
         PASTURE_BLANKET_MONARCH = REGISTRY.register("pasture_blanket_monarch",

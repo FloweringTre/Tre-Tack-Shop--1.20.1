@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:item/blankets/bareback_blanket_rainbow"
+
+  }
+}
