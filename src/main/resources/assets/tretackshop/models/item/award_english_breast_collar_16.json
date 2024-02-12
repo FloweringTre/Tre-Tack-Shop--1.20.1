@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:item/awards/tack/breast_collars/award_english_breast_collar_16"
+  }
+}

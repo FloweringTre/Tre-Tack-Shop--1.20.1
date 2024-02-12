@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "tretackshop:western_bridle_1",
     "tretackshop:western_bridle_2",
@@ -14,6 +15,7 @@
     "tretackshop:western_bridle_12",
     "tretackshop:western_bridle_13",
     "tretackshop:western_bridle_14",
-    "tretackshop:western_bridle_rainbow"
+    "tretackshop:western_bridle_rainbow",
+    "tretackshop:western_bridle_trans"
   ]
 }
