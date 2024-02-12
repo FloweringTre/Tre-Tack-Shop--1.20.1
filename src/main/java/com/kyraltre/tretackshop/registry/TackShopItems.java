@@ -193,8 +193,8 @@ public class TackShopItems {
         BITLESS_BRIDLE_BEIGE = REGISTRY.register("english_bridle_bitless_beige",
                 () -> new EnglishBridleItem("english_bridle_bitless_beige", (new Item.Properties())
                         .stacksTo(16)));
-        BAREBACK_SADDLE_BEIGE = REGISTRY.register("bareback_saddle_black_beige",
-                () -> new WesternSaddleItem("bareback_saddle_black_beige", (new Item.Properties())
+        BAREBACK_SADDLE_BEIGE = REGISTRY.register("bareback_saddle_beige",
+                () -> new WesternSaddleItem("bareback_saddle_beige", (new Item.Properties())
                         .stacksTo(1)));
         BAREBACK_GIRTH_STRAP_BEIGE = REGISTRY.register("bareback_girth_strap_beige",
                 () -> new WesternGirthStrapItem("bareback_girth_strap_beige", (new Item.Properties())
