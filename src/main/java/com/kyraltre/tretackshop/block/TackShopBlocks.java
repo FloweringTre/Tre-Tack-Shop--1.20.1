@@ -1,6 +1,7 @@
 package com.kyraltre.tretackshop.block;
 
 import com.kyraltre.tretackshop.TreTackShop;
+import com.kyraltre.tretackshop.block.custom.CloverTrophy;
 import com.kyraltre.tretackshop.block.custom.HeartTrophy;
 import com.kyraltre.tretackshop.block.custom.PumpkinTrophy;
 import com.kyraltre.tretackshop.block.custom.SnowflakeTrophy;
@@ -51,6 +52,13 @@ public class TackShopBlocks {
             ));
     public static final RegistryObject<Block> HEART_RESERVE = registerBlock("heart_reserve",
             () -> new HeartTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().strength(1.0F)
+            ));
+
+    public static final RegistryObject<Block> CLOVER_GRAND = registerBlock("clover_grand", () ->
+            new CloverTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+    public static final RegistryObject<Block> CLOVER_RESERVE = registerBlock("clover_reserve",
+            () -> new CloverTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
             ));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
