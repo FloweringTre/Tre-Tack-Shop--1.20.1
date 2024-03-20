@@ -2,8 +2,8 @@
   "credit": "Made with Blockbench",
   "texture_size": [64, 64],
   "textures": {
-    "texture": "tretackshop:blocks/clover_reserve",
-    "particle": "tretackshop:blocks/clover_reserve"
+    "texture": "tretackshop:block/clover_reserve",
+    "particle": "tretackshop:block/clover_reserve"
   },
   "elements": [
     {

@@ -2,8 +2,8 @@
   "credit": "Made with Blockbench",
   "texture_size": [64, 64],
   "textures": {
-    "texture": "tretackshop:blocks/clover_grand",
-    "particle": "tretackshop:blocks/clover_grand"
+    "texture": "tretackshop:block/clover_grand",
+    "particle": "tretackshop:block/clover_grand"
   },
   "elements": [
     {

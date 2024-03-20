@@ -2,8 +2,8 @@
   "credit": "Made with Blockbench by kyraltre",
   "texture_size": [32, 32],
   "textures": {
-    "texture": "tretackshop:blocks/floral_gold",
-    "particle": "tretackshop:blocks/floral_gold"
+    "texture": "tretackshop:block/floral_gold",
+    "particle": "tretackshop:block/floral_gold"
   },
   "elements": [
     {
