@@ -1,10 +1,7 @@
 package com.kyraltre.tretackshop.block;
 
 import com.kyraltre.tretackshop.TreTackShop;
-import com.kyraltre.tretackshop.block.custom.CloverTrophy;
-import com.kyraltre.tretackshop.block.custom.HeartTrophy;
-import com.kyraltre.tretackshop.block.custom.PumpkinTrophy;
-import com.kyraltre.tretackshop.block.custom.SnowflakeTrophy;
+import com.kyraltre.tretackshop.block.custom.*;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import net.minecraft.world.item.BlockItem;
@@ -59,6 +56,36 @@ public class TackShopBlocks {
             ));
     public static final RegistryObject<Block> CLOVER_RESERVE = registerBlock("clover_reserve",
             () -> new CloverTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+
+    public static final RegistryObject<Block> EGG_TROPHY_THICK_1 = registerBlock("e_g_g_trophy_thick_1",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+    public static final RegistryObject<Block> EGG_TROPHY_THICK_2 = registerBlock("e_g_g_trophy_thick_2",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+    public static final RegistryObject<Block> EGG_TROPHY_THICK_3 = registerBlock("e_g_g_trophy_thick_3",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+
+    public static final RegistryObject<Block> EGG_TROPHY_THIN_1 = registerBlock("e_g_g_trophy_thin_1",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+    public static final RegistryObject<Block> EGG_TROPHY_THIN_2 = registerBlock("e_g_g_trophy_thin_2",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+    public static final RegistryObject<Block> EGG_TROPHY_THIN_3 = registerBlock("e_g_g_trophy_thin_3",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+
+    public static final RegistryObject<Block> EGG_TROPHY_CHEV_1 = registerBlock("e_g_g_trophy_chev_1",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+    public static final RegistryObject<Block> EGG_TROPHY_CHEV_2 = registerBlock("e_g_g_trophy_chev_2",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
+            ));
+    public static final RegistryObject<Block> EGG_TROPHY_CHEV_3 = registerBlock("e_g_g_trophy_chev_3",
+            () -> new EggTrophy(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().noOcclusion().strength(1.0F)
             ));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

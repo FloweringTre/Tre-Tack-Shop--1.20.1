@@ -1,6 +1,7 @@
 package com.kyraltre.tretackshop.registry;
 
 
+import com.alaharranhonor.swem.forge.blocks.TackBoxBlock;
 import com.alaharranhonor.swem.forge.items.tack.*;
 
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ import net.minecraftforge.registries.ForgeRegistries.Keys;
 public class TackShopItems {
     public static final DeferredRegister<Item> REGISTRY;
 
-    // THIS IS FOR TACK ITEMS THAT __CAN__ BE CRAFTED
+    // THIS IS FOR TACK REGISTRY THAT __CAN__ BE CRAFTED
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<Item> BUTTERFLY_MONARCH;
     public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
@@ -34,7 +35,9 @@ public class TackShopItems {
     //ONE OFF TACK
     public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BLACK;
     public static final RegistryObject<AdventureBridleItem> PELHAM_BRIDLE_BROWN;
-    public static final RegistryObject<AdventureBridleItem> DOUBLE_BRIDLE;
+    public static final RegistryObject<EnglishBridleItem> MEDIEVAL_BRIDLE_BLACK;
+    public static final RegistryObject<EnglishBridleItem> MEDIEVAL_BRIDLE_BROWN;
+    public static final RegistryObject<AdventureBridleItem> MOON_BRIDLE_DOUBLE;
     public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE;
     public static final RegistryObject<WesternSaddleItem> BAREBACK_SADDLE;
     public static final RegistryObject<WesternBlanketItem> BAREBACK_BLANKET;
@@ -52,6 +55,8 @@ public class TackShopItems {
     
     public static final RegistryObject<WesternSaddleItem> DRESSAGE_SADDLE;
     public static final RegistryObject<WesternBlanketItem> DRESSAGE_BLANKET;
+    public static final RegistryObject<EnglishGirthStrap> DRESSAGE_GIRTH_STRAP;
+
     public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BROWN;
     public static final RegistryObject<EnglishSaddleItem> RACING_SADDLE_BLACK;
 
@@ -136,6 +141,7 @@ public class TackShopItems {
     public static final List<RegistryObject<HalterItem>> FLYMASKS_DYED;
     public static final List<RegistryObject<SaddlebagItem>> SADDLE_BAGS;
     public static final List<RegistryObject<SWEMHorseArmorItem>> CLOTH_ARMOR;
+    public static final List<RegistryObject<TackBoxBlock>> TACKBOXES;
 
     public TackShopItems() {
     }
@@ -159,13 +165,19 @@ public class TackShopItems {
 
         // ONE OFF TACK
         PELHAM_BRIDLE_BLACK = REGISTRY.register("pelham_bridle_black",
-                () -> new AdventureBridleItem("pelham_bridle_black", "pelham_bridle_black", (new Item.Properties())
+                () -> new AdventureBridleItem("pelham_bridle_black", "pelham_black", (new Item.Properties())
                         .stacksTo(16)));
         PELHAM_BRIDLE_BROWN = REGISTRY.register("pelham_bridle_brown",
-                () -> new AdventureBridleItem("pelham_bridle_brown", "pelham_bridle_brown", (new Item.Properties())
+                () -> new AdventureBridleItem("pelham_bridle_brown", "pelham_brown", (new Item.Properties())
                         .stacksTo(16)));
-        DOUBLE_BRIDLE = REGISTRY.register("double_bridle",
-                () -> new AdventureBridleItem("double_bridle", "double_bridle", (new Item.Properties())
+        MOON_BRIDLE_DOUBLE = REGISTRY.register("moon_bridle_double",
+                () -> new AdventureBridleItem("moon_bridle_double", "moon_double", (new Item.Properties())
+                        .stacksTo(16)));
+        MEDIEVAL_BRIDLE_BLACK = REGISTRY.register("medieval_bridle_black",
+                () -> new EnglishBridleItem("medieval_bridle_black", (new Item.Properties())
+                        .stacksTo(16)));
+        MEDIEVAL_BRIDLE_BROWN = REGISTRY.register("medieval_bridle_brown",
+                () -> new EnglishBridleItem("medieval_bridle_brown", (new Item.Properties())
                         .stacksTo(16)));
         BITLESS_BRIDLE = REGISTRY.register("english_bridle_bitless",
                 () -> new EnglishBridleItem("english_bridle_bitless", (new Item.Properties())
@@ -216,6 +228,10 @@ public class TackShopItems {
         DRESSAGE_BLANKET = REGISTRY.register("dressage_blanket",
                 () -> new WesternBlanketItem("dressage_blanket", (new Item.Properties())
                         .stacksTo(16)));
+        DRESSAGE_GIRTH_STRAP = REGISTRY.register("dressage_girth_strap",
+                () -> new EnglishGirthStrap("dressage_girth_strap", (new Item.Properties())
+                        .stacksTo(16)));
+
         RACING_SADDLE_BROWN = REGISTRY.register("racing_saddle_brown",
                 () -> new EnglishSaddleItem("racing_saddle_brown", (new Item.Properties())
                         .stacksTo(1)));
@@ -397,6 +413,8 @@ public class TackShopItems {
         CLOTH_ARMOR = new ArrayList<>();
         BAREBACK_BLANKETS = new ArrayList<>();
         CLOTH_BITLESS_BRIDLES = new ArrayList<>();
+        TACKBOXES = new ArrayList<>();
+
 
         int var1 = 15;
         var rContext = new Object() {
