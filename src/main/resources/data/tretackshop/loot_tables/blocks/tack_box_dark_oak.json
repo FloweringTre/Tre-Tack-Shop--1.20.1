@@ -2,11 +2,11 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tretackshop:heart_grand"
+          "name": "tretackshop:tack_box_dark_oak"
         }
       ],
       "conditions": [

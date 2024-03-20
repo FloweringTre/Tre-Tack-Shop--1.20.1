@@ -2,12 +2,11 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tretackshop:e_g_g_trophy_chev"
+          "name": "tretackshop:award_tack_box_7"
         }
       ],
       "conditions": [
