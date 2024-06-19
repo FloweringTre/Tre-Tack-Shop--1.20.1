@@ -1,10 +1,10 @@
 package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
-import com.kyraltre.tretackshop.config.TackShopCommonConfigs;
 import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
+import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
@@ -14,9 +14,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -43,6 +41,7 @@ public class TreTackShop {
         AwardShopCreativeModTab.init(modEventBus);
 
         TackShopBlocks.register(modEventBus);
+        TackShopBlockRegistry.init(modEventBus);
         TackShopItems.init(modEventBus);
         AwardShopItems.init(modEventBus);
 
@@ -55,11 +54,7 @@ public class TreTackShop {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         LOGGER.info("Tre says plant a tree <3");
-//        LOGGER.info(TackShopCommonConfigs.adventureTackSetsLoaded + " Award Adventure Sets Loaded.");
-//        LOGGER.info(TackShopCommonConfigs.armorNSaddlebagsTackSetsLoaded + " Award Armor and Saddlebag Sets Loaded.");
-//        LOGGER.info(TackShopCommonConfigs.westernTackSetsLoaded + " Award Western Sets Loaded.");
-//        LOGGER.info(TackShopCommonConfigs.englishTackSetsLoaded + " Award English Sets Loaded.");
-//        LOGGER.info(TackShopCommonConfigs.paddockTackSetsLoaded + " Award Paddock Sets Loaded.");
+        LOGGER.info(14 + " Award Sets Loaded.");
     }
 
     // Add the example block item to the building blocks tab

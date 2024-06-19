@@ -118,12 +118,32 @@ public class AwardShopItems {
     public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
     public static final List<RegistryObject<Item>> ROSETTE;
+    public static final List<RegistryObject<Item>> TRE_RIBBON_THREE_TAILS;
+    public static final List<RegistryObject<Item>> TRE_RIBBON_TWO_TAILS;
+    public static final List<RegistryObject<Item>> TRE_RIBBON_ONE_TAIL;
+    public static final List<RegistryObject<Item>> TRE_ROSETTE;
+
+    public static final RegistryObject<Item> MORPHO_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> MORPHO_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> MORPHO_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> MORPHO_ROSETTE;
+    public static final RegistryObject<Item> MONARCH_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> MONARCH_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> MONARCH_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> MONARCH_ROSETTE;
+    
     public static final RegistryObject<Item> TROPHY_1;
     public static final RegistryObject<Item> TROPHY_2;
     public static final RegistryObject<Item> TROPHY_3;
     public static final RegistryObject<Item> MEDAL_1;
     public static final RegistryObject<Item> MEDAL_2;
     public static final RegistryObject<Item> MEDAL_3;
+    public static final RegistryObject<Item> FLORAL_GOLD;
+    public static final RegistryObject<Item> FLORAL_SILVER;
+    public static final RegistryObject<Item> FLORAL_BRONZE;
+    public static final RegistryObject<Item> SUN_TROPHY;
+    public static final RegistryObject<Item> MOON_TROPHY;
+
 
 
 
@@ -340,9 +360,15 @@ public class AwardShopItems {
         AWARD_FLAGS = new ArrayList<>();
         AWARD_SADDLE_BAGS = new ArrayList<>();
         AWARD_CLOTH_ARMOR = new ArrayList<>();
+        TRE_RIBBON_THREE_TAILS = new ArrayList<>();
+        TRE_RIBBON_TWO_TAILS = new ArrayList<>();
+        TRE_RIBBON_ONE_TAIL = new ArrayList<>();
+        TRE_ROSETTE = new ArrayList<>();
+
+        int var543 = 14;
 
         //ADVENTURE TACK
-        for(int var1 = 0; 20 > var1; ++var1) {
+        for(int var1 = 0; var543 > var1; ++var1) {
             int counter = var1+1;
             AWARD_ADVENTURE_SADDLES.add(REGISTRY.register("award_adventure_saddle_" + counter, () ->
                     new AdventureSaddleItem("award_adventure_saddle_" + counter, (new Item.Properties())
@@ -372,7 +398,7 @@ public class AwardShopItems {
 
 
         //SADDLE BAGS AND CLOTH ARMOR
-        for(int var1 = 0; var1 < 20; ++var1) {
+        for(int var1 = 0; var1 < var543; ++var1) {
             int counter = var1+1;
             AWARD_CLOTH_ARMOR.add(REGISTRY.register("award_cloth_horse_armor_" + counter,
                     () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "award_cloth_" + counter, (new Item.Properties())
@@ -385,7 +411,7 @@ public class AwardShopItems {
         }
 
         //WESTERN TACK
-        for(int var1 = 0; var1 < 20; ++var1) {
+        for(int var1 = 0; var1 < var543; ++var1) {
             int counter = var1+1;
             AWARD_WESTERN_SADDLES.add(REGISTRY.register("award_western_saddle_" + counter,
                     () -> new WesternSaddleItem("award_western_saddle_" + counter, (new Item.Properties())
@@ -414,7 +440,7 @@ public class AwardShopItems {
         }
 
         //ENGLISH TACK
-        for(int var1 = 0; var1 < 20; ++var1) {
+        for(int var1 = 0; var1 < var543; ++var1) {
             int counter = var1+1;
             AWARD_ENGLISH_SADDLES.add(REGISTRY.register("award_english_saddle_" + counter,
                     () -> new EnglishSaddleItem("award_english_saddle_" + counter, (new Item.Properties())
@@ -443,7 +469,7 @@ public class AwardShopItems {
         }
 
         //PADDOCK TACK
-        for(int var1 = 0; var1 < 20; ++var1) {
+        for(int var1 = 0; var1 < var543; ++var1) {
             int counter = var1 + 1;
             AWARD_HALTERS.add(REGISTRY.register("award_halter_" + counter,
                     () -> new HalterItem("award_halter_" + counter, (new Item.Properties())
@@ -478,7 +504,40 @@ public class AwardShopItems {
         }
 
 // AWARD ITEMS
+        MORPHO_RIBBON_THREE_TAILS = REGISTRY.register("ribbon_three_tails_morpho",
+                () -> new Item(new Item.Properties()));
+        MORPHO_RIBBON_TWO_TAILS = REGISTRY.register("ribbon_two_tails_morpho",
+                () -> new Item(new Item.Properties()));
+        MORPHO_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_morpho",
+                () -> new Item(new Item.Properties()));
+        MORPHO_ROSETTE = REGISTRY.register("rosette_morpho",
+                () -> new Item(new Item.Properties()));
 
+        MONARCH_RIBBON_THREE_TAILS = REGISTRY.register("ribbon_three_tails_monarch",
+                () -> new Item(new Item.Properties()));
+        MONARCH_RIBBON_TWO_TAILS = REGISTRY.register("ribbon_two_tails_monarch",
+                () -> new Item(new Item.Properties()));
+        MONARCH_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_monarch",
+                () -> new Item(new Item.Properties()));
+        MONARCH_ROSETTE = REGISTRY.register("rosette_monarch",
+                () -> new Item(new Item.Properties()));
+
+        // RIBBONS IN MY COLORS
+        for(int var21 = 1; var21 < 15; ++var21) {
+            TRE_RIBBON_THREE_TAILS.add(REGISTRY.register("ribbon_three_tails_" + var21, () ->
+                    new Item(new Item.Properties())
+            ));
+            TRE_RIBBON_TWO_TAILS.add(REGISTRY.register("ribbon_two_tails_" + var21, () ->
+                    new Item(new Item.Properties())
+            ));
+            TRE_RIBBON_ONE_TAIL.add(REGISTRY.register("ribbon_one_tail_" + var21, () ->
+                    new Item(new Item.Properties())
+            ));
+            TRE_ROSETTE.add(REGISTRY.register("rosette_" + var21, () ->
+                    new Item(new Item.Properties())
+            ));
+        }
+        
     // Dye Color number items
         RIBBON_THREE_TAILS = new ArrayList<>();
         RIBBON_TWO_TAILS = new ArrayList<>();
@@ -514,6 +573,18 @@ public class AwardShopItems {
                 () -> new Item(new Item.Properties() ));
         TROPHY_3 =  REGISTRY.register("trophy_3",
                 () -> new Item(new Item.Properties() ));
+        FLORAL_GOLD = REGISTRY.register("floral_gold",
+                () -> new Item(new Item.Properties()));
+        FLORAL_SILVER = REGISTRY.register("floral_silver",
+                () -> new Item(new Item.Properties()));
+        FLORAL_BRONZE = REGISTRY.register("floral_bronze",
+                () -> new Item(new Item.Properties()));
+        SUN_TROPHY = REGISTRY.register("sun_trophy",
+                () -> new Item(new Item.Properties()));
+        MOON_TROPHY = REGISTRY.register("moon_trophy",
+                () -> new Item(new Item.Properties()));
+
+
         MEDAL_1 =  REGISTRY.register("medal_1",
                 () -> new Item(new Item.Properties() ));
         MEDAL_2 =  REGISTRY.register("medal_2",
