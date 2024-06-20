@@ -1,13 +1,6 @@
-package com.kyraltre.tretackshop;
+package com.kyraltre.trelibrary;
 
-import com.kyraltre.tretackshop.block.TackShopBlocks;
-import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
-import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
-import com.kyraltre.tretackshop.registry.AwardShopItems;
-import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
-import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,29 +14,14 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TreTackShop.MOD_ID)
-public class TreTackShop {
-    public static final String MOD_ID = "tretackshop";
+@Mod(TreLibrary.MOD_ID)
+public class TreLibrary {
+    public static final String MOD_ID = "trelibrary";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public static ResourceLocation resloc(String name) {
-        return new ResourceLocation("tretackshop", name);
-    }
-
-    public static ResourceLocation swresloc(String name) {
-        return new ResourceLocation("swem", name);
-    }
-
-    public TreTackShop() {
+    public TreLibrary() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 //        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TackShopCommonConfigs.SPEC, "tretackshop-common.toml");
-        TackShopCreativeModTab.init(modEventBus);
-        AwardShopCreativeModTab.init(modEventBus);
-
-        TackShopBlocks.register(modEventBus);
-        TackShopBlockRegistry.init(modEventBus);
-        TackShopItems.init(modEventBus);
-        AwardShopItems.init(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -53,8 +31,7 @@ public class TreTackShop {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        LOGGER.info("Tre says plant a tree <3");
-        LOGGER.info(14 + " Award Sets Loaded.");
+        LOGGER.info("Tre says show kindness to everyone");
     }
 
     // Add the example block item to the building blocks tab
