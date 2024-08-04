@@ -11,6 +11,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
 import net.minecraftforge.registries.RegistryObject;
+import software.bernie.geckolib.core.object.Color;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -176,7 +177,7 @@ public class AwardShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_morpho", (new Item.Properties())
                         .stacksTo(64)));
         ADVENTURE_BRIDLE_MORPHO = REGISTRY.register("adventure_bridle_morpho",
-                () -> new AdventureBridleItem("adventure_bridle_morpho", "adventure_bridle_morpho", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_morpho", (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MORPHO = REGISTRY.register("adventure_girth_strap_morpho",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_morpho", (new Item.Properties())
@@ -192,7 +193,7 @@ public class AwardShopItems {
                 () -> new WesternSaddleItem("western_saddle_morpho", (new Item.Properties())
                         .stacksTo(1)));
         WESTERN_BLANKET_MORPHO = REGISTRY.register("western_blanket_morpho",
-                () -> new WesternBlanketItem("western_blanket_morpho", (new Item.Properties())
+                () -> new WesternBlanketItem("western_blanket_morpho", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_BREAST_COLLAR_MORPHO = REGISTRY.register("western_breast_collar_morpho",
                 () -> new WesternBreastCollarItem("western_breast_collar_morpho", (new Item.Properties())
@@ -204,14 +205,14 @@ public class AwardShopItems {
                 () -> new WesternBridleItem("western_bridle_morpho", (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_GIRTH_STRAP_MORPHO = REGISTRY.register("western_girth_strap_morpho",
-                () -> new WesternGirthStrapItem("western_girth_strap_morpho", (new Item.Properties())
+                () -> new WesternGirthStrapItem("western_girth_strap_morpho", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
 
         ENGLISH_SADDLE_MORPHO = REGISTRY.register("english_saddle_morpho",
                 () -> new EnglishSaddleItem("english_saddle_morpho", (new Item.Properties())
                         .stacksTo(1)));
         ENGLISH_BLANKET_MORPHO = REGISTRY.register("english_blanket_morpho",
-                () -> new EnglishBlanketItem("english_blanket_morpho", (new Item.Properties())
+                () -> new EnglishBlanketItem("english_blanket_morpho", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_BREAST_COLLAR_MORPHO = REGISTRY.register("english_breast_collar_morpho",
                 () -> new EnglishBreastCollar("english_breast_collar_morpho", (new Item.Properties())
@@ -223,19 +224,19 @@ public class AwardShopItems {
                 () -> new EnglishBridleItem("english_bridle_morpho", (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_GIRTH_STRAP_MORPHO = REGISTRY.register("english_girth_strap_morpho",
-                () -> new EnglishGirthStrap("english_girth_strap_morpho", (new Item.Properties())
+                () -> new EnglishGirthStrap("english_girth_strap_morpho", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
 
         BITLESS_BRIDLE_MORPHO = REGISTRY.register("english_bridle_bitless_morpho",
                 () -> new EnglishBridleItem("english_bridle_bitless_morpho", (new Item.Properties())
                         .stacksTo(16)));
         BAREBACK_BLANKET_MORPHO = REGISTRY.register("bareback_blanket_morpho",
-                () -> new WesternBlanketItem("bareback_blanket_morpho", (new Item.Properties())
+                () -> new WesternBlanketItem("bareback_blanket_morpho", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
 
         PASTURE_BLANKET_MORPHO = REGISTRY.register("pasture_blanket_morpho",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                        "pasture_blanket_morpho", new Item.Properties()
+                        "pasture_blanket_morpho", Color.BLACK, new Item.Properties()
                         .stacksTo(16)));
         QUARTER_SHEET_MORPHO = REGISTRY.register("quarter_sheet_morpho",
                 () -> new AdventureBreastCollarItem("quarter_sheet_morpho", (new Item.Properties())
@@ -264,7 +265,7 @@ public class AwardShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_monarch", (new Item.Properties())
                         .stacksTo(64)));
         ADVENTURE_BRIDLE_MONARCH = REGISTRY.register("adventure_bridle_monarch",
-                () -> new AdventureBridleItem("adventure_bridle_monarch", "adventure_bridle_monarch", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_monarch", (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MONARCH = REGISTRY.register("adventure_girth_strap_monarch",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_monarch", (new Item.Properties())
@@ -280,7 +281,7 @@ public class AwardShopItems {
                 () -> new WesternSaddleItem("western_saddle_monarch", (new Item.Properties())
                         .stacksTo(1)));
         WESTERN_BLANKET_MONARCH = REGISTRY.register("western_blanket_monarch",
-                () -> new WesternBlanketItem("western_blanket_monarch", (new Item.Properties())
+                () -> new WesternBlanketItem("western_blanket_monarch", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_BREAST_COLLAR_MONARCH = REGISTRY.register("western_breast_collar_monarch",
                 () -> new WesternBreastCollarItem("western_breast_collar_monarch", (new Item.Properties())
@@ -292,14 +293,14 @@ public class AwardShopItems {
                 () -> new WesternBridleItem("western_bridle_monarch", (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_GIRTH_STRAP_MONARCH = REGISTRY.register("western_girth_strap_monarch",
-                () -> new WesternGirthStrapItem("western_girth_strap_monarch", (new Item.Properties())
+                () -> new WesternGirthStrapItem("western_girth_strap_monarch", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
 
         ENGLISH_SADDLE_MONARCH = REGISTRY.register("english_saddle_monarch",
                 () -> new EnglishSaddleItem("english_saddle_monarch", (new Item.Properties())
                         .stacksTo(1)));
         ENGLISH_BLANKET_MONARCH = REGISTRY.register("english_blanket_monarch",
-                () -> new EnglishBlanketItem("english_blanket_monarch", (new Item.Properties())
+                () -> new EnglishBlanketItem("english_blanket_monarch", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_BREAST_COLLAR_MONARCH = REGISTRY.register("english_breast_collar_monarch",
                 () -> new EnglishBreastCollar("english_breast_collar_monarch", (new Item.Properties())
@@ -311,19 +312,19 @@ public class AwardShopItems {
                 () -> new EnglishBridleItem("english_bridle_monarch", (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_GIRTH_STRAP_MONARCH = REGISTRY.register("english_girth_strap_monarch",
-                () -> new EnglishGirthStrap("english_girth_strap_monarch", (new Item.Properties())
+                () -> new EnglishGirthStrap("english_girth_strap_monarch", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
 
         BITLESS_BRIDLE_MONARCH = REGISTRY.register("english_bridle_bitless_monarch",
                 () -> new EnglishBridleItem("english_bridle_bitless_monarch", (new Item.Properties())
                         .stacksTo(16)));
         BAREBACK_BLANKET_MONARCH = REGISTRY.register("bareback_blanket_monarch",
-                () -> new WesternBlanketItem("bareback_blanket_monarch", (new Item.Properties())
+                () -> new WesternBlanketItem("bareback_blanket_monarch", Color.BLACK, (new Item.Properties())
                         .stacksTo(16)));
 
         PASTURE_BLANKET_MONARCH = REGISTRY.register("pasture_blanket_monarch",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                        "pasture_blanket_monarch", new Item.Properties()
+                        "pasture_blanket_monarch", Color.BLACK, new Item.Properties()
                         .stacksTo(16)));
         QUARTER_SHEET_MONARCH = REGISTRY.register("quarter_sheet_monarch",
                 () -> new AdventureBreastCollarItem("quarter_sheet_monarch", (new Item.Properties())
@@ -387,7 +388,7 @@ public class AwardShopItems {
                             .stacksTo(64))
             ));
             AWARD_ADVENTURE_BRIDLES .add(REGISTRY.register("award_adventure_bridle_"+ counter,
-                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, "award_adventure_"+ counter, (new Item.Properties())
+                    () -> new AdventureBridleItem("award_adventure_bridle_"+ counter, (new Item.Properties())
                             .stacksTo(16))
             ));
             AWARD_ADVENTURE_GIRTH_STRAPS .add(REGISTRY.register("award_adventure_girth_strap_"+ counter,
@@ -418,7 +419,7 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_WESTERN_BLANKETS.add(REGISTRY.register("award_western_blanket_" + counter,
-                    () -> new WesternBlanketItem("award_western_blanket_" + counter, (new Item.Properties())
+                    () -> new WesternBlanketItem("award_western_blanket_" + counter, Color.BLACK, (new Item.Properties())
                             .stacksTo(16))
             ));
             AWARD_WESTERN_BREAST_COLLARS.add(REGISTRY.register("award_western_breast_collar_" + counter,
@@ -434,7 +435,7 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_WESTERN_GIRTH_STRAPS.add(REGISTRY.register("award_western_girth_strap_" + counter,
-                    () -> new WesternGirthStrapItem("award_western_girth_strap_" + counter, (new Item.Properties())
+                    () -> new WesternGirthStrapItem("award_western_girth_strap_" + counter, Color.BLACK, (new Item.Properties())
                             .stacksTo(16))
             ));
         }
@@ -447,7 +448,7 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_ENGLISH_BLANKETS.add(REGISTRY.register("award_english_blanket_" + counter,
-                    () -> new EnglishBlanketItem("award_english_blanket_" + counter, (new Item.Properties())
+                    () -> new EnglishBlanketItem("award_english_blanket_" + counter, Color.BLACK, (new Item.Properties())
                             .stacksTo(16))
             ));
             AWARD_ENGLISH_BREAST_COLLARS.add(REGISTRY.register("award_english_breast_collar_" + counter,
@@ -463,7 +464,7 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_ENGLISH_GIRTH_STRAPS.add(REGISTRY.register("award_english_girth_strap_" + counter,
-                    () -> new EnglishGirthStrap("award_english_girth_strap_" + counter, (new Item.Properties())
+                    () -> new EnglishGirthStrap("award_english_girth_strap_" + counter, Color.BLACK, (new Item.Properties())
                             .stacksTo(16))
             ));
         }
@@ -485,12 +486,12 @@ public class AwardShopItems {
             ));
             AWARD_PASTURE_BLANKETS.add(REGISTRY.register("award_pasture_blanket_" + counter,
                     () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                            "award_pasture_blanket_" + counter, (new Item.Properties())
+                            "award_pasture_blanket_" + counter, Color.BLACK, (new Item.Properties())
                             .stacksTo(16))
             ));
             AWARD_PASTURE_BLANKETS_ARMORED.add(REGISTRY.register("award_pasture_blanket_" + counter + "_armored",
                     () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
-                            "award_pasture_blanket_" + counter + "_armored", (new Item.Properties())
+                            "award_pasture_blanket_" + counter + "_armored", Color.BLACK, (new Item.Properties())
                             .stacksTo(16))
             ));
         }
