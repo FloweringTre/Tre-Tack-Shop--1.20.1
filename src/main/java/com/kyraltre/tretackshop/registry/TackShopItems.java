@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
-import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
+import com.alaharranhonor.swem.forge.util.ColorUtil;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +19,24 @@ import software.bernie.geckolib.core.object.Color;
 
 public class TackShopItems {
     public static final DeferredRegister<Item> REGISTRY;
+
+    static int [][] tretackcolors= { // A collection of RGB colors to reference for blanket racks
+            { 236, 226, 226 }, // "tre and moon white" [0]
+            //pastel tones [1] - [6]
+            { 255, 202, 242 }, {255, 178, 177}, {255, 243, 173}, {188, 255, 188}, {162, 237, 255}, {201, 177, 255},
+            // jewel tones [7] - [12]
+            {143, 48, 116}, {136, 39, 50}, {221, 153, 52}, {43, 100, 93}, {19, 67, 133}, {72, 20, 58},
+            // orange tones [13] - [14]
+            {243, 162, 109}, {206, 114, 62},
+            {34, 34, 34}, // "tre black" [15]
+            {56, 29, 10}, // "tre coffee brown" [16]
+            {189, 138, 89}, // "tre latte brown" [17]
+            {254, 140, 3}, // "monarch yellow" [18]
+            {16, 190, 234}, // "morpho blue" [19]
+            {43, 39, 39}, // "moon black" [20]
+            {67, 56, 50}, // "moon brown" [21]
+            {166, 153, 145} // "moon beige" [22]
+    };
 
     // THIS IS FOR TACK REGISTRY THAT __CAN__ BE CRAFTED
     public static final RegistryObject<Item> BUTTERFLY;
@@ -187,10 +205,12 @@ public class TackShopItems {
                 () -> new WesternSaddleItem("bareback_saddle_black", (new Item.Properties())
                         .stacksTo(1)));
         BAREBACK_BLANKET = REGISTRY.register("bareback_blanket",
-                () -> new WesternBlanketItem("bareback_blanket", Color.BLACK, (new Item.Properties())
+                () -> new WesternBlanketItem("bareback_blanket",
+                        Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), (new Item.Properties())
                         .stacksTo(16)));
         BAREBACK_GIRTH_STRAP = REGISTRY.register("bareback_girth_strap",
-                () -> new WesternGirthStrapItem("bareback_girth_strap", Color.BLACK, (new Item.Properties())
+                () -> new WesternGirthStrapItem("bareback_girth_strap",
+                        Color.ofRGB(tretackcolors[20][0], tretackcolors[20][1], tretackcolors[20][2]), (new Item.Properties())
                         .stacksTo(16)));
 
         BITLESS_BRIDLE_BROWN = REGISTRY.register("english_bridle_bitless_brown",
@@ -200,7 +220,8 @@ public class TackShopItems {
                 () -> new WesternSaddleItem("bareback_saddle_brown", (new Item.Properties())
                         .stacksTo(1)));
         BAREBACK_GIRTH_STRAP_BROWN = REGISTRY.register("bareback_girth_strap_brown",
-                () -> new WesternGirthStrapItem("bareback_girth_strap_brown", Color.BLACK, (new Item.Properties())
+                () -> new WesternGirthStrapItem("bareback_girth_strap_brown",
+                        Color.ofRGB(tretackcolors[21][0], tretackcolors[21][1], tretackcolors[21][2]), (new Item.Properties())
                         .stacksTo(16)));
 
         BITLESS_BRIDLE_BEIGE = REGISTRY.register("english_bridle_bitless_beige",
@@ -210,7 +231,8 @@ public class TackShopItems {
                 () -> new WesternSaddleItem("bareback_saddle_beige", (new Item.Properties())
                         .stacksTo(1)));
         BAREBACK_GIRTH_STRAP_BEIGE = REGISTRY.register("bareback_girth_strap_beige",
-                () -> new WesternGirthStrapItem("bareback_girth_strap_beige", Color.BLACK, (new Item.Properties())
+                () -> new WesternGirthStrapItem("bareback_girth_strap_beige",
+                        Color.ofRGB(tretackcolors[22][0], tretackcolors[22][1], tretackcolors[22][2]), (new Item.Properties())
                         .stacksTo(16)));
 
         BITLESS_BRIDLE_WHITE = REGISTRY.register("english_bridle_bitless_white",
@@ -220,17 +242,20 @@ public class TackShopItems {
                 () -> new WesternSaddleItem("bareback_saddle", (new Item.Properties())
                         .stacksTo(1)));
         BAREBACK_GIRTH_STRAP_WHITE = REGISTRY.register("bareback_girth_strap_white",
-                () -> new WesternGirthStrapItem("bareback_girth_strap_white", Color.BLACK, (new Item.Properties())
+                () -> new WesternGirthStrapItem("bareback_girth_strap_white",
+                        Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), (new Item.Properties())
                         .stacksTo(16)));
 
         DRESSAGE_SADDLE = REGISTRY.register("dressage_saddle",
                 () -> new WesternSaddleItem("dressage_saddle", (new Item.Properties())
                         .stacksTo(1)));
         DRESSAGE_BLANKET = REGISTRY.register("dressage_blanket",
-                () -> new WesternBlanketItem("dressage_blanket", Color.BLACK, (new Item.Properties())
+                () -> new WesternBlanketItem("dressage_blanket",
+                        Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), (new Item.Properties())
                         .stacksTo(16)));
         DRESSAGE_GIRTH_STRAP = REGISTRY.register("dressage_girth_strap",
-                () -> new EnglishGirthStrap("dressage_girth_strap", Color.BLACK, (new Item.Properties())
+                () -> new EnglishGirthStrap("dressage_girth_strap",
+                        Color.ofRGB(tretackcolors[20][0], tretackcolors[20][1], tretackcolors[20][2]), (new Item.Properties())
                         .stacksTo(16)));
 
         RACING_SADDLE_BROWN = REGISTRY.register("racing_saddle_brown",
@@ -240,7 +265,8 @@ public class TackShopItems {
                 () -> new EnglishSaddleItem("racing_saddle_black", (new Item.Properties())
                         .stacksTo(1)));
         HUNTER_BLANKET = REGISTRY.register("hunter_blanket",
-                () -> new EnglishBlanketItem("hunter_blanket", Color.BLACK, (new Item.Properties())
+                () -> new EnglishBlanketItem("hunter_blanket",
+                        Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), (new Item.Properties())
                         .stacksTo(16)));
 
 
@@ -280,7 +306,8 @@ public class TackShopItems {
                 () -> new WesternSaddleItem("western_saddle_rainbow", (new Item.Properties())
                          .stacksTo(1)));
         WESTERN_BLANKET_RAINBOW =  REGISTRY.register("western_blanket_rainbow",
-                () -> new WesternBlanketItem("western_blanket_rainbow", Color.BLACK, (new Item.Properties())
+                () -> new WesternBlanketItem("western_blanket_rainbow",
+                        Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), (new Item.Properties())
                          .stacksTo(16)));
         WESTERN_BREAST_COLLAR_RAINBOW =  REGISTRY.register("western_breast_collar_rainbow",
                 () -> new WesternBreastCollarItem("western_breast_collar_rainbow", (new Item.Properties())
@@ -292,14 +319,16 @@ public class TackShopItems {
                 () -> new WesternBridleItem("western_bridle_rainbow", (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_GIRTH_STRAP_RAINBOW = REGISTRY.register("western_girth_strap_rainbow",
-                () -> new WesternGirthStrapItem("western_girth_strap_rainbow", Color.BLACK, (new Item.Properties())
+                () -> new WesternGirthStrapItem("western_girth_strap_rainbow",
+                        Color.ofRGB(tretackcolors[20][0], tretackcolors[20][1], tretackcolors[20][2]), (new Item.Properties())
                         .stacksTo(16)));
 
         ENGLISH_SADDLE_RAINBOW =  REGISTRY.register("english_saddle_rainbow",
                 () -> new EnglishSaddleItem("english_saddle_rainbow", (new Item.Properties())
                          .stacksTo(1)));
         ENGLISH_BLANKET_RAINBOW =  REGISTRY.register("english_blanket_rainbow",
-                () -> new EnglishBlanketItem("english_blanket_rainbow", Color.BLACK, (new Item.Properties())
+                () -> new EnglishBlanketItem("english_blanket_rainbow",
+                        Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), (new Item.Properties())
                          .stacksTo(16)));
         ENGLISH_BREAST_COLLAR_RAINBOW =  REGISTRY.register("english_breast_collar_rainbow",
                 () -> new EnglishBreastCollar("english_breast_collar_rainbow", (new Item.Properties())
@@ -311,22 +340,26 @@ public class TackShopItems {
                 () -> new EnglishBridleItem("english_bridle_rainbow", (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_GIRTH_STRAP_RAINBOW = REGISTRY.register("english_girth_strap_rainbow",
-                () -> new EnglishGirthStrap("english_girth_strap_rainbow", Color.BLACK, (new Item.Properties())
+                () -> new EnglishGirthStrap("english_girth_strap_rainbow",
+                        Color.ofRGB(tretackcolors[20][0], tretackcolors[20][1], tretackcolors[20][2]), (new Item.Properties())
                         .stacksTo(16)));
         CLOTH_BITLESS_BRIDLE_RAINBOW = REGISTRY.register("cloth_bitless_bridle_rainbow",
                 () -> new EnglishBridleItem("cloth_bitless_bridle_rainbow", (new Item.Properties())
                         .stacksTo(16)));
         BAREBACK_BLANKET_RAINBOW = REGISTRY.register("bareback_blanket_rainbow",
-                () -> new WesternBlanketItem("bareback_blanket_rainbow", Color.BLACK, (new Item.Properties())
+                () -> new WesternBlanketItem("bareback_blanket_rainbow",
+                        Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), (new Item.Properties())
                         .stacksTo(16)));
 
         PASTURE_BLANKET_RAINBOW =  REGISTRY.register("pasture_blanket_rainbow",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                        "pasture_blanket_rainbow", Color.BLACK, new Item.Properties()
+                        "pasture_blanket_rainbow",
+                        Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), new Item.Properties()
                          .stacksTo(16)));
         PASTURE_BLANKET_RAINBOW_ARMORED =  REGISTRY.register("pasture_blanket_rainbow_armored",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
-                        "pasture_blanket_rainbow_armored", Color.BLACK, (new Item.Properties())
+                        "pasture_blanket_rainbow_armored",
+                        Color.ofRGB(tretackcolors[20][0], tretackcolors[20][1], tretackcolors[20][2]), (new Item.Properties())
                          .stacksTo(16)));
         QUARTER_SHEET_BLACK_RAINBOW = REGISTRY.register("quarter_sheet_black_rainbow",
                 () -> new AdventureBreastCollarItem("quarter_sheet_black_rainbow", (new Item.Properties())
@@ -359,26 +392,26 @@ public class TackShopItems {
                 () -> new WesternSaddleItem("western_saddle_trans", (new Item.Properties())
                         .stacksTo(1)));
         WESTERN_BLANKET_TRANS = REGISTRY.register("western_blanket_trans",
-                () -> new WesternBlanketItem("western_blanket_trans", Color.BLACK, (new Item.Properties())
+                () -> new WesternBlanketItem("western_blanket_trans", Color.WHITE, (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_BRIDLE_TRANS = REGISTRY.register("western_bridle_trans",
                 () -> new WesternBridleItem("western_bridle_trans", (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_GIRTH_STRAP_TRANS = REGISTRY.register("western_girth_strap_trans",
-                () -> new WesternGirthStrapItem("western_girth_strap_trans", Color.BLACK, (new Item.Properties())
+                () -> new WesternGirthStrapItem("western_girth_strap_trans", Color.WHITE, (new Item.Properties())
                         .stacksTo(16)));
 
         ENGLISH_SADDLE_TRANS = REGISTRY.register("english_saddle_trans",
                 () -> new EnglishSaddleItem("english_saddle_trans", (new Item.Properties())
                         .stacksTo(1)));
         ENGLISH_BLANKET_TRANS = REGISTRY.register("english_blanket_trans",
-                () -> new EnglishBlanketItem("english_blanket_trans", Color.BLACK, (new Item.Properties())
+                () -> new EnglishBlanketItem("english_blanket_trans", Color.WHITE, (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_BRIDLE_TRANS = REGISTRY.register("english_bridle_trans",
                 () -> new EnglishBridleItem("english_bridle_trans", (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_GIRTH_STRAP_TRANS = REGISTRY.register("english_girth_strap_trans",
-                () -> new EnglishGirthStrap("english_girth_strap_trans", Color.BLACK, (new Item.Properties())
+                () -> new EnglishGirthStrap("english_girth_strap_trans", Color.WHITE, (new Item.Properties())
                         .stacksTo(16)));
 
         // Craftable Numbered Tack Items -- 12 Count Items
@@ -415,7 +448,6 @@ public class TackShopItems {
         BAREBACK_BLANKETS = new ArrayList<>();
         CLOTH_BITLESS_BRIDLES = new ArrayList<>();
         TACKBOXES = new ArrayList<>();
-
 
         int var1 = 15;
         var rContext = new Object() {
@@ -472,7 +504,8 @@ public class TackShopItems {
                              .stacksTo(1))
             ));
             WESTERN_BLANKETS.add( REGISTRY.register("western_blanket_" + counter, () ->
-                    new WesternBlanketItem("western_blanket_" + counter, Color.BLACK, (new Item.Properties())
+                    new WesternBlanketItem("western_blanket_" + counter,
+                            Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]), (new Item.Properties())
                              .stacksTo(16))
             ));
             WESTERN_BREAST_COLLARS.add( REGISTRY.register("western_breast_collar_" + counter, () ->
@@ -488,7 +521,8 @@ public class TackShopItems {
                             .stacksTo(16))
             ));
             WESTERN_GIRTH_STRAPS.add(REGISTRY.register("western_girth_strap_" + counter,
-                    () -> new WesternGirthStrapItem("western_girth_strap_" + counter, Color.BLACK, (new Item.Properties())
+                    () -> new WesternGirthStrapItem("western_girth_strap_" + counter,
+                            Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]), (new Item.Properties())
                             .stacksTo(16))
             ));
 
@@ -497,7 +531,8 @@ public class TackShopItems {
                              .stacksTo(1))
             ));
             ENGLISH_BLANKETS.add( REGISTRY.register("english_blanket_" + counter, () ->
-                    new EnglishBlanketItem("english_blanket_" + counter, Color.BLACK, (new Item.Properties())
+                    new EnglishBlanketItem("english_blanket_" + counter,
+                            Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]), (new Item.Properties())
                              .stacksTo(16))
             ));
             ENGLISH_BREAST_COLLARS.add( REGISTRY.register("english_breast_collar_" + counter, () ->
@@ -513,7 +548,8 @@ public class TackShopItems {
                             .stacksTo(16))
             ));
             ENGLISH_GIRTH_STRAPS.add(REGISTRY.register("english_girth_strap_" + counter,
-                    () -> new EnglishGirthStrap("english_girth_strap_" + counter, Color.BLACK, (new Item.Properties())
+                    () -> new EnglishGirthStrap("english_girth_strap_" + counter,
+                            Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]), (new Item.Properties())
                             .stacksTo(16))
             ));
 
@@ -526,7 +562,8 @@ public class TackShopItems {
                             .stacksTo(16))
             ));
             CLOTH_GIRTH_STRAPS.add(REGISTRY.register("cloth_girth_strap_" + counter,
-                    () -> new EnglishGirthStrap("cloth_girth_strap_" + counter, Color.BLACK, (new Item.Properties())
+                    () -> new EnglishGirthStrap("cloth_girth_strap_" + counter,
+                            Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]), (new Item.Properties())
                             .stacksTo(16))
             ));
 
@@ -535,18 +572,21 @@ public class TackShopItems {
                             .stacksTo(16))
             ));
             BAREBACK_BLANKETS.add(REGISTRY.register("bareback_blanket_" + counter, () ->
-                    new WesternBlanketItem("bareback_blanket_" + counter, Color.BLACK, (new Item.Properties())
+                    new WesternBlanketItem("bareback_blanket_" + counter,
+                            Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]), (new Item.Properties())
                             .stacksTo(16))
             ));
             
             PASTURE_BLANKETS.add( REGISTRY.register("pasture_blanket_" + counter, () ->
                     new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
-                            "pasture_blanket_" + counter, Color.BLACK, (new Item.Properties())
+                            "pasture_blanket_" + counter,
+                            Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]), (new Item.Properties())
                              .stacksTo(16))
             ));
             PASTURE_BLANKETS_ARMORED.add( REGISTRY.register("pasture_blanket_" + counter + "_armored", () ->
                     new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.DIAMOND, 37,
-                            "pasture_blanket_" + counter + "_armored", Color.BLACK, (new Item.Properties())
+                            "pasture_blanket_" + counter + "_armored",
+                            Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]), (new Item.Properties())
                              .stacksTo(16))
             ));
             QUARTER_SHEETS_NUMBERED.add(REGISTRY.register("quarter_sheet_" + counter, () ->
@@ -582,7 +622,7 @@ public class TackShopItems {
                             .stacksTo(16))
             ));
             BAREBACK_BLANKETS_DYED.add(REGISTRY.register("bareback_blanket_" + color.getName(), () ->
-                    new WesternBlanketItem("bareback_blanket_" + color.getName(), Color.BLACK, (new Item.Properties())
+                    new WesternBlanketItem("bareback_blanket_" + color.getName(), ColorUtil.ofDyeColor(color), (new Item.Properties())
                             .stacksTo(16))
             ));
             FLYMASKS.add( REGISTRY.register("flymask_" + color.getName(), () ->
