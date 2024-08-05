@@ -13,7 +13,9 @@ All rendered (appearing on the SWEM horses) 'Rainbow' Tack items are textures ma
 
 The Tack Boxes, Ribbons, and Rosette textures along with the standard Trophy textures are made by RileyCasper. [Click here to join their discord!](https://discord.gg/cZ6bVAuuJj)
 
-Big thanks to Mothfet for their help with decoding bugs and future additions. [Click here to see their links](https://mothfetart.carrd.co)
+Big thanks to Mothfet for their help with decoding bugs. [Click here to see their links](https://mothfetart.carrd.co)
+
+***Most of all, thank you to legenden, the man who help every build get off the ground and working.*** Without him, this add on *and SWEM* wouldn't be the mod we know and love. 
 
 ### Note to resources pack makers
 All tack items have two textures attached to them, the texture on the horse and the icon in the menus/inventory. To change rendered horse textures, you must replace the numbered .png file in the ***swem*** assets folder. To change the icon textures, you must replace the numbered .png file in the ***tretackshop*** assets folder.
