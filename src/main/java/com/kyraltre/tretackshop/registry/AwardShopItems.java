@@ -1,8 +1,11 @@
 package com.kyraltre.tretackshop.registry;
 
 
+import com.alaharranhonor.swem.forge.community.RackType;
+import com.alaharranhonor.swem.forge.community.TackType;
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
+import com.alaharranhonor.swem.forge.tack.TackItemDefinition;
 import com.kyraltre.tretackshop.config.TackShopCommonConfigs;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import net.minecraft.world.item.DyeColor;
@@ -53,22 +56,22 @@ public class AwardShopItems {
     public static final RegistryObject<AdventureBlanketItem> ADVENTURE_BLANKET_MORPHO;
     public static final RegistryObject<EnglishBlanketItem> ENGLISH_BLANKET_MORPHO;
     public static final RegistryObject<WesternBlanketItem> WESTERN_BLANKET_MORPHO;
-    public static final RegistryObject<AdventureLegWraps> ADVENTURE_LEG_WRAPS_MORPHO;
-    public static final RegistryObject<LegWrapsItem> ENGLISH_LEG_WRAPS_MORPHO;
-    public static final RegistryObject<LegWrapsItem> WESTERN_LEG_WRAPS_MORPHO;
+    public static final RegistryObject<TackItem> ADVENTURE_LEG_WRAPS_MORPHO;
+    public static final RegistryObject<TackItem> ENGLISH_LEG_WRAPS_MORPHO;
+    public static final RegistryObject<TackItem> WESTERN_LEG_WRAPS_MORPHO;
     public static final RegistryObject<AdventureSaddleItem> ADVENTURE_SADDLE_MORPHO;
     public static final RegistryObject<WesternSaddleItem> WESTERN_SADDLE_MORPHO;
     public static final RegistryObject<EnglishSaddleItem> ENGLISH_SADDLE_MORPHO;
-    public static final RegistryObject<AdventureBreastCollarItem> ADVENTURE_BREAST_COLLAR_MORPHO;
-    public static final RegistryObject<WesternBreastCollarItem> WESTERN_BREAST_COLLAR_MORPHO;
-    public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_MORPHO;
-    public static final RegistryObject<AdventureBreastCollarItem> QUARTER_SHEET_MORPHO;
+    public static final RegistryObject<TackItem> ADVENTURE_BREAST_COLLAR_MORPHO;
+    public static final RegistryObject<TackItem> WESTERN_BREAST_COLLAR_MORPHO;
+    public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_MORPHO;
+    public static final RegistryObject<TackItem> QUARTER_SHEET_MORPHO;
     public static final RegistryObject<AdventureBridleItem> ADVENTURE_BRIDLE_MORPHO;
     public static final RegistryObject<WesternBridleItem> WESTERN_BRIDLE_MORPHO;
     public static final RegistryObject<EnglishBridleItem> ENGLISH_BRIDLE_MORPHO;
-    public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_MORPHO;
-    public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_MORPHO;
-    public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MORPHO;
+    public static final RegistryObject<TackItem> ADVENTURE_GIRTH_STRAP_MORPHO;
+    public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_MORPHO;
+    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MORPHO;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
     public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MORPHO;
@@ -82,22 +85,22 @@ public class AwardShopItems {
     public static final RegistryObject<AdventureBlanketItem> ADVENTURE_BLANKET_MONARCH;
     public static final RegistryObject<EnglishBlanketItem> ENGLISH_BLANKET_MONARCH;
     public static final RegistryObject<WesternBlanketItem> WESTERN_BLANKET_MONARCH;
-    public static final RegistryObject<AdventureLegWraps> ADVENTURE_LEG_WRAPS_MONARCH;
-    public static final RegistryObject<LegWrapsItem> ENGLISH_LEG_WRAPS_MONARCH;
-    public static final RegistryObject<LegWrapsItem> WESTERN_LEG_WRAPS_MONARCH;
+    public static final RegistryObject<TackItem> ADVENTURE_LEG_WRAPS_MONARCH;
+    public static final RegistryObject<TackItem> ENGLISH_LEG_WRAPS_MONARCH;
+    public static final RegistryObject<TackItem> WESTERN_LEG_WRAPS_MONARCH;
     public static final RegistryObject<AdventureSaddleItem> ADVENTURE_SADDLE_MONARCH;
     public static final RegistryObject<WesternSaddleItem> WESTERN_SADDLE_MONARCH;
     public static final RegistryObject<EnglishSaddleItem> ENGLISH_SADDLE_MONARCH;
-    public static final RegistryObject<AdventureBreastCollarItem> ADVENTURE_BREAST_COLLAR_MONARCH;
-    public static final RegistryObject<WesternBreastCollarItem> WESTERN_BREAST_COLLAR_MONARCH;
-    public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_MONARCH;
-    public static final RegistryObject<AdventureBreastCollarItem> QUARTER_SHEET_MONARCH;
+    public static final RegistryObject<TackItem> ADVENTURE_BREAST_COLLAR_MONARCH;
+    public static final RegistryObject<TackItem> WESTERN_BREAST_COLLAR_MONARCH;
+    public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_MONARCH;
+    public static final RegistryObject<TackItem> QUARTER_SHEET_MONARCH;
     public static final RegistryObject<AdventureBridleItem> ADVENTURE_BRIDLE_MONARCH;
     public static final RegistryObject<WesternBridleItem> WESTERN_BRIDLE_MONARCH;
     public static final RegistryObject<EnglishBridleItem> ENGLISH_BRIDLE_MONARCH;
-    public static final RegistryObject<AdventureGirthStrapItem> ADVENTURE_GIRTH_STRAP_MONARCH;
-    public static final RegistryObject<WesternGirthStrapItem> WESTERN_GIRTH_STRAP_MONARCH;
-    public static final RegistryObject<EnglishGirthStrap> ENGLISH_GIRTH_STRAP_MONARCH;
+    public static final RegistryObject<TackItem> ADVENTURE_GIRTH_STRAP_MONARCH;
+    public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_MONARCH;
+    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<SWEMHorseArmorItem> CLOTH_HORSE_ARMOR_MONARCH;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MONARCH;
     public static final RegistryObject<EnglishBridleItem> BITLESS_BRIDLE_MONARCH;
@@ -111,22 +114,22 @@ public class AwardShopItems {
     public static final List<RegistryObject<AdventureBlanketItem>> AWARD_ADVENTURE_BLANKETS;
     public static final List<RegistryObject<EnglishBlanketItem>> AWARD_ENGLISH_BLANKETS;
     public static final List<RegistryObject<WesternBlanketItem>> AWARD_WESTERN_BLANKETS;
-    public static final List<RegistryObject<AdventureLegWraps>> AWARD_ADVENTURE_LEG_WRAPS;
-    public static final List<RegistryObject<LegWrapsItem>> AWARD_ENGLISH_LEG_WRAPS;
-    public static final List<RegistryObject<LegWrapsItem>> AWARD_WESTERN_LEG_WRAPS;
+    public static final List<RegistryObject<TackItem>> AWARD_ADVENTURE_LEG_WRAPS;
+    public static final List<RegistryObject<TackItem>> AWARD_ENGLISH_LEG_WRAPS;
+    public static final List<RegistryObject<TackItem>> AWARD_WESTERN_LEG_WRAPS;
     public static final List<RegistryObject<AdventureSaddleItem>> AWARD_ADVENTURE_SADDLES;
     public static final List<RegistryObject<WesternSaddleItem>> AWARD_WESTERN_SADDLES;
     public static final List<RegistryObject<EnglishSaddleItem>> AWARD_ENGLISH_SADDLES;
-    public static final List<RegistryObject<AdventureBreastCollarItem>> AWARD_ADVENTURE_BREAST_COLLARS;
-    public static final List<RegistryObject<WesternBreastCollarItem>> AWARD_WESTERN_BREAST_COLLARS;
-    public static final List<RegistryObject<EnglishBreastCollar>> AWARD_ENGLISH_BREAST_COLLARS;
-    public static final List<RegistryObject<AdventureBreastCollarItem>> AWARD_QUARTER_SHEETS;
+    public static final List<RegistryObject<TackItem>> AWARD_ADVENTURE_BREAST_COLLARS;
+    public static final List<RegistryObject<TackItem>> AWARD_WESTERN_BREAST_COLLARS;
+    public static final List<RegistryObject<TackItem>> AWARD_ENGLISH_BREAST_COLLARS;
+    public static final List<RegistryObject<TackItem>> AWARD_QUARTER_SHEETS;
     public static final List<RegistryObject<AdventureBridleItem>> AWARD_ADVENTURE_BRIDLES;
     public static final List<RegistryObject<WesternBridleItem>> AWARD_WESTERN_BRIDLES;
     public static final List<RegistryObject<EnglishBridleItem>> AWARD_ENGLISH_BRIDLES;
-    public static final List<RegistryObject<AdventureGirthStrapItem>> AWARD_ADVENTURE_GIRTH_STRAPS;
-    public static final List<RegistryObject<WesternGirthStrapItem>> AWARD_WESTERN_GIRTH_STRAPS;
-    public static final List<RegistryObject<EnglishGirthStrap>> AWARD_ENGLISH_GIRTH_STRAPS;
+    public static final List<RegistryObject<TackItem>> AWARD_ADVENTURE_GIRTH_STRAPS;
+    public static final List<RegistryObject<TackItem>> AWARD_WESTERN_GIRTH_STRAPS;
+    public static final List<RegistryObject<TackItem>> AWARD_ENGLISH_GIRTH_STRAPS;
     public static final List<RegistryObject<SaddlebagItem>> AWARD_SADDLE_BAGS;
     public static final List<RegistryObject<SWEMHorseArmorItem>> AWARD_CLOTH_ARMOR;
 
@@ -190,16 +193,16 @@ public class AwardShopItems {
                 () -> new AdventureBlanketItem("adventure_blanket_morpho", (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_BREAST_COLLAR_MORPHO = REGISTRY.register("adventure_breast_collar_morpho",
-                () -> new AdventureBreastCollarItem("adventure_breast_collar_morpho", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_LEG_WRAPS_MORPHO = REGISTRY.register("adventure_leg_wraps_morpho",
-                () -> new AdventureLegWraps("adventure_leg_wraps_morpho", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                         .stacksTo(64)));
         ADVENTURE_BRIDLE_MORPHO = REGISTRY.register("adventure_bridle_morpho",
                 () -> new AdventureBridleItem("adventure_bridle_morpho", (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MORPHO = REGISTRY.register("adventure_girth_strap_morpho",
-                () -> new AdventureGirthStrapItem("adventure_girth_strap_morpho", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                         .stacksTo(16)));
         CLOTH_HORSE_ARMOR_MORPHO = REGISTRY.register("cloth_horse_armor_morpho",
                 () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_morpho", (new Item.Properties())
@@ -216,17 +219,16 @@ public class AwardShopItems {
                         Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]), (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_BREAST_COLLAR_MORPHO = REGISTRY.register("western_breast_collar_morpho",
-                () -> new WesternBreastCollarItem("western_breast_collar_morpho", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_LEG_WRAPS_MORPHO = REGISTRY.register("western_leg_wraps_morpho",
-                () ->  new WesternLegWraps("western_leg_wraps_morpho", (new Item.Properties())
+                () ->  new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                         .stacksTo(64)));
         WESTERN_BRIDLE_MORPHO = REGISTRY.register("western_bridle_morpho",
                 () -> new WesternBridleItem("western_bridle_morpho", (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_GIRTH_STRAP_MORPHO = REGISTRY.register("western_girth_strap_morpho",
-                () -> new WesternGirthStrapItem("western_girth_strap_morpho",
-                        Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]), (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                         .stacksTo(16)));
 
         ENGLISH_SADDLE_MORPHO = REGISTRY.register("english_saddle_morpho",
@@ -237,17 +239,16 @@ public class AwardShopItems {
                         Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]), (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_BREAST_COLLAR_MORPHO = REGISTRY.register("english_breast_collar_morpho",
-                () -> new EnglishBreastCollar("english_breast_collar_morpho", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_LEG_WRAPS_MORPHO = REGISTRY.register("english_leg_wraps_morpho",
-                () -> new EnglishLegWraps("english_leg_wraps_morpho", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                         .stacksTo(64)));
         ENGLISH_BRIDLE_MORPHO = REGISTRY.register("english_bridle_morpho",
                 () -> new EnglishBridleItem("english_bridle_morpho", (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_GIRTH_STRAP_MORPHO = REGISTRY.register("english_girth_strap_morpho",
-                () -> new EnglishGirthStrap("english_girth_strap_morpho",
-                        Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]), (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                         .stacksTo(16)));
 
         BITLESS_BRIDLE_MORPHO = REGISTRY.register("english_bridle_bitless_morpho",
@@ -264,7 +265,7 @@ public class AwardShopItems {
                         Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]), new Item.Properties()
                         .stacksTo(16)));
         QUARTER_SHEET_MORPHO = REGISTRY.register("quarter_sheet_morpho",
-                () -> new AdventureBreastCollarItem("quarter_sheet_morpho", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                         .stacksTo(16)));
         FLAG_MORPHO = REGISTRY.register("flag_morpho",
                 () -> new Item(new Item.Properties()));
@@ -284,16 +285,16 @@ public class AwardShopItems {
                 () -> new AdventureBlanketItem("adventure_blanket_monarch", (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_BREAST_COLLAR_MONARCH = REGISTRY.register("adventure_breast_collar_monarch",
-                () -> new AdventureBreastCollarItem("adventure_breast_collar_monarch", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_LEG_WRAPS_MONARCH = REGISTRY.register("adventure_leg_wraps_monarch",
-                () -> new AdventureLegWraps("adventure_leg_wraps_monarch", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                         .stacksTo(64)));
         ADVENTURE_BRIDLE_MONARCH = REGISTRY.register("adventure_bridle_monarch",
                 () -> new AdventureBridleItem("adventure_bridle_monarch", (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MONARCH = REGISTRY.register("adventure_girth_strap_monarch",
-                () -> new AdventureGirthStrapItem("adventure_girth_strap_monarch", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                         .stacksTo(16)));
         CLOTH_HORSE_ARMOR_MONARCH = REGISTRY.register("cloth_horse_armor_monarch",
                 () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_monarch", (new Item.Properties())
@@ -310,17 +311,16 @@ public class AwardShopItems {
                         Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]), (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_BREAST_COLLAR_MONARCH = REGISTRY.register("western_breast_collar_monarch",
-                () -> new WesternBreastCollarItem("western_breast_collar_monarch", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_LEG_WRAPS_MONARCH = REGISTRY.register("western_leg_wraps_monarch",
-                () ->  new WesternLegWraps("western_leg_wraps_monarch", (new Item.Properties())
+                () ->  new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                         .stacksTo(64)));
         WESTERN_BRIDLE_MONARCH = REGISTRY.register("western_bridle_monarch",
                 () -> new WesternBridleItem("western_bridle_monarch", (new Item.Properties())
                         .stacksTo(16)));
         WESTERN_GIRTH_STRAP_MONARCH = REGISTRY.register("western_girth_strap_monarch",
-                () -> new WesternGirthStrapItem("western_girth_strap_monarch",
-                        Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]), (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                         .stacksTo(16)));
 
         ENGLISH_SADDLE_MONARCH = REGISTRY.register("english_saddle_monarch",
@@ -331,17 +331,16 @@ public class AwardShopItems {
                         Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]), (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_BREAST_COLLAR_MONARCH = REGISTRY.register("english_breast_collar_monarch",
-                () -> new EnglishBreastCollar("english_breast_collar_monarch", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_LEG_WRAPS_MONARCH = REGISTRY.register("english_leg_wraps_monarch",
-                () -> new EnglishLegWraps("english_leg_wraps_monarch", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                         .stacksTo(64)));
         ENGLISH_BRIDLE_MONARCH = REGISTRY.register("english_bridle_monarch",
                 () -> new EnglishBridleItem("english_bridle_monarch", (new Item.Properties())
                         .stacksTo(16)));
         ENGLISH_GIRTH_STRAP_MONARCH = REGISTRY.register("english_girth_strap_monarch",
-                () -> new EnglishGirthStrap("english_girth_strap_monarch",
-                        Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]), (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                         .stacksTo(16)));
 
         BITLESS_BRIDLE_MONARCH = REGISTRY.register("english_bridle_bitless_monarch",
@@ -358,7 +357,7 @@ public class AwardShopItems {
                         Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]), new Item.Properties()
                         .stacksTo(16)));
         QUARTER_SHEET_MONARCH = REGISTRY.register("quarter_sheet_monarch",
-                () -> new AdventureBreastCollarItem("quarter_sheet_monarch", (new Item.Properties())
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                         .stacksTo(16)));
 
         FLAG_MONARCH = REGISTRY.register("flag_monarch",
@@ -411,11 +410,11 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_ADVENTURE_BREAST_COLLARS.add(REGISTRY.register("award_adventure_breast_collar_" + counter,
-                    () -> new AdventureBreastCollarItem("award_adventure_breast_collar_" + counter, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                             .stacksTo(16))
             ));
             AWARD_ADVENTURE_LEG_WRAPS.add(REGISTRY.register("award_adventure_leg_wraps_" + counter,
-                    () -> new AdventureLegWraps("award_adventure_leg_wraps_" + counter, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
             AWARD_ADVENTURE_BRIDLES .add(REGISTRY.register("award_adventure_bridle_"+ counter,
@@ -423,7 +422,7 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_ADVENTURE_GIRTH_STRAPS .add(REGISTRY.register("award_adventure_girth_strap_"+ counter,
-                    () -> new AdventureGirthStrapItem("award_adventure_girth_strap_"+ counter, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                             .stacksTo(16))
             ));
         }
@@ -454,11 +453,11 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_WESTERN_BREAST_COLLARS.add(REGISTRY.register("award_western_breast_collar_" + counter,
-                    () -> new WesternBreastCollarItem("award_western_breast_collar_" + counter, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                             .stacksTo(16))
             ));
             AWARD_WESTERN_LEG_WRAPS.add(REGISTRY.register("award_western_leg_wraps_" + counter,
-                    () -> new WesternLegWraps("award_western_leg_wraps_" + counter, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
             AWARD_WESTERN_BRIDLES.add(REGISTRY.register("award_western_bridle_" + counter,
@@ -466,7 +465,7 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_WESTERN_GIRTH_STRAPS.add(REGISTRY.register("award_western_girth_strap_" + counter,
-                    () -> new WesternGirthStrapItem("award_western_girth_strap_" + counter, Color.WHITE, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                             .stacksTo(16))
             ));
         }
@@ -483,11 +482,11 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_ENGLISH_BREAST_COLLARS.add(REGISTRY.register("award_english_breast_collar_" + counter,
-                    () -> new EnglishBreastCollar("award_english_breast_collar_" + counter, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                             .stacksTo(16))
             ));
             AWARD_ENGLISH_LEG_WRAPS.add(REGISTRY.register("award_english_leg_wraps_" + counter,
-                    () -> new EnglishLegWraps("award_english_leg_wraps_" + counter, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
             AWARD_ENGLISH_BRIDLES.add(REGISTRY.register("award_english_bridle_" + counter,
@@ -495,7 +494,7 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_ENGLISH_GIRTH_STRAPS.add(REGISTRY.register("award_english_girth_strap_" + counter,
-                    () -> new EnglishGirthStrap("award_english_girth_strap_" + counter, Color.WHITE, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(), (new Item.Properties())
                             .stacksTo(16))
             ));
         }
@@ -512,7 +511,7 @@ public class AwardShopItems {
                             .stacksTo(16))
             ));
             AWARD_QUARTER_SHEETS.add(REGISTRY.register("award_quarter_sheet_" + counter,
-                    () -> new AdventureBreastCollarItem("award_quarter_sheet_" + counter, (new Item.Properties())
+                    () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                             .stacksTo(16))
             ));
             AWARD_PASTURE_BLANKETS.add(REGISTRY.register("award_pasture_blanket_" + counter,
