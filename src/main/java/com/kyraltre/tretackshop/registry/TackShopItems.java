@@ -182,13 +182,13 @@ public class TackShopItems {
 
         // ONE OFF TACK
         PELHAM_BRIDLE_BLACK = REGISTRY.register("pelham_bridle_black",
-                () -> new AdventureBridleItem("pelham_bridle_black", "pelham_bridle_black", (new Item.Properties())
+                () -> new AdventureBridleItem("pelham_bridle_black", "pelham_black", (new Item.Properties())
                         .stacksTo(16)));
         PELHAM_BRIDLE_BROWN = REGISTRY.register("pelham_bridle_brown",
-                () -> new AdventureBridleItem("pelham_bridle_brown", "pelham_bridle_brown", (new Item.Properties())
+                () -> new AdventureBridleItem("pelham_bridle_brown", "pelham_brown", (new Item.Properties())
                         .stacksTo(16)));
         MOON_BRIDLE_DOUBLE = REGISTRY.register("moon_bridle_double",
-                () -> new AdventureBridleItem("moon_bridle_double", "moon_bridle_double", (new Item.Properties())
+                () -> new AdventureBridleItem("moon_bridle_double", "moon_double", (new Item.Properties())
                         .stacksTo(16)));
         MEDIEVAL_BRIDLE_BLACK = REGISTRY.register("medieval_bridle_black",
                 () -> new EnglishBridleItem("medieval_bridle_black", (new Item.Properties())
@@ -286,7 +286,7 @@ public class TackShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_rainbow", (new Item.Properties())
                          .stacksTo(64)));
         ADVENTURE_BRIDLE_RAINBOW = REGISTRY.register("adventure_bridle_rainbow",
-                () -> new AdventureBridleItem("adventure_bridle_rainbow",  "adventure_bridle_rainbow",  (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_rainbow",  "adventure_rainbow",  (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_RAINBOW = REGISTRY.register("adventure_girth_strap_rainbow",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_rainbow", (new Item.Properties())
@@ -380,7 +380,7 @@ public class TackShopItems {
                 () -> new AdventureLegWraps("adventure_leg_wraps_trans", (new Item.Properties())
                         .stacksTo(64)));
         ADVENTURE_BRIDLE_TRANS = REGISTRY.register("adventure_bridle_trans",
-                () -> new AdventureBridleItem("adventure_bridle_trans", "adventure_bridle_trans", (new Item.Properties())
+                () -> new AdventureBridleItem("adventure_bridle_trans", "adventure_trans", (new Item.Properties())
                         .stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_TRANS = REGISTRY.register("adventure_girth_strap_trans",
                 () -> new AdventureGirthStrapItem("adventure_girth_strap_trans", (new Item.Properties())
@@ -481,7 +481,7 @@ public class TackShopItems {
                              .stacksTo(64))
             ));
             ADVENTURE_BRIDLES.add(REGISTRY.register("adventure_bridle_" + counter,
-                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "adventure_bridle_" + counter, (new Item.Properties())
+                    () -> new AdventureBridleItem("adventure_bridle_" + counter, "adventure_" + counter, (new Item.Properties())
                             .stacksTo(16))
             ));
             ADVENTURE_GIRTH_STRAPS.add(REGISTRY.register("adventure_girth_strap_" + counter,
@@ -646,7 +646,7 @@ public class TackShopItems {
                             .stacksTo(64))
             ));
             ADVENTURE_BRIDLES_DYED.add(REGISTRY.register("adventure_bridle_" + color.getName(),
-                    () -> new AdventureBridleItem("adventure_bridle_" + color.getName(), "adventure_bridle_" + color.getName(), (new Item.Properties())
+                    () -> new AdventureBridleItem("adventure_bridle_" + color.getName(), "adventure_" + color.getName(), (new Item.Properties())
                             .stacksTo(16))
             ));
             ADVENTURE_GIRTH_STRAPS_DYED.add(REGISTRY.register("adventure_girth_strap_" + color.getName(),
