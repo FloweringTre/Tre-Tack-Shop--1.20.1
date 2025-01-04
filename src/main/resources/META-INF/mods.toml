@@ -65,7 +65,7 @@ description='''${mod_description}'''
 [[dependencies.tretackshop]] #our parent mod
     modId="swem"
     mandatory=true
-    versionRange="[1.5,),[1.5-beta-7,)"
+    versionRange="[1.5.2,)"
     ordering="AFTER"
     side="BOTH"
 
