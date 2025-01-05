@@ -47,6 +47,7 @@ public class TackShopItems {
     // THIS IS FOR TACK REGISTRY THAT __CAN__ BE CRAFTED
     public static final RegistryObject<Item> BUTTERFLY;
     public static final RegistryObject<Item> BUTTERFLY_MONARCH;
+    public static final RegistryObject<Item> RILEY_HOUND;
     public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
     public static final List<RegistryObject<Item>> FLAGS;
     public static final List<RegistryObject<Item>> FLAGS_BUTTERFLY;
@@ -114,6 +115,7 @@ public class TackShopItems {
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_RAINBOW;
     public static final RegistryObject<TackItem> BAREBACK_BLANKET_RAINBOW;
     public static final RegistryObject<TackItem> CLOTH_BITLESS_BRIDLE_RAINBOW;
+    public static final RegistryObject<Item> FLAG_RAINBOW;
 
     // TRANSPARENT 'BAREBACK/LIBERTY' TACK
     public static final RegistryObject<TackItem> ADVENTURE_BLANKET_TRANS;
@@ -196,6 +198,8 @@ public class TackShopItems {
         BUTTERFLY = REGISTRY.register("butterfly",
                 () -> new Item(new Item.Properties()));
         BUTTERFLY_MONARCH = REGISTRY.register("butterfly_monarch",
+                () -> new Item(new Item.Properties()));
+        RILEY_HOUND = REGISTRY.register("riley_hound",
                 () -> new Item(new Item.Properties()));
 
         RAINBOW_INA_BOTTLE = REGISTRY.register("rainbow_ina_bottle",
@@ -494,6 +498,8 @@ public class TackShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
                         false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
+        FLAG_RAINBOW = REGISTRY.register("flag_rainbow",
+                () -> new Item(new Item.Properties()));
 
         // TRANSPARENT 'BAREBACK/LIBERTY' TACK
         ADVENTURE_SADDLE_TRANS = REGISTRY.register("adventure_saddle_trans",
