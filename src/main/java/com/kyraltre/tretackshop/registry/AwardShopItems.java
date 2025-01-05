@@ -849,7 +849,7 @@ public class AwardShopItems {
                                     new PastureBlanketTypeData(false, Collections.emptySet(),
                                             ColorUtil.ofDyeColor(DyeColor.WHITE), false))
                             .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                    ModRef.res("textures/entity/rack/pasture_blanket/award/rack_award_pasture_blanket_" + counter + "_3_short_.png"))
+                                    ModRef.res("textures/entity/rack/pasture_blanket/award/rack_award_pasture_blanket_" + counter + "_3_short.png"))
                             .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
                                     ModRef.res("textures/entity/rack/pasture_blanket/award/rack_award_pasture_blanket_" + counter + "_5_long.png"))
                             .build(), (new Item.Properties()).stacksTo(16))
