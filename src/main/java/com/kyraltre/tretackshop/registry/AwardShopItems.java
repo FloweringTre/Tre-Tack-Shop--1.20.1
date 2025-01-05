@@ -311,9 +311,13 @@ public class AwardShopItems {
 
         PASTURE_BLANKET_MORPHO = REGISTRY.register("pasture_blanket_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).withData(
-                        new PastureBlanketTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
-                                false)).build(), (new Item.Properties()).stacksTo(16)));
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_morpho_3_short.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_morpho_5_long.png"))
+                        .build(), (new Item.Properties()).stacksTo(16)));
         QUARTER_SHEET_MORPHO = REGISTRY.register("quarter_sheet_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
                         false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
@@ -449,9 +453,13 @@ public class AwardShopItems {
 
         PASTURE_BLANKET_MONARCH = REGISTRY.register("pasture_blanket_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).withData(
-                        new PastureBlanketTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]),
-                                false)).build(), (new Item.Properties()).stacksTo(16)));
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_monarch_3_short.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_monarch_5_long.png"))
+                        .build(), (new Item.Properties()).stacksTo(16)));
         QUARTER_SHEET_MONARCH = REGISTRY.register("quarter_sheet_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
                         false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
@@ -500,38 +508,40 @@ public class AwardShopItems {
             int counter = var1+1;
             AWARD_ADVENTURE_SADDLES.add(REGISTRY.register("award_adventure_saddle_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                    true, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]),
+                    true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                     "adventure")).build(), (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ADVENTURE_BLANKETS.add(REGISTRY.register("award_adventure_blanket_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                            .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/award_adventure_blanket_" + counter + ".png"))
-                            .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/award_adventure_blanket_" + counter + ".png"))
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/award/award_adventure_blanket_" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/award/award_adventure_blanket_" + counter + ".png"))
                             .withData(new TackTypeData(true, Collections.emptySet(),
-                                    Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ADVENTURE_BREAST_COLLARS.add(REGISTRY.register("award_adventure_breast_collar_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                            true, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ADVENTURE_LEG_WRAPS.add(REGISTRY.register("award_adventure_leg_wraps_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                            true, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(64))
             ));
             AWARD_ADVENTURE_BRIDLES .add(REGISTRY.register("award_adventure_bridle_"+ counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                             new BridleTypeData(true, Collections.emptySet(),
-                                    Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2])
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE)
                                     , "adventure")).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ADVENTURE_GIRTH_STRAPS .add(REGISTRY.register("award_adventure_girth_strap_"+ counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(new GirthStrapTypeData(
                             true, Collections.emptySet(),
-                            Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), ColorUtil.ofDyeColor(DyeColor.BROWN))).build(),
+                            ColorUtil.ofDyeColor(DyeColor.WHITE), ColorUtil.ofDyeColor(DyeColor.BROWN))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
         }
@@ -542,13 +552,13 @@ public class AwardShopItems {
             int counter = var1+1;
             AWARD_CLOTH_ARMOR.add(REGISTRY.register("award_cloth_horse_armor_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
-                            true, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]),
+                            true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                             HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(16))
             ));
             AWARD_SADDLE_BAGS.add(REGISTRY.register("award_saddle_bag_" + counter, () ->
                     new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
                             true, Collections.emptySet(),
-                            Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
         }
@@ -558,38 +568,40 @@ public class AwardShopItems {
             int counter = var1+1;
             AWARD_WESTERN_SADDLES.add(REGISTRY.register("award_western_saddle_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                            false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]),
+                            false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                             "western")).build(), (new Item.Properties()).stacksTo(16))
             ));
             AWARD_WESTERN_BLANKETS.add(REGISTRY.register("award_western_blanket_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                            .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/award_western_blanket_" + counter + ".png"))
-                            .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/award_western_blanket_" + counter + ".png"))
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/award/award_western_blanket_" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/award/award_western_blanket_" + counter + ".png"))
                             .withData(new TackTypeData(false, Collections.emptySet(),
-                                    Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_WESTERN_BREAST_COLLARS.add(REGISTRY.register("award_western_breast_collar_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                            false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_WESTERN_LEG_WRAPS.add(REGISTRY.register("award_western_leg_wraps_" + counter,
                     (() -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                            false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(64)))
             ));
             AWARD_WESTERN_BRIDLES.add(REGISTRY.register("award_western_bridle_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                             new BridleTypeData(false, Collections.emptySet(),
-                                    Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2])
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE)
                                     , "western")).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_WESTERN_GIRTH_STRAPS.add(REGISTRY.register("award_western_girth_strap_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(new GirthStrapTypeData(
                             false, Collections.emptySet(),
-                            Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), ColorUtil.ofDyeColor(DyeColor.BROWN))).build(),
+                            ColorUtil.ofDyeColor(DyeColor.WHITE), ColorUtil.ofDyeColor(DyeColor.BROWN))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
         }
@@ -599,38 +611,40 @@ public class AwardShopItems {
             int counter = var1+1;
             AWARD_ENGLISH_SADDLES.add(REGISTRY.register("award_english_saddle_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                            false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]),
+                            false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                             "english")).build(), (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ENGLISH_BLANKETS.add(REGISTRY.register("award_english_blanket_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                            .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/award_english_blanket_" + counter + ".png"))
-                            .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/award_english_blanket_" + counter + ".png"))
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/award/award_english_blanket_" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/award/award_english_blanket_" + counter + ".png"))
                             .withData(new TackTypeData(false, Collections.emptySet(),
-                                    Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ENGLISH_BREAST_COLLARS.add(REGISTRY.register("award_english_breast_collar_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                            false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ENGLISH_LEG_WRAPS.add(REGISTRY.register("award_english_leg_wraps_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                            false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(64))
             ));
             AWARD_ENGLISH_BRIDLES.add(REGISTRY.register("award_english_bridle_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                             new BridleTypeData(false, Collections.emptySet(),
-                                    Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2])
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE)
                                     , "english")).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ENGLISH_GIRTH_STRAPS.add(REGISTRY.register("award_english_girth_strap_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(new GirthStrapTypeData(
                             false, Collections.emptySet(),
-                            Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]), ColorUtil.ofDyeColor(DyeColor.BROWN))).build(),
+                            ColorUtil.ofDyeColor(DyeColor.WHITE), ColorUtil.ofDyeColor(DyeColor.BROWN))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
         }
@@ -640,31 +654,39 @@ public class AwardShopItems {
             int counter = var1 + 1;
             AWARD_HALTERS.add(REGISTRY.register("award_halter_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
-                            (false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            (false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_FLYMASKS.add(REGISTRY.register("award_flymask_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
-                            (false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            (false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_QUARTER_SHEETS.add(REGISTRY.register("award_quarter_sheet_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                            false, Collections.emptySet(), Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]))).build(),
+                            false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_PASTURE_BLANKETS.add(REGISTRY.register("award_pasture_blanket_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).withData(
-                            new PastureBlanketTypeData(false, Collections.emptySet(),
-                                    Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]),
-                                    false)).build(), (new Item.Properties()).stacksTo(16))
+                                    new PastureBlanketTypeData(false, Collections.emptySet(),
+                                            ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/award/rack_award_pasture_blanket_" + counter + "_3_short_.png"))
+                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/award/rack_award_pasture_blanket_" + counter + "_5_long.png"))
+                            .build(), (new Item.Properties()).stacksTo(16))
 
             ));
             AWARD_PASTURE_BLANKETS_ARMORED.add(REGISTRY.register("award_pasture_blanket_" + counter + "_armored",
-                    () -> new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).withData(
-                            new PastureBlanketTypeData(false, Collections.emptySet(),
-                                    Color.ofRGB(tretackcolors[0][0], tretackcolors[0][1], tretackcolors[0][2]),
-                                    true)).build(), (new Item.Properties()).stacksTo(16))
+                    () -> new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/award/rack_award_pasture_blanket_armored_" + counter + "_3_short.png"))
+                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/award/rack_award_pasture_blanket_armored_" + counter + "_5_long.png"))
+                            .withData(new PastureBlanketTypeData(false, Collections.emptySet(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE), true)).build(),
+                            (new Item.Properties()).stacksTo(16))
             ));
         }
 
