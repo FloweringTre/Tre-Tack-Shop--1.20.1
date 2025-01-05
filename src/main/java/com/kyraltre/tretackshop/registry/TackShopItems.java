@@ -354,8 +354,8 @@ public class TackShopItems {
                         "adventure")).build(), (new Item.Properties()).stacksTo(1)));
         ADVENTURE_BLANKET_RAINBOW =  REGISTRY.register("adventure_blanket_rainbow",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/adventure_rainbow_blanket.png"))
-                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/adventure_rainbow_blanket.png"))
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/rainbow_adventure_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/rainbow_adventure_blanket.png"))
                         .withData(new TackTypeData(true, Collections.emptySet(),
                                 Color.ofRGB(tretackcolors[20][0], tretackcolors[20][1], tretackcolors[20][2]))).build(),
                         (new Item.Properties()).stacksTo(16)));
@@ -398,8 +398,8 @@ public class TackShopItems {
                         "western")).build(), (new Item.Properties()).stacksTo(1)));
         WESTERN_BLANKET_RAINBOW =  REGISTRY.register("western_blanket_rainbow",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/western_rainbow_blanket.png"))
-                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/western_rainbow_blanket.png"))
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/rainbow_western_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/rainbow_western_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
@@ -429,8 +429,8 @@ public class TackShopItems {
                         "english")).build(), (new Item.Properties()).stacksTo(1)));
         ENGLISH_BLANKET_RAINBOW =  REGISTRY.register("english_blanket_rainbow",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/english_rainbow_blanket.png"))
-                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/english_rainbow_blanket.png"))
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/rainbow_english_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/rainbow_english_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
@@ -461,8 +461,8 @@ public class TackShopItems {
                         (new Item.Properties()).stacksTo(16)));
         BAREBACK_BLANKET_RAINBOW = REGISTRY.register("bareback_blanket_rainbow",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/bareback_rainbow_blanket.png"))
-                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/bareback_rainbow_blanket.png"))
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/rainbow_bareback_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/rainbow_bareback_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
@@ -502,8 +502,8 @@ public class TackShopItems {
                         "adventure")).build(), (new Item.Properties()).stacksTo(1)));
         ADVENTURE_BLANKET_TRANS = REGISTRY.register("adventure_blanket_trans",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/adventure_trans_blanket.png"))
-                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/adventure_trans_blanket.png"))
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/trans_adventure_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/trans_adventure_blanket.png"))
                         .withData(new TackTypeData(true, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
@@ -533,8 +533,8 @@ public class TackShopItems {
                         "western")).build(), (new Item.Properties()).stacksTo(1)));
         WESTERN_BLANKET_TRANS = REGISTRY.register("western_blanket_trans",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/western_trans_blanket.png"))
-                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/western_trans_blanket.png"))
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/trans_western_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/trans_western_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
@@ -556,8 +556,8 @@ public class TackShopItems {
                         "english")).build(), (new Item.Properties()).stacksTo(1)));
         ENGLISH_BLANKET_TRANS = REGISTRY.register("english_blanket_trans",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/english_trans_blanket.png"))
-                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/english_trans_blanket.png"))
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/trans_english_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/trans_english_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
