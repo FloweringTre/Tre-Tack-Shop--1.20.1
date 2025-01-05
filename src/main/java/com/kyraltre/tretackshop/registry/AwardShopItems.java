@@ -52,6 +52,7 @@ public class AwardShopItems {
     public static final List<RegistryObject<Item>> AWARD_FLAGS;
     public static final RegistryObject<Item> FLAG_MONARCH;
     public static final RegistryObject<Item> FLAG_MORPHO;
+    public static final RegistryObject<Item> FLAG_HOUND;
 
     // BUTTERFLY TACK ITEMS - MORPHO
     public static final RegistryObject<TackItem> HALTER_MORPHO;
@@ -110,6 +111,34 @@ public class AwardShopItems {
     public static final RegistryObject<TackItem> BITLESS_BRIDLE_MONARCH;
     public static final RegistryObject<TackItem> BAREBACK_BLANKET_MONARCH;
 
+    // RILEY CASPER TACK ITEMS - HOUND
+    public static final RegistryObject<TackItem> HALTER_HOUND;
+    public static final RegistryObject<TackItem> FLYMASK_HOUND;
+    public static final RegistryObject<TackItem> PASTURE_BLANKET_HOUND;
+    public static final RegistryObject<TackItem> ADVENTURE_BLANKET_HOUND;
+    public static final RegistryObject<TackItem> ENGLISH_BLANKET_HOUND;
+    public static final RegistryObject<TackItem> WESTERN_BLANKET_HOUND;
+    public static final RegistryObject<TackItem> ADVENTURE_LEG_WRAPS_HOUND;
+    public static final RegistryObject<TackItem> ENGLISH_LEG_WRAPS_HOUND;
+    public static final RegistryObject<TackItem> WESTERN_LEG_WRAPS_HOUND;
+    public static final RegistryObject<TackItem> ADVENTURE_SADDLE_HOUND;
+    public static final RegistryObject<TackItem> WESTERN_SADDLE_HOUND;
+    public static final RegistryObject<TackItem> ENGLISH_SADDLE_HOUND;
+    public static final RegistryObject<TackItem> ADVENTURE_BREAST_COLLAR_HOUND;
+    public static final RegistryObject<TackItem> WESTERN_BREAST_COLLAR_HOUND;
+    public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_HOUND;
+    public static final RegistryObject<TackItem> QUARTER_SHEET_HOUND;
+    public static final RegistryObject<TackItem> ADVENTURE_BRIDLE_HOUND;
+    public static final RegistryObject<TackItem> WESTERN_BRIDLE_HOUND;
+    public static final RegistryObject<TackItem> ENGLISH_BRIDLE_HOUND;
+    public static final RegistryObject<TackItem> ADVENTURE_GIRTH_STRAP_HOUND;
+    public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_HOUND;
+    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_HOUND;
+    public static final RegistryObject<TackItem> CLOTH_HORSE_ARMOR_HOUND;
+    public static final RegistryObject<SaddlebagItem> SADDLE_BAG_HOUND;
+    public static final RegistryObject<TackItem> BITLESS_BRIDLE_HOUND;
+    public static final RegistryObject<TackItem> BAREBACK_BLANKET_HOUND;
+
     // TACK ITEMS
     public static final List<RegistryObject<TackItem>> AWARD_HALTERS;
     public static final List<RegistryObject<TackItem>> AWARD_FLYMASKS;
@@ -158,6 +187,11 @@ public class AwardShopItems {
     public static final RegistryObject<Item> MONARCH_RIBBON_TWO_TAILS;
     public static final RegistryObject<Item> MONARCH_RIBBON_ONE_TAIL;
     public static final RegistryObject<Item> MONARCH_ROSETTE;
+
+    public static final RegistryObject<Item> HOUND_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> HOUND_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> HOUND_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> HOUND_ROSETTE;
 
     public static final RegistryObject<Item> TROPHY_1;
     public static final RegistryObject<Item> TROPHY_2;
@@ -468,6 +502,149 @@ public class AwardShopItems {
         FLAG_MONARCH = REGISTRY.register("flag_monarch",
                 () -> new Item(new Item.Properties()));
 
+// HOUND TACK -- RILEY CASPER
+        HALTER_HOUND = REGISTRY.register("halter_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
+                        (false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        FLYMASK_HOUND = REGISTRY.register("flymask_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
+                        (false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+
+        ADVENTURE_SADDLE_HOUND = REGISTRY.register("adventure_saddle_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
+                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        "adventure")).build(), (new Item.Properties()).stacksTo(1)));
+        ADVENTURE_BLANKET_HOUND = REGISTRY.register("adventure_blanket_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/hound_adventure_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/hound_adventure_blanket.png"))
+                        .withData(new TackTypeData(true, Collections.emptySet(),
+                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        ADVENTURE_BREAST_COLLAR_HOUND = REGISTRY.register("adventure_breast_collar_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
+                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        ADVENTURE_LEG_WRAPS_HOUND = REGISTRY.register("adventure_leg_wraps_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
+                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(64)));
+        ADVENTURE_BRIDLE_HOUND = REGISTRY.register("adventure_bridle_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
+                        new BridleTypeData(true, Collections.emptySet(),
+                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                , "adventure")).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        ADVENTURE_GIRTH_STRAP_HOUND = REGISTRY.register("adventure_girth_strap_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(new GirthStrapTypeData(
+                        true, Collections.emptySet(),
+                        Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]), ColorUtil.ofDyeColor(DyeColor.BLACK))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        CLOTH_HORSE_ARMOR_HOUND = REGISTRY.register("cloth_horse_armor_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
+                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
+        SADDLE_BAG_HOUND = REGISTRY.register("saddle_bag_hound",
+                () -> new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
+                        true, Collections.emptySet(),
+                        Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+
+
+        WESTERN_SADDLE_HOUND = REGISTRY.register("western_saddle_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
+                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        "western")).build(), (new Item.Properties()).stacksTo(1)));
+        WESTERN_BLANKET_HOUND = REGISTRY.register("western_blanket_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/hound_western_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/hound_western_blanket.png"))
+                        .withData(new TackTypeData(false, Collections.emptySet(),
+                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        WESTERN_BREAST_COLLAR_HOUND = REGISTRY.register("western_breast_collar_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
+                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        WESTERN_LEG_WRAPS_HOUND = REGISTRY.register("western_leg_wraps_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
+                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(64)));
+        WESTERN_BRIDLE_HOUND = REGISTRY.register("western_bridle_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
+                        new BridleTypeData(false, Collections.emptySet(),
+                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                , "western")).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        WESTERN_GIRTH_STRAP_HOUND = REGISTRY.register("western_girth_strap_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(new GirthStrapTypeData(
+                        false, Collections.emptySet(),
+                        Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]), ColorUtil.ofDyeColor(DyeColor.BLACK))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+
+        ENGLISH_SADDLE_HOUND = REGISTRY.register("english_saddle_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
+                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        "english")).build(), (new Item.Properties()).stacksTo(1)));
+        ENGLISH_BLANKET_HOUND = REGISTRY.register("english_blanket_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/hound_english_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/hound_english_blanket.png"))
+                        .withData(new TackTypeData(false, Collections.emptySet(),
+                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        ENGLISH_BREAST_COLLAR_HOUND = REGISTRY.register("english_breast_collar_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
+                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        ENGLISH_LEG_WRAPS_HOUND = REGISTRY.register("english_leg_wraps_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
+                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(64)));
+        ENGLISH_BRIDLE_HOUND = REGISTRY.register("english_bridle_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
+                        new BridleTypeData(false, Collections.emptySet(),
+                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                , "english")).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        ENGLISH_GIRTH_STRAP_HOUND = REGISTRY.register("english_girth_strap_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(new GirthStrapTypeData(
+                        false, Collections.emptySet(),
+                        Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]), ColorUtil.ofDyeColor(DyeColor.BLACK))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+
+        BITLESS_BRIDLE_HOUND = REGISTRY.register("english_bridle_bitless_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
+                        new BridleTypeData(false, Collections.emptySet(),
+                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                , "english")).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        BAREBACK_BLANKET_HOUND = REGISTRY.register("bareback_blanket_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                        .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/hound_bareback_blanket.png"))
+                        .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/hound_bareback_blanket.png"))
+                        .withData(new TackTypeData(false, Collections.emptySet(),
+                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+
+        PASTURE_BLANKET_HOUND = REGISTRY.register("pasture_blanket_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).withData(
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_hound_3_short.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_hound_5_long.png"))
+                        .build(), (new Item.Properties()).stacksTo(16)));
+        QUARTER_SHEET_HOUND = REGISTRY.register("quarter_sheet_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
+                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (new Item.Properties()).stacksTo(16)));
+        FLAG_HOUND = REGISTRY.register("flag_hound",
+                () -> new Item(new Item.Properties()));
+
 
     // AWARD - Uncraftable Numbered Tack Items -- 12 Count Items
         AWARD_PASTURE_BLANKETS = new ArrayList<>();
@@ -715,6 +892,15 @@ public class AwardShopItems {
         MONARCH_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_monarch",
                 () -> new Item(new Item.Properties()));
         MONARCH_ROSETTE = REGISTRY.register("rosette_monarch",
+                () -> new Item(new Item.Properties()));
+
+        HOUND_RIBBON_THREE_TAILS = REGISTRY.register("ribbon_three_tails_hound",
+                () -> new Item(new Item.Properties()));
+        HOUND_RIBBON_TWO_TAILS = REGISTRY.register("ribbon_two_tails_hound",
+                () -> new Item(new Item.Properties()));
+        HOUND_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_hound",
+                () -> new Item(new Item.Properties()));
+        HOUND_ROSETTE = REGISTRY.register("rosette_hound",
                 () -> new Item(new Item.Properties()));
 
         // RIBBONS IN MY COLORS
