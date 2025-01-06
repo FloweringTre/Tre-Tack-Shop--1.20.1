@@ -2,6 +2,7 @@ package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
+import com.kyraltre.tretackshop.item.BlockShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
 import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
@@ -39,6 +40,7 @@ public class TreTackShop {
 //        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TackShopCommonConfigs.SPEC, "tretackshop-common.toml");
         TackShopCreativeModTab.init(modEventBus);
         AwardShopCreativeModTab.init(modEventBus);
+        BlockShopCreativeModTab.init(modEventBus);
 
         TackShopBlocks.register(modEventBus);
         TackShopBlockRegistry.init(modEventBus);
