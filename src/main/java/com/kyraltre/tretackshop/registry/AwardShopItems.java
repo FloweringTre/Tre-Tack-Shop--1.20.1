@@ -205,7 +205,6 @@ public class AwardShopItems {
 
 
 
-
     public AwardShopItems() {
     }
     public static void init(IEventBus eventBus) {  REGISTRY.register(eventBus); }
@@ -217,26 +216,26 @@ public class AwardShopItems {
         // BUTTERFLY - MORPHO -- Uncraftable Blue Morpho Tack
         HALTER_MORPHO = REGISTRY.register("halter_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
-                        (false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         FLYMASK_MORPHO = REGISTRY.register("flymask_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
-                        (false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
         ADVENTURE_SADDLE_MORPHO = REGISTRY.register("adventure_saddle_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "adventure")).build(), (new Item.Properties()).stacksTo(1)));
         ADVENTURE_BRIDLE_MORPHO = REGISTRY.register("adventure_bridle_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(true, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                         , "adventure")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BREAST_COLLAR_MORPHO = REGISTRY.register("adventure_breast_collar_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MORPHO = REGISTRY.register("adventure_girth_strap_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -244,43 +243,43 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/morpho_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/morpho_girth_strap_adventure.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BLANKET_MORPHO = REGISTRY.register("adventure_blanket_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/morpho_adventure_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/morpho_adventure_blanket.png"))
                         .withData(new TackTypeData(true, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_LEG_WRAPS_MORPHO = REGISTRY.register("adventure_leg_wraps_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
         CLOTH_HORSE_ARMOR_MORPHO = REGISTRY.register("cloth_horse_armor_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
         SADDLE_BAG_MORPHO = REGISTRY.register("saddle_bag_morpho",
                 () -> new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
                         true, Collections.emptySet(),
-                        Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
 
         WESTERN_SADDLE_MORPHO = REGISTRY.register("western_saddle_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "western")).build(), (new Item.Properties()).stacksTo(1)));
         WESTERN_BRIDLE_MORPHO = REGISTRY.register("western_bridle_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "western")).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_BREAST_COLLAR_MORPHO = REGISTRY.register("western_breast_collar_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_GIRTH_STRAP_MORPHO = REGISTRY.register("western_girth_strap_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -288,33 +287,33 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/morpho_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/morpho_girth_strap_western.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_BLANKET_MORPHO = REGISTRY.register("western_blanket_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/morpho_western_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/morpho_western_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_LEG_WRAPS_MORPHO = REGISTRY.register("western_leg_wraps_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
 
         ENGLISH_SADDLE_MORPHO = REGISTRY.register("english_saddle_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "english")).build(), (new Item.Properties()).stacksTo(1)));
         ENGLISH_BRIDLE_MORPHO = REGISTRY.register("english_bridle_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "english")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_BREAST_COLLAR_MORPHO = REGISTRY.register("english_breast_collar_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_GIRTH_STRAP_MORPHO = REGISTRY.register("english_girth_strap_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -322,24 +321,24 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/morpho_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/morpho_girth_strap_english.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_BLANKET_MORPHO = REGISTRY.register("english_blanket_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/morpho_english_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/morpho_english_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_LEG_WRAPS_MORPHO = REGISTRY.register("english_leg_wraps_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
 
         BITLESS_BRIDLE_MORPHO = REGISTRY.register("english_bridle_bitless_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "english")).build(),
                         (new Item.Properties()).stacksTo(16)));
         BAREBACK_BLANKET_MORPHO = REGISTRY.register("bareback_blanket_morpho",
@@ -347,7 +346,7 @@ public class AwardShopItems {
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/morpho_bareback_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/morpho_bareback_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
         PASTURE_BLANKET_MORPHO = REGISTRY.register("pasture_blanket_morpho",
@@ -361,7 +360,7 @@ public class AwardShopItems {
                         .build(), (new Item.Properties()).stacksTo(16)));
         QUARTER_SHEET_MORPHO = REGISTRY.register("quarter_sheet_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         FLAG_MORPHO = REGISTRY.register("flag_morpho",
                 () -> new Item(new Item.Properties()));
@@ -369,26 +368,26 @@ public class AwardShopItems {
         //BUTTERFLY - MONARCH -- Uncraftable Yellow Monarch Tack
         HALTER_MONARCH = REGISTRY.register("halter_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
-                        (false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        (false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         FLYMASK_MONARCH = REGISTRY.register("flymask_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
-                        (false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        (false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
         ADVENTURE_SADDLE_MONARCH = REGISTRY.register("adventure_saddle_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "adventure")).build(), (new Item.Properties()).stacksTo(1)));
         ADVENTURE_BRIDLE_MONARCH = REGISTRY.register("adventure_bridle_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(true, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "adventure")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BREAST_COLLAR_MONARCH = REGISTRY.register("adventure_breast_collar_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_MONARCH = REGISTRY.register("adventure_girth_strap_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -396,42 +395,42 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/monarch_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/monarch_girth_strap_adventure.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BLANKET_MONARCH = REGISTRY.register("adventure_blanket_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/monarch_adventure_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/monarch_adventure_blanket.png"))
                         .withData(new TackTypeData(true, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_LEG_WRAPS_MONARCH = REGISTRY.register("adventure_leg_wraps_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
         CLOTH_HORSE_ARMOR_MONARCH = REGISTRY.register("cloth_horse_armor_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
         SADDLE_BAG_MONARCH = REGISTRY.register("saddle_bag_monarch",
                 () -> new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
                         true, Collections.emptySet(),
-                        Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
         WESTERN_SADDLE_MONARCH = REGISTRY.register("western_saddle_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "western")).build(), (new Item.Properties()).stacksTo(1)));
         WESTERN_BRIDLE_MONARCH = REGISTRY.register("western_bridle_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "western")).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_BREAST_COLLAR_MONARCH = REGISTRY.register("western_breast_collar_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_GIRTH_STRAP_MONARCH = REGISTRY.register("western_girth_strap_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -439,33 +438,33 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/monarch_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/monarch_girth_strap_western.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_BLANKET_MONARCH = REGISTRY.register("western_blanket_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/monarch_western_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/monarch_western_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_LEG_WRAPS_MONARCH = REGISTRY.register("western_leg_wraps_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
 
         ENGLISH_SADDLE_MONARCH = REGISTRY.register("english_saddle_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "english")).build(), (new Item.Properties()).stacksTo(1)));
         ENGLISH_BRIDLE_MONARCH = REGISTRY.register("english_bridle_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "english")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_BREAST_COLLAR_MONARCH = REGISTRY.register("english_breast_collar_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_GIRTH_STRAP_MONARCH = REGISTRY.register("english_girth_strap_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -473,24 +472,24 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/monarch_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/monarch_girth_strap_english.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_BLANKET_MONARCH = REGISTRY.register("english_blanket_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/monarch_english_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/monarch_english_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_LEG_WRAPS_MONARCH = REGISTRY.register("english_leg_wraps_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
 
         BITLESS_BRIDLE_MONARCH = REGISTRY.register("english_bridle_bitless_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "english")).build(),
                         (new Item.Properties()).stacksTo(16)));
         BAREBACK_BLANKET_MONARCH = REGISTRY.register("bareback_blanket_monarch",
@@ -498,7 +497,7 @@ public class AwardShopItems {
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/monarch_bareback_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/monarch_bareback_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
         PASTURE_BLANKET_MONARCH = REGISTRY.register("pasture_blanket_monarch",
@@ -512,7 +511,7 @@ public class AwardShopItems {
                         .build(), (new Item.Properties()).stacksTo(16)));
         QUARTER_SHEET_MONARCH = REGISTRY.register("quarter_sheet_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[18][0], tretackcolors[18][1], tretackcolors[18][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
         FLAG_MONARCH = REGISTRY.register("flag_monarch",
@@ -521,26 +520,26 @@ public class AwardShopItems {
 // HOUND TACK -- RILEY CASPER
         HALTER_HOUND = REGISTRY.register("halter_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
-                        (false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         FLYMASK_HOUND = REGISTRY.register("flymask_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
-                        (false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        (false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
         ADVENTURE_SADDLE_HOUND = REGISTRY.register("adventure_saddle_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "adventure")).build(), (new Item.Properties()).stacksTo(1)));
         ADVENTURE_BRIDLE_HOUND = REGISTRY.register("adventure_bridle_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(true, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "adventure")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BREAST_COLLAR_HOUND = REGISTRY.register("adventure_breast_collar_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_GIRTH_STRAP_HOUND = REGISTRY.register("adventure_girth_strap_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -548,43 +547,43 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/hound_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/hound_girth_strap_adventure.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BLANKET_HOUND = REGISTRY.register("adventure_blanket_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/hound_adventure_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/hound_adventure_blanket.png"))
                         .withData(new TackTypeData(true, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_LEG_WRAPS_HOUND = REGISTRY.register("adventure_leg_wraps_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
         CLOTH_HORSE_ARMOR_HOUND = REGISTRY.register("cloth_horse_armor_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
-                        true, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
         SADDLE_BAG_HOUND = REGISTRY.register("saddle_bag_hound",
                 () -> new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
                         true, Collections.emptySet(),
-                        Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
 
         WESTERN_SADDLE_HOUND = REGISTRY.register("western_saddle_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "western")).build(), (new Item.Properties()).stacksTo(1)));
         WESTERN_BRIDLE_HOUND = REGISTRY.register("western_bridle_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "western")).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_BREAST_COLLAR_HOUND = REGISTRY.register("western_breast_collar_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_GIRTH_STRAP_HOUND = REGISTRY.register("western_girth_strap_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -592,33 +591,33 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/hound_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/hound_girth_strap_western.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_BLANKET_HOUND = REGISTRY.register("western_blanket_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/hound_western_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/hound_western_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         WESTERN_LEG_WRAPS_HOUND = REGISTRY.register("western_leg_wraps_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
 
         ENGLISH_SADDLE_HOUND = REGISTRY.register("english_saddle_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         "english")).build(), (new Item.Properties()).stacksTo(1)));
         ENGLISH_BRIDLE_HOUND = REGISTRY.register("english_bridle_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "english")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_BREAST_COLLAR_HOUND = REGISTRY.register("english_breast_collar_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_GIRTH_STRAP_HOUND = REGISTRY.register("english_girth_strap_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
@@ -626,24 +625,24 @@ public class AwardShopItems {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE),
                                         ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/hound_girth_strap.png")).build(),
+                                ModRef.res("textures/entity/rack/saddle/hound_girth_strap_english.png")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_BLANKET_HOUND = REGISTRY.register("english_blanket_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BLANKET)
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/hound_english_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/hound_english_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         ENGLISH_LEG_WRAPS_HOUND = REGISTRY.register("english_leg_wraps_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
 
         BITLESS_BRIDLE_HOUND = REGISTRY.register("english_bridle_bitless_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2])
+                                ColorUtil.ofDyeColor(DyeColor.WHITE)
                                 , "english")).build(),
                         (new Item.Properties()).stacksTo(16)));
         BAREBACK_BLANKET_HOUND = REGISTRY.register("bareback_blanket_hound",
@@ -651,7 +650,7 @@ public class AwardShopItems {
                         .rackTexture(RackType.SADDLE, ModRef.res("textures/entity/rack/saddle/hound_bareback_blanket.png"))
                         .rackTexture(RackType.BLANKET_5, ModRef.res("textures/entity/rack/blanket_5/hound_bareback_blanket.png"))
                         .withData(new TackTypeData(false, Collections.emptySet(),
-                                Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                                ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
 
         PASTURE_BLANKET_HOUND = REGISTRY.register("pasture_blanket_hound",
@@ -674,7 +673,7 @@ public class AwardShopItems {
                         (new Item.Properties()).stacksTo(16)));
         QUARTER_SHEET_HOUND = REGISTRY.register("quarter_sheet_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[19][0], tretackcolors[19][1], tretackcolors[19][2]))).build(),
+                        false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
         FLAG_HOUND = REGISTRY.register("flag_hound",
                 () -> new Item(new Item.Properties()));
