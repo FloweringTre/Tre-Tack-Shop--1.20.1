@@ -1,5 +1,6 @@
 package com.kyraltre.tretackshop.block;
 
+import com.alaharranhonor.swem.forge.blocks.ConeBase;
 import com.kyraltre.tretackshop.TreTackShop;
 import com.kyraltre.tretackshop.block.custom.*;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
@@ -20,6 +21,44 @@ import java.util.function.Supplier;
 public class TackShopBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TreTackShop.MOD_ID);
+
+    public static final RegistryObject<Block> CONE_1 = registerBlock("cone_1",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_2 = registerBlock("cone_2",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_3 = registerBlock("cone_3",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_4 = registerBlock("cone_4",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_5 = registerBlock("cone_5",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_6 = registerBlock("cone_6",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_7 = registerBlock("cone_7",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_8 = registerBlock("cone_8",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_9 = registerBlock("cone_9",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_10 = registerBlock("cone_10",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_11 = registerBlock("cone_11",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_12 = registerBlock("cone_12",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_13 = registerBlock("cone_13",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_14 = registerBlock("cone_14",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_MONARCH = registerBlock("cone_monarch",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_MORPHO = registerBlock("cone_morpho",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_HOUND = registerBlock("cone_hound",
+            () -> new ConeBase());
+    public static final RegistryObject<Block> CONE_RAINBOW = registerBlock("cone_rainbow",
+            () -> new ConeBase());
+
 
     //REMOVED BLOCK pumpkin stature, only item frame variant now
 //    public static final RegistryObject<Block> PUMPKIN_GRAND = registerBlock("pumpkin_grand",
