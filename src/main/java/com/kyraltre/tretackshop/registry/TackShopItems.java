@@ -676,13 +676,26 @@ public class TackShopItems {
             int temp_western_color_value = rWestColor.varW;
             int temp_english_other_color_value = rEngOtherColor.varEO;
             int counter = rContext.var2;
-            boolean b = counter < 6;
-            if (b) {
+            boolean a = counter < 7;
+            boolean b = counter > 6;
+            boolean c = counter == 13;
+            boolean d = counter == 14;
+            if (a) {
                 temp_english_color_value = 15;
                 temp_western_color_value = 16;
                 temp_english_other_color_value = 16;
             }
-            else {
+            if (b) {
+                temp_english_color_value = 16;
+                temp_western_color_value = 17;
+                temp_english_other_color_value = 15;
+            }
+            if (c) {
+                temp_english_color_value = 15;
+                temp_western_color_value = 16;
+                temp_english_other_color_value = 16;
+            }
+            if (d) {
                 temp_english_color_value = 16;
                 temp_western_color_value = 17;
                 temp_english_other_color_value = 15;
