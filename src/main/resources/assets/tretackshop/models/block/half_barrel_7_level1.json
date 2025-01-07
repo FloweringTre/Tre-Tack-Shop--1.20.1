@@ -6,7 +6,7 @@
   ],
   "textures": {
     "0": "tretackshop:block/half_barrels/half_barrel_7",
-    "water": "block/water_still",
+    "water": "tretackshop:block/water_still",
     "particle": "tretackshop:block/half_barrels/half_barrel_7"
   },
   "elements": [
