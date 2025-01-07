@@ -4,7 +4,7 @@
   "pattern": [
     "#D#",
     "RCR",
-    "ATA"
+    "ATB"
   ],
   "key": {
     "#": {
@@ -19,11 +19,14 @@
     "C": {
       "item": "minecraft:chest"
     },
+    "B": {
+      "item": "minecraft:red_dye"
+    },
     "T": {
-      "item": "minecraft:mangrove_propagule"
+      "tag": "minecraft:saplings"
     },
     "A": {
-      "item": "minecraft:mangrove_planks"
+      "tag": "minecraft:planks"
     }
   },
   "result": {
