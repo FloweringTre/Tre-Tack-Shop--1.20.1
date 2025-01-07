@@ -231,7 +231,7 @@ public class AwardShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(true, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE)
-                        , "adventure")).build(),
+                        , "western")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BREAST_COLLAR_MORPHO = REGISTRY.register("adventure_breast_collar_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
@@ -383,7 +383,7 @@ public class AwardShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(true, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE)
-                                , "adventure")).build(),
+                                , "western")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BREAST_COLLAR_MONARCH = REGISTRY.register("adventure_breast_collar_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
@@ -535,7 +535,7 @@ public class AwardShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(true, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE)
-                                , "adventure")).build(),
+                                , "western")).build(),
                         (new Item.Properties()).stacksTo(16)));
         ADVENTURE_BREAST_COLLAR_HOUND = REGISTRY.register("adventure_breast_collar_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
@@ -725,7 +725,7 @@ public class AwardShopItems {
                     () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                             new BridleTypeData(true, Collections.emptySet(),
                                     ColorUtil.ofDyeColor(DyeColor.WHITE)
-                                    , "adventure")).build(),
+                                    , "western")).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
             AWARD_ADVENTURE_BREAST_COLLARS.add(REGISTRY.register("award_adventure_breast_collar_" + counter,
