@@ -5,9 +5,9 @@
     64
   ],
   "textures": {
-    "0": "tretackshop:blocks/half_barrels/half_barrel_12",
+    "0": "tretackshop:block/half_barrels/half_barrel_12",
     "water": "block/water_still",
-    "particle": "tretackshop:blocks/half_barrels/half_barrel_12"
+    "particle": "tretackshop:block/half_barrels/half_barrel_12"
   },
   "elements": [
     {
