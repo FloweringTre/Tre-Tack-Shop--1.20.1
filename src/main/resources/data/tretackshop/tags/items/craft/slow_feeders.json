@@ -1,0 +1,41 @@
+{
+  "values": [
+    "swem:slow_feeder_white",
+    "swem:slow_feeder_orange",
+    "swem:slow_feeder_magenta",
+    "swem:slow_feeder_light_blue",
+    "swem:slow_feeder_yellow",
+    "swem:slow_feeder_lime",
+    "swem:slow_feeder_pink",
+    "swem:slow_feeder_gray",
+    "swem:slow_feeder_light_gray",
+    "swem:slow_feeder_cyan",
+    "swem:slow_feeder_purple",
+    "swem:slow_feeder_blue",
+    "swem:slow_feeder_brown",
+    "swem:slow_feeder_green",
+    "swem:slow_feeder_red",
+    "swem:slow_feeder_black",
+
+    "tretackshop:slow_feeder_1",
+    "tretackshop:slow_feeder_2",
+    "tretackshop:slow_feeder_3",
+    "tretackshop:slow_feeder_4",
+    "tretackshop:slow_feeder_5",
+    "tretackshop:slow_feeder_6",
+    "tretackshop:slow_feeder_7",
+    "tretackshop:slow_feeder_8",
+    "tretackshop:slow_feeder_9",
+    "tretackshop:slow_feeder_10",
+    "tretackshop:slow_feeder_11",
+    "tretackshop:slow_feeder_12",
+    "tretackshop:slow_feeder_13",
+    "tretackshop:slow_feeder_14",
+    "tretackshop:slow_feeder_rainbow",
+    "tretackshop:slow_feeder_morpho",
+    "tretackshop:slow_feeder_monarch",
+    "tretackshop:slow_feeder_hound"
+
+
+  ]
+}
