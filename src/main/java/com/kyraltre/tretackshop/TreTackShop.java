@@ -5,6 +5,7 @@ import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
 import com.kyraltre.tretackshop.item.BlockShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
+import com.kyraltre.tretackshop.registry.DecorShopItems;
 import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import com.mojang.logging.LogUtils;
@@ -46,6 +47,7 @@ public class TreTackShop {
         TackShopBlockRegistry.init(modEventBus);
         TackShopItems.init(modEventBus);
         AwardShopItems.init(modEventBus);
+        DecorShopItems.init(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
