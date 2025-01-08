@@ -84,7 +84,7 @@ public class TackShopBlockRegistry {
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<? extends T> sup, Function<RegistryObject<T>, Supplier<? extends Item>> itemCreator) {
         RegistryObject<T> ret = registerNoItem(name, sup);
-        TackShopItems.REGISTRY.register(name, (Supplier) itemCreator.apply(ret));
+        DecorShopItems.REGISTRY.register(name, (Supplier) itemCreator.apply(ret));
         return ret;
     }
 

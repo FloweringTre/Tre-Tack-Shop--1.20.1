@@ -7,6 +7,7 @@ package com.kyraltre.tretackshop.item;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.registry.AwardShopItems;
+import com.kyraltre.tretackshop.registry.DecorShopItems;
 import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -36,6 +37,11 @@ public class BlockShopCreativeModTab {
                     TackShopBlocks.BLOCKS.getEntries().forEach((registeredBlock) -> {
                             Item item = Item.byBlock(registeredBlock.get());
                             pOutput.accept(item);
+                    });
+
+                    DecorShopItems.REGISTRY.getEntries().forEach((registeredItem) -> {
+                        Item item = registeredItem.get();
+                        pOutput.accept(item);
                     });
 
                     // Add items from TackShopBlockRegistry
