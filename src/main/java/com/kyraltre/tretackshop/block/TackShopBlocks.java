@@ -52,15 +52,12 @@ public class TackShopBlocks {
 //            () -> new ConeBase());
 //    public static final RegistryObject<Block> CONE_14 = registerBlock("cone_14",
 //            () -> new ConeBase());
-    public static final RegistryObject<Block> CONE_MONARCH = registerBlock("cone_monarch",
-            () -> new ConeBase());
-    public static final RegistryObject<Block> CONE_MORPHO = registerBlock("cone_morpho",
-            () -> new ConeBase());
-    public static final RegistryObject<Block> CONE_HOUND = registerBlock("cone_hound",
-            () -> new ConeBase());
-    public static final RegistryObject<Block> CONE_RAINBOW = registerBlock("cone_rainbow",
-            () -> new ConeBase());
-
+//    public static final RegistryObject<Block> CONE_MONARCH = registerBlock("cone_monarch",
+//            () -> new ConeBase());
+//    public static final RegistryObject<Block> CONE_MORPHO = registerBlock("cone_morpho",
+//            () -> new ConeBase());
+//    public static final RegistryObject<Block> CONE_HOUND = registerBlock("cone_hound",
+//            () -> new ConeBase());
 
     //REMOVED BLOCK pumpkin stature, only item frame variant now
 //    public static final RegistryObject<Block> PUMPKIN_GRAND = registerBlock("pumpkin_grand",
