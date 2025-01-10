@@ -49,10 +49,6 @@ public class TackShopItems {
     public static final RegistryObject<Item> BUTTERFLY_MONARCH;
     public static final RegistryObject<Item> PAW_PRINT;
     public static final RegistryObject<Item> RAINBOW_INA_BOTTLE;
-    public static final RegistryObject<Item> FLAG_RAINBOW;
-    public static final List<RegistryObject<Item>> FLAGS;
-    public static final List<RegistryObject<Item>> FLAGS_BUTTERFLY;
-    public static final List<RegistryObject<Item>> FLAGS_DYED;
 
     // TACK ITEMS
 
@@ -237,13 +233,13 @@ public class TackShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
                                 Color.ofRGB(tretackcolors[20][0], tretackcolors[20][1], tretackcolors[20][2])
-                                , "english")).build(),
+                                , "western")).build(),
                         (new Item.Properties()).stacksTo(16)));
         MEDIEVAL_BRIDLE_BROWN = REGISTRY.register("medieval_bridle_brown",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
                                 Color.ofRGB(tretackcolors[21][0], tretackcolors[21][1], tretackcolors[21][2])
-                                , "english")).build(),
+                                , "western")).build(),
                         (new Item.Properties()).stacksTo(16)));
         BITLESS_BRIDLE = REGISTRY.register("english_bridle_bitless",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
@@ -527,8 +523,6 @@ public class TackShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
                         false, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(16)));
-        FLAG_RAINBOW = REGISTRY.register("flag_rainbow",
-                () -> new Item(new Item.Properties()));
 
         // TRANSPARENT 'BAREBACK/LIBERTY' TACK
         ADVENTURE_SADDLE_TRANS = REGISTRY.register("adventure_saddle_trans",
@@ -648,8 +642,6 @@ public class TackShopItems {
         ENGLISH_GIRTH_STRAPS_OTHER = new ArrayList<>();
         CLOTH_GIRTH_STRAPS = new ArrayList<>();
         QUARTER_SHEETS_NUMBERED = new ArrayList<>();
-        FLAGS = new ArrayList<>();
-        FLAGS_BUTTERFLY = new ArrayList<>();
         SADDLE_BAGS = new ArrayList<>();
         CLOTH_ARMOR = new ArrayList<>();
         BAREBACK_BLANKETS = new ArrayList<>();
@@ -936,10 +928,6 @@ public class TackShopItems {
                             false, Collections.emptySet(), Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
-            FLAGS.add(REGISTRY.register("flag_" + counter, () ->
-                    new Item((new Item.Properties()))));
-            FLAGS_BUTTERFLY.add(REGISTRY.register("flag_butterfly_" + counter, () ->
-                    new Item((new Item.Properties()))));
 
             ++rContext.var2;
         }
@@ -947,7 +935,6 @@ public class TackShopItems {
         //DYED TACK  - Craftable still :3
         QUARTER_SHEETS_DYED = new ArrayList<>();
         FLYMASKS_DYED = new ArrayList<>();
-        FLAGS_DYED = new ArrayList<>();
         CLOTH_BITLESS_BRIDLES_DYED = new ArrayList<>();
         BAREBACK_BLANKETS_DYED = new ArrayList<>();
         ADVENTURE_SADDLES_DYED = new ArrayList<>();
@@ -1122,8 +1109,6 @@ public class TackShopItems {
                             (false, Collections.emptySet(),  ColorUtil.ofDyeColor(color))).build(),
                             (new Item.Properties()).stacksTo(16))
             ));
-            FLAGS_DYED.add(REGISTRY.register("flag_" + color.getName(), () ->
-                    new Item((new Item.Properties()))));
         }
     }
 }
