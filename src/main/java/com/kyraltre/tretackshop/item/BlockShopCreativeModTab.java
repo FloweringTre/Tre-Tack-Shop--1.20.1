@@ -6,9 +6,7 @@
 package com.kyraltre.tretackshop.item;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
-import com.kyraltre.tretackshop.registry.AwardShopItems;
-import com.kyraltre.tretackshop.registry.DecorShopItems;
-import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
+import com.kyraltre.tretackshop.registry.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,22 +29,10 @@ public class BlockShopCreativeModTab {
     static {
         REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "treblocktab");
         MAIN = REGISTRY.register("main", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.treblock_tab"))
-                .icon(() -> new ItemStack(TackShopBlocks.CONE_HOUND.get()))
+                .icon(() -> new ItemStack(TackShopItems.BUTTERFLY_MONARCH.get()))
                 .displayItems((pParameters, pOutput) -> {
-                    // Add items from TackShopBlocks
-                    TackShopBlocks.BLOCKS.getEntries().forEach((registeredBlock) -> {
-                            Item item = Item.byBlock(registeredBlock.get());
-                            pOutput.accept(item);
-                    });
-
                     DecorShopItems.REGISTRY.getEntries().forEach((registeredItem) -> {
                         Item item = registeredItem.get();
-                        pOutput.accept(item);
-                    });
-
-                    // Add items from TackShopBlockRegistry
-                    TackShopBlockRegistry.BLOCKS.getEntries().forEach((registeredItem) -> {
-                        Item item = Item.byBlock(registeredItem.get());
                         pOutput.accept(item);
                     });
                 })

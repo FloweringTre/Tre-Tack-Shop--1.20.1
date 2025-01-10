@@ -29,7 +29,7 @@ public class AwardShopCreativeModTab {
 
     static {
         REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "treawardtab");
-        MAIN = REGISTRY.register("main", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.treaward_tab")).icon(() -> new ItemStack(AwardShopItems.RIBBON_THREE_TAILS_GRAND.get()))
+        MAIN = REGISTRY.register("main", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.treaward_tab")).icon(() -> new ItemStack(AwardShopItems.HOUND_RIBBON_THREE_TAILS.get()))
             .displayItems((pParameters, pOutput) -> {
                 // Add items from TackShopBlockRegistry
                 AwardShopItems.REGISTRY.getEntries().forEach((registeredItem) -> {
