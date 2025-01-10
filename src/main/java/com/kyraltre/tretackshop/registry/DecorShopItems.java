@@ -45,8 +45,12 @@ public class DecorShopItems {
     };
 
     // THIS IS FOR TACK REGISTRY THAT __CAN__ BE CRAFTED
-    public static final RegistryObject<Item> SIGN_COVER_1;
+    public static final RegistryObject<Item> FLAG_RAINBOW;
+    public static final List<RegistryObject<Item>> FLAGS;
+    public static final List<RegistryObject<Item>> FLAGS_BUTTERFLY;
+    public static final List<RegistryObject<Item>> FLAGS_DYED;
 
+    public static final RegistryObject<Item> SIGN_COVER_1;
 
     public DecorShopItems() {
     }
@@ -54,6 +58,36 @@ public class DecorShopItems {
 
     static {
          REGISTRY = DeferredRegister.create(Keys.ITEMS, "tretackshop");
+
+        FLAG_RAINBOW = REGISTRY.register("flag_rainbow",
+                () -> new Item(new Item.Properties()));
+
+        FLAGS = new ArrayList<>();
+        FLAGS_BUTTERFLY = new ArrayList<>();
+        FLAGS_DYED = new ArrayList<>();
+
+        int var1 = 15;
+
+        var rContext = new Object() {
+            int var2 = 1;
+        };
+        while (rContext.var2 < var1) {
+            int counter = rContext.var2;
+            FLAGS.add(REGISTRY.register("flag_" + counter, () ->
+                    new Item((new Item.Properties()))));
+            FLAGS_BUTTERFLY.add(REGISTRY.register("flag_butterfly_" + counter, () ->
+                    new Item((new Item.Properties()))));
+            ++rContext.var2;
+        }
+
+        DyeColor[] var0 = DyeColor.values();
+        int var3 = var0.length;
+
+        for (int var2 = 0; var2 < var3; ++var2) {
+            DyeColor color = var0[var2];
+            FLAGS_DYED.add(REGISTRY.register("flag_" + color.getName(), () ->
+                    new Item((new Item.Properties()))));
+        }
 
         SIGN_COVER_1 = REGISTRY.register("sign_cover_1",
                 () -> new Item(new Item.Properties()));
