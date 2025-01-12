@@ -51,6 +51,7 @@ public class DecorShopItems {
     public static final List<RegistryObject<Item>> FLAGS_DYED;
 
     public static final RegistryObject<Item> SIGN_COVER_1;
+    public static final RegistryObject<Item> SIGN_COVER_2;
 
     public DecorShopItems() {
     }
@@ -90,6 +91,8 @@ public class DecorShopItems {
         }
 
         SIGN_COVER_1 = REGISTRY.register("sign_cover_1",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_2 = REGISTRY.register("sign_cover_2",
                 () -> new Item(new Item.Properties()));
 
     }
