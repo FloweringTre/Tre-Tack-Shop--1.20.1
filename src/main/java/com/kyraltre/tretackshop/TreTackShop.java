@@ -4,10 +4,7 @@ import com.kyraltre.tretackshop.block.TackShopBlocks;
 import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
 import com.kyraltre.tretackshop.item.BlockShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
-import com.kyraltre.tretackshop.registry.AwardShopItems;
-import com.kyraltre.tretackshop.registry.DecorShopItems;
-import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
-import com.kyraltre.tretackshop.registry.TackShopItems;
+import com.kyraltre.tretackshop.registry.*;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -45,6 +42,7 @@ public class TreTackShop {
 
         TackShopBlocks.register(modEventBus);
         TackShopBlockRegistry.init(modEventBus);
+        AwardShopBlockRegistry.init(modEventBus);
         TackShopItems.init(modEventBus);
         AwardShopItems.init(modEventBus);
         DecorShopItems.init(modEventBus);
