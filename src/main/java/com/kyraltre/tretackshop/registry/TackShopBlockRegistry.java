@@ -47,7 +47,8 @@ public class TackShopBlockRegistry {
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_SPRUCE;
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_WARPED;
     public static final List<RegistryObject<Block>> CONES;
-    public static final List<RegistryObject<Block>> CONE_RAINBOW;
+//    public static final List<RegistryObject<Block>> CONE_RAINBOW;
+//    public static final RegistryObject<Block> CONE_RAINBOW;
     public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL;
     public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER;
 //        public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER;
@@ -83,6 +84,10 @@ public class TackShopBlockRegistry {
     static {
         BLOCKS = DeferredRegister.create(Keys.BLOCKS, "tretackshop");
 
+//        CONE_RAINBOW = BLOCKS.register("cone_" + "rainbow", () -> {
+//            return new ConeBase();
+//        });
+
         TACK_BOX = new ArrayList();
         TACK_BOX_RAINBOW = new ArrayList();
         TACK_BOX_BAMBOO = new ArrayList();
@@ -100,7 +105,7 @@ public class TackShopBlockRegistry {
         TACK_BOX_SPRUCE = new ArrayList();
         TACK_BOX_WARPED = new ArrayList<>();
         CONES = new ArrayList<>();
-        CONE_RAINBOW = new ArrayList<>();
+//        CONE_RAINBOW = new ArrayList<>();
         HALF_BARREL = new ArrayList();
         SLOW_FEEDER = new ArrayList();
 //        GRAIN_FEEDER = new ArrayList();
@@ -113,7 +118,7 @@ public class TackShopBlockRegistry {
                 return new ConeBase();
             }, (block) -> {
                     return () -> {
-                        return new TackBoxBlockItem((Block) block.get());
+                        return new ConeBlockItem((Block) block.get());
                     };
                 }));
 
@@ -155,13 +160,13 @@ public class TackShopBlockRegistry {
         }
 
         for (int var3 = 1; var3 < 2; ++var3) {
-            CONE_RAINBOW.add(register("cone_" + "rainbow", () -> {
-                return new ConeBase();
-            }, (block) -> {
-                return () -> {
-                    return new TackBoxBlockItem((Block) block.get());
-                };
-            }));
+//            CONE_RAINBOW.add(register("cone_" + "rainbow", () -> {
+//                return new ConeBase();
+//            }, (block) -> {
+//                return () -> {
+//                    return new ConeBlockItem((Block) block.get());
+//                };
+//            }));
 
             TACK_BOX_RAINBOW.add(register("tack_box_" + "rainbow", () -> {
                 return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);

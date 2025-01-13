@@ -29,7 +29,7 @@ public class BlockShopCreativeModTab {
     static {
         REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "treblocktab");
         MAIN = REGISTRY.register("main", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.treblock_tab"))
-                .icon(() -> new ItemStack(TackShopItems.BUTTERFLY_MONARCH.get()))
+                .icon(() -> new ItemStack(TackShopBlocks.CONE_RAINBOW.get()))
                 .displayItems((pParameters, pOutput) -> {
                     DecorShopItems.REGISTRY.getEntries().forEach((registeredItem) -> {
                         Item item = registeredItem.get();
