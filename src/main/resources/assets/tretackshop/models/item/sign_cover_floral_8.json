@@ -1,0 +1,6 @@
+{
+  "parent": "tretackshop:item/sign_cover_template",
+  "textures": {
+    "texture": "tretackshop:item/sign_covers/floral/sign_cover_floral_8"
+  }
+}

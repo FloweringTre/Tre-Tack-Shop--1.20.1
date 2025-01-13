@@ -1,0 +1,6 @@
+{
+  "parent": "tretackshop:item/sign_cover_template",
+  "textures": {
+    "texture": "tretackshop:item/sign_covers/swirl/sign_cover_swirl_light_blue"
+  }
+}

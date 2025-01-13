@@ -1,0 +1,6 @@
+{
+  "parent": "tretackshop:item/sign_cover_template",
+  "textures": {
+    "texture": "tretackshop:item/sign_covers/sign_cover_champ_res"
+  }
+}
