@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    "item.tretackshop.sign_cover_riley_black",
+    "item.tretackshop.sign_cover_riley_blue",
+    "item.tretackshop.sign_cover_riley_brown",
+    "item.tretackshop.sign_cover_riley_cyan",
+    "item.tretackshop.sign_cover_riley_gray",
+    "item.tretackshop.sign_cover_riley_green",
+    "item.tretackshop.sign_cover_riley_light_blue",
+    "item.tretackshop.sign_cover_riley_light_gray",
+    "item.tretackshop.sign_cover_riley_lime",
+    "item.tretackshop.sign_cover_riley_magenta",
+    "item.tretackshop.sign_cover_riley_orange",
+    "item.tretackshop.sign_cover_riley_pink",
+    "item.tretackshop.sign_cover_riley_purple",
+    "item.tretackshop.sign_cover_riley_red",
+    "item.tretackshop.sign_cover_riley_white",
+    "item.tretackshop.sign_cover_riley_yellow",
+
+    "item.tretackshop.sign_cover_riley_rainbow",
+    "item.tretackshop.sign_cover_riley_morpho",
+    "item.tretackshop.sign_cover_riley_monarch",
+    "item.tretackshop.sign_cover_riley_hound",
+
+    "item.tretackshop.sign_cover_riley_1",
+    "item.tretackshop.sign_cover_riley_2",
+    "item.tretackshop.sign_cover_riley_3",
+    "item.tretackshop.sign_cover_riley_4",
+    "item.tretackshop.sign_cover_riley_5",
+    "item.tretackshop.sign_cover_riley_6",
+    "item.tretackshop.sign_cover_riley_7",
+    "item.tretackshop.sign_cover_riley_8",
+    "item.tretackshop.sign_cover_riley_9",
+    "item.tretackshop.sign_cover_riley_10",
+    "item.tretackshop.sign_cover_riley_11",
+    "item.tretackshop.sign_cover_riley_12",
+    "item.tretackshop.sign_cover_riley_13",
+    "item.tretackshop.sign_cover_riley_14",
+
+    "item.tretackshop.sign_cover_riley_dark_metal",
+    "item.tretackshop.sign_cover_riley_medium_metal",
+    "item.tretackshop.sign_cover_riley_light_metal"
+  ]
+}

@@ -44,8 +44,17 @@ public class TreTags {
     public static final TagKey<Item> BUTTERFLY = ItemTags.create(TreTackShop.resloc("craft/butterfly"));
     public static final TagKey<Item> CLOTH_ARMOR = ItemTags.create(TreTackShop.resloc("craft/cloth_armor"));
 
-        public static final TagKey<Item> HALF_BARRELS = ItemTags.create(TreTackShop.resloc("craft/half_barrel"));
-        public static final TagKey<Item> SLOW_FEEDERS = ItemTags.create(TreTackShop.resloc("craft/slow_feeder"));
+    public static final TagKey<Item> SIGN_COVERS = ItemTags.create(TreTackShop.resloc("craft/sign_covers_all"));
+    public static final TagKey<Item> SIGN_COVERS_FLORAL = ItemTags.create(TreTackShop.resloc("craft/sign_covers_floral"));
+    public static final TagKey<Item> SIGN_COVERS_FABRIC = ItemTags.create(TreTackShop.resloc("craft/sign_covers_fabric"));
+    public static final TagKey<Item> SIGN_COVERS_CHECKERED = ItemTags.create(TreTackShop.resloc("craft/sign_covers_checkered"));
+    public static final TagKey<Item> SIGN_COVERS_LOOPED = ItemTags.create(TreTackShop.resloc("craft/sign_covers_looped"));
+    public static final TagKey<Item> SIGN_COVERS_SWIRL = ItemTags.create(TreTackShop.resloc("craft/sign_covers_swirl"));
+    public static final TagKey<Item> SIGN_COVERS_RILEY = ItemTags.create(TreTackShop.resloc("craft/sign_covers_riley"));
+
+    public static final TagKey<Item> HALF_BARRELS = ItemTags.create(TreTackShop.resloc("craft/half_barrel"));
+    public static final TagKey<Item> SLOW_FEEDERS = ItemTags.create(TreTackShop.resloc("craft/slow_feeder"));
+
     //    public static final TagKey<Item> GRAIN_FEEDERS = ItemTags.create(TreTackShop.resloc("craft/grain_feeder"));
     //    public static final TagKey<Item> GRAIN_BINS = ItemTags.create(TreTackShop.resloc("craft/bin_grain"));
     public TreTags () {
