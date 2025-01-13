@@ -105,21 +105,21 @@ public class AwardShopBlockRegistry {
                 return new ConeBase();
             }, (block) -> {
                 return () -> {
-                    return new TackBoxBlockItem((Block) block.get());
+                    return new ConeBlockItem((Block) block.get());
                 };
             }));
             CONE_MONARCH.add(register("cone_" + "monarch", () -> {
                 return new ConeBase();
             }, (block) -> {
                 return () -> {
-                    return new TackBoxBlockItem((Block) block.get());
+                    return new ConeBlockItem((Block) block.get());
                 };
             }));
             CONE_HOUND.add(register("cone_" + "hound", () -> {
                 return new ConeBase();
             }, (block) -> {
                 return () -> {
-                    return new TackBoxBlockItem((Block) block.get());
+                    return new ConeBlockItem((Block) block.get());
                 };
             }));
                 TACK_BOX_MORPHO.add(register("tack_box_" + "morpho", () -> {
