@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:floral_sign_covers/floral_sign_cover_13"
+    ]
+  },
+  "criteria": {
+    "has_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:signs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:floral_sign_covers/floral_sign_cover_13"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sign",
+      "has_the_recipe"
+    ]
+  ]
+}

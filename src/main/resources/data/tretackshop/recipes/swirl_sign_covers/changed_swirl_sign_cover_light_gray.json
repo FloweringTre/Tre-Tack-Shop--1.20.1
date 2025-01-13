@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "swirl_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_all"
+    },
+    {
+      "tag": "forge:dyes/light_gray"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_swirl_light_gray"
+  }
+}

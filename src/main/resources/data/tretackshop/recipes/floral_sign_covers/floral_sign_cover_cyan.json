@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "floral_sign_covers",
+  "ingredients": [
+    {
+      "tag": "minecraft:signs"
+    },
+    {
+      "tag": "forge:dyes/cyan"
+    },
+    {
+      "tag": "minecraft:flowers"
+    },
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_floral_cyan"
+  }
+}

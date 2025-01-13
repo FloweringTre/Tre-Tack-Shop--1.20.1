@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "fabric_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_fabric"
+    },
+    {
+      "tag": "tretackshop:dyes/mint"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_fabric_4"
+  }
+}

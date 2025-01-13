@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "checkered_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_checkered"
+    },
+    {
+      "tag": "tretackshop:dyes/arctic"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_checkered_5"
+  }
+}

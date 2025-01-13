@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:riley_sign_covers/changed_riley_sign_cover_2"
+    ]
+  },
+  "criteria": {
+    "has_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:signs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:riley_sign_covers/changed_riley_sign_cover_2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sign",
+      "has_the_recipe"
+    ]
+  ]
+}

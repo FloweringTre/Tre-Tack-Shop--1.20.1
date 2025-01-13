@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "floral_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_floral"
+    },
+    {
+      "tag": "tretackshop:dyes/orchid"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_floral_6"
+  }
+}

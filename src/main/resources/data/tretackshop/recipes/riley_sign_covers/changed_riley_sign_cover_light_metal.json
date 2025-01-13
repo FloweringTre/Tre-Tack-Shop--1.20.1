@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "riley_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_all"
+    },
+    {
+      "tag": "forge:dyes/light_gray"
+    },
+    {
+      "item": "minecraft:peony"
+    },
+    {
+      "item": "swem:light_friendly_bars"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_riley_light_metal"
+  }
+}

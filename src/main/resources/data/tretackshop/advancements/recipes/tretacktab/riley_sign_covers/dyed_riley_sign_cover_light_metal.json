@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:riley_sign_covers/dyed_riley_sign_cover_light_metal"
+    ]
+  },
+  "criteria": {
+    "has_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:signs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:riley_sign_covers/dyed_riley_sign_cover_light_metal"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sign",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "floral_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_all"
+    },
+    {
+      "tag": "tretackshop:dyes/creamsicle"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    },
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_floral_13"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "swirl_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_swirl"
+    },
+    {
+      "tag": "tretackshop:dyes/sunshine"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_pastel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_swirl_3"
+  }
+}

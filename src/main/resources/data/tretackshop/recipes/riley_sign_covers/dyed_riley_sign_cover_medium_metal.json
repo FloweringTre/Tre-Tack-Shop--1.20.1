@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "riley_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_riley"
+    },
+    {
+      "item": "swem:medium_friendly_bars"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_riley_medium_metal"
+  }
+}

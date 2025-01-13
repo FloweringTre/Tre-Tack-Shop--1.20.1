@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "fabric_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_all"
+    },
+    {
+      "tag": "tretackshop:dyes/orchid"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_fabric_12"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tretackshop:looped_sign_covers/changed_looped_sign_cover_white"
+    ]
+  },
+  "criteria": {
+    "has_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:signs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tretackshop:looped_sign_covers/changed_looped_sign_cover_white"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sign",
+      "has_the_recipe"
+    ]
+  ]
+}

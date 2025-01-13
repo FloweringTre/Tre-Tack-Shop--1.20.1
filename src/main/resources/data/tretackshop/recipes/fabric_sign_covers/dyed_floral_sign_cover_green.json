@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "floral_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_floral"
+    },
+    {
+      "tag": "forge:dyes/green"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_floral_green"
+  }
+}

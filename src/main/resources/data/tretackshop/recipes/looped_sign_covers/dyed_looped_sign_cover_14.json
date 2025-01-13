@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "looped_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_looped"
+    },
+    {
+      "tag": "tretackshop:dyes/topaz"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_looped_14"
+  }
+}

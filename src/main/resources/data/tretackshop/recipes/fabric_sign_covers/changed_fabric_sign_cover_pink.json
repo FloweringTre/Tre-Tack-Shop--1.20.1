@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "fabric_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_all"
+    },
+    {
+      "tag": "forge:dyes/pink"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_fabric_pink"
+  }
+}

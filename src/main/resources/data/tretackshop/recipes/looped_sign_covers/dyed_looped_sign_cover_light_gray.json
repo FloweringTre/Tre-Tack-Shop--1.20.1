@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "looped_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers_looped"
+    },
+    {
+      "tag": "forge:dyes/light_gray"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_looped_light_gray"
+  }
+}
