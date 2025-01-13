@@ -50,6 +50,13 @@ public class AwardShopItems {
     public static final RegistryObject<Item> FLAG_MONARCH;
     public static final RegistryObject<Item> FLAG_MORPHO;
     public static final RegistryObject<Item> FLAG_HOUND;
+    public static final List<RegistryObject<Item>> AWARD_SIGN_COVERS;
+    public static final RegistryObject<Item> RILEY_SIGN_COVER_MONARCH;
+    public static final RegistryObject<Item> RILEY_SIGN_COVER_MORPHO;
+    public static final RegistryObject<Item> RILEY_SIGN_COVER_HOUND;
+    public static final RegistryObject<Item> FABRIC_SIGN_COVER_MONARCH;
+    public static final RegistryObject<Item> FABRIC_SIGN_COVER_MORPHO;
+    public static final RegistryObject<Item> FABRIC_SIGN_COVER_HOUND;
 
     // BUTTERFLY TACK ITEMS - MORPHO
     public static final RegistryObject<TackItem> HALTER_MORPHO;
@@ -166,6 +173,8 @@ public class AwardShopItems {
 
 
 //// AWARD RIBBONS AND TROPHIES
+    public static  final RegistryObject<Item> SIGN_COVER_GRAND;
+    public static  final RegistryObject<Item> SIGN_COVER_RESERVE;
     public static  final RegistryObject<Item> RIBBON_THREE_TAILS_GRAND;
     public static  final RegistryObject<Item> RIBBON_THREE_TAILS_RESERVE;
     public static final List<RegistryObject<Item>> RIBBON_THREE_TAILS;
@@ -202,6 +211,10 @@ public class AwardShopItems {
     public static final RegistryObject<Item> FLORAL_BRONZE;
     public static final RegistryObject<Item> SUN_TROPHY;
     public static final RegistryObject<Item> MOON_TROPHY;
+    public static  final RegistryObject<Item> SIGN_COVER_HEART_RED;
+    public static  final RegistryObject<Item> SIGN_COVER_HEART_PINK;
+    public static  final RegistryObject<Item> SIGN_COVER_HEART_BLUE;
+    public static  final RegistryObject<Item> SIGN_COVER_SNOWFLAKE;
 
 
 
@@ -364,6 +377,10 @@ public class AwardShopItems {
                         (new Item.Properties()).stacksTo(16)));
         FLAG_MORPHO = REGISTRY.register("flag_morpho",
                 () -> new Item(new Item.Properties()));
+        RILEY_SIGN_COVER_MORPHO = REGISTRY.register("sign_cover_riley_morpho",
+                () -> new Item(new Item.Properties()));
+        FABRIC_SIGN_COVER_MORPHO = REGISTRY.register("sign_cover_fabric_morpho",
+                () -> new Item(new Item.Properties()));
 
         //BUTTERFLY - MONARCH -- Uncraftable Yellow Monarch Tack
         HALTER_MONARCH = REGISTRY.register("halter_monarch",
@@ -515,6 +532,10 @@ public class AwardShopItems {
                         (new Item.Properties()).stacksTo(16)));
 
         FLAG_MONARCH = REGISTRY.register("flag_monarch",
+                () -> new Item(new Item.Properties()));
+        RILEY_SIGN_COVER_MONARCH = REGISTRY.register("sign_cover_riley_monarch",
+                () -> new Item(new Item.Properties()));
+        FABRIC_SIGN_COVER_MONARCH = REGISTRY.register("sign_cover_fabric_monarch",
                 () -> new Item(new Item.Properties()));
 
 // HOUND TACK -- RILEY CASPER
@@ -677,6 +698,10 @@ public class AwardShopItems {
                         (new Item.Properties()).stacksTo(16)));
         FLAG_HOUND = REGISTRY.register("flag_hound",
                 () -> new Item(new Item.Properties()));
+        RILEY_SIGN_COVER_HOUND = REGISTRY.register("sign_cover_riley_hound",
+                () -> new Item(new Item.Properties()));
+        FABRIC_SIGN_COVER_HOUND = REGISTRY.register("sign_cover_fabric_hound",
+                () -> new Item(new Item.Properties()));
 
 
     // AWARD - Uncraftable Numbered Tack Items -- 12 Count Items
@@ -704,6 +729,7 @@ public class AwardShopItems {
         AWARD_ENGLISH_GIRTH_STRAPS = new ArrayList<>();
         AWARD_QUARTER_SHEETS = new ArrayList<>();
         AWARD_FLAGS = new ArrayList<>();
+        AWARD_SIGN_COVERS = new ArrayList<>();
         AWARD_SADDLE_BAGS = new ArrayList<>();
         AWARD_CLOTH_ARMOR = new ArrayList<>();
         TRE_RIBBON_THREE_TAILS = new ArrayList<>();
@@ -912,12 +938,19 @@ public class AwardShopItems {
 
 
         // FLAGS
-        for(int var1 = 1; var1 < 15; ++var1) {
+        for(int var1 = 1; var1 < 24; ++var1) {
             AWARD_FLAGS.add(REGISTRY.register("award_flag_" + var1, () ->
+                    new Item((new Item.Properties()))));
+            AWARD_SIGN_COVERS.add(REGISTRY.register("award_sign_cover_" + var1, () ->
                     new Item((new Item.Properties()))));
         }
 
 // AWARD ITEMS
+        SIGN_COVER_GRAND = REGISTRY.register("sign_cover_champ",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_RESERVE = REGISTRY.register("sign_cover_champ_res",
+                () -> new Item(new Item.Properties()));
+
         MORPHO_RIBBON_THREE_TAILS = REGISTRY.register("ribbon_three_tails_morpho",
                 () -> new Item(new Item.Properties()));
         MORPHO_RIBBON_TWO_TAILS = REGISTRY.register("ribbon_two_tails_morpho",
@@ -1007,6 +1040,14 @@ public class AwardShopItems {
         MOON_TROPHY = REGISTRY.register("moon_trophy",
                 () -> new Item(new Item.Properties()));
 
+        SIGN_COVER_HEART_RED = REGISTRY.register("sign_cover_heart_red",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_HEART_PINK = REGISTRY.register("sign_cover_heart_pink",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_HEART_BLUE = REGISTRY.register("sign_cover_heart_blue",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_SNOWFLAKE = REGISTRY.register("sign_cover_snowflake",
+                () -> new Item(new Item.Properties()));
 
         MEDAL_1 =  REGISTRY.register("medal_1",
                 () -> new Item(new Item.Properties() ));

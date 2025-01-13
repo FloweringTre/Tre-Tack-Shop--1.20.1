@@ -50,8 +50,32 @@ public class DecorShopItems {
     public static final List<RegistryObject<Item>> FLAGS_BUTTERFLY;
     public static final List<RegistryObject<Item>> FLAGS_DYED;
 
-    public static final RegistryObject<Item> SIGN_COVER_1;
-    public static final RegistryObject<Item> SIGN_COVER_2;
+    public static final RegistryObject<Item> SIGN_COVER_SWIRL_RAINBOW;
+    public static final List<RegistryObject<Item>> SIGN_COVER_SWIRL;
+    public static final List<RegistryObject<Item>> SIGN_COVER_SWIRL_DYED;
+
+    public static final RegistryObject<Item> SIGN_COVER_LOOPED_RAINBOW;
+    public static final List<RegistryObject<Item>> SIGN_COVER_LOOPED;
+    public static final List<RegistryObject<Item>> SIGN_COVER_LOOPED_DYED;
+
+    public static final RegistryObject<Item> SIGN_COVER_FABRIC_RAINBOW;
+    public static final List<RegistryObject<Item>> SIGN_COVER_FABRIC;
+    public static final List<RegistryObject<Item>> SIGN_COVER_FABRIC_DYED;
+
+    public static final RegistryObject<Item> SIGN_COVER_FLORAL_RAINBOW;
+    public static final List<RegistryObject<Item>> SIGN_COVER_FLORAL;
+    public static final List<RegistryObject<Item>> SIGN_COVER_FLORAL_DYED;
+
+    public static final RegistryObject<Item> SIGN_COVER_CHECKERED_RAINBOW;
+    public static final List<RegistryObject<Item>> SIGN_COVER_CHECKERED;
+    public static final List<RegistryObject<Item>> SIGN_COVER_CHECKERED_DYED;
+
+    public static final RegistryObject<Item> SIGN_COVER_RILEY_RAINBOW;
+    public static final List<RegistryObject<Item>> SIGN_COVER_RILEY;
+    public static final List<RegistryObject<Item>> SIGN_COVER_RILEY_DYED;
+    public static final RegistryObject<Item> SIGN_COVER_RILEY_LIGHT_METAL;
+    public static final RegistryObject<Item> SIGN_COVER_RILEY_MEDIUM_METAL;
+    public static final RegistryObject<Item> SIGN_COVER_RILEY_DARK_METAL;
 
     public DecorShopItems() {
     }
@@ -62,10 +86,35 @@ public class DecorShopItems {
 
         FLAG_RAINBOW = REGISTRY.register("flag_rainbow",
                 () -> new Item(new Item.Properties()));
+        SIGN_COVER_RILEY_RAINBOW = REGISTRY.register("sign_cover_riley_rainbow",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_FLORAL_RAINBOW = REGISTRY.register("sign_cover_floral_rainbow",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_FABRIC_RAINBOW = REGISTRY.register("sign_cover_fabric_rainbow",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_CHECKERED_RAINBOW = REGISTRY.register("sign_cover_checkered_rainbow",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_SWIRL_RAINBOW = REGISTRY.register("sign_cover_swirl_rainbow",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_LOOPED_RAINBOW = REGISTRY.register("sign_cover_looped_rainbow",
+                () -> new Item(new Item.Properties()));
+
 
         FLAGS = new ArrayList<>();
         FLAGS_BUTTERFLY = new ArrayList<>();
         FLAGS_DYED = new ArrayList<>();
+        SIGN_COVER_SWIRL_DYED = new ArrayList<>();
+        SIGN_COVER_LOOPED_DYED = new ArrayList<>();
+        SIGN_COVER_FABRIC_DYED = new ArrayList<>();
+        SIGN_COVER_FLORAL_DYED = new ArrayList<>();
+        SIGN_COVER_CHECKERED_DYED = new ArrayList<>();
+        SIGN_COVER_RILEY_DYED = new ArrayList<>();
+        SIGN_COVER_SWIRL = new ArrayList<>();
+        SIGN_COVER_LOOPED = new ArrayList<>();
+        SIGN_COVER_FABRIC = new ArrayList<>();
+        SIGN_COVER_FLORAL = new ArrayList<>();
+        SIGN_COVER_CHECKERED = new ArrayList<>();
+        SIGN_COVER_RILEY = new ArrayList<>();
 
         int var1 = 15;
 
@@ -78,6 +127,18 @@ public class DecorShopItems {
                     new Item((new Item.Properties()))));
             FLAGS_BUTTERFLY.add(REGISTRY.register("flag_butterfly_" + counter, () ->
                     new Item((new Item.Properties()))));
+            SIGN_COVER_RILEY.add(REGISTRY.register("sign_cover_riley_" + counter, () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_FLORAL.add(REGISTRY.register("sign_cover_floral_" + counter, () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_FABRIC.add(REGISTRY.register("sign_cover_fabric_" + counter, () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_CHECKERED.add(REGISTRY.register("sign_cover_checkered_" + counter, () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_SWIRL.add(REGISTRY.register("sign_cover_swirl_" + counter, () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_LOOPED.add(REGISTRY.register("sign_cover_looped_" + counter, () ->
+                    new Item((new Item.Properties()))));
             ++rContext.var2;
         }
 
@@ -88,12 +149,24 @@ public class DecorShopItems {
             DyeColor color = var0[var2];
             FLAGS_DYED.add(REGISTRY.register("flag_" + color.getName(), () ->
                     new Item((new Item.Properties()))));
+            SIGN_COVER_RILEY_DYED.add(REGISTRY.register("sign_cover_riley_" + color.getName(), () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_FLORAL_DYED.add(REGISTRY.register("sign_cover_floral_" + color.getName(), () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_FABRIC_DYED.add(REGISTRY.register("sign_cover_fabric_" + color.getName(), () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_CHECKERED_DYED.add(REGISTRY.register("sign_cover_checkered_" + color.getName(), () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_SWIRL_DYED.add(REGISTRY.register("sign_cover_swirl_" + color.getName(), () ->
+                    new Item((new Item.Properties()))));
+            SIGN_COVER_LOOPED_DYED.add(REGISTRY.register("sign_cover_looped_" + color.getName(), () ->
+                    new Item((new Item.Properties()))));
         }
-
-        SIGN_COVER_1 = REGISTRY.register("sign_cover_1",
+        SIGN_COVER_RILEY_DARK_METAL = REGISTRY.register("sign_cover_riley_dark_metal",
                 () -> new Item(new Item.Properties()));
-        SIGN_COVER_2 = REGISTRY.register("sign_cover_2",
+        SIGN_COVER_RILEY_MEDIUM_METAL = REGISTRY.register("sign_cover_riley_medium_metal",
                 () -> new Item(new Item.Properties()));
-
+        SIGN_COVER_RILEY_LIGHT_METAL = REGISTRY.register("sign_cover_riley_light_metal",
+                () -> new Item(new Item.Properties()));
     }
 }
