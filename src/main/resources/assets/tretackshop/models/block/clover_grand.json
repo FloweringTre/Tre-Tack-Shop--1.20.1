@@ -1,6 +1,0 @@
-{
-	"parent": "tretackshop:block/clover_trophy_template",
-	"textures": {
-		"texture": "tretackshop:block/clover_grand"
-	}
-}

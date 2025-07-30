@@ -1,0 +1,6 @@
+{
+  "parent": "peachtackshop:item/ribbon_three_tailed_template",
+  "textures": {
+    "texture": "peachtackshop:item/awards/ribbon_three_tails/ribbon_three_tails_green"
+  }
+}

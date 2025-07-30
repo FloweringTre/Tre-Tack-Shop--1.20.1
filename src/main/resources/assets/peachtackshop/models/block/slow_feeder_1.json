@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/slow_feeder",
+  "textures": {
+    "0": "peachtackshop:block/slow_feeders/slow_feeder_1",
+    "particle": "peachtackshop:block/slow_feeders/slow_feeder_1"
+  }
+}

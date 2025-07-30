@@ -1,0 +1,6 @@
+{
+  "parent": "peachtackshop:item/trophy_template",
+  "textures": {
+    "texture": "peachtackshop:item/awards/trophy_3"
+  }
+}

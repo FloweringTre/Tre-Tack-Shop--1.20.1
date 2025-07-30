@@ -1,0 +1,6 @@
+{
+  "parent": "peachtackshop:block/parent/parent_cone",
+  "textures": {
+    "cone": "peachtackshop:block/cones/cone_11"
+  }
+}

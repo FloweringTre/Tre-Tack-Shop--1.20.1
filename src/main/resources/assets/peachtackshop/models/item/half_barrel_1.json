@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "peachtackshop:item/half_barrels/half_barrel_1"
+  }
+}

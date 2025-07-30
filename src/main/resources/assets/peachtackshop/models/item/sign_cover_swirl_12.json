@@ -1,0 +1,6 @@
+{
+  "parent": "peachtackshop:item/sign_cover_template",
+  "textures": {
+    "texture": "peachtackshop:item/sign_covers/swirl/sign_cover_swirl_12"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "peachtackshop:item/rosette_template",
+  "textures": {
+    "texture": "peachtackshop:item/awards/rosette/rosette_red"
+  }
+}

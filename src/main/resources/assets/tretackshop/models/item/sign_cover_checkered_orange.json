@@ -1,6 +1,0 @@
-{
-  "parent": "tretackshop:item/sign_cover_template",
-  "textures": {
-    "texture": "tretackshop:item/sign_covers/checkered/sign_cover_checkered_orange"
-  }
-}

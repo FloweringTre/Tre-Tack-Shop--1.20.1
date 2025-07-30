@@ -1,0 +1,6 @@
+{
+  "parent": "peachtackshop:item/flag_template",
+  "textures": {
+    "texture": "peachtackshop:item/flags/flag_pink"
+  }
+}
