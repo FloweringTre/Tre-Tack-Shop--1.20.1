@@ -142,7 +142,9 @@ dependencies {
 
     implementation  fg.deobf("curse.maven:playeranimator-658587:4587214")
     implementation  fg.deobf("curse.maven:geckolib-388172:4756691")
-    implementation  fg.deobf("curse.maven:swem-582697:6054461")
+    implementation  fg.deobf("curse.maven:swem-582697:6739081")
+
+    implementation fg.deobf("curse.maven:filters-api-998830:5570856")
 
     implementation  fg.deobf("curse.maven:JEI-238222:4712868")
 

@@ -82,6 +82,7 @@ public class AwardShopItems {
     public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_MORPHO;
     public static final RegistryObject<TackItem> CLOTH_HORSE_ARMOR_MORPHO;
+    public static final RegistryObject<TackItem> AMETHYST_HORSE_ARMOR_MORPHO;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MORPHO;
     public static final RegistryObject<TackItem> BITLESS_BRIDLE_MORPHO;
     public static final RegistryObject<TackItem> BAREBACK_BLANKET_MORPHO;
@@ -111,6 +112,7 @@ public class AwardShopItems {
     public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_MONARCH;
     public static final RegistryObject<TackItem> CLOTH_HORSE_ARMOR_MONARCH;
+    public static final RegistryObject<TackItem> AMETHYST_HORSE_ARMOR_MONARCH;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_MONARCH;
     public static final RegistryObject<TackItem> BITLESS_BRIDLE_MONARCH;
     public static final RegistryObject<TackItem> BAREBACK_BLANKET_MONARCH;
@@ -273,6 +275,10 @@ public class AwardShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
                         true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
+        AMETHYST_HORSE_ARMOR_MORPHO = REGISTRY.register("amethyst_horse_armor_morpho",
+                () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
+                        HorseArmorTier.AMETHYST.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
         SADDLE_BAG_MORPHO = REGISTRY.register("saddle_bag_morpho",
                 () -> new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
                         true, Collections.emptySet(),
@@ -429,6 +435,10 @@ public class AwardShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
                         true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
+        AMETHYST_HORSE_ARMOR_MONARCH = REGISTRY.register("amethyst_horse_armor_monarch",
+                () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
+                        HorseArmorTier.AMETHYST.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
         SADDLE_BAG_MONARCH = REGISTRY.register("saddle_bag_monarch",
                 () -> new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
                         true, Collections.emptySet(),
