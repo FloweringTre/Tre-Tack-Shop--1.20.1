@@ -142,6 +142,7 @@ public class AwardShopItems {
     public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_HOUND;
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_HOUND;
     public static final RegistryObject<TackItem> CLOTH_HORSE_ARMOR_HOUND;
+    public static final RegistryObject<TackItem> AMETHYST_HORSE_ARMOR_HOUND;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_HOUND;
     public static final RegistryObject<TackItem> BITLESS_BRIDLE_HOUND;
     public static final RegistryObject<TackItem> BAREBACK_BLANKET_HOUND;
@@ -201,6 +202,11 @@ public class AwardShopItems {
     public static final RegistryObject<Item> HOUND_RIBBON_TWO_TAILS;
     public static final RegistryObject<Item> HOUND_RIBBON_ONE_TAIL;
     public static final RegistryObject<Item> HOUND_ROSETTE;
+
+    public static final RegistryObject<Item> RAINBOW_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> RAINBOW_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> RAINBOW_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> RAINBOW_ROSETTE;
 
     public static final RegistryObject<Item> TROPHY_1;
     public static final RegistryObject<Item> TROPHY_2;
@@ -595,6 +601,10 @@ public class AwardShopItems {
                 () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
                         true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
                         HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
+        AMETHYST_HORSE_ARMOR_HOUND = REGISTRY.register("amethyst_horse_armor_hound",
+                () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
+                        true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
+                        HorseArmorTier.AMETHYST.getTierName())).build(), (new Item.Properties()).stacksTo(16)));
         SADDLE_BAG_HOUND = REGISTRY.register("saddle_bag_hound",
                 () -> new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
                         true, Collections.emptySet(),
@@ -986,6 +996,15 @@ public class AwardShopItems {
         HOUND_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_hound",
                 () -> new Item(new Item.Properties()));
         HOUND_ROSETTE = REGISTRY.register("rosette_hound",
+                () -> new Item(new Item.Properties()));
+
+        RAINBOW_RIBBON_THREE_TAILS = REGISTRY.register("ribbon_three_tails_rainbow",
+                () -> new Item(new Item.Properties()));
+        RAINBOW_RIBBON_TWO_TAILS = REGISTRY.register("ribbon_two_tails_rainbow",
+                () -> new Item(new Item.Properties()));
+        RAINBOW_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_rainbow",
+                () -> new Item(new Item.Properties()));
+        RAINBOW_ROSETTE = REGISTRY.register("rosette_rainbow",
                 () -> new Item(new Item.Properties()));
 
         // RIBBONS IN MY COLORS
