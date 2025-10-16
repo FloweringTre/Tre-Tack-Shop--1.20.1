@@ -208,6 +208,19 @@ public class AwardShopItems {
     public static final RegistryObject<Item> RAINBOW_RIBBON_ONE_TAIL;
     public static final RegistryObject<Item> RAINBOW_ROSETTE;
 
+    public static final RegistryObject<Item> FIRST_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> FIRST_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> FIRST_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> FIRST_ROSETTE;
+    public static final RegistryObject<Item> SECOND_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> SECOND_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> SECOND_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> SECOND_ROSETTE;
+    public static final RegistryObject<Item> THIRD_RIBBON_THREE_TAILS;
+    public static final RegistryObject<Item> THIRD_RIBBON_TWO_TAILS;
+    public static final RegistryObject<Item> THIRD_RIBBON_ONE_TAIL;
+    public static final RegistryObject<Item> THIRD_ROSETTE;
+
     public static final RegistryObject<Item> TROPHY_1;
     public static final RegistryObject<Item> TROPHY_2;
     public static final RegistryObject<Item> TROPHY_3;
@@ -1006,6 +1019,34 @@ public class AwardShopItems {
                 () -> new Item(new Item.Properties()));
         RAINBOW_ROSETTE = REGISTRY.register("rosette_rainbow",
                 () -> new Item(new Item.Properties()));
+
+        FIRST_RIBBON_THREE_TAILS = REGISTRY.register("ribbon_three_tails_first",
+                () -> new Item(new Item.Properties()));
+        FIRST_RIBBON_TWO_TAILS = REGISTRY.register("ribbon_two_tails_first",
+                () -> new Item(new Item.Properties()));
+        FIRST_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_first",
+                () -> new Item(new Item.Properties()));
+        FIRST_ROSETTE = REGISTRY.register("rosette_first",
+                () -> new Item(new Item.Properties()));
+        SECOND_RIBBON_THREE_TAILS = REGISTRY.register("ribbon_three_tails_second",
+                () -> new Item(new Item.Properties()));
+        SECOND_RIBBON_TWO_TAILS = REGISTRY.register("ribbon_two_tails_second",
+                () -> new Item(new Item.Properties()));
+        SECOND_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_second",
+                () -> new Item(new Item.Properties()));
+        SECOND_ROSETTE = REGISTRY.register("rosette_second",
+                () -> new Item(new Item.Properties()));
+        THIRD_RIBBON_THREE_TAILS = REGISTRY.register("ribbon_three_tails_third",
+                () -> new Item(new Item.Properties()));
+        THIRD_RIBBON_TWO_TAILS = REGISTRY.register("ribbon_two_tails_third",
+                () -> new Item(new Item.Properties()));
+        THIRD_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_third",
+                () -> new Item(new Item.Properties()));
+        THIRD_ROSETTE = REGISTRY.register("rosette_third",
+                () -> new Item(new Item.Properties()));
+
+
+
 
         // RIBBONS IN MY COLORS
         for(int var21 = 1; var21 < 15; ++var21) {
