@@ -1,5 +1,37 @@
 {
-  "replace": false,
   "values": [
+
+    "tretackshop:tack_box_morpho",
+    "tretackshop:tack_box_monarch",
+    "tretackshop:tack_box_hound",
+    "tretackshop:tack_box_1",
+    "tretackshop:tack_box_2",
+    "tretackshop:tack_box_3",
+    "tretackshop:tack_box_4",
+    "tretackshop:tack_box_5",
+    "tretackshop:tack_box_6",
+    "tretackshop:tack_box_7",
+    "tretackshop:tack_box_8",
+    "tretackshop:tack_box_9",
+    "tretackshop:tack_box_10",
+    "tretackshop:tack_box_11",
+    "tretackshop:tack_box_12",
+    "tretackshop:tack_box_13",
+    "tretackshop:tack_box_14",
+    "tretackshop:tack_box_rainbow",
+    "tretackshop:tack_box_acacia",
+    "tretackshop:tack_box_birch",
+    "tretackshop:tack_box_crimson",
+    "tretackshop:tack_box_dark_oak",
+    "tretackshop:tack_box_jungle",
+    "tretackshop:tack_box_oak",
+    "tretackshop:tack_box_spruce",
+    "tretackshop:tack_box_warped",
+    "tretackshop:tack_box_bamboo",
+    "tretackshop:tack_box_cherry",
+    "tretackshop:tack_box_swdm_bamboo",
+    "tretackshop:tack_box_mangrove",
+    "tretackshop:tack_box_thatch",
+    "tretackshop:tack_box_whitewash"
   ]
 }
