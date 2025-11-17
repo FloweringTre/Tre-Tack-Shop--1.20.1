@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tretackshop:bareback_saddle_moon"
+    },
+    {
+      "tag": "tretackshop:dyes/fuchsia"
+    },
+    {
+      "tag": "tretackshop:dyes/toner_jewel"
+    },
+    {
+      "item": "minecraft:grass"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:bareback_saddle_7"
+  }
+}

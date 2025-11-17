@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tretackshop:bareback_girth_strap_white_moon"
+    },
+    {
+      "tag": "forge:dyes/red"
+    },
+    {
+      "item": "minecraft:grass"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:bareback_girth_strap_red"
+  }
+}
