@@ -395,8 +395,8 @@ public class AwardShopItems {
         BAREBACK_GIRTH_STRAP_MORPHO = REGISTRY.register("bareback_girth_strap_morpho",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
                                 new GirthStrapTypeData(false, Collections.emptySet(),
-                                        Color.ofRGB(tretackcolors[16][0], tretackcolors[190][1], tretackcolors[234][2]),
-                                        Color.ofRGB(tretackcolors[16][0], tretackcolors[190][1], tretackcolors[234][2])))
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
                                 ModRef.res("textures/entity/rack/saddle/tre_girth_strap.png")).build(),
                         (new Item.Properties()).stacksTo(64)));
@@ -566,8 +566,8 @@ public class AwardShopItems {
         BAREBACK_GIRTH_STRAP_MONARCH = REGISTRY.register("bareback_girth_strap_monarch",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
                                 new GirthStrapTypeData(false, Collections.emptySet(),
-                                        Color.ofRGB(tretackcolors[254][0], tretackcolors[140][1], tretackcolors[3][2]),
-                                        Color.ofRGB(tretackcolors[254][0], tretackcolors[140][1], tretackcolors[3][2])))
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
                                 ModRef.res("textures/entity/rack/saddle/tre_girth_strap.png")).build(),
                         (new Item.Properties()).stacksTo(64)));
@@ -739,8 +739,8 @@ public class AwardShopItems {
         BAREBACK_GIRTH_STRAP_HOUND = REGISTRY.register("bareback_girth_strap_hound",
                 () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
                                 new GirthStrapTypeData(false, Collections.emptySet(),
-                                        Color.ofRGB(tretackcolors[34][0], tretackcolors[34][1], tretackcolors[34][2]),
-                                        Color.ofRGB(tretackcolors[34][0], tretackcolors[34][1], tretackcolors[34][2])))
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE)))
                         .rackTexture(RackType.SADDLE,
                                 ModRef.res("textures/entity/rack/saddle/tre_girth_strap.png")).build(),
                         (new Item.Properties()).stacksTo(64)));
@@ -780,6 +780,7 @@ public class AwardShopItems {
 
 
     // AWARD - Uncraftable Numbered Tack Items -- 12 Count Items
+        AWARD_FLAGS = new ArrayList<>();
         AWARD_PASTURE_BLANKETS = new ArrayList<>();
         AWARD_PASTURE_BLANKETS_ARMORED = new ArrayList<>();
         AWARD_HALTERS = new ArrayList<>();

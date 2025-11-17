@@ -73,10 +73,6 @@ public class DecorShopItems {
     public static final RegistryObject<Item> SIGN_COVER_RILEY_RAINBOW;
     public static final List<RegistryObject<Item>> SIGN_COVER_RILEY;
     public static final List<RegistryObject<Item>> SIGN_COVER_RILEY_DYED;
-    public static final RegistryObject<Item> SIGN_COVER_RILEY_LIGHT_METAL;
-    public static final RegistryObject<Item> SIGN_COVER_RILEY_MEDIUM_METAL;
-    public static final RegistryObject<Item> SIGN_COVER_RILEY_DARK_METAL;
-
     public DecorShopItems() {
     }
     public static void init(IEventBus eventBus) {  REGISTRY.register(eventBus); }
@@ -161,12 +157,6 @@ public class DecorShopItems {
                     new Item((new Item.Properties()))));
             SIGN_COVER_LOOPED_DYED.add(REGISTRY.register("sign_cover_looped_" + color.getName(), () ->
                     new Item((new Item.Properties()))));
-        }
-        SIGN_COVER_RILEY_DARK_METAL = REGISTRY.register("sign_cover_riley_dark_metal",
-                () -> new Item(new Item.Properties()));
-        SIGN_COVER_RILEY_MEDIUM_METAL = REGISTRY.register("sign_cover_riley_medium_metal",
-                () -> new Item(new Item.Properties()));
-        SIGN_COVER_RILEY_LIGHT_METAL = REGISTRY.register("sign_cover_riley_light_metal",
-                () -> new Item(new Item.Properties()));
     }
+}
 }

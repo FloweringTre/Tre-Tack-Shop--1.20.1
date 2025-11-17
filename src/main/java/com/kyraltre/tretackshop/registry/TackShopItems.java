@@ -108,8 +108,6 @@ public class TackShopItems {
     public static final RegistryObject<TackItem> IRON_HORSE_ARMOR_RAINBOW;
     public static final RegistryObject<SaddlebagItem> SADDLE_BAG_RAINBOW;
     public static final RegistryObject<TackItem> BAREBACK_BLANKET_RAINBOW;
-    public static final RegistryObject<TackItem> BAREBACK_SADDLE_RAINBOW;
-    public static final RegistryObject<TackItem> BAREBACK_GIRTH_STRAP_RAINBOW;
     public static final RegistryObject<TackItem> CLOTH_BITLESS_BRIDLE_RAINBOW;
 
     // TRANSPARENT 'BAREBACK/LIBERTY' TACK
@@ -155,6 +153,7 @@ public class TackShopItems {
     public static final List<RegistryObject<TackItem>> ENGLISH_BRIDLES;
     public static final List<RegistryObject<TackItem>> ENGLISH_BRIDLES_OTHER;
     public static final List<RegistryObject<TackItem>> CLOTH_BRIDLES;
+    public static final List<RegistryObject<TackItem>> CLOTH_ARMOR;
     public static final List<RegistryObject<TackItem>> CLOTH_BITLESS_BRIDLES;
     public static final List<RegistryObject<TackItem>> BAREBACK_BLANKETS;
     public static final List<RegistryObject<TackItem>> ADVENTURE_GIRTH_STRAPS;
@@ -500,18 +499,6 @@ public class TackShopItems {
                         .withData(new TackTypeData(false, Collections.emptySet(),
                                 ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties()).stacksTo(64)));
-        BAREBACK_GIRTH_STRAP_RAINBOW = REGISTRY.register("bareback_girth_strap_rainbow",
-                () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE)))
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/rainbow_girth_strap_english.png")).build(),
-                        (new Item.Properties()).stacksTo(64)));
-        BAREBACK_SADDLE_RAINBOW =  REGISTRY.register("bareback_saddle_rainbow",
-                () -> new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
-                        false, Collections.emptySet(), Color.ofRGB(tretackcolors[21][0], tretackcolors[21][1], tretackcolors[21][2]),
-                        "western")).build(), (new Item.Properties()).stacksTo(64)));
 
         PASTURE_BLANKET_RAINBOW =  REGISTRY.register("pasture_blanket_rainbow",
                 () -> new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).withData(
