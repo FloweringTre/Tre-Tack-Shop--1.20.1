@@ -242,7 +242,8 @@ public class AwardShopItems {
     public static  final RegistryObject<Item> SIGN_COVER_HEART_PINK;
     public static  final RegistryObject<Item> SIGN_COVER_HEART_BLUE;
     public static  final RegistryObject<Item> SIGN_COVER_SNOWFLAKE;
-
+    public static  final RegistryObject<Item> SIGN_COVER_MONARCH;
+    public static  final RegistryObject<Item> SIGN_COVER_MORPHO;
 
 
     public AwardShopItems() {
@@ -1159,6 +1160,10 @@ public class AwardShopItems {
         SIGN_COVER_HEART_BLUE = REGISTRY.register("sign_cover_heart_blue",
                 () -> new Item(new Item.Properties()));
         SIGN_COVER_SNOWFLAKE = REGISTRY.register("sign_cover_snowflake",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_MONARCH = REGISTRY.register("sign_cover_monarch",
+                () -> new Item(new Item.Properties()));
+        SIGN_COVER_MORPHO = REGISTRY.register("sign_cover_morpho",
                 () -> new Item(new Item.Properties()));
 
         MEDAL_1 =  REGISTRY.register("medal_1",

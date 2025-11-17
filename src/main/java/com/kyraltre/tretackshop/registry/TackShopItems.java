@@ -66,7 +66,7 @@ public class TackShopItems {
     public static final RegistryObject<TackItem> BITLESS_BRIDLE_BROWN;
     public static final RegistryObject<TackItem> BAREBACK_SADDLE_BROWN_MOON;
     public static final RegistryObject<TackItem> BAREBACK_GIRTH_STRAP_BROWN_MOON;
-    public static final RegistryObject<TackItem> BITLESS_BRIDLE_BEIGE_MOON;
+    public static final RegistryObject<TackItem> BITLESS_BRIDLE_BEIGE;
     public static final RegistryObject<TackItem> BAREBACK_SADDLE_BEIGE_MOON;
     public static final RegistryObject<TackItem> BAREBACK_GIRTH_STRAP_BEIGE_MOON;
     public static final RegistryObject<TackItem> HUNTER_BLANKET;
@@ -291,7 +291,7 @@ public class TackShopItems {
                         ModRef.res("textures/entity/rack/saddle/tre_girth_strap.png")).build(),
                         (new Item.Properties()).stacksTo(64)));
 
-        BITLESS_BRIDLE_BEIGE_MOON = REGISTRY.register("english_bridle_bitless_beige_moon",
+        BITLESS_BRIDLE_BEIGE = REGISTRY.register("english_bridle_bitless_beige",
                 () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                         new BridleTypeData(false, Collections.emptySet(),
                                 Color.ofRGB(tretackcolors[22][0], tretackcolors[22][1], tretackcolors[22][2])
