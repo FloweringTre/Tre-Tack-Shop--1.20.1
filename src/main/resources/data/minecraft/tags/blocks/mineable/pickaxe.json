@@ -4,6 +4,10 @@
     "tretackshop:snowflake_grand",
     "tretackshop:snowflake_reserve",
     "tretackshop:pumpkin_grand",
-    "tretackshop:pumpkin_reserve"
+    "tretackshop:pumpkin_reserve",
+    "#tretackshop:craft/slow_feeders",
+    "#tretackshop:craft/grain_feeders",
+    "#tretackshop:craft/half_barrels",
+    "#tretackshop:craft/bin_grains"
   ]
 }

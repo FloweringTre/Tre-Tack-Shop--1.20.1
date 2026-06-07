@@ -10,7 +10,9 @@ public class SWTags {
     public static final TagKey<Item> PASTURE_BLANKETS = ItemTags.create(TreTackShop.swresloc("pasture_blankets"));
     public static final TagKey<Item> PASTURE_BLANKETS_ARMORED = ItemTags.create(TreTackShop.swresloc("pasture_blankets_armored"));
     public static final TagKey<Item> BLANKETS = ItemTags.create(TreTackShop.swresloc("blankets"));
-    public static final TagKey<Item> ENGLISH_BLANKETS = ItemTags.create(TreTackShop.swresloc("english_blankets"));
+    public static final TagKey<Item> ENGLISH_BLANKETS = ItemTags.create(TreTackShop.swresloc("english/blankets"));
+    public static final TagKey<Item> ENGLISH_BRIDLES = ItemTags.create(TreTackShop.swresloc("english/bridles"));
+    public static final TagKey<Item> ENGLISH_GIRTH_STRAPS = ItemTags.create(TreTackShop.swresloc("english/girth_straps"));
     public static final TagKey<Item> WESTERN_BLANKETS = ItemTags.create(TreTackShop.swresloc("western/blankets"));
     public static final TagKey<Item> WESTERN_BRIDLES = ItemTags.create(TreTackShop.swresloc("western/bridles"));
     public static final TagKey<Item> WESTERN_GIRTH_STRAPS = ItemTags.create(TreTackShop.swresloc("western/girth_straps"));
@@ -25,12 +27,20 @@ public class SWTags {
     public static final TagKey<Item> WESTERN_SADDLES = ItemTags.create(TreTackShop.swresloc("western/saddles"));
     public static final TagKey<Item> BREAST_COLLARS = ItemTags.create(TreTackShop.swresloc("breast_collars"));
     public static final TagKey<Item> REFINED_LEATHER = ItemTags.create(TreTackShop.swresloc("refined_leather"));
+    public static final TagKey<Item> ENGLISH_BREAST_COLLARS = ItemTags.create(TreTackShop.swresloc("english/breast_collars"));
     public static final TagKey<Item> WESTERN_BREAST_COLLARS = ItemTags.create(TreTackShop.swresloc("western/breast_collars"));
 
-    //    public static final TagKey<Item> HALF_BARRELS = ItemTags.create(TreTackShop.swresloc("half_barrels"));
-    //    public static final TagKey<Item> SLOW_FEEDERS = ItemTags.create(TreTackShop.swresloc("slow_feeders"));
-    //    public static final TagKey<Item> GRAIN_FEEDERS = ItemTags.create(TreTackShop.swresloc("grain_feeders"));
-    //    public static final TagKey<Item> GRAIN_BINS = ItemTags.create(TreTackShop.swresloc("grain_bins"));
+    public static final TagKey<Item> TACK_BOXES = ItemTags.create(TreTackShop.resloc("tack_boxes"));
+    public static final TagKey<Item> CONES = ItemTags.create(TreTackShop.resloc("cones"));
+    public static final TagKey<Item> WHEELBARROWS = ItemTags.create(TreTackShop.resloc("wheelbarrows"));
+    public static final TagKey<Item> SLOW_FEEDERS = ItemTags.create(TreTackShop.resloc("slow_feeders"));
+    public static final TagKey<Item> SEPARATORS = ItemTags.create(TreTackShop.resloc("separators"));
+    public static final TagKey<Item> GRAIN_FEEDERS = ItemTags.create(TreTackShop.resloc("grain_feeders"));
+    public static final TagKey<Item> PASTURE_GATES = ItemTags.create(TreTackShop.resloc("pasture_gates"));
+    public static final TagKey<Item> WEB_GUARDS = ItemTags.create(TreTackShop.resloc("web_guards"));
+    public static final TagKey<Item> HALF_BARRELS = ItemTags.create(TreTackShop.resloc("half_barrels"));
+    public static final TagKey<Item> BIN_GRAINS = ItemTags.create(TreTackShop.resloc("bin_grains"));
+
     public SWTags() {
 
     }

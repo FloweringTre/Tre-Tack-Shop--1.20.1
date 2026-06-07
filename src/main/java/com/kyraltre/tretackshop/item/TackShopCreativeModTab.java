@@ -5,7 +5,6 @@
 
 package com.kyraltre.tretackshop.item;
 
-import com.kyraltre.tretackshop.registry.AwardShopItems;
 import com.kyraltre.tretackshop.registry.TackShopItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -32,6 +31,6 @@ public class TackShopCreativeModTab {
             .displayItems((pParameters, pOutput) -> TackShopItems.REGISTRY.getEntries().forEach((registeredItem) -> {
                 Item item = registeredItem.get();
                 pOutput.accept(item);
-            })).withSearchBar().build());
+            })).build());
     }
 }

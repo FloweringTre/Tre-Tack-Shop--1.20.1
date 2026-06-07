@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/wheel_barrow_level_1",
+  "textures": {
+    "0": "tretackshop:block/wheelbarrows/wheelbarrow_1",
+    "particle": "minecraft:block/white_concrete"
+  }
+}

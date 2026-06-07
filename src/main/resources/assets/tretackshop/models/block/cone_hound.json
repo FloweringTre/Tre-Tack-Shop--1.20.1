@@ -1,6 +1,0 @@
-{
-  "parent": "tretackshop:block/parent/parent_cone",
-  "textures": {
-    "cone": "tretackshop:block/cones/cone_hound"
-  }
-}

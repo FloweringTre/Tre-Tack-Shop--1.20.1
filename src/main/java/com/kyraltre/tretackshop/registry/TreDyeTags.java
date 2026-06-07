@@ -27,7 +27,6 @@ public class TreDyeTags {
     public static final TagKey<Item> TONER_PASTEL = ItemTags.create(TreTackShop.resloc("dyes/toner_pastel"));
     public static final TagKey<Item> TONER_JEWEL = ItemTags.create(TreTackShop.resloc("dyes/toner_jewel"));
 
-
     public TreDyeTags() {
 
     }

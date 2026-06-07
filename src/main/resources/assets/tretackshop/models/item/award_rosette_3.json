@@ -1,0 +1,6 @@
+{
+  "parent": "tretackshop:item/rosette_template",
+  "textures": {
+    "texture": "tretackshop:item/awards/ribbons/award_ribbon_3"
+  }
+}

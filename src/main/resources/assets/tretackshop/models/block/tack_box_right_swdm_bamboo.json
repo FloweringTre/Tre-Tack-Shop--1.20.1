@@ -1,6 +1,0 @@
-{
-  "parent": "swem:block/parent/tack_box_right",
-  "textures": {
-    "0": "tretackshop:block/tack_boxes/tack_box_half_swdm_bamboo"
-  }
-}
