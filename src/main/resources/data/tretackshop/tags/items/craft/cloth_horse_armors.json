@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "tretackshop:cloth_horse_armor_hound",
+    "tretackshop:cloth_horse_armor_monarch",
+    "tretackshop:cloth_horse_armor_morpho",
     "tretackshop:cloth_horse_armor_1",
     "tretackshop:cloth_horse_armor_2",
     "tretackshop:cloth_horse_armor_3",

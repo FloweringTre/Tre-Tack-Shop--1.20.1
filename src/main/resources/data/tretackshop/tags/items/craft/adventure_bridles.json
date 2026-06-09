@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "tretackshop:adventure_bridle_rainbow",
+    "tretackshop:adventure_bridle_monarch",
+    "tretackshop:adventure_bridle_morpho",
+    "tretackshop:adventure_bridle_hound",
     "tretackshop:adventure_bridle_1",
     "tretackshop:adventure_bridle_2",
     "tretackshop:adventure_bridle_3",
@@ -15,7 +19,6 @@
     "tretackshop:adventure_bridle_12",
     "tretackshop:adventure_bridle_13",
     "tretackshop:adventure_bridle_14",
-    "tretackshop:adventure_bridle_rainbow",
     "tretackshop:adventure_bridle_trans",
 
     "tretackshop:adventure_bridle_black",
@@ -34,6 +37,31 @@
     "tretackshop:adventure_bridle_red",
     "tretackshop:adventure_bridle_white",
     "tretackshop:adventure_bridle_yellow",
+
+    "tretackshop:award_adventure_bridle_1",
+    "tretackshop:award_adventure_bridle_2",
+    "tretackshop:award_adventure_bridle_3",
+    "tretackshop:award_adventure_bridle_4",
+    "tretackshop:award_adventure_bridle_5",
+    "tretackshop:award_adventure_bridle_6",
+    "tretackshop:award_adventure_bridle_7",
+    "tretackshop:award_adventure_bridle_8",
+    "tretackshop:award_adventure_bridle_9",
+    "tretackshop:award_adventure_bridle_10",
+    "tretackshop:award_adventure_bridle_11",
+    "tretackshop:award_adventure_bridle_12",
+    "tretackshop:award_adventure_bridle_13",
+    "tretackshop:award_adventure_bridle_14",
+    "tretackshop:award_adventure_bridle_15",
+    "tretackshop:award_adventure_bridle_16",
+    "tretackshop:award_adventure_bridle_17",
+    "tretackshop:award_adventure_bridle_18",
+    "tretackshop:award_adventure_bridle_19",
+    "tretackshop:award_adventure_bridle_20",
+    "tretackshop:award_adventure_bridle_21",
+    "tretackshop:award_adventure_bridle_22",
+    "tretackshop:award_adventure_bridle_23",
+    "tretackshop:award_adventure_bridle_24",
 
     "swem:adventure_bridle"
   ]

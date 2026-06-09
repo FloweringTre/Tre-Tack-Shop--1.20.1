@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "tretackshop:english_blanket_rainbow",
+    "tretackshop:english_blanket_monarch",
+    "tretackshop:english_blanket_morpho",
+    "tretackshop:english_blanket_hound",
     "tretackshop:english_blanket_1",
     "tretackshop:english_blanket_2",
     "tretackshop:english_blanket_3",
@@ -16,10 +19,31 @@
     "tretackshop:english_blanket_12",
     "tretackshop:english_blanket_13",
     "tretackshop:english_blanket_14",
-    "tretackshop:english_blanket_trans",
 
-    "tretackshop:bareback_blanket",
-    "tretackshop:hunter_blanket",
-    "tretackshop:dressage_blanket"
+    "tretackshop:award_english_blanket_1",
+    "tretackshop:award_english_blanket_2",
+    "tretackshop:award_english_blanket_3",
+    "tretackshop:award_english_blanket_4",
+    "tretackshop:award_english_blanket_5",
+    "tretackshop:award_english_blanket_6",
+    "tretackshop:award_english_blanket_7",
+    "tretackshop:award_english_blanket_8",
+    "tretackshop:award_english_blanket_9",
+    "tretackshop:award_english_blanket_10",
+    "tretackshop:award_english_blanket_11",
+    "tretackshop:award_english_blanket_12",
+    "tretackshop:award_english_blanket_13",
+    "tretackshop:award_english_blanket_14",
+    "tretackshop:award_english_blanket_15",
+    "tretackshop:award_english_blanket_16",
+    "tretackshop:award_english_blanket_17",
+    "tretackshop:award_english_blanket_18",
+    "tretackshop:award_english_blanket_19",
+    "tretackshop:award_english_blanket_20",
+    "tretackshop:award_english_blanket_21",
+    "tretackshop:award_english_blanket_22",
+    "tretackshop:award_english_blanket_23",
+    "tretackshop:award_english_blanket_24"
+
   ]
 }

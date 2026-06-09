@@ -333,16 +333,16 @@ public class TackShopItems {
     public static final List<RegistryObject<TackItem>> WESTERN_GIRTH_STRAPS;
     public static final List<RegistryObject<TackItem>> WESTERN_BLANKETS;
     public static final List<RegistryObject<TackItem>> WESTERN_LEG_WRAPS;
-    public static final List<RegistryObject<TackItem>> ENGLISH_SADDLES;
-    public static final List<RegistryObject<TackItem>> ENGLISH_SADDLES_OTHER;
-    public static final List<RegistryObject<TackItem>> ENGLISH_BRIDLES;
-    public static final List<RegistryObject<TackItem>> ENGLISH_BRIDLES_OTHER;
+    public static final List<RegistryObject<TackItem>> ENGLISH_SADDLES_BLACK;
+    public static final List<RegistryObject<TackItem>> ENGLISH_SADDLES_BROWN;
+    public static final List<RegistryObject<TackItem>> ENGLISH_BRIDLES_BLACK;
+    public static final List<RegistryObject<TackItem>> ENGLISH_BRIDLES_BROWN;
     public static final List<RegistryObject<TackItem>> CLOTH_BRIDLES;
-    public static final List<RegistryObject<TackItem>> ENGLISH_BREAST_COLLARS;
-    public static final List<RegistryObject<TackItem>> ENGLISH_BREAST_COLLARS_OTHER;
+    public static final List<RegistryObject<TackItem>> ENGLISH_BREAST_COLLARS_BLACK;
+    public static final List<RegistryObject<TackItem>> ENGLISH_BREAST_COLLARS_BROWN;
     public static final List<RegistryObject<TackItem>> CLOTH_BREAST_COLLARS;
-    public static final List<RegistryObject<TackItem>> ENGLISH_GIRTH_STRAPS;
-    public static final List<RegistryObject<TackItem>> ENGLISH_GIRTH_STRAPS_OTHER;
+    public static final List<RegistryObject<TackItem>> ENGLISH_GIRTH_STRAPS_BLACK;
+    public static final List<RegistryObject<TackItem>> ENGLISH_GIRTH_STRAPS_BROWN;
     public static final List<RegistryObject<TackItem>> CLOTH_GIRTH_STRAPS;
     public static final List<RegistryObject<TackItem>> ENGLISH_BLANKETS;
     public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS;
@@ -1473,16 +1473,16 @@ public class TackShopItems {
         WESTERN_GIRTH_STRAPS = new ArrayList<>();
         WESTERN_BLANKETS = new ArrayList<>();
         WESTERN_LEG_WRAPS = new ArrayList<>();
-        ENGLISH_SADDLES = new ArrayList<>();
-        ENGLISH_SADDLES_OTHER = new ArrayList<>();
-        ENGLISH_BRIDLES = new ArrayList<>();
-        ENGLISH_BRIDLES_OTHER = new ArrayList<>();
+        ENGLISH_SADDLES_BLACK = new ArrayList<>();
+        ENGLISH_SADDLES_BROWN = new ArrayList<>();
+        ENGLISH_BRIDLES_BLACK = new ArrayList<>();
+        ENGLISH_BRIDLES_BROWN = new ArrayList<>();
         CLOTH_BRIDLES = new ArrayList<>();
-        ENGLISH_BREAST_COLLARS = new ArrayList<>();
-        ENGLISH_BREAST_COLLARS_OTHER = new ArrayList<>();
+        ENGLISH_BREAST_COLLARS_BLACK = new ArrayList<>();
+        ENGLISH_BREAST_COLLARS_BROWN = new ArrayList<>();
         CLOTH_BREAST_COLLARS = new ArrayList<>();
-        ENGLISH_GIRTH_STRAPS = new ArrayList<>();
-        ENGLISH_GIRTH_STRAPS_OTHER = new ArrayList<>();
+        ENGLISH_GIRTH_STRAPS_BLACK = new ArrayList<>();
+        ENGLISH_GIRTH_STRAPS_BROWN = new ArrayList<>();
         CLOTH_GIRTH_STRAPS = new ArrayList<>();
         ENGLISH_BLANKETS = new ArrayList<>();
         ENGLISH_LEG_WRAPS = new ArrayList<>();
@@ -1696,24 +1696,24 @@ public class TackShopItems {
                             false, Collections.emptySet(), Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]))).build(),
                             (new Item.Properties()).stacksTo(64))
             ));
-            ENGLISH_SADDLES.add( REGISTRY.register("english_saddle_" + counter, () ->
+            ENGLISH_SADDLES_BLACK.add( REGISTRY.register("english_saddle_black_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
                             false, Collections.emptySet(), Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]),
                             "english")).build(), (new Item.Properties()).stacksTo(64))
             ));
-            ENGLISH_SADDLES_OTHER.add( REGISTRY.register("english_saddle_other_" + counter, () ->
+            ENGLISH_SADDLES_BROWN.add( REGISTRY.register("english_saddle_brown_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
                             false, Collections.emptySet(), Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]),
                             "english")).build(), (new Item.Properties()).stacksTo(64))
             ));
-            ENGLISH_BRIDLES.add(REGISTRY.register("english_bridle_" + counter,
+            ENGLISH_BRIDLES_BLACK.add(REGISTRY.register("english_bridle_black_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                             new BridleTypeData(false, Collections.emptySet(),
                                     Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2])
                                     , "english")).build(),
                             (new Item.Properties()).stacksTo(64))
             ));
-            ENGLISH_BRIDLES_OTHER.add(REGISTRY.register("english_bridle_other_" + counter,
+            ENGLISH_BRIDLES_BROWN.add(REGISTRY.register("english_bridle_brown_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.BRIDLE).withData(
                             new BridleTypeData(false, Collections.emptySet(),
                                     Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2])
@@ -1727,12 +1727,12 @@ public class TackShopItems {
                                     , "english")).build(),
                             (new Item.Properties()).stacksTo(64))
             ));
-            ENGLISH_BREAST_COLLARS.add( REGISTRY.register("english_breast_collar_" + counter, () ->
+            ENGLISH_BREAST_COLLARS_BLACK.add( REGISTRY.register("english_breast_collar_black_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
                             false, Collections.emptySet(), Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]))).build(),
                             (new Item.Properties()).stacksTo(64))
             ));
-            ENGLISH_BREAST_COLLARS_OTHER.add( REGISTRY.register("english_breast_collar_other_" + counter, () ->
+            ENGLISH_BREAST_COLLARS_BROWN.add( REGISTRY.register("english_breast_collar_brown_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).withData(new TackTypeData(
                             false, Collections.emptySet(), Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]))).build(),
                             (new Item.Properties()).stacksTo(64))
@@ -1742,7 +1742,7 @@ public class TackShopItems {
                             false, Collections.emptySet(), Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]))).build(),
                             (new Item.Properties()).stacksTo(64))
             ));
-            ENGLISH_GIRTH_STRAPS.add(REGISTRY.register("english_girth_strap_" + counter,
+            ENGLISH_GIRTH_STRAPS_BLACK.add(REGISTRY.register("english_girth_strap_black_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
                                     new GirthStrapTypeData(false, Collections.emptySet(),
                                             Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]),
@@ -1751,7 +1751,7 @@ public class TackShopItems {
                                     ModRef.res("textures/entity/rack/saddle/tre_girth_strap.png")).build(),
                             (new Item.Properties()).stacksTo(64))
             ));
-            ENGLISH_GIRTH_STRAPS_OTHER.add(REGISTRY.register("english_girth_strap_other_" + counter,
+            ENGLISH_GIRTH_STRAPS_BROWN.add(REGISTRY.register("english_girth_strap_brown_" + counter,
                     () -> new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).withData(
                                     new GirthStrapTypeData(false, Collections.emptySet(),
                                             Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]),

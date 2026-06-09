@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "tretackshop:halter_rainbow",
+    "tretackshop:halter_monarch",
+    "tretackshop:halter_morpho",
+    "tretackshop:halter_hound",
     "tretackshop:halter_1",
     "tretackshop:halter_2",
     "tretackshop:halter_3",
@@ -15,7 +18,31 @@
     "tretackshop:halter_11",
     "tretackshop:halter_12",
     "tretackshop:halter_13",
-    "tretackshop:halter_14"
+    "tretackshop:halter_14",
 
+    "tretackshop:award_halter_1",
+    "tretackshop:award_halter_2",
+    "tretackshop:award_halter_3",
+    "tretackshop:award_halter_4",
+    "tretackshop:award_halter_5",
+    "tretackshop:award_halter_6",
+    "tretackshop:award_halter_7",
+    "tretackshop:award_halter_8",
+    "tretackshop:award_halter_9",
+    "tretackshop:award_halter_10",
+    "tretackshop:award_halter_11",
+    "tretackshop:award_halter_12",
+    "tretackshop:award_halter_13",
+    "tretackshop:award_halter_14",
+    "tretackshop:award_halter_15",
+    "tretackshop:award_halter_16",
+    "tretackshop:award_halter_17",
+    "tretackshop:award_halter_18",
+    "tretackshop:award_halter_19",
+    "tretackshop:award_halter_20",
+    "tretackshop:award_halter_21",
+    "tretackshop:award_halter_22",
+    "tretackshop:award_halter_23",
+    "tretackshop:award_halter_24"
   ]
 }

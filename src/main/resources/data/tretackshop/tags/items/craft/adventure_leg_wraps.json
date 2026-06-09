@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "tretackshop:adventure_leg_wraps_rainbow",
+    "tretackshop:adventure_leg_wraps_monarch",
+    "tretackshop:adventure_leg_wraps_morpho",
+    "tretackshop:adventure_leg_wraps_hound",
     "tretackshop:adventure_leg_wraps_1",
     "tretackshop:adventure_leg_wraps_2",
     "tretackshop:adventure_leg_wraps_3",
@@ -34,7 +37,32 @@
     "tretackshop:adventure_leg_wraps_red",
     "tretackshop:adventure_leg_wraps_white",
     "tretackshop:adventure_leg_wraps_yellow",
-    
+
+    "tretackshop:award_adventure_leg_wraps_1",
+    "tretackshop:award_adventure_leg_wraps_2",
+    "tretackshop:award_adventure_leg_wraps_3",
+    "tretackshop:award_adventure_leg_wraps_4",
+    "tretackshop:award_adventure_leg_wraps_5",
+    "tretackshop:award_adventure_leg_wraps_6",
+    "tretackshop:award_adventure_leg_wraps_7",
+    "tretackshop:award_adventure_leg_wraps_8",
+    "tretackshop:award_adventure_leg_wraps_9",
+    "tretackshop:award_adventure_leg_wraps_10",
+    "tretackshop:award_adventure_leg_wraps_11",
+    "tretackshop:award_adventure_leg_wraps_12",
+    "tretackshop:award_adventure_leg_wraps_13",
+    "tretackshop:award_adventure_leg_wraps_14",
+    "tretackshop:award_adventure_leg_wraps_15",
+    "tretackshop:award_adventure_leg_wraps_16",
+    "tretackshop:award_adventure_leg_wraps_17",
+    "tretackshop:award_adventure_leg_wraps_18",
+    "tretackshop:award_adventure_leg_wraps_19",
+    "tretackshop:award_adventure_leg_wraps_20",
+    "tretackshop:award_adventure_leg_wraps_21",
+    "tretackshop:award_adventure_leg_wraps_22",
+    "tretackshop:award_adventure_leg_wraps_23",
+    "tretackshop:award_adventure_leg_wraps_24",
+
     "swem:adventure_leg_wraps"
   ]
 }

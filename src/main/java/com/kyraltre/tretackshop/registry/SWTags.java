@@ -39,7 +39,7 @@ public class SWTags {
     public static final TagKey<Item> PASTURE_GATES = ItemTags.create(TreTackShop.resloc("pasture_gates"));
     public static final TagKey<Item> WEB_GUARDS = ItemTags.create(TreTackShop.resloc("web_guards"));
     public static final TagKey<Item> HALF_BARRELS = ItemTags.create(TreTackShop.resloc("half_barrels"));
-    public static final TagKey<Item> BIN_GRAINS = ItemTags.create(TreTackShop.resloc("bin_grains"));
+    public static final TagKey<Item> BIN_GRAINS = ItemTags.create(TreTackShop.resloc("grain_bins"));
 
     public SWTags() {
 

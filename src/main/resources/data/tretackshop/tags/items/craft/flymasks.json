@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "tretackshop:flymask_rainbow",
+    "tretackshop:flymask_monarch",
+    "tretackshop:flymask_morpho",
+    "tretackshop:flymask_hound",
     "tretackshop:flymask_1",
     "tretackshop:flymask_2",
     "tretackshop:flymask_3",
@@ -31,6 +35,31 @@
     "tretackshop:flymask_purple",
     "tretackshop:flymask_red",
     "tretackshop:flymask_white",
-    "tretackshop:flymask_yellow"
+    "tretackshop:flymask_yellow",
+
+    "tretackshop:award_flymask_1",
+    "tretackshop:award_flymask_2",
+    "tretackshop:award_flymask_3",
+    "tretackshop:award_flymask_4",
+    "tretackshop:award_flymask_5",
+    "tretackshop:award_flymask_6",
+    "tretackshop:award_flymask_7",
+    "tretackshop:award_flymask_8",
+    "tretackshop:award_flymask_9",
+    "tretackshop:award_flymask_10",
+    "tretackshop:award_flymask_11",
+    "tretackshop:award_flymask_12",
+    "tretackshop:award_flymask_13",
+    "tretackshop:award_flymask_14",
+    "tretackshop:award_flymask_15",
+    "tretackshop:award_flymask_16",
+    "tretackshop:award_flymask_17",
+    "tretackshop:award_flymask_18",
+    "tretackshop:award_flymask_19",
+    "tretackshop:award_flymask_20",
+    "tretackshop:award_flymask_21",
+    "tretackshop:award_flymask_22",
+    "tretackshop:award_flymask_23",
+    "tretackshop:award_flymask_24"
   ]
 }

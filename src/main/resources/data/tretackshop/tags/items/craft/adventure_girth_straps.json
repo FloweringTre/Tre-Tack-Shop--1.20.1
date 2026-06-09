@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "tretackshop:adventure_girth_strap_rainbow",
+    "tretackshop:adventure_girth_strap_monarch",
+    "tretackshop:adventure_girth_strap_morpho",
+    "tretackshop:adventure_girth_strap_hound",
     "tretackshop:adventure_girth_strap_1",
     "tretackshop:adventure_girth_strap_2",
     "tretackshop:adventure_girth_strap_3",
@@ -15,7 +19,6 @@
     "tretackshop:adventure_girth_strap_12",
     "tretackshop:adventure_girth_strap_13",
     "tretackshop:adventure_girth_strap_14",
-    "tretackshop:adventure_girth_strap_rainbow",
     "tretackshop:adventure_girth_strap_trans",
 
     "tretackshop:adventure_girth_strap_black",
@@ -34,6 +37,31 @@
     "tretackshop:adventure_girth_strap_red",
     "tretackshop:adventure_girth_strap_white",
     "tretackshop:adventure_girth_strap_yellow",
+
+    "tretackshop:award_adventure_girth_strap_1",
+    "tretackshop:award_adventure_girth_strap_2",
+    "tretackshop:award_adventure_girth_strap_3",
+    "tretackshop:award_adventure_girth_strap_4",
+    "tretackshop:award_adventure_girth_strap_5",
+    "tretackshop:award_adventure_girth_strap_6",
+    "tretackshop:award_adventure_girth_strap_7",
+    "tretackshop:award_adventure_girth_strap_8",
+    "tretackshop:award_adventure_girth_strap_9",
+    "tretackshop:award_adventure_girth_strap_10",
+    "tretackshop:award_adventure_girth_strap_11",
+    "tretackshop:award_adventure_girth_strap_12",
+    "tretackshop:award_adventure_girth_strap_13",
+    "tretackshop:award_adventure_girth_strap_14",
+    "tretackshop:award_adventure_girth_strap_15",
+    "tretackshop:award_adventure_girth_strap_16",
+    "tretackshop:award_adventure_girth_strap_17",
+    "tretackshop:award_adventure_girth_strap_18",
+    "tretackshop:award_adventure_girth_strap_19",
+    "tretackshop:award_adventure_girth_strap_20",
+    "tretackshop:award_adventure_girth_strap_21",
+    "tretackshop:award_adventure_girth_strap_22",
+    "tretackshop:award_adventure_girth_strap_23",
+    "tretackshop:award_adventure_girth_strap_24",
 
     "swem:adventure_girth_strap"
   ]

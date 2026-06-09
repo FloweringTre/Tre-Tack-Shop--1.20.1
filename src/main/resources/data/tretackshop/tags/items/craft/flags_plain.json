@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "tretackshop:flag_rainbow",
+    "tretackshop:flag_monarch",
+    "tretackshop:flag_morpho",
+    "tretackshop:flag_hound",
     "tretackshop:flag_1",
     "tretackshop:flag_2",
     "tretackshop:flag_3",
@@ -31,7 +35,31 @@
     "tretackshop:flag_purple",
     "tretackshop:flag_red",
     "tretackshop:flag_white",
-    "tretackshop:flag_yellow"
+    "tretackshop:flag_yellow",
 
+    "tretackshop:award_flag_1",
+    "tretackshop:award_flag_2",
+    "tretackshop:award_flag_3",
+    "tretackshop:award_flag_4",
+    "tretackshop:award_flag_5",
+    "tretackshop:award_flag_6",
+    "tretackshop:award_flag_7",
+    "tretackshop:award_flag_8",
+    "tretackshop:award_flag_9",
+    "tretackshop:award_flag_10",
+    "tretackshop:award_flag_11",
+    "tretackshop:award_flag_12",
+    "tretackshop:award_flag_13",
+    "tretackshop:award_flag_14",
+    "tretackshop:award_flag_15",
+    "tretackshop:award_flag_16",
+    "tretackshop:award_flag_17",
+    "tretackshop:award_flag_18",
+    "tretackshop:award_flag_19",
+    "tretackshop:award_flag_20",
+    "tretackshop:award_flag_21",
+    "tretackshop:award_flag_22",
+    "tretackshop:award_flag_23",
+    "tretackshop:award_flag_24"
   ]
 }
