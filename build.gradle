@@ -146,6 +146,7 @@ dependencies {
     implementation fg.deobf("curse.maven:filters-api-998830:5570856")
 
     implementation  fg.deobf("curse.maven:JEI-238222:4712868")
+    implementation  fg.deobf("curse.maven:jade-324717:6855440")
 
     // compileOnly fg.deobf("curse.maven:scarlet-springs-equestrian-decor-ssed-1183801:6852128")
 

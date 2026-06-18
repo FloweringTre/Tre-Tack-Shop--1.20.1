@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/slow_feeder_corner",
+  "textures": {
+    "0": "tretackshop:block/slow_feeders/slow_feeder_corner_3",
+    "particle": "minecraft:block/white_concrete"
+  }
+}

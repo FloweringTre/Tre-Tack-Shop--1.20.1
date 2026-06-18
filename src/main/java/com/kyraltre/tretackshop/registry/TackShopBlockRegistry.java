@@ -45,6 +45,7 @@ public class TackShopBlockRegistry {
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_OAK;
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_SPRUCE;
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_WARPED;
+    public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_PALE_OAK;
 
 /// ════════════════════════════════════ MORPHO ════════════════════════════════════ ///
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_MORPHO;
@@ -121,22 +122,6 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
     public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARRELS;
 //    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAINS;
 
-
-/// ════════════════════════════════════ AWARD SETS (Blank Sets) ════════════════════════════════════ ///
-    public static final List<RegistryObject<TackBoxBlock>> AWARD_TACK_BOXES;
-    public static final List<RegistryObject<Block>> AWARD_CONES;
-//    public static final List<RegistryObject<WheelBarrowBlock>> AWARD_WHEELBARROWS;
-    public static final List<RegistryObject<SlowFeederBlock>> AWARD_SLOW_FEEDERS;
-    public static final List<RegistryObject<SeparatorBlock>> AWARD_SEPARATORS;
-//    public static final List<RegistryObject<GrainFeederBlock>> AWARD_GRAIN_FEEDERS;
-    public static final List<RegistryObject<HorseDoorBlock>> AWARD_PASTURE_GATE_HORSES;
-    public static final List<RegistryObject<CareDoorBlock>> AWARD_PASTURE_GATE_CARES;
-    public static final List<RegistryObject<CareDoorHalfBlock>> AWARD_WEB_GUARD_CARES;
-    public static final List<RegistryObject<HorseDoorHalfBlock>> AWARD_WEB_GUARD_HORSES;
-    public static final List<RegistryObject<HalfDoorBlock>> AWARD_WEB_GUARD_RIDERS;
-    public static final List<RegistryObject<HalfBarrelBlock>> AWARD_HALF_BARRELS;
-//    public static final List<RegistryObject<GrainBinBlock>> AWARD_BIN_GRAINS;
-
     public TackShopBlockRegistry() {
     }
 
@@ -181,6 +166,7 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
         TACK_BOX_OAK = new ArrayList();
         TACK_BOX_SPRUCE = new ArrayList();
         TACK_BOX_WARPED = new ArrayList<>();
+        TACK_BOX_PALE_OAK = new ArrayList<>();
 
         TACK_BOX_ACACIA.add(register("tack_box_" + "acacia", () -> {
             return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
@@ -281,6 +267,14 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new TackBoxBlockItem((Block) block.get());
             };
         }));
+        TACK_BOX_PALE_OAK.add(register("tack_box_" + "pale_oak", () -> {
+            return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+        }, (block) -> {
+            return () -> {
+                return new TackBoxBlockItem((Block) block.get());
+            };
+        }));
+
 
 /// ════════════════════════════════════ MORPHO ════════════════════════════════════ ///
         TACK_BOX_MORPHO = new ArrayList();
@@ -731,10 +725,10 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
         var rContext = new Object() {
             int var2 = 1;
         };
-        var rEngColor = new Object() {
+        var rEngBlackColor = new Object() {
             final int varE = 1;
         };
-        var rEngOtherColor = new Object() {
+        var rEngBrownColor = new Object() {
             final int varEO = 1;
         };
         var rWestColor = new Object() {
@@ -742,37 +736,38 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
         };
 
         while (rContext.var2 < var1) {
-            int temp_english_color_value = rEngColor.varE;
+            int temp_english_black_color_value = rEngBlackColor.varE;
             int temp_western_color_value = rWestColor.varW;
-            int temp_english_other_color_value = rEngOtherColor.varEO;
+            int temp_english_brown_color_value = rEngBrownColor.varEO;
             int counter = rContext.var2;
             boolean a = counter < 7;
             boolean b = counter > 6;
             boolean c = counter == 13;
             boolean d = counter == 14;
             if (a) {
-                temp_english_color_value = 15;
+                temp_english_black_color_value = 15;
                 temp_western_color_value = 16;
-                temp_english_other_color_value = 16;
+                temp_english_brown_color_value = 16;
             }
             if (b) {
-                temp_english_color_value = 16;
+                temp_english_black_color_value = 16;
                 temp_western_color_value = 17;
-                temp_english_other_color_value = 15;
+                temp_english_brown_color_value = 15;
             }
             if (c) {
-                temp_english_color_value = 15;
+                temp_english_black_color_value = 15;
                 temp_western_color_value = 16;
-                temp_english_other_color_value = 16;
+                temp_english_brown_color_value = 16;
             }
             if (d) {
-                temp_english_color_value = 16;
+                temp_english_black_color_value = 16;
                 temp_western_color_value = 17;
-                temp_english_other_color_value = 15;
+                temp_english_brown_color_value = 15;
             }
             int final_western_color_value = temp_western_color_value;
-            int final_english_color_value = temp_english_color_value;
-            int final_english_other_color_value = temp_english_other_color_value;
+            int final_english_black_color_value = temp_english_black_color_value;
+            int final_english_brown_color_value = temp_english_brown_color_value;
+
 
             TACK_BOXES.add(register("tack_box_" + counter, () -> {
                 return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
@@ -868,119 +863,6 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
 
             ++rContext.var2;
         }
-
-
-/// ════════════════════════════════════ AWARD SETS (Blank Sets) ════════════════════════════════════ ///
-        AWARD_TACK_BOXES = new ArrayList<>();
-        AWARD_CONES = new ArrayList();
-//        AWARD_WHEELBARROWS = new ArrayList();
-        AWARD_SLOW_FEEDERS = new ArrayList();
-        AWARD_SEPARATORS = new ArrayList();
-//        AWARD_GRAIN_FEEDERS = new ArrayList();
-        AWARD_PASTURE_GATE_HORSES = new ArrayList();
-        AWARD_PASTURE_GATE_CARES = new ArrayList();
-        AWARD_WEB_GUARD_CARES = new ArrayList();
-        AWARD_WEB_GUARD_HORSES = new ArrayList();
-        AWARD_WEB_GUARD_RIDERS = new ArrayList();
-        AWARD_HALF_BARRELS = new ArrayList();
-//        AWARD_BIN_GRAINS = new ArrayList();
-
-
-        int var5 = 24;
-        for (int var2 = 0; var2 < var5; ++var2) {
-            int counter = var2+1;
-            AWARD_TACK_BOXES.add(register("award_tack_box_" + counter, () -> {
-                return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
-            }, (block) -> {
-                return () -> {
-                    return new TackBoxBlockItem((Block) block.get());
-                };
-            }));
-            CONES.add(register("award_cone_" + counter, () -> {
-                return new ConeBase();
-            }, (block) -> {
-                return () -> {
-                    return new ConeBlockItem((Block) block.get());
-                };
-            }));
-//            AWARD_WHEELBARROWS.add(register("award_wheelbarrow_" + counter, () -> {
-//                return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
-            AWARD_SLOW_FEEDERS.add(register("award_slow_feeder_" + counter, () -> {
-                return new SlowFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-            AWARD_SEPARATORS.add(register("award_separator_" + counter, () -> {
-                return new SeparatorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-//            AWARD_GRAIN_FEEDERS.add(register("award_grain_feeder_" + counter, () -> {
-//                return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
-            AWARD_PASTURE_GATE_HORSES.add(register("award_pasture_gate_horse_" + counter, () -> {
-                return new HorseDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-            AWARD_PASTURE_GATE_CARES.add(register("award_pasture_gate_care_" + counter, () -> {
-                return new CareDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-            AWARD_WEB_GUARD_CARES.add(register("award_web_guard_care_" + counter, () -> {
-                return new CareDoorHalfBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-            AWARD_WEB_GUARD_HORSES.add(register("award_web_guard_horse_" + counter, () -> {
-                return new HorseDoorHalfBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-            AWARD_WEB_GUARD_RIDERS.add(register("award_web_guard_rider_" + counter, () -> {
-                return new HalfDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-            AWARD_HALF_BARRELS.add(register("award_half_barrel_" + counter, () -> {
-                return new HalfBarrelBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F));
-            }, (block) -> {
-                return () -> {
-                    return new BlockItemBase((Block)block.get());
-                };
-            }));
-//            AWARD_BIN_GRAINS.add(register("award_bin_grain_" + counter, () -> {
-//                return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
-       }
     }
 
 }

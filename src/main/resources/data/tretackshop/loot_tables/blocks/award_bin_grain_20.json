@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tretackshop:award_bin_grain_20"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tretackshop:blocks/award_bin_grain_20"
+}

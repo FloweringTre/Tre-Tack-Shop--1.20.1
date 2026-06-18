@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:item/grain_feeders/grain_feeder_7"
+  }
+}

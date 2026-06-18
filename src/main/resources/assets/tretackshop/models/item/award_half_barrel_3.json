@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:item/awards/half_barrels/award_half_barrel_3"
+  }
+}

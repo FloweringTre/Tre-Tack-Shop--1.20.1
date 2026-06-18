@@ -1,0 +1,117 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_3"
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_closed_3"
+      },
+      "when": {
+        "facing": "north",
+        "open": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_open_3"
+      },
+      "when": {
+        "facing": "north",
+        "open": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_3",
+        "y": 90
+      },
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_closed_3",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "open": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_open_3",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "open": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_3",
+        "y": 180
+      },
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_closed_3",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "open": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_open_3",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "open": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_3",
+        "y": 270
+      },
+      "when": {
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_closed_3",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "open": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tretackshop:block/bin_grain_open_3",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "open": "true"
+      }
+    }
+  ]
+}

@@ -264,6 +264,25 @@ public class MissingMappingHandler {
                         mapping.remap(TackShopItems.ADVENTURE_GIRTH_STRAP_TRANS.get());
                 case "english_blanket_trans" ->
                         mapping.remap(TackShopItems.ADVENTURE_BLANKET_TRANS.get());
+
+                case "e_g_g_trophy_thick_1" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_THICK.get(0).get());
+                case "e_g_g_trophy_thick_2" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_THICK.get(1).get());
+                case "e_g_g_trophy_thick_3" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_THICK.get(12).get());
+                case "e_g_g_trophy_thin_1" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_THIN.get(2).get());
+                case "e_g_g_trophy_thin_2" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_THIN.get(3).get());
+                case "e_g_g_trophy_thin_3" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_THIN.get(5).get());
+                case "e_g_g_trophy_chev_1" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_CHEVRON.get(2).get());
+                case "e_g_g_trophy_chev_2" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_CHEVRON.get(3).get());
+                case "e_g_g_trophy_chev_3" ->
+                        mapping.remap(TackShopItems.EGG_TROPHY_CHEVRON.get(4).get());
             }
         }
     }

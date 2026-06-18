@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tretackshop:item/awards/slow_feeders/award_slow_feeder_19"
+  }
+}

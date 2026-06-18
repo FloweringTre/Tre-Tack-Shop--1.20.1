@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tretackshop:item/pasture_gates/pasture_care_1"
+    "layer0": "tretackshop:item/pasture_gates/pasture_gate_care_1"
   }
 }
       

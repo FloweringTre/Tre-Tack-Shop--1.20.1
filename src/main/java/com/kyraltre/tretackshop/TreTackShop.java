@@ -1,6 +1,7 @@
 package com.kyraltre.tretackshop;
 
 import com.kyraltre.tretackshop.block.TackShopBlocks;
+import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.*;
 //import com.kyraltre.tretackshop.compat.*;
@@ -38,10 +39,13 @@ public class TreTackShop {
     public TreTackShop() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         TackShopCreativeModTab.init(modEventBus);
+        AwardShopCreativeModTab.init(modEventBus);
 
         TackShopBlocks.register(modEventBus);
         TackShopBlockRegistry.init(modEventBus);
         TackShopItems.init(modEventBus);
+        AwardShopBlockRegistry.init(modEventBus);
+        AwardShopItems.init(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
