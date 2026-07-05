@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "swem:halters"
+    },
+    {
+      "item": "tretackshop:paw_print"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:halter_hound"
+  }
+}

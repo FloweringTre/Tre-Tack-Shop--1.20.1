@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/bareback_girth_straps"
+    },
+    {
+      "item": "tretackshop:butterfly_monarch"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:bareback_girth_strap_monarch"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "saddle_bags",
+  "ingredients": [
+    {
+      "tag": "swem:saddle_bags"
+    },
+    {
+      "item": "tretackshop:butterfly"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:saddle_bag_morpho"
+  }
+}

@@ -20,6 +20,22 @@
   "item.tretackshop.sun_trophy": "Sun Trophy",
   "item.tretackshop.moon_trophy": "Moon Trophy",
 
+  "block.tretackshop.tack_box_bamboo": "Bamboo Tack Box",
+  "block.tretackshop.tack_box_swdm_bamboo": "SWDM Bamboo Tack Box",
+  "block.tretackshop.tack_box_whitewash": "Whitewash Tack Box",
+  "block.tretackshop.tack_box_thatch": "Thatch Tack Box",
+  "block.tretackshop.tack_box_mangrove": "Mangrove Tack Box",
+  "block.tretackshop.tack_box_cherry": "Cherry Tack Box",
+  "block.tretackshop.tack_box_acacia": "Acacia Tack Box",
+  "block.tretackshop.tack_box_birch": "Birch Tack Box",
+  "block.tretackshop.tack_box_crimson": "Crimson Tack Box",
+  "block.tretackshop.tack_box_jungle": "Jungle Tack Box",
+  "block.tretackshop.tack_box_dark_oak": "Dark Oak Tack Box",
+  "block.tretackshop.tack_box_oak": "Oak Tack Box",
+  "block.tretackshop.tack_box_spruce": "Spruce Tack Box",
+  "block.tretackshop.tack_box_warped": "Warped Tack Box",
+  "block.tretackshop.tack_box_pale_oak": "Pale Oak Tack Box",
+
   "filter.tretackshop.trophies": "Miscellaneous Awards",
   "filter.tretackshop.misc": "Miscellaneous",
 
@@ -91,7 +107,6 @@
   "item.tretackshop.dressage_blanket": "Dressage Blanket",
   "item.tretackshop.dressage_girth_strap": "Dressage Girth Strap",
 
-  /// ════════════════════════════════════ MORPHO ════════════════════════════════════ ///
   "filter.tretackshop.morpho": "Morpho",
   "item.tretackshop.dye_morpho": "Morpho Dye",
   "item.tretackshop.flag_morpho": "Morpho Flag",
@@ -133,7 +148,7 @@
   "item.tretackshop.english_leg_wraps_morpho": "Morpho English Leg Wraps",
   "item.tretackshop.quarter_sheet_morpho": "Morpho Quarter Sheet",
   "item.tretackshop.bareback_saddle_morpho": "Morpho Bareback Saddle",
-  "item.tretackshop.english_bitless_bridle_morpho": "Morpho Bitless Bridle",
+  "item.tretackshop.english_bridle_bitless_morpho": "Morpho Bitless Bridle",
   "item.tretackshop.bareback_girth_strap_morpho": "Morpho Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_morpho": "Morpho Bareback Blanket",
   "block.tretackshop.tack_box_morpho": "Morpho Tack Box",
@@ -150,7 +165,6 @@
   "block.tretackshop.half_barrel_morpho": "Morpho Half Barrel",
   "block.tretackshop.bin_grain_morpho": "Morpho Grain Bin",
 
-  /// ════════════════════════════════════ MONARCH ════════════════════════════════════ ///
   "filter.tretackshop.monarch": "Monarch",
   "item.tretackshop.dye_monarch": "Monarch Dye",
   "item.tretackshop.flag_monarch": "Monarch Flag",
@@ -192,7 +206,7 @@
   "item.tretackshop.english_leg_wraps_monarch": "Monarch English Leg Wraps",
   "item.tretackshop.quarter_sheet_monarch": "Monarch Quarter Sheet",
   "item.tretackshop.bareback_saddle_monarch": "Monarch Bareback Saddle",
-  "item.tretackshop.english_bitless_bridle_monarch": "Monarch Bitless Bridle",
+  "item.tretackshop.english_bridle_bitless_monarch": "Monarch Bitless Bridle",
   "item.tretackshop.bareback_girth_strap_monarch": "Monarch Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_monarch": "Monarch Bareback Blanket",
   "block.tretackshop.tack_box_monarch": "Monarch Tack Box",
@@ -209,7 +223,6 @@
   "block.tretackshop.half_barrel_monarch": "Monarch Half Barrel",
   "block.tretackshop.bin_grain_monarch": "Monarch Grain Bin",
 
-  /// ════════════════════════════════════ RAINBOW ════════════════════════════════════ ///
   "filter.tretackshop.rainbow": "Rainbow",
   "item.tretackshop.dye_rainbow": "Rainbow Dye",
   "item.tretackshop.flag_rainbow": "Rainbow Flag",
@@ -268,7 +281,6 @@
   "block.tretackshop.half_barrel_rainbow": "Rainbow Half Barrel",
   "block.tretackshop.bin_grain_rainbow": "Rainbow Grain Bin",
 
-  /// ════════════════════════════════════ HOUND ════════════════════════════════════ ///
   "filter.tretackshop.hound": "Hound",
   "item.tretackshop.dye_hound": "Hound Dye",
   "item.tretackshop.flag_hound": "Hound Flag",
@@ -309,7 +321,7 @@
   "item.tretackshop.english_leg_wraps_hound": "Hound English Leg Wraps",
   "item.tretackshop.quarter_sheet_hound": "Hound Quarter Sheet",
   "item.tretackshop.bareback_saddle_hound": "Hound Bareback Saddle",
-  "item.tretackshop.english_bitless_bridle_hound": "Hound Bitless Bridle",
+  "item.tretackshop.english_bridle_bitless_hound": "Hound Bitless Bridle",
   "item.tretackshop.bareback_girth_strap_hound": "Hound Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_hound": "Hound Bareback Blanket",
   "block.tretackshop.tack_box_hound": "Hound Tack Box",
@@ -326,7 +338,6 @@
   "block.tretackshop.half_barrel_hound": "Hound Half Barrel",
   "block.tretackshop.bin_grain_hound": "Hound Grain Bin",
 
-/// ════════════════════════════════════ ROSE - TACKSHOP 1 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_1": "Rose",
   "item.tretackshop.dye_1": "Rose Dye",
   "item.tretackshop.flag_1": "Rose Flag",
@@ -392,7 +403,6 @@
   "block.tretackshop.half_barrel_1": "Rose Half Barrel",
   "block.tretackshop.bin_grain_1": "Rose Grain Bin",
 
-  /// ════════════════════════════════════ SALMON - TACKSHOP 2 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_2": "Salmon",
   "item.tretackshop.dye_2": "Salmon Dye",
   "item.tretackshop.flag_2": "Salmon Flag",
@@ -461,7 +471,6 @@
   "block.tretackshop.half_barrel_2": "Salmon Half Barrel",
   "block.tretackshop.bin_grain_2": "Salmon Grain Bin",
 
-  /// ════════════════════════════════════ SUNSHINE - TACKSHOP 3 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_3": "Sunshine",
   "item.tretackshop.dye_3": "Sunshine Dye",
   "item.tretackshop.flag_3": "Sunshine Flag",
@@ -530,7 +539,6 @@
   "block.tretackshop.half_barrel_3": "Sunshine Half Barrel",
   "block.tretackshop.bin_grain_3": "Sunshine Grain Bin",
 
-  /// ════════════════════════════════════ MINT - TACKSHOP 4 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_4": "Mint",
   "item.tretackshop.dye_4": "Mint Dye",
   "item.tretackshop.flag_4": "Mint Flag",
@@ -599,7 +607,6 @@
   "block.tretackshop.half_barrel_4": "Mint Half Barrel",
   "block.tretackshop.bin_grain_4": "Mint Grain Bin",
 
-  /// ════════════════════════════════════ ARCTIC - TACKSHOP 5 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_5": "Arctic",
   "item.tretackshop.dye_5": "Arctic Dye",
   "item.tretackshop.flag_5": "Arctic Flag",
@@ -668,7 +675,6 @@
   "block.tretackshop.half_barrel_5": "Arctic Half Barrel",
   "block.tretackshop.bin_grain_5": "Arctic Grain Bin",
 
-  /// ════════════════════════════════════ LAVENDER - TACKSHOP 6 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_6": "Lavender",
   "item.tretackshop.dye_6": "Lavender Dye",
   "item.tretackshop.flag_6": "Lavender Flag",
@@ -737,7 +743,6 @@
   "block.tretackshop.half_barrel_6": "Lavender Half Barrel",
   "block.tretackshop.bin_grain_6": "Lavender Grain Bin",
 
-  /// ════════════════════════════════════ FUSCHIA - TACKSHOP 7 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_7": "Fuschia",
   "item.tretackshop.dye_7": "Fuschia Dye",
   "item.tretackshop.flag_7": "Fuschia Flag",
@@ -806,7 +811,6 @@
   "block.tretackshop.half_barrel_7": "Fuschia Half Barrel",
   "block.tretackshop.bin_grain_7": "Fuschia Grain Bin",
 
-  /// ════════════════════════════════════ RUBY - TACKSHOP 8 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_8": "Ruby",
   "item.tretackshop.dye_8": "Ruby Dye",
   "item.tretackshop.flag_8": "Ruby Flag",
@@ -875,7 +879,6 @@
   "block.tretackshop.half_barrel_8": "Ruby Half Barrel",
   "block.tretackshop.bin_grain_8": "Ruby Grain Bin",
 
-  /// ════════════════════════════════════ DANDELION - TACKSHOP 9 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_9": "Dandelion",
   "item.tretackshop.dye_9": "Dandelion Dye",
   "item.tretackshop.flag_9": "Dandelion Flag",
@@ -944,7 +947,6 @@
   "block.tretackshop.half_barrel_9": "Dandelion Half Barrel",
   "block.tretackshop.bin_grain_9": "Dandelion Grain Bin",
 
-  /// ════════════════════════════════════ EMERALD - TACKSHOP 10 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_10": "Emerald",
   "item.tretackshop.dye_10": "Emerald Dye",
   "item.tretackshop.flag_10": "Emerald Flag",
@@ -1013,7 +1015,6 @@
   "block.tretackshop.half_barrel_10": "Emerald Half Barrel",
   "block.tretackshop.bin_grain_10": "Emerald Grain Bin",
 
-  /// ════════════════════════════════════ NAVY - TACKSHOP 11 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_11": "Navy",
   "item.tretackshop.dye_11": "Navy Dye",
   "item.tretackshop.flag_11": "Navy Flag",
@@ -1082,7 +1083,6 @@
   "block.tretackshop.half_barrel_11": "Navy Half Barrel",
   "block.tretackshop.bin_grain_11": "Navy Grain Bin",
 
-  /// ════════════════════════════════════ ORCHID - TACKSHOP 12 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_12": "Orchid",
   "item.tretackshop.dye_12": "Orchid Dye",
   "item.tretackshop.flag_12": "Orchid Flag",
@@ -1151,7 +1151,6 @@
   "block.tretackshop.half_barrel_12": "Orchid Half Barrel",
   "block.tretackshop.bin_grain_12": "Orchid Grain Bin",
 
-  /// ════════════════════════════════════ CREAMSICLE - TACKSHOP 13 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_13": "Creamsicle",
   "item.tretackshop.dye_13": "Creamsicle Dye",
   "item.tretackshop.flag_13": "Creamsicle Flag",
@@ -1220,7 +1219,6 @@
   "block.tretackshop.half_barrel_13": "Creamsicle Half Barrel",
   "block.tretackshop.bin_grain_13": "Creamsicle Grain Bin",
 
-  /// ════════════════════════════════════ TOPAZ - TACKSHOP 14 ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_14": "Topaz",
   "item.tretackshop.dye_14": "Topaz Dye",
   "item.tretackshop.flag_14": "Topaz Flag",
@@ -1289,7 +1287,6 @@
   "block.tretackshop.half_barrel_14": "Topaz Half Barrel",
   "block.tretackshop.bin_grain_14": "Topaz Grain Bin",
 
-  /// ════════════════════════════════════ BLACK ════════════════════════════════════ ///
   "filter.tretackshop.black": "Black",
   "item.tretackshop.flag_black": "Black Flag",
   "item.tretackshop.flag_butterfly_black": "Black Butterfly Flag",
@@ -1335,7 +1332,6 @@
   "item.tretackshop.bareback_girth_strap_black": "Black Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_black": "Black Bareback Blanket",
 
-  /// ════════════════════════════════════ BLUE ════════════════════════════════════ ///
   "filter.tretackshop.blue": "Blue",
   "item.tretackshop.flag_blue": "Blue Flag",
   "item.tretackshop.flag_butterfly_blue": "Blue Butterfly Flag",
@@ -1381,7 +1377,6 @@
   "item.tretackshop.bareback_girth_strap_blue": "Blue Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_blue": "Blue Bareback Blanket",
 
-  /// ════════════════════════════════════ BROWN ════════════════════════════════════ ///
   "filter.tretackshop.brown": "Brown",
   "item.tretackshop.flag_brown": "Brown Flag",
   "item.tretackshop.flag_butterfly_brown": "Brown Butterfly Flag",
@@ -1436,7 +1431,6 @@
   "item.tretackshop.bareback_girth_strap_brown": "Brown Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_brown": "Brown Bareback Blanket",
 
-  /// ════════════════════════════════════ CYAN ════════════════════════════════════ ///
   "filter.tretackshop.cyan": "Cyan",
   "item.tretackshop.dye_cyan": "Cyan Dye",
   "item.tretackshop.flag_cyan": "Cyan Flag",
@@ -1492,7 +1486,6 @@
   "item.tretackshop.bareback_girth_strap_cyan": "Cyan Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_cyan": "Cyan Bareback Blanket",
 
-  /// ════════════════════════════════════ GRAY ════════════════════════════════════ ///
   "filter.tretackshop.gray": "Gray",
   "item.tretackshop.flag_gray": "Gray Flag",
   "item.tretackshop.flag_butterfly_gray": "Gray Butterfly Flag",
@@ -1547,7 +1540,6 @@
   "item.tretackshop.bareback_girth_strap_gray": "Gray Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_gray": "Gray Bareback Blanket",
 
-  /// ════════════════════════════════════ GREEN ════════════════════════════════════ ///
   "filter.tretackshop.green": "Green",
   "item.tretackshop.flag_green": "Green Flag",
   "item.tretackshop.flag_butterfly_green": "Green Butterfly Flag",
@@ -1602,7 +1594,6 @@
   "item.tretackshop.bareback_girth_strap_green": "Green Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_green": "Green Bareback Blanket",
 
-  /// ════════════════════════════════════ LIGHT BLUE ════════════════════════════════════ ///
   "filter.tretackshop.light_blue": "Light Blue",
   "item.tretackshop.flag_light_blue": "Light Blue Flag",
   "item.tretackshop.flag_butterfly_light_blue": "Light Blue Butterfly Flag",
@@ -1657,7 +1648,6 @@
   "item.tretackshop.bareback_girth_strap_light_blue": "Light Blue Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_light_blue": "Light Blue Bareback Blanket",
 
-  /// ════════════════════════════════════ LIGHT GRAY ════════════════════════════════════ ///
   "filter.tretackshop.light_gray": "Light Gray",
   "item.tretackshop.flag_light_gray": "Light Gray Flag",
   "item.tretackshop.flag_butterfly_light_gray": "Light Gray Butterfly Flag",
@@ -1712,7 +1702,6 @@
   "item.tretackshop.bareback_girth_strap_light_gray": "Light Gray Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_light_gray": "Light Gray Bareback Blanket",
 
-  /// ════════════════════════════════════ LIME ════════════════════════════════════ ///
   "filter.tretackshop.tackshop_lime": "Lime",
   "item.tretackshop.flag_lime": "Lime Flag",
   "item.tretackshop.flag_butterfly_lime": "Lime Butterfly Flag",
@@ -1767,7 +1756,6 @@
   "item.tretackshop.bareback_girth_strap_lime": "Lime Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_lime": "Lime Bareback Blanket",
 
-  /// ════════════════════════════════════ MAGENTA ════════════════════════════════════ ///
   "filter.tretackshop.magenta": "Magenta",
   "item.tretackshop.dye_magenta": "Magenta Dye",
   "item.tretackshop.flag_magenta": "Magenta Flag",
@@ -1823,7 +1811,6 @@
   "item.tretackshop.bareback_girth_strap_magenta": "Magenta Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_magenta": "Magenta Bareback Blanket",
 
-  /// ════════════════════════════════════ ORANGE ════════════════════════════════════ ///
   "filter.tretackshop.orange": "Orange",
   "item.tretackshop.flag_orange": "Orange Flag",
   "item.tretackshop.flag_butterfly_orange": "Orange Butterfly Flag",
@@ -1878,7 +1865,6 @@
   "item.tretackshop.bareback_girth_strap_orange": "Orange Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_orange": "Orange Bareback Blanket",
 
-  /// ════════════════════════════════════ PINK ════════════════════════════════════ ///
   "filter.tretackshop.pink": "Pink",
   "item.tretackshop.flag_pink": "Pink Flag",
   "item.tretackshop.flag_butterfly_pink": "Pink Butterfly Flag",
@@ -1933,7 +1919,6 @@
   "item.tretackshop.bareback_girth_strap_pink": "Pink Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_pink": "Pink Bareback Blanket",
 
-  /// ════════════════════════════════════ PURPLE ════════════════════════════════════ ///
   "filter.tretackshop.purple": "Purple",
   "item.tretackshop.flag_purple": "Purple Flag",
   "item.tretackshop.flag_butterfly_purple": "Purple Butterfly Flag",
@@ -1988,7 +1973,6 @@
   "item.tretackshop.bareback_girth_strap_purple": "Purple Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_purple": "Purple Bareback Blanket",
 
-  /// ════════════════════════════════════ RED ════════════════════════════════════ ///
   "filter.tretackshop.red": "Red",
   "item.tretackshop.flag_red": "Red Flag",
   "item.tretackshop.flag_butterfly_red": "Red Butterfly Flag",
@@ -2043,7 +2027,6 @@
   "item.tretackshop.bareback_girth_strap_red": "Red Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_red": "Red Bareback Blanket",
 
-  /// ════════════════════════════════════ WHITE ════════════════════════════════════ ///
   "filter.tretackshop.white": "White",
   "item.tretackshop.flag_white": "White Flag",
   "item.tretackshop.flag_butterfly_white": "White Butterfly Flag",
@@ -2098,7 +2081,6 @@
   "item.tretackshop.bareback_girth_strap_white": "White Bareback Girth Strap",
   "item.tretackshop.bareback_blanket_white": "White Bareback Blanket",
 
-  /// ════════════════════════════════════ YELLOW ════════════════════════════════════ ///
   "filter.tretackshop.yellow": "Yellow",
   "item.tretackshop.flag_yellow": "Yellow Flag",
   "item.tretackshop.flag_butterfly_yellow": "Yellow Butterfly Flag",
@@ -2151,5 +2133,5 @@
   "item.tretackshop.bareback_saddle_yellow": "Yellow Bareback Saddle",
   "item.tretackshop.cloth_bitless_bridle_yellow": "Yellow Bitless Bridle",
   "item.tretackshop.bareback_girth_strap_yellow": "Yellow Bareback Girth Strap",
-  "item.tretackshop.bareback_blanket_yellow": "Yellow Bareback Blanket",
+  "item.tretackshop.bareback_blanket_yellow": "Yellow Bareback Blanket"
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_bridles"
+    },
+    {
+      "item": "tretackshop:butterfly"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_bridle_morpho"
+  }
+}

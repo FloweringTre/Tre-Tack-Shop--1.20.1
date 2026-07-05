@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/web_guard_riders"
+    },
+    {
+      "item": "tretackshop:butterfly"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:web_guard_rider_morpho"
+  }
+}

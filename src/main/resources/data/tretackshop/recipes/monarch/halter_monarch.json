@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "swem:halters"
+    },
+    {
+      "item": "tretackshop:butterfly_monarch"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:halter_monarch"
+  }
+}

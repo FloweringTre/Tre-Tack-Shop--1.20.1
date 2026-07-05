@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_bridles"
+    },
+    {
+      "item": "tretackshop:butterfly"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_bridle_morpho"
+  }
+}
