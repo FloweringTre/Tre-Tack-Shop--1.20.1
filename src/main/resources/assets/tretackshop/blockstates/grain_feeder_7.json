@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "con_left=false,con_right=false,facing=east,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_7",
+      "y": 90
+    },
+    "con_left=false,con_right=false,facing=east,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_7",
+      "y": 90
+    },
+    "con_left=false,con_right=false,facing=north,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_7"
+    },
+    "con_left=false,con_right=false,facing=north,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_7"
+    },
+    "con_left=false,con_right=false,facing=south,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_7",
+      "y": 180
+    },
+    "con_left=false,con_right=false,facing=south,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_7",
+      "y": 180
+    },
+    "con_left=false,con_right=false,facing=west,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_7",
+      "y": 270
+    },
+    "con_left=false,con_right=false,facing=west,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_7",
+      "y": 270
+    },
+    "con_left=false,con_right=true,facing=east,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 180
+    },
+    "con_left=false,con_right=true,facing=east,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 180
+    },
+    "con_left=false,con_right=true,facing=north,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 90
+    },
+    "con_left=false,con_right=true,facing=north,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 90
+    },
+    "con_left=false,con_right=true,facing=south,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 270
+    },
+    "con_left=false,con_right=true,facing=south,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 270
+    },
+    "con_left=false,con_right=true,facing=west,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7"
+    },
+    "con_left=false,con_right=true,facing=west,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7"
+    },
+    "con_left=true,con_right=false,facing=east,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 90
+    },
+    "con_left=true,con_right=false,facing=east,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 90
+    },
+    "con_left=true,con_right=false,facing=north,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7"
+    },
+    "con_left=true,con_right=false,facing=north,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7"
+    },
+    "con_left=true,con_right=false,facing=south,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 180
+    },
+    "con_left=true,con_right=false,facing=south,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 180
+    },
+    "con_left=true,con_right=false,facing=west,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 270
+    },
+    "con_left=true,con_right=false,facing=west,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 270
+    },
+    "con_left=true,con_right=true,facing=east,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 180
+    },
+    "con_left=true,con_right=true,facing=east,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 180
+    },
+    "con_left=true,con_right=true,facing=north,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 90
+    },
+    "con_left=true,con_right=true,facing=north,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 90
+    },
+    "con_left=true,con_right=true,facing=south,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 270
+    },
+    "con_left=true,con_right=true,facing=south,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7",
+      "y": 270
+    },
+    "con_left=true,con_right=true,facing=west,occupied=false": {
+      "model": "tretackshop:block/grain_feeder_corner_7"
+    },
+    "con_left=true,con_right=true,facing=west,occupied=true": {
+      "model": "tretackshop:block/grain_feeder_corner_7"
+    }
+  }
+}

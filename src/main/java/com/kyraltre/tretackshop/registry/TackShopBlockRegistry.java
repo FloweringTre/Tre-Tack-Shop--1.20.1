@@ -122,6 +122,10 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
     public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARRELS;
 //    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAINS;
 
+    public static final List<RegistryObject<TrophyBlock>> EGG_TROPHY_THICK;
+    public static final List<RegistryObject<TrophyBlock>> EGG_TROPHY_THIN;
+    public static final List<RegistryObject<TrophyBlock>> EGG_TROPHY_CHEVRON;
+
     public TackShopBlockRegistry() {
     }
 
@@ -719,6 +723,9 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
         WEB_GUARD_RIDERS = new ArrayList();
         HALF_BARRELS = new ArrayList();
 //        BIN_GRAINS = new ArrayList();
+        EGG_TROPHY_THICK = new ArrayList<>();
+        EGG_TROPHY_THIN = new ArrayList<>();
+        EGG_TROPHY_CHEVRON = new ArrayList<>();
 
         int var1 = 15;
 
@@ -860,6 +867,28 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
 //                    return new BlockItemBase((Block)block.get());
 //                };
 //            }));
+
+            EGG_TROPHY_THICK.add(register("egg_trophy_thick_" + counter, () -> {
+                return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
+            EGG_TROPHY_THIN.add(register("egg_trophy_thin_" + counter, () -> {
+                return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
+            EGG_TROPHY_CHEVRON.add(register("egg_trophy_chev_" + counter, () -> {
+                return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
 
             ++rContext.var2;
         }

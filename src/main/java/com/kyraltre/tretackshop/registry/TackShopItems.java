@@ -313,9 +313,9 @@ public class TackShopItems {
     public static final List<RegistryObject<Item>> TRE_RIBBON_ONE_TAIL;
     public static final List<RegistryObject<Item>> TRE_ROSETTE;
 
-    public static final List<RegistryObject<Item>> EGG_TROPHY_THICK;
-    public static final List<RegistryObject<Item>> EGG_TROPHY_THIN;
-    public static final List<RegistryObject<Item>> EGG_TROPHY_CHEVRON;
+//    public static final List<RegistryObject<Item>> EGG_TROPHY_THICK;
+//    public static final List<RegistryObject<Item>> EGG_TROPHY_THIN;
+//    public static final List<RegistryObject<Item>> EGG_TROPHY_CHEVRON;
 
     public static final List<RegistryObject<TackItem>> HALTERS;
     public static final List<RegistryObject<TackItem>> FLYMASKS;
@@ -369,10 +369,6 @@ public class TackShopItems {
     public static final List<RegistryObject<Item>> RIBBON_TWO_TAILS;
     public static final List<RegistryObject<Item>> RIBBON_ONE_TAIL;
     public static final List<RegistryObject<Item>> ROSETTE;
-
-    public static final List<RegistryObject<Item>> EGG_TROPHY_THICK_DYED;
-    public static final List<RegistryObject<Item>> EGG_TROPHY_THIN_DYED;
-    public static final List<RegistryObject<Item>> EGG_TROPHY_CHEVRON_DYED;
 
     public static final List<RegistryObject<TackItem>> FLYMASKS_DYED;
     public static final List<RegistryObject<TackItem>> ADVENTURE_SADDLES_DYED;
@@ -1422,9 +1418,9 @@ public class TackShopItems {
         TRE_RIBBON_ONE_TAIL = new ArrayList<>();
         TRE_ROSETTE = new ArrayList<>();
 
-        EGG_TROPHY_THICK = new ArrayList<>();
-        EGG_TROPHY_THIN = new ArrayList<>();
-        EGG_TROPHY_CHEVRON = new ArrayList<>();
+//        EGG_TROPHY_THICK = new ArrayList<>();
+//        EGG_TROPHY_THIN = new ArrayList<>();
+//        EGG_TROPHY_CHEVRON = new ArrayList<>();
 
         HALTERS = new ArrayList<>();
         FLYMASKS = new ArrayList<>();
@@ -1545,15 +1541,15 @@ public class TackShopItems {
             TRE_ROSETTE.add(REGISTRY.register("rosette_" + counter, () ->
                     new Item(new Item.Properties())
             ));
-            EGG_TROPHY_THICK.add(REGISTRY.register("egg_trophy_thick_" + counter, () ->
-                    new Item(new Item.Properties())
-            ));
-            EGG_TROPHY_THIN.add(REGISTRY.register("egg_trophy_thin_" + counter, () ->
-                    new Item(new Item.Properties())
-            ));
-            EGG_TROPHY_CHEVRON.add(REGISTRY.register("egg_trophy_chevron_" + counter, () ->
-                    new Item(new Item.Properties())
-            ));
+//            EGG_TROPHY_THICK.add(REGISTRY.register("egg_trophy_thick_" + counter, () ->
+//                    new Item(new Item.Properties())
+//            ));
+//            EGG_TROPHY_THIN.add(REGISTRY.register("egg_trophy_thin_" + counter, () ->
+//                    new Item(new Item.Properties())
+//            ));
+//            EGG_TROPHY_CHEVRON.add(REGISTRY.register("egg_trophy_chev_" + counter, () ->
+//                    new Item(new Item.Properties())
+//            ));
 
             HALTERS.add( REGISTRY.register("halter_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
@@ -1819,10 +1815,6 @@ public class TackShopItems {
             RIBBON_ONE_TAIL = new ArrayList<>();
             ROSETTE = new ArrayList<>();
 
-            EGG_TROPHY_THICK_DYED = new ArrayList<>();
-            EGG_TROPHY_THIN_DYED = new ArrayList<>();
-            EGG_TROPHY_CHEVRON_DYED = new ArrayList<>();
-
             FLYMASKS_DYED = new ArrayList<>();
             ADVENTURE_SADDLES_DYED = new ArrayList<>();
             ADVENTURE_BRIDLES_DYED = new ArrayList<>();
@@ -1880,15 +1872,6 @@ public class TackShopItems {
                     new Item(new Item.Properties())
             ));
             ROSETTE.add(REGISTRY.register("rosette_" + color.getName(), () ->
-                    new Item(new Item.Properties())
-            ));
-            EGG_TROPHY_THICK_DYED.add(REGISTRY.register("egg_trophy_thick_" + color.getName(), () ->
-                    new Item(new Item.Properties())
-            ));
-            EGG_TROPHY_THIN_DYED.add(REGISTRY.register("egg_trophy_thin_" + color.getName(), () ->
-                    new Item(new Item.Properties())
-            ));
-            EGG_TROPHY_CHEVRON_DYED.add(REGISTRY.register("egg_trophy_chevron_" + color.getName(), () ->
                     new Item(new Item.Properties())
             ));
 

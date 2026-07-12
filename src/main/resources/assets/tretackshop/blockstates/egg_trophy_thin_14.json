@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tretackshop:block/egg_trophy_thin_14"},
+    "facing=east": { "model": "tretackshop:block/egg_trophy_thin_14", "y": 90},
+    "facing=south": { "model": "tretackshop:block/egg_trophy_thin_14", "y": 180},
+    "facing=west": { "model": "tretackshop:block/egg_trophy_thin_14", "y": 270}
+  }
+}
