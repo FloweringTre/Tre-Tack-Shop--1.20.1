@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "flags",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/flags"
+    },
+    {
+      "item": "tretackshop:dye_3"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:flag_3"
+  }
+}

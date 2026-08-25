@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "facing=east,level=0": {
+      "model": "tretackshop:block/award_wheelbarrow_9",
+      "y": 90
+    },
+    "facing=east,level=1": {
+      "model": "tretackshop:block/award_wheelbarrow_level1_9",
+      "y": 90
+    },
+    "facing=east,level=2": {
+      "model": "tretackshop:block/award_wheelbarrow_level2_9",
+      "y": 90
+    },
+    "facing=east,level=3": {
+      "model": "tretackshop:block/award_wheelbarrow_level3_9",
+      "y": 90
+    },
+    "facing=east,level=4": {
+      "model": "tretackshop:block/award_wheelbarrow_full_9",
+      "y": 90
+    },
+    "facing=north,level=0": {
+      "model": "tretackshop:block/award_wheelbarrow_9"
+    },
+    "facing=north,level=1": {
+      "model": "tretackshop:block/award_wheelbarrow_level1_9"
+    },
+    "facing=north,level=2": {
+      "model": "tretackshop:block/award_wheelbarrow_level2_9"
+    },
+    "facing=north,level=3": {
+      "model": "tretackshop:block/award_wheelbarrow_level3_9"
+    },
+    "facing=north,level=4": {
+      "model": "tretackshop:block/award_wheelbarrow_full_9"
+    },
+    "facing=south,level=0": {
+      "model": "tretackshop:block/award_wheelbarrow_9",
+      "y": 180
+    },
+    "facing=south,level=1": {
+      "model": "tretackshop:block/award_wheelbarrow_level1_9",
+      "y": 180
+    },
+    "facing=south,level=2": {
+      "model": "tretackshop:block/award_wheelbarrow_level2_9",
+      "y": 180
+    },
+    "facing=south,level=3": {
+      "model": "tretackshop:block/award_wheelbarrow_level3_9",
+      "y": 180
+    },
+    "facing=south,level=4": {
+      "model": "tretackshop:block/award_wheelbarrow_full_9",
+      "y": 180
+    },
+    "facing=west,level=0": {
+      "model": "tretackshop:block/award_wheelbarrow_9",
+      "y": 270
+    },
+    "facing=west,level=1": {
+      "model": "tretackshop:block/award_wheelbarrow_level1_9",
+      "y": 270
+    },
+    "facing=west,level=2": {
+      "model": "tretackshop:block/award_wheelbarrow_level2_9",
+      "y": 270
+    },
+    "facing=west,level=3": {
+      "model": "tretackshop:block/award_wheelbarrow_level3_9",
+      "y": 270
+    },
+    "facing=west,level=4": {
+      "model": "tretackshop:block/award_wheelbarrow_full_9",
+      "y": 270
+    }
+  }
+}

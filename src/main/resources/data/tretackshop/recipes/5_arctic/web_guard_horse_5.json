@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/web_guard_horses"
+    },
+    {
+      "item": "tretackshop:dye_5"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:web_guard_horse_5"
+  }
+}

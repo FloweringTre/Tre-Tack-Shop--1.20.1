@@ -3,7 +3,7 @@
   "group": "riley_sign_covers",
   "ingredients": [
     {
-      "tag": "tretackshop:craft/sign_covers_all"
+      "tag": "tretackshop:craft/sign_covers"
     },
     {
       "item": "tretackshop:rainbow_ina_bottle"

@@ -70,7 +70,6 @@
         "model": "tretackshop:block/web_guard_1_bottom_right"
       }
     },
-
     {
       "when": {
         "facing": "east",
@@ -141,7 +140,6 @@
         "y": 270
       }
     },
-
     {
       "when": {
         "facing": "north",
@@ -212,8 +210,6 @@
         "y": 180
       }
     },
-
-
     {
       "when": {
         "facing": "west",

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_girth_strap",
+  "ingredients": [
+    {
+      "tag": "swem:western/girth_straps"
+    },
+    {
+      "item": "tretackshop:award_dye_1"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_western_girth_strap_1"
+  }
+}

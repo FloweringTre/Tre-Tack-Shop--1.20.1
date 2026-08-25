@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_blanket",
+  "ingredients": [
+    {
+      "tag": "swem:english_blankets"
+    },
+    {
+      "item": "tretackshop:dye_13"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_blanket_13"
+  }
+}

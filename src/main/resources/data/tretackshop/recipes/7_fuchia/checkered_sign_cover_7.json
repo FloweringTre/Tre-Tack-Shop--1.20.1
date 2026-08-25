@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "checkered_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers"
+    },
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "tretackshop:dye_7"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_checkered_7"
+  }
+}

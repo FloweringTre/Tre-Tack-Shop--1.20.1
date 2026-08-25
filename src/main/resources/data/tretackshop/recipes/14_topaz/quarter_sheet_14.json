@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "quarter_sheet",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/quarter_sheets"
+    },
+    {
+      "item": "tretackshop:dye_14"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:quarter_sheet_14"
+  }
+}

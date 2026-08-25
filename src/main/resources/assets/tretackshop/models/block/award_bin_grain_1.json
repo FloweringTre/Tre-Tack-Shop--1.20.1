@@ -1,0 +1,6 @@
+{
+  "parent": "swem:block/bin_grain",
+  "textures": {
+    "texture": "tretackshop:block/awards/bin_grains/award_bin_grain_1"
+  }
+}

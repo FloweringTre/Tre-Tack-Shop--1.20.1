@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/flymasks"
+    },
+    {
+      "item": "tretackshop:award_dye_2"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_flymask_2"
+  }
+}

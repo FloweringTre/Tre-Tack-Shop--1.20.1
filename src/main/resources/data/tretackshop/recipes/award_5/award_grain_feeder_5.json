@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "grain_feeders",
+  "ingredients": [
+    {
+      "tag": "swem:grain_feeders"
+    },
+    {
+      "item": "tretackshop:award_dye_5"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_grain_feeder_5"
+  }
+}

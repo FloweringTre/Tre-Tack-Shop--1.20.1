@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "riley_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers"
+    },
+    {
+      "item": "tretackshop:award_dye_16"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_sign_cover_16"
+  }
+}

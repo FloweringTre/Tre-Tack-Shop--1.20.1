@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "slow_feeders",
+  "ingredients": [
+    {
+      "tag": "swem:slow_feeders"
+    },
+    {
+      "item": "tretackshop:dye_3"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:slow_feeder_3"
+  }
+}

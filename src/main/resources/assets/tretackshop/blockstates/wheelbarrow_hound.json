@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "facing=east,level=0": {
+      "model": "tretackshop:block/wheelbarrow_hound",
+      "y": 90
+    },
+    "facing=east,level=1": {
+      "model": "tretackshop:block/wheelbarrow_level1_hound",
+      "y": 90
+    },
+    "facing=east,level=2": {
+      "model": "tretackshop:block/wheelbarrow_level2_hound",
+      "y": 90
+    },
+    "facing=east,level=3": {
+      "model": "tretackshop:block/wheelbarrow_level3_hound",
+      "y": 90
+    },
+    "facing=east,level=4": {
+      "model": "tretackshop:block/wheelbarrow_full_hound",
+      "y": 90
+    },
+    "facing=north,level=0": {
+      "model": "tretackshop:block/wheelbarrow_hound"
+    },
+    "facing=north,level=1": {
+      "model": "tretackshop:block/wheelbarrow_level1_hound"
+    },
+    "facing=north,level=2": {
+      "model": "tretackshop:block/wheelbarrow_level2_hound"
+    },
+    "facing=north,level=3": {
+      "model": "tretackshop:block/wheelbarrow_level3_hound"
+    },
+    "facing=north,level=4": {
+      "model": "tretackshop:block/wheelbarrow_full_hound"
+    },
+    "facing=south,level=0": {
+      "model": "tretackshop:block/wheelbarrow_hound",
+      "y": 180
+    },
+    "facing=south,level=1": {
+      "model": "tretackshop:block/wheelbarrow_level1_hound",
+      "y": 180
+    },
+    "facing=south,level=2": {
+      "model": "tretackshop:block/wheelbarrow_level2_hound",
+      "y": 180
+    },
+    "facing=south,level=3": {
+      "model": "tretackshop:block/wheelbarrow_level3_hound",
+      "y": 180
+    },
+    "facing=south,level=4": {
+      "model": "tretackshop:block/wheelbarrow_full_hound",
+      "y": 180
+    },
+    "facing=west,level=0": {
+      "model": "tretackshop:block/wheelbarrow_hound",
+      "y": 270
+    },
+    "facing=west,level=1": {
+      "model": "tretackshop:block/wheelbarrow_level1_hound",
+      "y": 270
+    },
+    "facing=west,level=2": {
+      "model": "tretackshop:block/wheelbarrow_level2_hound",
+      "y": 270
+    },
+    "facing=west,level=3": {
+      "model": "tretackshop:block/wheelbarrow_level3_hound",
+      "y": 270
+    },
+    "facing=west,level=4": {
+      "model": "tretackshop:block/wheelbarrow_full_hound",
+      "y": 270
+    }
+  }
+}

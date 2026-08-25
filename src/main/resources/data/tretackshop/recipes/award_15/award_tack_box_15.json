@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/tack_boxes"
+    },
+    {
+      "item": "tretackshop:award_dye_15"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_tack_box_15"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "left|right",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "left|right",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "left|right",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "left|right",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_11_rider",
+        "y": 270
+      }
+    }
+  ]
+}

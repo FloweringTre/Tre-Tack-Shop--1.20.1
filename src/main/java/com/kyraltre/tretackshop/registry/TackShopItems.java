@@ -109,15 +109,6 @@ public class TackShopItems {
     public static final RegistryObject<Item> THIRD_RIBBON_ONE_TAIL;
     public static final RegistryObject<Item> THIRD_ROSETTE;
 
-    public static final RegistryObject<Item> TROPHY_1;
-    public static final RegistryObject<Item> TROPHY_2;
-    public static final RegistryObject<Item> TROPHY_3;
-    public static final RegistryObject<Item> FLORAL_GOLD;
-    public static final RegistryObject<Item> FLORAL_SILVER;
-    public static final RegistryObject<Item> FLORAL_BRONZE;
-    public static final RegistryObject<Item> SUN_TROPHY;
-    public static final RegistryObject<Item> MOON_TROPHY;
-
     public static  final RegistryObject<Item> SIGN_COVER_HEART_RED;
     public static  final RegistryObject<Item> SIGN_COVER_HEART_PINK;
     public static  final RegistryObject<Item> SIGN_COVER_HEART_BLUE;
@@ -313,10 +304,6 @@ public class TackShopItems {
     public static final List<RegistryObject<Item>> TRE_RIBBON_ONE_TAIL;
     public static final List<RegistryObject<Item>> TRE_ROSETTE;
 
-//    public static final List<RegistryObject<Item>> EGG_TROPHY_THICK;
-//    public static final List<RegistryObject<Item>> EGG_TROPHY_THIN;
-//    public static final List<RegistryObject<Item>> EGG_TROPHY_CHEVRON;
-
     public static final List<RegistryObject<TackItem>> HALTERS;
     public static final List<RegistryObject<TackItem>> FLYMASKS;
     public static final List<RegistryObject<TackItem>> PASTURE_BLANKETS;
@@ -328,7 +315,7 @@ public class TackShopItems {
     public static final List<RegistryObject<TackItem>> ADVENTURE_BLANKETS;
     public static final List<RegistryObject<TackItem>> ADVENTURE_LEG_WRAPS;
     public static final List<RegistryObject<TackItem>> CLOTH_HORSE_ARMORS;
-//    public static final List<RegistryObject<TackItem>> AMETHYST_HORSE_ARMORS;
+    public static final List<RegistryObject<TackItem>> AMETHYST_HORSE_ARMORS;
     public static final List<RegistryObject<SaddlebagItem>> SADDLE_BAGS;
     public static final List<RegistryObject<TackItem>> WESTERN_SADDLES;
     public static final List<RegistryObject<TackItem>> WESTERN_BRIDLES;
@@ -378,7 +365,7 @@ public class TackShopItems {
     public static final List<RegistryObject<TackItem>> ADVENTURE_BLANKETS_DYED;
     public static final List<RegistryObject<TackItem>> ADVENTURE_LEG_WRAPS_DYED;
     public static final List<RegistryObject<TackItem>> CLOTH_HORSE_ARMORS_DYED;
-//    public static final List<RegistryObject<TackItem>> AMETHYST_HORSE_ARMORS_DYED;
+    public static final List<RegistryObject<TackItem>> AMETHYST_HORSE_ARMORS_DYED;
     public static final List<RegistryObject<TackItem>> ENGLISH_SADDLES_BLACK_DYED;
     public static final List<RegistryObject<TackItem>> ENGLISH_SADDLES_BROWN_DYED;
     public static final List<RegistryObject<TackItem>> ENGLISH_BRIDLES_BLACK_DYED;
@@ -638,23 +625,6 @@ public class TackShopItems {
         THIRD_RIBBON_ONE_TAIL = REGISTRY.register("ribbon_one_tail_third",
                 () -> new Item(new Item.Properties()));
         THIRD_ROSETTE = REGISTRY.register("rosette_third",
-                () -> new Item(new Item.Properties()));
-
-        TROPHY_1 =  REGISTRY.register("trophy_1",
-                () -> new Item(new Item.Properties() ));
-        TROPHY_2 =  REGISTRY.register("trophy_2",
-                () -> new Item(new Item.Properties() ));
-        TROPHY_3 =  REGISTRY.register("trophy_3",
-                () -> new Item(new Item.Properties() ));
-        FLORAL_GOLD = REGISTRY.register("floral_gold",
-                () -> new Item(new Item.Properties()));
-        FLORAL_SILVER = REGISTRY.register("floral_silver",
-                () -> new Item(new Item.Properties()));
-        FLORAL_BRONZE = REGISTRY.register("floral_bronze",
-                () -> new Item(new Item.Properties()));
-        SUN_TROPHY = REGISTRY.register("sun_trophy",
-                () -> new Item(new Item.Properties()));
-        MOON_TROPHY = REGISTRY.register("moon_trophy",
                 () -> new Item(new Item.Properties()));
 
         SIGN_COVER_HEART_RED = REGISTRY.register("sign_cover_heart_red",
@@ -1418,10 +1388,6 @@ public class TackShopItems {
         TRE_RIBBON_ONE_TAIL = new ArrayList<>();
         TRE_ROSETTE = new ArrayList<>();
 
-//        EGG_TROPHY_THICK = new ArrayList<>();
-//        EGG_TROPHY_THIN = new ArrayList<>();
-//        EGG_TROPHY_CHEVRON = new ArrayList<>();
-
         HALTERS = new ArrayList<>();
         FLYMASKS = new ArrayList<>();
         PASTURE_BLANKETS = new ArrayList<>();
@@ -1433,7 +1399,7 @@ public class TackShopItems {
         ADVENTURE_BLANKETS = new ArrayList<>();
         ADVENTURE_LEG_WRAPS = new ArrayList<>();
         CLOTH_HORSE_ARMORS = new ArrayList<>();
-//        AMETHYST_HORSE_ARMORS = new ArrayList<>();
+        AMETHYST_HORSE_ARMORS = new ArrayList<>();
         SADDLE_BAGS = new ArrayList<>();
         WESTERN_SADDLES = new ArrayList<>();
         WESTERN_BRIDLES = new ArrayList<>();
@@ -1541,15 +1507,6 @@ public class TackShopItems {
             TRE_ROSETTE.add(REGISTRY.register("rosette_" + counter, () ->
                     new Item(new Item.Properties())
             ));
-//            EGG_TROPHY_THICK.add(REGISTRY.register("egg_trophy_thick_" + counter, () ->
-//                    new Item(new Item.Properties())
-//            ));
-//            EGG_TROPHY_THIN.add(REGISTRY.register("egg_trophy_thin_" + counter, () ->
-//                    new Item(new Item.Properties())
-//            ));
-//            EGG_TROPHY_CHEVRON.add(REGISTRY.register("egg_trophy_chev_" + counter, () ->
-//                    new Item(new Item.Properties())
-//            ));
 
             HALTERS.add( REGISTRY.register("halter_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.HALTER).withData(new TackTypeData
@@ -1626,11 +1583,11 @@ public class TackShopItems {
                             true, Collections.emptySet(), Color.ofRGB(tretackcolors[counter][0], tretackcolors[counter][1], tretackcolors[counter][2]),
                             HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(64))
             ));
-//            AMETHYST_HORSE_ARMORS.add(REGISTRY.register("amethyst_horse_armor_" + counter,
-//                    () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
-//                            true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
-//                            HorseArmorTier.AMETHYST.getTierName())).build(), (new Item.Properties()).stacksTo(64))
-//            ));
+            AMETHYST_HORSE_ARMORS.add(REGISTRY.register("amethyst_horse_armor_" + counter,
+                    () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
+                            true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
+                            HorseArmorTier.AMETHYST.getTierName())).build(), (new Item.Properties()).stacksTo(64))
+            ));
             SADDLE_BAGS.add(REGISTRY.register("saddle_bag_" + counter, () ->
                     new SaddlebagItem(TackItemDefinition.builder(TackType.SADDLE_BAG).withData(new TackTypeData(
                             true, Collections.emptySet(),
@@ -1823,7 +1780,7 @@ public class TackShopItems {
             ADVENTURE_BLANKETS_DYED = new ArrayList<>();
             ADVENTURE_LEG_WRAPS_DYED  = new ArrayList<>();
             CLOTH_HORSE_ARMORS_DYED  = new ArrayList<>();
-//            AMETHYST_HORSE_ARMORS_DYED  = new ArrayList<>();
+            AMETHYST_HORSE_ARMORS_DYED  = new ArrayList<>();
             ENGLISH_SADDLES_BLACK_DYED = new ArrayList<>();
             ENGLISH_SADDLES_BROWN_DYED = new ArrayList<>();
             ENGLISH_BRIDLES_BLACK_DYED = new ArrayList<>();
@@ -1924,11 +1881,11 @@ public class TackShopItems {
                             true, Collections.emptySet(), ColorUtil.ofDyeColor(color),
                             HorseArmorTier.CLOTH.getTierName())).build(), (new Item.Properties()).stacksTo(64))
             ));
-//            AMETHYST_HORSE_ARMORS_DYED.add(REGISTRY.register("amethyst_horse_armor_" + color.getName(),
-//                    () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
-//                            true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
-//                            HorseArmorTier.AMETHYST.getTierName())).build(), (new Item.Properties()).stacksTo(64))
-//            ));
+            AMETHYST_HORSE_ARMORS_DYED.add(REGISTRY.register("amethyst_horse_armor_" + color.getName(),
+                    () -> new TackItem(TackItemDefinition.builder(TackType.HORSE_ARMOR).withData(new HorseArmorTypeData(
+                            true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE),
+                            HorseArmorTier.AMETHYST.getTierName())).build(), (new Item.Properties()).stacksTo(64))
+            ));
             ENGLISH_SADDLES_BLACK_DYED.add(REGISTRY.register("english_saddle_black_" + color.getName(), () ->
                     new TackItem(TackItemDefinition.builder(TackType.SADDLE).withData(new SaddleTypeData(
                             false, Collections.emptySet(), ColorUtil.ofDyeColor(color),

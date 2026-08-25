@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "separators",
+  "ingredients": [
+    {
+      "tag": "swem:separators"
+    },
+    {
+      "item": "tretackshop:dye_6"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:separator_6"
+  }
+}

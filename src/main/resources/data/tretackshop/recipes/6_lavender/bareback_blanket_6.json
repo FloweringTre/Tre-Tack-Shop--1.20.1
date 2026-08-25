@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bareback_blanket",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/bareback_blankets"
+    },
+    {
+      "item": "tretackshop:dye_6"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:bareback_blanket_6"
+  }
+}

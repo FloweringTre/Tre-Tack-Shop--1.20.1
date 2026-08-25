@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_saddle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_saddles"
+    },
+    {
+      "item": "tretackshop:dye_12"
+    },
+    {
+      "tag": "forge:dyes/black"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_saddle_black_12"
+  }
+}

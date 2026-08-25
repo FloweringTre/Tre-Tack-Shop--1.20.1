@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_saddle",
+  "ingredients": [
+    {
+      "tag": "swem:adventure_saddles"
+    },
+    {
+      "item": "tretackshop:award_dye_14"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_adventure_saddle_14"
+  }
+}

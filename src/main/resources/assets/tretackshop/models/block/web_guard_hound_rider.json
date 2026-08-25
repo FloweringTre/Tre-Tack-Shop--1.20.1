@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "tretackshop:block/web_guards/web_guard_rider_hound"
+  }
+}

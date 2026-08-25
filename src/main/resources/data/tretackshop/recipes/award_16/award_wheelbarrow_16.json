@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "swem:wheelbarrows"
+    },
+    {
+      "item": "tretackshop:award_dye_16"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_wheelbarrow_16"
+  }
+}

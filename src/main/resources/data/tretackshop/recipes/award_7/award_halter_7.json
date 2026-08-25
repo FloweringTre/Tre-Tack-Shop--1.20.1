@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "swem:halters"
+    },
+    {
+      "item": "tretackshop:award_dye_7"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_halter_7"
+  }
+}

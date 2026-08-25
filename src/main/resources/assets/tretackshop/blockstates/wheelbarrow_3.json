@@ -1,78 +1,78 @@
 {
   "variants": {
     "facing=east,level=0": {
-      "model": "tretackshop:block/wheelbarrow_3",
+      "model": "tretackshop:block/wheelbarrow_1",
       "y": 90
     },
     "facing=east,level=1": {
-      "model": "tretackshop:block/wheelbarrow_level1_3",
+      "model": "tretackshop:block/wheelbarrow_level1_1",
       "y": 90
     },
     "facing=east,level=2": {
-      "model": "tretackshop:block/wheelbarrow_level2_3",
+      "model": "tretackshop:block/wheelbarrow_level2_1",
       "y": 90
     },
     "facing=east,level=3": {
-      "model": "tretackshop:block/wheelbarrow_level3_3",
+      "model": "tretackshop:block/wheelbarrow_level3_1",
       "y": 90
     },
     "facing=east,level=4": {
-      "model": "tretackshop:block/wheelbarrow_full_3",
+      "model": "tretackshop:block/wheelbarrow_full_1",
       "y": 90
     },
     "facing=north,level=0": {
-      "model": "tretackshop:block/wheelbarrow_3"
+      "model": "tretackshop:block/wheelbarrow_1"
     },
     "facing=north,level=1": {
-      "model": "tretackshop:block/wheelbarrow_level1_3"
+      "model": "tretackshop:block/wheelbarrow_level1_1"
     },
     "facing=north,level=2": {
-      "model": "tretackshop:block/wheelbarrow_level2_3"
+      "model": "tretackshop:block/wheelbarrow_level2_1"
     },
     "facing=north,level=3": {
-      "model": "tretackshop:block/wheelbarrow_level3_3"
+      "model": "tretackshop:block/wheelbarrow_level3_1"
     },
     "facing=north,level=4": {
-      "model": "tretackshop:block/wheelbarrow_full_3"
+      "model": "tretackshop:block/wheelbarrow_full_1"
     },
     "facing=south,level=0": {
-      "model": "tretackshop:block/wheelbarrow_3",
+      "model": "tretackshop:block/wheelbarrow_1",
       "y": 180
     },
     "facing=south,level=1": {
-      "model": "tretackshop:block/wheelbarrow_level1_3",
+      "model": "tretackshop:block/wheelbarrow_level1_1",
       "y": 180
     },
     "facing=south,level=2": {
-      "model": "tretackshop:block/wheelbarrow_level2_3",
+      "model": "tretackshop:block/wheelbarrow_level2_1",
       "y": 180
     },
     "facing=south,level=3": {
-      "model": "tretackshop:block/wheelbarrow_level3_3",
+      "model": "tretackshop:block/wheelbarrow_level3_1",
       "y": 180
     },
     "facing=south,level=4": {
-      "model": "tretackshop:block/wheelbarrow_full_3",
+      "model": "tretackshop:block/wheelbarrow_full_1",
       "y": 180
     },
     "facing=west,level=0": {
-      "model": "tretackshop:block/wheelbarrow_3",
+      "model": "tretackshop:block/wheelbarrow_1",
       "y": 270
     },
     "facing=west,level=1": {
-      "model": "tretackshop:block/wheelbarrow_level1_3",
+      "model": "tretackshop:block/wheelbarrow_level1_1",
       "y": 270
     },
     "facing=west,level=2": {
-      "model": "tretackshop:block/wheelbarrow_level2_3",
+      "model": "tretackshop:block/wheelbarrow_level2_1",
       "y": 270
     },
     "facing=west,level=3": {
-      "model": "tretackshop:block/wheelbarrow_level3_3",
+      "model": "tretackshop:block/wheelbarrow_level3_1",
       "y": 270
     },
     "facing=west,level=4": {
-      "model": "tretackshop:block/wheelbarrow_full_3",
+      "model": "tretackshop:block/wheelbarrow_full_1",
       "y": 270
     }
   }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/web_guard_riders"
+    },
+    {
+      "item": "tretackshop:award_dye_18"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_web_guard_rider_18"
+  }
+}

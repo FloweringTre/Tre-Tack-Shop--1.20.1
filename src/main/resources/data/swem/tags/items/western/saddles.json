@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#tretackshop:craft/western/saddles"
+    {"id": "#tretackshop:craft/western/saddles", "required": false}
   ]
 }

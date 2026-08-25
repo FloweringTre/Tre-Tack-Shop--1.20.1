@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_breast_collar",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_breast_collars"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "tretackshop:dye_6"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_breast_collar_6"
+  }
+}

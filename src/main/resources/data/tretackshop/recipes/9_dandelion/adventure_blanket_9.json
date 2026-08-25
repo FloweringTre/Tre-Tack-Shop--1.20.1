@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_blanket",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_blankets"
+    },
+    {
+      "item": "tretackshop:dye_9"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_blanket_9"
+  }
+}

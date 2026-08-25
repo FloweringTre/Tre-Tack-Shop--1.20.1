@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_blanket",
+  "ingredients": [
+    {
+      "tag": "swem:western/blankets"
+    },
+    {
+      "item": "tretackshop:award_dye_23"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_western_blanket_23"
+  }
+}

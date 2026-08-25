@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "half_barrels",
+  "group": "separators",
   "ingredients": [
     {
-      "tag": "swem:half_barrels"
+      "tag": "swem:separators"
     },
     {
       "item": "tretackshop:rainbow_ina_bottle"
     }
   ],
   "result": {
-    "item": "tretackshop:half_barrel_rainbow"
+    "item": "tretackshop:separator_rainbow"
   }
 }

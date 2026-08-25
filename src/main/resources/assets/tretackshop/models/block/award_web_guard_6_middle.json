@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "tretackshop:block/awards/web_guards/award_web_guard_care_6"
+  }
+}

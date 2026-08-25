@@ -9,7 +9,6 @@ import com.alaharranhonor.swem.forge.blocks.*;
 import com.alaharranhonor.swem.forge.items.TackBoxBlockItem;
 import com.alaharranhonor.swem.forge.blocks.GrainBinBlock;
 import com.alaharranhonor.swem.forge.tileentity.GrainBinBE;
-import com.kyraltre.tretackshop.block.custom.EggTrophy;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -30,6 +29,23 @@ import java.util.function.Supplier;
 
 public class TackShopBlockRegistry {
     public static final DeferredRegister<Block> BLOCKS;
+
+    /// ════════════════════════════════════ ONE OFF TROPHIES ════════════════════════════════════ ///
+    public static final List<RegistryObject<TrophyBlock>> FLORAL_GOLD;
+    public static final List<RegistryObject<TrophyBlock>> FLORAL_SILVER;
+    public static final List<RegistryObject<TrophyBlock>> FLORAL_BRONZE;
+    public static final List<RegistryObject<TrophyBlock>> SUN_TROPHY;
+    public static final List<RegistryObject<TrophyBlock>> MOON_TROPHY;
+    public static final List<RegistryObject<TrophyBlock>> PUMPKIN_GRAND;
+    public static final List<RegistryObject<TrophyBlock>> PUMPKIN_RESERVE;
+    public static final List<RegistryObject<TrophyBlock>> HEART_GRAND;
+    public static final List<RegistryObject<TrophyBlock>> HEART_RESERVE;
+    public static final List<RegistryObject<TrophyBlock>> CLOVER_GRAND;
+    public static final List<RegistryObject<TrophyBlock>> CLOVER_RESERVE;
+    public static final List<RegistryObject<TrophyBlock>> SNOWFLAKE_GRAND;
+    public static final List<RegistryObject<TrophyBlock>> SNOWFLAKE_RESERVE;
+
+
 /// ════════════════════════════════════ ONE OFF TACK BOXES ════════════════════════════════════ ///
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_BAMBOO;
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_SWDM_BAMBOO;
@@ -155,6 +171,114 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
 
     static {
         BLOCKS = DeferredRegister.create(Keys.BLOCKS, "tretackshop");
+/// ════════════════════════════════════ ONE OFF TROPHIES ════════════════════════════════════ ///
+        FLORAL_GOLD = new ArrayList();
+        FLORAL_SILVER = new ArrayList();
+        FLORAL_BRONZE = new ArrayList();
+        SUN_TROPHY = new ArrayList();
+        MOON_TROPHY = new ArrayList();
+        PUMPKIN_GRAND = new ArrayList();
+        PUMPKIN_RESERVE = new ArrayList();
+        HEART_GRAND = new ArrayList();
+        HEART_RESERVE = new ArrayList();
+        CLOVER_GRAND = new ArrayList();
+        CLOVER_RESERVE = new ArrayList();
+        SNOWFLAKE_GRAND = new ArrayList();
+        SNOWFLAKE_RESERVE = new ArrayList();
+
+        FLORAL_GOLD.add(register("floral_gold", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        FLORAL_SILVER.add(register("floral_silver", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        FLORAL_BRONZE.add(register("floral_bronze", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        SUN_TROPHY.add(register("sun_trophy", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        MOON_TROPHY.add(register("moon_trophy", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        PUMPKIN_GRAND.add(register("pumpkin_grand", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        PUMPKIN_RESERVE.add(register("pumpkin_reserve", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        HEART_GRAND.add(register("heart_grand", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        HEART_RESERVE.add(register("heart_reserve", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        CLOVER_GRAND.add(register("clover_grand", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        CLOVER_RESERVE.add(register("clover_reserve", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        SNOWFLAKE_GRAND.add(register("snowflake_grand", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+        SNOWFLAKE_RESERVE.add(register("snowflake_reserve", () -> {
+            return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
+
+
 /// ════════════════════════════════════ ONE OFF TACK BOXES ════════════════════════════════════ ///
         TACK_BOX_BAMBOO = new ArrayList();
         TACK_BOX_SWDM_BAMBOO = new ArrayList();

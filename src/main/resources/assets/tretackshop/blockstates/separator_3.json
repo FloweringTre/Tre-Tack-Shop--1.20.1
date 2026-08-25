@@ -1,63 +1,63 @@
 {
   "variants": {
     "facing=east,two_way=left": {
-      "model": "tretackshop:block/separator_left_3",
+      "model": "tretackshop:block/separator_left_1",
       "y": 90
     },
     "facing=east,two_way=middle": {
-      "model": "tretackshop:block/separator_middle_3",
+      "model": "tretackshop:block/separator_middle_1",
       "y": 90
     },
     "facing=east,two_way=right": {
-      "model": "tretackshop:block/separator_right_3",
+      "model": "tretackshop:block/separator_right_1",
       "y": 90
     },
     "facing=east,two_way=single": {
-      "model": "tretackshop:block/separator_single_3",
+      "model": "tretackshop:block/separator_single_1",
       "y": 90
     },
     "facing=north,two_way=left": {
-      "model": "tretackshop:block/separator_left_3"
+      "model": "tretackshop:block/separator_left_1"
     },
     "facing=north,two_way=middle": {
-      "model": "tretackshop:block/separator_middle_3"
+      "model": "tretackshop:block/separator_middle_1"
     },
     "facing=north,two_way=right": {
-      "model": "tretackshop:block/separator_right_3"
+      "model": "tretackshop:block/separator_right_1"
     },
     "facing=north,two_way=single": {
-      "model": "tretackshop:block/separator_single_3"
+      "model": "tretackshop:block/separator_single_1"
     },
     "facing=south,two_way=left": {
-      "model": "tretackshop:block/separator_left_3",
+      "model": "tretackshop:block/separator_left_1",
       "y": 180
     },
     "facing=south,two_way=middle": {
-      "model": "tretackshop:block/separator_middle_3",
+      "model": "tretackshop:block/separator_middle_1",
       "y": 180
     },
     "facing=south,two_way=right": {
-      "model": "tretackshop:block/separator_right_3",
+      "model": "tretackshop:block/separator_right_1",
       "y": 180
     },
     "facing=south,two_way=single": {
-      "model": "tretackshop:block/separator_single_3",
+      "model": "tretackshop:block/separator_single_1",
       "y": 180
     },
     "facing=west,two_way=left": {
-      "model": "tretackshop:block/separator_left_3",
+      "model": "tretackshop:block/separator_left_1",
       "y": 270
     },
     "facing=west,two_way=middle": {
-      "model": "tretackshop:block/separator_middle_3",
+      "model": "tretackshop:block/separator_middle_1",
       "y": 270
     },
     "facing=west,two_way=right": {
-      "model": "tretackshop:block/separator_right_3",
+      "model": "tretackshop:block/separator_right_1",
       "y": 270
     },
     "facing=west,two_way=single": {
-      "model": "tretackshop:block/separator_single_3",
+      "model": "tretackshop:block/separator_single_1",
       "y": 270
     }
   }

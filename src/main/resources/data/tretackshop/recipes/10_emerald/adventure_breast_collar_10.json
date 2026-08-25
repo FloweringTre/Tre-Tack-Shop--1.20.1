@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "adventure_breast_collar",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/adventure_breast_collars"
+    },
+    {
+      "item": "tretackshop:dye_10"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:adventure_breast_collar_10"
+  }
+}

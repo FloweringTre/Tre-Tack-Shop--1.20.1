@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/pasture_gates_care"
+    },
+    {
+      "item": "tretackshop:award_dye_16"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_pasture_gate_care_16"
+  }
+}

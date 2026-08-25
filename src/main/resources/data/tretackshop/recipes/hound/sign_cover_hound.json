@@ -3,7 +3,7 @@
   "group": "floral_sign_covers",
   "ingredients": [
     {
-      "tag": "tretackshop:craft/sign_covers_all"
+      "tag": "tretackshop:craft/sign_covers"
     },
     {
       "item": "tretackshop:paw_print"

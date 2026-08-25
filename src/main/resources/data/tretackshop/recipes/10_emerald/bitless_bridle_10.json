@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bitless_bridle",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_bridles"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "tag": "minecraft:wool_carpets"
+    },
+    {
+      "item": "tretackshop:dye_10"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:cloth_bitless_bridle_10"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "top": "tretackshop:block/awards/pasture_gates/award_pasture_6_upper_left",
+    "bottom": "tretackshop:block/awards/pasture_gates/award_pasture_6_lower_middle"
+  }
+}

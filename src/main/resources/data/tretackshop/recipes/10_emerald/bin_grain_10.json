@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bin_grains",
+  "ingredients": [
+    {
+      "tag": "swem:grain_bins"
+    },
+    {
+      "item": "tretackshop:dye_10"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:bin_grain_10"
+  }
+}

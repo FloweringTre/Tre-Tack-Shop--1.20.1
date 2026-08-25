@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "half_barrels",
+  "ingredients": [
+    {
+      "tag": "swem:half_barrels"
+    },
+    {
+      "item": "tretackshop:award_dye_1"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_half_barrel_1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/pasture_gates_horse"
+    },
+    {
+      "item": "tretackshop:dye_3"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:pasture_gate_horse_3"
+  }
+}

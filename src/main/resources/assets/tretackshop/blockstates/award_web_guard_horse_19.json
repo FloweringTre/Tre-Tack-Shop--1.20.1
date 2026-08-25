@@ -1,0 +1,286 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "left|right",
+        "side": "left",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "left|right",
+        "side": "right",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "left",
+        "side": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "left",
+        "side": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "right",
+        "side": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hinge": "right",
+        "side": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "left|right",
+        "side": "left",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "left|right",
+        "side": "right",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "left",
+        "side": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "left",
+        "side": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "right",
+        "side": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hinge": "right",
+        "side": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "left|right",
+        "side": "left",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "left|right",
+        "side": "right",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "left",
+        "side": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "left",
+        "side": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "right",
+        "side": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hinge": "right",
+        "side": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "left|right",
+        "side": "left",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "left|right",
+        "side": "right",
+        "open": "false"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "left",
+        "side": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "left",
+        "side": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "right",
+        "side": "left",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hinge": "right",
+        "side": "right",
+        "open": "true"
+      },
+      "apply": {
+        "model": "tretackshop:block/award_web_guard_19_bottom_right",
+        "y": 90
+      }
+    }
+  ]
+}

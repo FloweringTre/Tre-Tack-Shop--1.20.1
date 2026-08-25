@@ -2,9 +2,11 @@ package com.kyraltre.tretackshop.registry;
 
 import com.kyraltre.tretackshop.*;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.MissingMappingsEvent;
 
 @Mod.EventBusSubscriber(modid = TreTackShop.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
@@ -283,6 +285,16 @@ public class MissingMappingHandler {
                         mapping.remap(TackShopBlockRegistry.EGG_TROPHY_CHEVRON.get(3).get().asItem());
                 case "e_g_g_trophy_chev_3" ->
                         mapping.remap(TackShopBlockRegistry.EGG_TROPHY_CHEVRON.get(4).get().asItem());
+
+                case "trophy_1" ->
+                        mapping.remap(ForgeRegistries.ITEMS.getValue(
+                                new ResourceLocation("swem", "trophy_gold")));
+                case "trophy_2" ->
+                        mapping.remap(ForgeRegistries.ITEMS.getValue(
+                                new ResourceLocation("swem", "trophy_silver")));
+                case "trophy_3" ->
+                        mapping.remap(ForgeRegistries.ITEMS.getValue(
+                                new ResourceLocation("swem", "trophy_bronze")));
             }
         }
     }

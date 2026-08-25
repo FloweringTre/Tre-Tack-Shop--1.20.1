@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/grain_feeder",
+  "textures": {
+    "0": "tretackshop:block/awards/grain_feeders/award_grain_feeder_9",
+    "particle": "tretackshop:block/awards/grain_feeders/award_grain_feeder_9"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,two_way=left": {
+      "model": "tretackshop:block/award_separator_left_23",
+      "y": 90
+    },
+    "facing=east,two_way=middle": {
+      "model": "tretackshop:block/award_separator_middle_23",
+      "y": 90
+    },
+    "facing=east,two_way=right": {
+      "model": "tretackshop:block/award_separator_right_23",
+      "y": 90
+    },
+    "facing=east,two_way=single": {
+      "model": "tretackshop:block/award_separator_single_23",
+      "y": 90
+    },
+    "facing=north,two_way=left": {
+      "model": "tretackshop:block/award_separator_left_23"
+    },
+    "facing=north,two_way=middle": {
+      "model": "tretackshop:block/award_separator_middle_23"
+    },
+    "facing=north,two_way=right": {
+      "model": "tretackshop:block/award_separator_right_23"
+    },
+    "facing=north,two_way=single": {
+      "model": "tretackshop:block/award_separator_single_23"
+    },
+    "facing=south,two_way=left": {
+      "model": "tretackshop:block/award_separator_left_23",
+      "y": 180
+    },
+    "facing=south,two_way=middle": {
+      "model": "tretackshop:block/award_separator_middle_23",
+      "y": 180
+    },
+    "facing=south,two_way=right": {
+      "model": "tretackshop:block/award_separator_right_23",
+      "y": 180
+    },
+    "facing=south,two_way=single": {
+      "model": "tretackshop:block/award_separator_single_23",
+      "y": 180
+    },
+    "facing=west,two_way=left": {
+      "model": "tretackshop:block/award_separator_left_23",
+      "y": 270
+    },
+    "facing=west,two_way=middle": {
+      "model": "tretackshop:block/award_separator_middle_23",
+      "y": 270
+    },
+    "facing=west,two_way=right": {
+      "model": "tretackshop:block/award_separator_right_23",
+      "y": 270
+    },
+    "facing=west,two_way=single": {
+      "model": "tretackshop:block/award_separator_single_23",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cloth_armor",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cloth_horse_armors"
+    },
+    {
+      "item": "tretackshop:award_dye_7"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_cloth_horse_armor_7"
+  }
+}

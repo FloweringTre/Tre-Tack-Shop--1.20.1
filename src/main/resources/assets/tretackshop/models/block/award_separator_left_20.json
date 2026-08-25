@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/separator_left",
+  "textures": {
+    "0": "tretackshop:block/awards/separators/award_separator_left_20",
+    "particle": "tretackshop:block/awards/separators/award_separator_left_20"
+  }
+}

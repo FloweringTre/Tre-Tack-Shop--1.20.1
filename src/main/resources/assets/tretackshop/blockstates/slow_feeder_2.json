@@ -8,7 +8,7 @@
         "east": "false"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_corner_2"
+        "model": "tretackshop:block/slow_feeder_corner_1"
       }
     },
     {
@@ -19,7 +19,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_corner_2",
+        "model": "tretackshop:block/slow_feeder_corner_1",
         "y": 90
       }
     },
@@ -31,7 +31,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_corner_2",
+        "model": "tretackshop:block/slow_feeder_corner_1",
         "y": 180
       }
     },
@@ -43,7 +43,7 @@
         "east": "false"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_corner_2",
+        "model": "tretackshop:block/slow_feeder_corner_1",
         "y": 270
       }
     },
@@ -55,7 +55,7 @@
         "east": "true|false"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_2"
+        "model": "tretackshop:block/slow_feeder_1"
       }
     },
     {
@@ -66,7 +66,7 @@
         "east": "false"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_2"
+        "model": "tretackshop:block/slow_feeder_1"
       }
     },
     {
@@ -77,7 +77,7 @@
         "east": "false"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_2"
+        "model": "tretackshop:block/slow_feeder_1"
       }
     },
     {
@@ -88,7 +88,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_2"
+        "model": "tretackshop:block/slow_feeder_1"
       }
     },
     {
@@ -99,7 +99,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_2"
+        "model": "tretackshop:block/slow_feeder_1"
       }
     },
     {
@@ -110,7 +110,7 @@
         "east": "false"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_2"
+        "model": "tretackshop:block/slow_feeder_1"
       }
     },
     {
@@ -121,7 +121,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_2"
+        "model": "tretackshop:block/slow_feeder_1"
       }
     },
     {
@@ -132,7 +132,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "tretackshop:block/slow_feeder_2"
+        "model": "tretackshop:block/slow_feeder_1"
       }
     },
     {

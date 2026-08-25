@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/slow_feeder",
+  "textures": {
+    "0": "tretackshop:block/awards/slow_feeders/award_slow_feeder_24",
+    "particle": "minecraft:block/white_concrete"
+  }
+}

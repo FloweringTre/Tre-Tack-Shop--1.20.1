@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/web_guard_cares"
+    },
+    {
+      "item": "tretackshop:dye_6"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:web_guard_care_6"
+  }
+}

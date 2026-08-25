@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tretackshop:quarter_sheet_rainbow",
+    "tretackshop:quarter_sheet_black_rainbow",
+    "tretackshop:quarter_sheet_white_rainbow",
     "tretackshop:quarter_sheet_monarch",
     "tretackshop:quarter_sheet_morpho",
     "tretackshop:quarter_sheet_hound",

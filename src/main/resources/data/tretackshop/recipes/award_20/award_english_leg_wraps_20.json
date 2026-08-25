@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_leg_wraps",
+  "ingredients": [
+    {
+      "tag": "swem:english_leg_wraps"
+    },
+    {
+      "item": "tretackshop:award_dye_20"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_english_leg_wraps_20"
+  }
+}

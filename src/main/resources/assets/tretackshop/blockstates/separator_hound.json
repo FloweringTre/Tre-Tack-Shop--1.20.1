@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,two_way=left": {
+      "model": "tretackshop:block/separator_left_hound",
+      "y": 90
+    },
+    "facing=east,two_way=middle": {
+      "model": "tretackshop:block/separator_middle_hound",
+      "y": 90
+    },
+    "facing=east,two_way=right": {
+      "model": "tretackshop:block/separator_right_hound",
+      "y": 90
+    },
+    "facing=east,two_way=single": {
+      "model": "tretackshop:block/separator_single_hound",
+      "y": 90
+    },
+    "facing=north,two_way=left": {
+      "model": "tretackshop:block/separator_left_hound"
+    },
+    "facing=north,two_way=middle": {
+      "model": "tretackshop:block/separator_middle_hound"
+    },
+    "facing=north,two_way=right": {
+      "model": "tretackshop:block/separator_right_hound"
+    },
+    "facing=north,two_way=single": {
+      "model": "tretackshop:block/separator_single_hound"
+    },
+    "facing=south,two_way=left": {
+      "model": "tretackshop:block/separator_left_hound",
+      "y": 180
+    },
+    "facing=south,two_way=middle": {
+      "model": "tretackshop:block/separator_middle_hound",
+      "y": 180
+    },
+    "facing=south,two_way=right": {
+      "model": "tretackshop:block/separator_right_hound",
+      "y": 180
+    },
+    "facing=south,two_way=single": {
+      "model": "tretackshop:block/separator_single_hound",
+      "y": 180
+    },
+    "facing=west,two_way=left": {
+      "model": "tretackshop:block/separator_left_hound",
+      "y": 270
+    },
+    "facing=west,two_way=middle": {
+      "model": "tretackshop:block/separator_middle_hound",
+      "y": 270
+    },
+    "facing=west,two_way=right": {
+      "model": "tretackshop:block/separator_right_hound",
+      "y": 270
+    },
+    "facing=west,two_way=single": {
+      "model": "tretackshop:block/separator_single_hound",
+      "y": 270
+    }
+  }
+}

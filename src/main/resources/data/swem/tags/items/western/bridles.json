@@ -1,5 +1,6 @@
 {
+  "replace": false,
   "values": [
-    "#tretackshop:craft/western/bridles"
+    {"id": "#tretackshop:craft/western/bridles", "required": false}
   ]
 }

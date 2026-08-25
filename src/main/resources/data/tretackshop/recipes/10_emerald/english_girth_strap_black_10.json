@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "english_girth_strap",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/english_girth_straps"
+    },
+    {
+      "item": "tretackshop:dye_10"
+    },
+    {
+      "tag": "forge:dyes/black"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:english_girth_strap_black_10"
+  }
+}

@@ -2,18 +2,26 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "tretackshop:heart_reserve"
-        }
-      ],
+      "bonus_rolls": 0.0,
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
         }
-      ]
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            }
+          ],
+          "name": "tretackshop:heart_reserve"
+        }
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "tretackshop:blocks/heart_reserve"
 }

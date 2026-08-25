@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/cones"
+    },
+    {
+      "item": "tretackshop:award_dye_6"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:award_cone_6"
+  }
+}

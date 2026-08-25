@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tretackshop:bareback_saddle_rainbow",
     "tretackshop:bareback_saddle_monarch",
     "tretackshop:bareback_saddle_morpho",
     "tretackshop:bareback_saddle_hound",
@@ -37,7 +36,7 @@
     "tretackshop:bareback_saddle_white",
     "tretackshop:bareback_saddle_yellow",
 
-    "tretackshop:bareback_saddle_moon",
+    "tretackshop:bareback_saddle_black_moon",
     "tretackshop:bareback_saddle_brown_moon",
     "tretackshop:bareback_saddle_beige_moon",
     "tretackshop:bareback_saddle_white_moon"

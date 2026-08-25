@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "western_leg_wraps",
+  "ingredients": [
+    {
+      "tag": "swem:western/leg_wraps"
+    },
+    {
+      "item": "tretackshop:dye_9"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:western_leg_wraps_9"
+  }
+}
