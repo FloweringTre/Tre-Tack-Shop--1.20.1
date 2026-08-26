@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "flags",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/flags"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    },
+    {
+      "tag": "tretackshop:craft/butterfly"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:flag_butterfly_brown"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_bridle",
+  "pattern": [
+    "CDw",
+    "Aw ",
+    "xy "
+  ],
+  "key": {
+    "w": {
+      "tag": "swem:refined_leather"
+    },
+    "x": {
+      "tag": "forge:nuggets/iron"
+    },
+    "y": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "A": {
+      "tag": "forge:dyes/white"
+    },
+    "D": {
+      "tag": "forge:dyes/black"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:english_bridle_black_white"
+  }
+}

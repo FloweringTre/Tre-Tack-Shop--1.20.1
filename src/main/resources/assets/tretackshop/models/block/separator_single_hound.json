@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/separator_single",
+  "textures": {
+    "0": "tretackshop:block/separators/separator_single_hound",
+    "particle": "tretackshop:block/separators/separator_single_hound"
+  }
+}

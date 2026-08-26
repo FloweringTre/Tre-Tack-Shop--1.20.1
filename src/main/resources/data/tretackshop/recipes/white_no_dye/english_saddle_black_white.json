@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_saddle",
+  "pattern": [
+    "DAx",
+    "xx ",
+    "yxC"
+  ],
+  "key": {
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "y": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "A": {
+      "tag": "forge:dyes/white"
+    },
+    "D": {
+      "tag": "forge:dyes/black"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:english_saddle_black_white"
+  }
+}

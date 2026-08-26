@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cloth_armor",
+  "pattern": [
+    "y y",
+    "yAy",
+    "yCy"
+  ],
+  "key": {
+    "y": {
+      "tag": "minecraft:wool_carpets"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    },
+    "A": {
+      "tag": "forge:dyes/white"
+    }
+  },
+  "result": {
+    "item": "tretackshop:cloth_horse_armor_white"
+  }
+}

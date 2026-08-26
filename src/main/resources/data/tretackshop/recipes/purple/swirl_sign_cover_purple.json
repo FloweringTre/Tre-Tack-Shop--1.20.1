@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "swirl_sign_covers",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/sign_covers"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:sign_cover_swirl_purple"
+  }
+}

@@ -1,363 +1,399 @@
 {
   "variants": {
+
     "facing=south,half=lower,hinge=left,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 90
     },
     "facing=south,half=upper,hinge=left,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 90
     },
     "facing=south,half=lower,hinge=left,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 180
     },
     "facing=south,half=upper,hinge=left,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 180
     },
     "facing=south,half=lower,hinge=right,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 90
     },
     "facing=south,half=upper,hinge=right,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 90
     },
     "facing=south,half=lower,hinge=right,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle"
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle"
     },
     "facing=south,half=upper,hinge=right,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle"
+      "model": "tretackshop:block/pasture_gate_13_upper_middle"
     },
+
     "facing=west,half=lower,hinge=left,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 180
     },
     "facing=west,half=upper,hinge=left,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 180
     },
     "facing=west,half=lower,hinge=left,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 270
     },
     "facing=west,half=upper,hinge=left,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 270
     },
     "facing=west,half=lower,hinge=right,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 180
     },
     "facing=west,half=upper,hinge=right,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 180
     },
     "facing=west,half=lower,hinge=right,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 90
     },
     "facing=west,half=upper,hinge=right,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 90
     },
+
     "facing=north,half=lower,hinge=left,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 270
     },
     "facing=north,half=upper,hinge=left,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 270
     },
     "facing=north,half=lower,hinge=left,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle"
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle"
     },
     "facing=north,half=upper,hinge=left,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle"
+      "model": "tretackshop:block/pasture_gate_13_upper_middle"
     },
     "facing=north,half=lower,hinge=right,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 270
     },
     "facing=north,half=upper,hinge=right,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 270
     },
     "facing=north,half=lower,hinge=right,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 180
     },
     "facing=north,half=upper,hinge=right,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 180
     },
+
     "facing=east,half=lower,hinge=left,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle"
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle"
     },
     "facing=east,half=upper,hinge=left,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle"
+      "model": "tretackshop:block/pasture_gate_13_upper_middle"
     },
     "facing=east,half=lower,hinge=left,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 90
     },
     "facing=east,half=upper,hinge=left,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 90
     },
     "facing=east,half=lower,hinge=right,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle"
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle"
     },
     "facing=east,half=upper,hinge=right,open=false,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle"
+      "model": "tretackshop:block/pasture_gate_13_upper_middle"
     },
     "facing=east,half=lower,hinge=right,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_bottom_middle",
+      "model": "tretackshop:block/pasture_gate_13_bottom_middle",
       "y": 270
     },
     "facing=east,half=upper,hinge=right,open=true,side=middle": {
-      "model": "tretackshop:block/pasture_1_upper_middle",
+      "model": "tretackshop:block/pasture_gate_13_upper_middle",
       "y": 270
     },
+
     "facing=south,half=lower,hinge=left,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom",
+      "model": "tretackshop:block/pasture_gate_13_bottom",
       "y": 90
     },
     "facing=south,half=lower,hinge=left,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_right",
       "y": 180
     },
     "facing=south,half=lower,hinge=left,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge",
       "y": 90
     },
     "facing=south,half=lower,hinge=left,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge_right",
       "y": 180
     },
     "facing=south,half=lower,hinge=right,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge_right",
       "y": 90
     },
+
     "facing=south,half=lower,hinge=right,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge"
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge"
     },
     "facing=south,half=lower,hinge=right,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_right",
       "y": 90
     },
     "facing=south,half=lower,hinge=right,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom"
+      "model": "tretackshop:block/pasture_gate_13_bottom"
     },
+
     "facing=south,half=upper,hinge=left,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_top_hinge",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge",
       "y": 90
     },
     "facing=south,half=upper,hinge=left,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_top_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge_right",
       "y": 180
     },
+
     "facing=south,half=upper,hinge=left,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_top",
+      "model": "tretackshop:block/pasture_gate_13_top",
       "y": 90
     },
     "facing=south,half=upper,hinge=left,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_top_right",
+      "model": "tretackshop:block/pasture_gate_13_top_right",
       "y": 180
     },
+
     "facing=south,half=upper,hinge=right,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_top_right",
+      "model": "tretackshop:block/pasture_gate_13_top_right",
       "y": 90
     },
     "facing=south,half=upper,hinge=right,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_top"
+      "model": "tretackshop:block/pasture_gate_13_top"
     },
+
     "facing=south,half=upper,hinge=right,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_top_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge_right",
       "y": 90
     },
     "facing=south,half=upper,hinge=right,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_top_hinge"
+      "model": "tretackshop:block/pasture_gate_13_top_hinge"
     },
+
+
+
+
     "facing=west,half=lower,hinge=left,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom",
+      "model": "tretackshop:block/pasture_gate_13_bottom",
       "y": 180
     },
     "facing=west,half=lower,hinge=left,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_right",
       "y": 270
     },
     "facing=west,half=lower,hinge=left,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge",
       "y": 180
     },
     "facing=west,half=lower,hinge=left,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge_right",
       "y": 270
     },
     "facing=west,half=lower,hinge=right,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge_right",
       "y": 180
     },
+
     "facing=west,half=lower,hinge=right,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge",
       "y": 90
     },
     "facing=west,half=lower,hinge=right,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_right",
       "y": 180
     },
     "facing=west,half=lower,hinge=right,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom",
+      "model": "tretackshop:block/pasture_gate_13_bottom",
       "y": 90
     },
+
     "facing=west,half=upper,hinge=left,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_top_hinge",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge",
       "y": 180
     },
     "facing=west,half=upper,hinge=left,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_top_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge_right",
       "y": 270
     },
+
     "facing=west,half=upper,hinge=left,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_top",
+      "model": "tretackshop:block/pasture_gate_13_top",
       "y": 180
     },
     "facing=west,half=upper,hinge=left,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_top_right",
+      "model": "tretackshop:block/pasture_gate_13_top_right",
       "y": 270
     },
+
     "facing=west,half=upper,hinge=right,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_top_right",
+      "model": "tretackshop:block/pasture_gate_13_top_right",
       "y": 180
     },
     "facing=west,half=upper,hinge=right,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_top",
+      "model": "tretackshop:block/pasture_gate_13_top",
       "y": 90
     },
+
     "facing=west,half=upper,hinge=right,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_top_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge_right",
       "y": 180
     },
     "facing=west,half=upper,hinge=right,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_top_hinge",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge",
       "y": 90
     },
+
+
+
     "facing=north,half=lower,hinge=left,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom",
+      "model": "tretackshop:block/pasture_gate_13_bottom",
       "y": 270
     },
     "facing=north,half=lower,hinge=left,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_right"
+      "model": "tretackshop:block/pasture_gate_13_bottom_right"
     },
     "facing=north,half=lower,hinge=left,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge",
       "y": 270
     },
     "facing=north,half=lower,hinge=left,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge_right"
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge_right"
     },
+
+
     "facing=north,half=lower,hinge=right,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge_right",
       "y": 270
     },
     "facing=north,half=lower,hinge=right,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge",
       "y": 180
     },
     "facing=north,half=lower,hinge=right,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_right",
       "y": 270
     },
     "facing=north,half=lower,hinge=right,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom",
+      "model": "tretackshop:block/pasture_gate_13_bottom",
       "y": 180
     },
+
     "facing=north,half=upper,hinge=left,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_top_hinge",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge",
       "y": 270
     },
     "facing=north,half=upper,hinge=left,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_top_hinge_right"
+      "model": "tretackshop:block/pasture_gate_13_top_hinge_right"
     },
+
     "facing=north,half=upper,hinge=left,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_top",
+      "model": "tretackshop:block/pasture_gate_13_top",
       "y": 270
     },
     "facing=north,half=upper,hinge=left,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_top_right"
+      "model": "tretackshop:block/pasture_gate_13_top_right"
     },
+
     "facing=north,half=upper,hinge=right,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_top_right",
+      "model": "tretackshop:block/pasture_gate_13_top_right",
       "y": 270
     },
     "facing=north,half=upper,hinge=right,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_top",
+      "model": "tretackshop:block/pasture_gate_13_top",
       "y": 180
     },
+
     "facing=north,half=upper,hinge=right,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_top_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge_right",
       "y": 270
     },
     "facing=north,half=upper,hinge=right,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_top_hinge",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge",
       "y": 180
     },
+
+
+
     "facing=east,half=lower,hinge=left,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom"
+      "model": "tretackshop:block/pasture_gate_13_bottom"
     },
     "facing=east,half=lower,hinge=left,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_right",
       "y": 90
     },
     "facing=east,half=lower,hinge=left,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge"
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge"
     },
     "facing=east,half=lower,hinge=left,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge_right",
       "y": 90
     },
     "facing=east,half=lower,hinge=right,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge_right"
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge_right"
     },
+
     "facing=east,half=lower,hinge=right,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_bottom_hinge",
+      "model": "tretackshop:block/pasture_gate_13_bottom_hinge",
       "y": 270
     },
     "facing=east,half=lower,hinge=right,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom_right"
+      "model": "tretackshop:block/pasture_gate_13_bottom_right"
     },
     "facing=east,half=lower,hinge=right,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_bottom",
+      "model": "tretackshop:block/pasture_gate_13_bottom",
       "y": 270
     },
+
     "facing=east,half=upper,hinge=left,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_top_hinge"
+      "model": "tretackshop:block/pasture_gate_13_top_hinge"
     },
     "facing=east,half=upper,hinge=left,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_top_hinge_right",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge_right",
       "y": 90
     },
+
     "facing=east,half=upper,hinge=left,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_top"
+      "model": "tretackshop:block/pasture_gate_13_top"
     },
     "facing=east,half=upper,hinge=left,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_top_right",
+      "model": "tretackshop:block/pasture_gate_13_top_right",
       "y": 90
     },
+
     "facing=east,half=upper,hinge=right,open=false,side=left": {
-      "model": "tretackshop:block/pasture_1_top_right"
+      "model": "tretackshop:block/pasture_gate_13_top_right"
     },
     "facing=east,half=upper,hinge=right,open=true,side=left": {
-      "model": "tretackshop:block/pasture_1_top",
+      "model": "tretackshop:block/pasture_gate_13_top",
       "y": 270
     },
+
     "facing=east,half=upper,hinge=right,open=false,side=right": {
-      "model": "tretackshop:block/pasture_1_top_hinge_right"
+      "model": "tretackshop:block/pasture_gate_13_top_hinge_right"
     },
     "facing=east,half=upper,hinge=right,open=true,side=right": {
-      "model": "tretackshop:block/pasture_1_top_hinge",
+      "model": "tretackshop:block/pasture_gate_13_top_hinge",
       "y": 270
     }
   }

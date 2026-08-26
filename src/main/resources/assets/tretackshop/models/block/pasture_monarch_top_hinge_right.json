@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "textures": {
-    "top": "tretackshop:block/pasture_gates/pasture_monarch_upper_left",
-    "bottom": "swem:block/transparent_monarch6_monarch6"
-  }
-}

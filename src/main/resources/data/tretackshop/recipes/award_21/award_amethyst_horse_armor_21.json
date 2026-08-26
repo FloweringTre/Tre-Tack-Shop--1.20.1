@@ -3,7 +3,7 @@
   "group": "cloth_armor",
   "ingredients": [
     {
-      "tag": "tretackshop:craft/amethyst__horse_armors"
+      "tag": "tretackshop:craft/amethyst_horse_armors"
     },
     {
       "item": "tretackshop:award_dye_21"

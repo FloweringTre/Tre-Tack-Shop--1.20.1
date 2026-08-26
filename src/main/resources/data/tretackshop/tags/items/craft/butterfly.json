@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tretackshop:butterfly",
-    "tretackshop:butterfly_monarch"
+    {"id": "tretackshop:butterfly", "required": false},
+    {"id": "tretackshop:butterfly_monarch", "required": false}
 
   ]
 }

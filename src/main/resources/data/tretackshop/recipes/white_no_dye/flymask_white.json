@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "halter",
+  "pattern": [
+    "x y",
+    "Ax ",
+    "xCx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:string"
+    },
+    "y": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "tag": "forge:dyes/white"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:flymask_white"
+  }
+}

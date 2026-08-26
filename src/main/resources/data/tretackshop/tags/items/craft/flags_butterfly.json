@@ -1,20 +1,20 @@
 {
   "replace": false,
   "values": [
-    "tretackshop:flag_butterfly_1",
-    "tretackshop:flag_butterfly_2",
-    "tretackshop:flag_butterfly_3",
-    "tretackshop:flag_butterfly_4",
-    "tretackshop:flag_butterfly_5",
-    "tretackshop:flag_butterfly_6",
-    "tretackshop:flag_butterfly_7",
-    "tretackshop:flag_butterfly_8",
-    "tretackshop:flag_butterfly_9",
-    "tretackshop:flag_butterfly_10",
-    "tretackshop:flag_butterfly_11",
-    "tretackshop:flag_butterfly_12",
-    "tretackshop:flag_butterfly_13",
-    "tretackshop:flag_butterfly_14"
+    {"id": "tretackshop:flag_butterfly_1", "required": false},
+    {"id": "tretackshop:flag_butterfly_2", "required": false},
+    {"id": "tretackshop:flag_butterfly_3", "required": false},
+    {"id": "tretackshop:flag_butterfly_4", "required": false},
+    {"id": "tretackshop:flag_butterfly_5", "required": false},
+    {"id": "tretackshop:flag_butterfly_6", "required": false},
+    {"id": "tretackshop:flag_butterfly_7", "required": false},
+    {"id": "tretackshop:flag_butterfly_8", "required": false},
+    {"id": "tretackshop:flag_butterfly_9", "required": false},
+    {"id": "tretackshop:flag_butterfly_10", "required": false},
+    {"id": "tretackshop:flag_butterfly_11", "required": false},
+    {"id": "tretackshop:flag_butterfly_12", "required": false},
+    {"id": "tretackshop:flag_butterfly_13", "required": false},
+    {"id": "tretackshop:flag_butterfly_14", "required": false}
 
   ]
 }

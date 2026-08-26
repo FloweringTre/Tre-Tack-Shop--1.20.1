@@ -96,6 +96,25 @@ public class TreTackShop {
                 TackShopBlockRegistry.PASTURE_GATE_HORSES.forEach(
                         block -> ItemBlockRenderTypes.setRenderLayer(block.get(), RenderType.cutout())
                 );
+                AwardShopBlockRegistry.AWARD_WEB_GUARD_CARES.forEach(
+                        block -> ItemBlockRenderTypes.setRenderLayer(block.get(), RenderType.cutout())
+                );
+
+                AwardShopBlockRegistry.AWARD_WEB_GUARD_HORSES.forEach(
+                        block -> ItemBlockRenderTypes.setRenderLayer(block.get(), RenderType.cutout())
+                );
+
+                AwardShopBlockRegistry.AWARD_WEB_GUARD_RIDERS.forEach(
+                        block -> ItemBlockRenderTypes.setRenderLayer(block.get(), RenderType.cutout())
+                );
+
+                AwardShopBlockRegistry.AWARD_PASTURE_GATE_CARES.forEach(
+                        block -> ItemBlockRenderTypes.setRenderLayer(block.get(), RenderType.cutout())
+                );
+
+                AwardShopBlockRegistry.AWARD_PASTURE_GATE_HORSES.forEach(
+                        block -> ItemBlockRenderTypes.setRenderLayer(block.get(), RenderType.cutout())
+                );
             });
         }
     }

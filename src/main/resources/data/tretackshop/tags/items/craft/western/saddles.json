@@ -1,21 +1,21 @@
 {
   "replace": false,
   "values": [
-    "tretackshop:western_saddle_rainbow",
-    "tretackshop:western_saddle_1",
-    "tretackshop:western_saddle_2",
-    "tretackshop:western_saddle_3",
-    "tretackshop:western_saddle_4",
-    "tretackshop:western_saddle_5",
-    "tretackshop:western_saddle_6",
-    "tretackshop:western_saddle_7",
-    "tretackshop:western_saddle_8",
-    "tretackshop:western_saddle_9",
-    "tretackshop:western_saddle_10",
-    "tretackshop:western_saddle_11",
-    "tretackshop:western_saddle_12",
-    "tretackshop:western_saddle_13",
-    "tretackshop:western_saddle_14",
-    "tretackshop:western_saddle_trans"
+    {"id": "tretackshop:western_saddle_rainbow", "required": false},
+    {"id": "tretackshop:western_saddle_1", "required": false},
+    {"id": "tretackshop:western_saddle_2", "required": false},
+    {"id": "tretackshop:western_saddle_3", "required": false},
+    {"id": "tretackshop:western_saddle_4", "required": false},
+    {"id": "tretackshop:western_saddle_5", "required": false},
+    {"id": "tretackshop:western_saddle_6", "required": false},
+    {"id": "tretackshop:western_saddle_7", "required": false},
+    {"id": "tretackshop:western_saddle_8", "required": false},
+    {"id": "tretackshop:western_saddle_9", "required": false},
+    {"id": "tretackshop:western_saddle_10", "required": false},
+    {"id": "tretackshop:western_saddle_11", "required": false},
+    {"id": "tretackshop:western_saddle_12", "required": false},
+    {"id": "tretackshop:western_saddle_13", "required": false},
+    {"id": "tretackshop:western_saddle_14", "required": false},
+    {"id": "tretackshop:western_saddle_trans", "required": false}
   ]
 }

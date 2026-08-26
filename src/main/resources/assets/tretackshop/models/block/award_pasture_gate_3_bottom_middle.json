@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "top": "tretackshop:block/awards/pasture_gates/acacia_stall_care_upper_left",
+    "bottom": "tretackshop:block/awards/pasture_gates/award_pasture_3_lower_middle"
+  }
+}

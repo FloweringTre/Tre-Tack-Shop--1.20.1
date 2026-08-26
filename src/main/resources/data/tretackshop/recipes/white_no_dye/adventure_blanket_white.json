@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "adventure_blanket",
+  "pattern": [
+    "yxy",
+    "Ay ",
+    "yCy"
+  ],
+  "key": {
+    "y": {
+      "tag": "minecraft:wool_carpets"
+    },
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "A": {
+      "tag": "forge:dyes/white"
+    },
+    "C": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "item": "tretackshop:adventure_blanket_white"
+  }
+}

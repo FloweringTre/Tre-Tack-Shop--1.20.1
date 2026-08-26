@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "quarter_sheet",
+  "ingredients": [
+    {
+      "tag": "tretackshop:craft/quarter_sheets"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
+  ],
+  "result": {
+    "item": "tretackshop:quarter_sheet_light_blue"
+  }
+}
