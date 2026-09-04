@@ -1,13 +1,10 @@
 {
   "replace": false,
   "values": [
-    "tretackshop:snowflake_grand",
-    "tretackshop:snowflake_reserve",
-    "tretackshop:pumpkin_grand",
-    "tretackshop:pumpkin_reserve",
-    "#tretackshop:craft/slow_feeders",
-    "#tretackshop:craft/grain_feeders",
-    "#tretackshop:craft/half_barrels",
-    "#tretackshop:craft/grain_bins"
+    {"id": "#tretackshop:craft/slow_feeders", "required": false},
+    {"id": "#tretackshop:craft/grain_feeders", "required": false},
+    {"id": "#tretackshop:craft/half_barrels", "required": false},
+    {"id": "#tretackshop:craft/grain_bins", "required": false},
+    {"id": "#tretackshop:craft/tack_boxes", "required": false}
   ]
 }
