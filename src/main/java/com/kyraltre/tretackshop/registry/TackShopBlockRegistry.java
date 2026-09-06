@@ -97,15 +97,15 @@ public class TackShopBlockRegistry {
 public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_RAINBOW;
     public static final List<RegistryObject<Block>> CONE_RAINBOW;
 //    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROW_RAINBOW;
-    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_RAINBOW;
-    public static final List<RegistryObject<SeparatorBlock>> SEPARATOR_RAINBOW;
+//    public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_RAINBOW;
+//    public static final List<RegistryObject<SeparatorBlock>> SEPARATOR_RAINBOW;
 //    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_RAINBOW;
-    public static final List<RegistryObject<HorseDoorBlock>> PASTURE_GATE_HORSE_RAINBOW;
-    public static final List<RegistryObject<CareDoorBlock>> PASTURE_GATE_CARE_RAINBOW;
-    public static final List<RegistryObject<CareDoorHalfBlock>> WEB_GUARD_CARE_RAINBOW;
-    public static final List<RegistryObject<HorseDoorHalfBlock>> WEB_GUARD_HORSE_RAINBOW;
-    public static final List<RegistryObject<HalfDoorBlock>> WEB_GUARD_RIDER_RAINBOW;
-    public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL_RAINBOW;
+//    public static final List<RegistryObject<HorseDoorBlock>> PASTURE_GATE_HORSE_RAINBOW;
+//    public static final List<RegistryObject<CareDoorBlock>> PASTURE_GATE_CARE_RAINBOW;
+//    public static final List<RegistryObject<CareDoorHalfBlock>> WEB_GUARD_CARE_RAINBOW;
+//    public static final List<RegistryObject<HorseDoorHalfBlock>> WEB_GUARD_HORSE_RAINBOW;
+//    public static final List<RegistryObject<HalfDoorBlock>> WEB_GUARD_RIDER_RAINBOW;
+//    public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL_RAINBOW;
 //    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAIN_RAINBOW;
 
 /// ════════════════════════════════════ HOUND ════════════════════════════════════ ///
@@ -623,15 +623,15 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
         TACK_BOX_RAINBOW = new ArrayList();
         CONE_RAINBOW = new ArrayList();
 //        WHEELBARROW_RAINBOW = new ArrayList();
-        SLOW_FEEDER_RAINBOW = new ArrayList();
-        SEPARATOR_RAINBOW = new ArrayList();
+//        SLOW_FEEDER_RAINBOW = new ArrayList();
+//        SEPARATOR_RAINBOW = new ArrayList();
 //        GRAIN_FEEDER_RAINBOW = new ArrayList();
-        PASTURE_GATE_HORSE_RAINBOW = new ArrayList();
-        PASTURE_GATE_CARE_RAINBOW = new ArrayList();
-        WEB_GUARD_CARE_RAINBOW = new ArrayList();
-        WEB_GUARD_HORSE_RAINBOW = new ArrayList();
-        WEB_GUARD_RIDER_RAINBOW = new ArrayList();
-        HALF_BARREL_RAINBOW = new ArrayList();
+//        PASTURE_GATE_HORSE_RAINBOW = new ArrayList();
+//        PASTURE_GATE_CARE_RAINBOW = new ArrayList();
+//        WEB_GUARD_CARE_RAINBOW = new ArrayList();
+//        WEB_GUARD_HORSE_RAINBOW = new ArrayList();
+//        WEB_GUARD_RIDER_RAINBOW = new ArrayList();
+//        HALF_BARREL_RAINBOW = new ArrayList();
 //        BIN_GRAIN_RAINBOW = new ArrayList();
 
         TACK_BOX_RAINBOW.add(register("tack_box_" + "rainbow", () -> {
@@ -655,20 +655,20 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
 //                return new BlockItemBase((Block)block.get());
 //            };
 //        }));
-        SLOW_FEEDER_RAINBOW.add(register("slow_feeder_" + "rainbow", () -> {
-            return new SlowFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-        }, (block) -> {
-            return () -> {
-                return new BlockItemBase((Block)block.get());
-            };
-        }));
-        SEPARATOR_RAINBOW.add(register("separator_" + "rainbow", () -> {
-            return new SeparatorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-        }, (block) -> {
-            return () -> {
-                return new BlockItemBase((Block)block.get());
-            };
-        }));
+//        SLOW_FEEDER_RAINBOW.add(register("slow_feeder_" + "rainbow", () -> {
+//            return new SlowFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+//        }, (block) -> {
+//            return () -> {
+//                return new BlockItemBase((Block)block.get());
+//            };
+//        }));
+//        SEPARATOR_RAINBOW.add(register("separator_" + "rainbow", () -> {
+//            return new SeparatorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+//        }, (block) -> {
+//            return () -> {
+//                return new BlockItemBase((Block)block.get());
+//            };
+//        }));
 //        GRAIN_FEEDER_RAINBOW.add(register("grain_feeder_" + "rainbow", () -> {
 //            return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
 //        }, (block) -> {
@@ -676,48 +676,48 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
 //                return new BlockItemBase((Block)block.get());
 //            };
 //        }));
-        PASTURE_GATE_HORSE_RAINBOW.add(register("pasture_gate_horse_" + "rainbow", () -> {
-            return new HorseDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
-        }, (block) -> {
-            return () -> {
-                return new BlockItemBase((Block)block.get());
-            };
-        }));
-        PASTURE_GATE_CARE_RAINBOW.add(register("pasture_gate_care_" + "rainbow", () -> {
-            return new CareDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
-        }, (block) -> {
-            return () -> {
-                return new BlockItemBase((Block)block.get());
-            };
-        }));
-        WEB_GUARD_CARE_RAINBOW.add(register("web_guard_care_" + "rainbow", () -> {
-            return new CareDoorHalfBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
-        }, (block) -> {
-            return () -> {
-                return new BlockItemBase((Block)block.get());
-            };
-        }));
-        WEB_GUARD_HORSE_RAINBOW.add(register("web_guard_horse_" + "rainbow", () -> {
-            return new HorseDoorHalfBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
-        }, (block) -> {
-            return () -> {
-                return new BlockItemBase((Block)block.get());
-            };
-        }));
-        WEB_GUARD_RIDER_RAINBOW.add(register("web_guard_rider_" + "rainbow", () -> {
-            return new HalfDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-        }, (block) -> {
-            return () -> {
-                return new BlockItemBase((Block)block.get());
-            };
-        }));
-        HALF_BARREL_RAINBOW.add(register("half_barrel_" + "rainbow", () -> {
-            return new HalfBarrelBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F));
-        }, (block) -> {
-            return () -> {
-                return new BlockItemBase((Block)block.get());
-            };
-        }));
+//        PASTURE_GATE_HORSE_RAINBOW.add(register("pasture_gate_horse_" + "rainbow", () -> {
+//            return new HorseDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
+//        }, (block) -> {
+//            return () -> {
+//                return new BlockItemBase((Block)block.get());
+//            };
+//        }));
+//        PASTURE_GATE_CARE_RAINBOW.add(register("pasture_gate_care_" + "rainbow", () -> {
+//            return new CareDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
+//        }, (block) -> {
+//            return () -> {
+//                return new BlockItemBase((Block)block.get());
+//            };
+//        }));
+//        WEB_GUARD_CARE_RAINBOW.add(register("web_guard_care_" + "rainbow", () -> {
+//            return new CareDoorHalfBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
+//        }, (block) -> {
+//            return () -> {
+//                return new BlockItemBase((Block)block.get());
+//            };
+//        }));
+//        WEB_GUARD_HORSE_RAINBOW.add(register("web_guard_horse_" + "rainbow", () -> {
+//            return new HorseDoorHalfBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
+//        }, (block) -> {
+//            return () -> {
+//                return new BlockItemBase((Block)block.get());
+//            };
+//        }));
+//        WEB_GUARD_RIDER_RAINBOW.add(register("web_guard_rider_" + "rainbow", () -> {
+//            return new HalfDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+//        }, (block) -> {
+//            return () -> {
+//                return new BlockItemBase((Block)block.get());
+//            };
+//        }));
+//        HALF_BARREL_RAINBOW.add(register("half_barrel_" + "rainbow", () -> {
+//            return new HalfBarrelBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F));
+//        }, (block) -> {
+//            return () -> {
+//                return new BlockItemBase((Block)block.get());
+//            };
+//        }));
 //        BIN_GRAIN_RAINBOW.add(register("bin_grain_" + "rainbow", () -> {
 //            return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
 //        }, (block) -> {

@@ -8,7 +8,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 90
       }
     },
@@ -20,7 +20,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 90
       }
     },
@@ -32,7 +32,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 90
       }
     },
@@ -44,7 +44,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 180
       }
     },
@@ -56,7 +56,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 180
       }
     },
@@ -68,7 +68,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 180
       }
     },
@@ -80,7 +80,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom"
+        "model": "tretackshop:block/web_guard_3_bottom"
       }
     },
     {
@@ -91,7 +91,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle"
+        "model": "tretackshop:block/web_guard_3_middle"
       }
     },
     {
@@ -102,7 +102,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right"
+        "model": "tretackshop:block/web_guard_3_bottom_right"
       }
     },
     {
@@ -113,7 +113,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right"
+        "model": "tretackshop:block/web_guard_3_bottom_right"
       }
     },
     {
@@ -124,7 +124,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle"
+        "model": "tretackshop:block/web_guard_3_middle"
       }
     },
     {
@@ -135,7 +135,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom"
+        "model": "tretackshop:block/web_guard_3_bottom"
       }
     },
     {
@@ -146,7 +146,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 90
       }
     },
@@ -158,7 +158,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 90
       }
     },
@@ -170,7 +170,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 90
       }
     },
@@ -182,7 +182,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 270
       }
     },
@@ -194,7 +194,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 270
       }
     },
@@ -206,7 +206,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 270
       }
     },
@@ -218,7 +218,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 270
       }
     },
@@ -230,7 +230,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 270
       }
     },
@@ -242,7 +242,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 270
       }
     },
@@ -254,7 +254,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom"
+        "model": "tretackshop:block/web_guard_3_bottom"
       }
     },
     {
@@ -265,7 +265,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle"
+        "model": "tretackshop:block/web_guard_3_middle"
       }
     },
     {
@@ -276,7 +276,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right"
+        "model": "tretackshop:block/web_guard_3_bottom_right"
       }
     },
     {
@@ -287,7 +287,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 180
       }
     },
@@ -299,7 +299,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 180
       }
     },
@@ -311,7 +311,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 180
       }
     },
@@ -323,7 +323,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 180
       }
     },
@@ -335,7 +335,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 180
       }
     },
@@ -347,7 +347,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 180
       }
     },
@@ -359,7 +359,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 270
       }
     },
@@ -371,7 +371,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 270
       }
     },
@@ -383,7 +383,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 270
       }
     },
@@ -395,7 +395,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom",
+        "model": "tretackshop:block/web_guard_3_bottom",
         "y": 90
       }
     },
@@ -407,7 +407,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_middle",
+        "model": "tretackshop:block/web_guard_3_middle",
         "y": 90
       }
     },
@@ -419,7 +419,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_bottom_right",
+        "model": "tretackshop:block/web_guard_3_bottom_right",
         "y": 90
       }
     }

@@ -7,7 +7,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 270
       }
     },
@@ -18,7 +18,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider"
+        "model": "tretackshop:block/web_guard_12_rider"
       }
     },
     {
@@ -28,7 +28,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 180
       }
     },
@@ -39,7 +39,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 180
       }
     },
@@ -50,7 +50,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 270
       }
     },
@@ -61,7 +61,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 90
       }
     },
@@ -72,7 +72,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 90
       }
     },
@@ -83,7 +83,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 180
       }
     },
@@ -94,7 +94,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider"
+        "model": "tretackshop:block/web_guard_12_rider"
       }
     },
     {
@@ -104,7 +104,7 @@
         "open": "false"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider"
+        "model": "tretackshop:block/web_guard_12_rider"
       }
     },
     {
@@ -114,7 +114,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 90
       }
     },
@@ -125,7 +125,7 @@
         "open": "true"
       },
       "apply": {
-        "model": "tretackshop:block/web_guard_1_rider",
+        "model": "tretackshop:block/web_guard_12_rider",
         "y": 270
       }
     }
