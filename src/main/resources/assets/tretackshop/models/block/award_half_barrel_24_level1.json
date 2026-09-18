@@ -6,7 +6,7 @@
   ],
   "textures": {
     "0": "tretackshop:block/awards/half_barrels/award_half_barrel_24",
-    "water": "tretackshop:block/awards/water_still",
+    "water": "minecraft:block/water_still",
     "particle": "tretackshop:block/awards/half_barrels/award_half_barrel_24"
   },
   "elements": [

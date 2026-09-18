@@ -66,32 +66,32 @@ public class TackShopBlockRegistry {
 /// ════════════════════════════════════ MORPHO ════════════════════════════════════ ///
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_MORPHO;
     public static final List<RegistryObject<Block>> CONE_MORPHO;
-//    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROW_MORPHO;
+    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROW_MORPHO;
     public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_MORPHO;
     public static final List<RegistryObject<SeparatorBlock>> SEPARATOR_MORPHO;
-//    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_MORPHO;
+    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_MORPHO;
     public static final List<RegistryObject<HorseDoorBlock>> PASTURE_GATE_HORSE_MORPHO;
     public static final List<RegistryObject<CareDoorBlock>> PASTURE_GATE_CARE_MORPHO;
     public static final List<RegistryObject<CareDoorHalfBlock>> WEB_GUARD_CARE_MORPHO;
     public static final List<RegistryObject<HorseDoorHalfBlock>> WEB_GUARD_HORSE_MORPHO;
     public static final List<RegistryObject<HalfDoorBlock>> WEB_GUARD_RIDER_MORPHO;
     public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL_MORPHO;
-//    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAIN_MORPHO;
+    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAIN_MORPHO;
 
 /// ════════════════════════════════════ MONARCH ════════════════════════════════════ ///
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_MONARCH;
     public static final List<RegistryObject<Block>> CONE_MONARCH;
-//    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROW_MONARCH;
+    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROW_MONARCH;
     public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_MONARCH;
     public static final List<RegistryObject<SeparatorBlock>> SEPARATOR_MONARCH;
-//    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_MONARCH;
+    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_MONARCH;
     public static final List<RegistryObject<HorseDoorBlock>> PASTURE_GATE_HORSE_MONARCH;
     public static final List<RegistryObject<CareDoorBlock>> PASTURE_GATE_CARE_MONARCH;
     public static final List<RegistryObject<CareDoorHalfBlock>> WEB_GUARD_CARE_MONARCH;
     public static final List<RegistryObject<HorseDoorHalfBlock>> WEB_GUARD_HORSE_MONARCH;
     public static final List<RegistryObject<HalfDoorBlock>> WEB_GUARD_RIDER_MONARCH;
     public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL_MONARCH;
-//    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAIN_MONARCH;
+    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAIN_MONARCH;
 
 /// ════════════════════════════════════ RAINBOW ════════════════════════════════════ ///
 public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_RAINBOW;
@@ -111,32 +111,32 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_RAINBOW;
 /// ════════════════════════════════════ HOUND ════════════════════════════════════ ///
 public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
     public static final List<RegistryObject<Block>> CONE_HOUND;
-//    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROW_HOUND;
+    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROW_HOUND;
     public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDER_HOUND;
     public static final List<RegistryObject<SeparatorBlock>> SEPARATOR_HOUND;
-//    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_HOUND;
+    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDER_HOUND;
     public static final List<RegistryObject<HorseDoorBlock>> PASTURE_GATE_HORSE_HOUND;
     public static final List<RegistryObject<CareDoorBlock>> PASTURE_GATE_CARE_HOUND;
     public static final List<RegistryObject<CareDoorHalfBlock>> WEB_GUARD_CARE_HOUND;
     public static final List<RegistryObject<HorseDoorHalfBlock>> WEB_GUARD_HORSE_HOUND;
     public static final List<RegistryObject<HalfDoorBlock>> WEB_GUARD_RIDER_HOUND;
     public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARREL_HOUND;
-//    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAIN_HOUND;
+    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAIN_HOUND;
 
 /// ════════════════════════════════════ CRAFTABLE NUMBERED (Tackshop Colors) ════════════════════════════════════ ///
     public static final List<RegistryObject<TackBoxBlock>> TACK_BOXES;
     public static final List<RegistryObject<Block>> CONES;
-//    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROWS;
+    public static final List<RegistryObject<WheelBarrowBlock>> WHEELBARROWS;
     public static final List<RegistryObject<SlowFeederBlock>> SLOW_FEEDERS;
     public static final List<RegistryObject<SeparatorBlock>> SEPARATORS;
-//    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDERS;
+    public static final List<RegistryObject<GrainFeederBlock>> GRAIN_FEEDERS;
     public static final List<RegistryObject<HorseDoorBlock>> PASTURE_GATE_HORSES;
     public static final List<RegistryObject<CareDoorBlock>> PASTURE_GATE_CARES;
     public static final List<RegistryObject<CareDoorHalfBlock>> WEB_GUARD_CARES;
     public static final List<RegistryObject<HorseDoorHalfBlock>> WEB_GUARD_HORSES;
     public static final List<RegistryObject<HalfDoorBlock>> WEB_GUARD_RIDERS;
     public static final List<RegistryObject<HalfBarrelBlock>> HALF_BARRELS;
-//    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAINS;
+    public static final List<RegistryObject<GrainBinBlock>> BIN_GRAINS;
 
     public static final List<RegistryObject<TrophyBlock>> EGG_TROPHY_THICK;
     public static final List<RegistryObject<TrophyBlock>> EGG_TROPHY_THIN;
@@ -407,17 +407,17 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
 /// ════════════════════════════════════ MORPHO ════════════════════════════════════ ///
         TACK_BOX_MORPHO = new ArrayList();
         CONE_MORPHO = new ArrayList();
-//        WHEELBARROW_MORPHO = new ArrayList();
+        WHEELBARROW_MORPHO = new ArrayList();
         SLOW_FEEDER_MORPHO = new ArrayList();
         SEPARATOR_MORPHO = new ArrayList();
-//        GRAIN_FEEDER_MORPHO = new ArrayList();
+        GRAIN_FEEDER_MORPHO = new ArrayList();
         PASTURE_GATE_HORSE_MORPHO = new ArrayList();
         PASTURE_GATE_CARE_MORPHO = new ArrayList();
         WEB_GUARD_CARE_MORPHO = new ArrayList();
         WEB_GUARD_HORSE_MORPHO = new ArrayList();
         WEB_GUARD_RIDER_MORPHO = new ArrayList();
         HALF_BARREL_MORPHO = new ArrayList();
-//        BIN_GRAIN_MORPHO = new ArrayList();
+        BIN_GRAIN_MORPHO = new ArrayList();
 
         TACK_BOX_MORPHO.add(register("tack_box_" + "morpho", () -> {
             return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
@@ -433,13 +433,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new ConeBlockItem((Block) block.get());
             };
         }));
-//        WHEELBARROW_MORPHO.add(register("wheelbarrow_" + "morpho", () -> {
-//            return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        WHEELBARROW_MORPHO.add(register("wheelbarrow_" + "morpho", () -> {
+            return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
         SLOW_FEEDER_MORPHO.add(register("slow_feeder_" + "morpho", () -> {
             return new SlowFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
         }, (block) -> {
@@ -454,13 +454,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new BlockItemBase((Block)block.get());
             };
         }));
-//        GRAIN_FEEDER_MORPHO.add(register("grain_feeder_" + "morpho", () -> {
-//            return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        GRAIN_FEEDER_MORPHO.add(register("grain_feeder_" + "morpho", () -> {
+            return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
         PASTURE_GATE_HORSE_MORPHO.add(register("pasture_gate_horse_" + "morpho", () -> {
             return new HorseDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
         }, (block) -> {
@@ -503,29 +503,29 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new BlockItemBase((Block)block.get());
             };
         }));
-//        BIN_GRAIN_MORPHO.add(register("bin_grain_" + "morpho", () -> {
-//            return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        BIN_GRAIN_MORPHO.add(register("bin_grain_" + "morpho", () -> {
+            return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
 
 
 /// ════════════════════════════════════ MONARCH ════════════════════════════════════ ///
         TACK_BOX_MONARCH = new ArrayList();
         CONE_MONARCH = new ArrayList();
-//        WHEELBARROW_MONARCH = new ArrayList();
+        WHEELBARROW_MONARCH = new ArrayList();
         SLOW_FEEDER_MONARCH = new ArrayList();
         SEPARATOR_MONARCH = new ArrayList();
-//        GRAIN_FEEDER_MONARCH = new ArrayList();
+        GRAIN_FEEDER_MONARCH = new ArrayList();
         PASTURE_GATE_HORSE_MONARCH = new ArrayList();
         PASTURE_GATE_CARE_MONARCH = new ArrayList();
         WEB_GUARD_CARE_MONARCH = new ArrayList();
         WEB_GUARD_HORSE_MONARCH = new ArrayList();
         WEB_GUARD_RIDER_MONARCH = new ArrayList();
         HALF_BARREL_MONARCH = new ArrayList();
-//        BIN_GRAIN_MONARCH = new ArrayList();
+        BIN_GRAIN_MONARCH = new ArrayList();
 
         TACK_BOX_MONARCH.add(register("tack_box_" + "monarch", () -> {
             return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
@@ -541,13 +541,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new ConeBlockItem((Block) block.get());
             };
         }));
-//        WHEELBARROW_MONARCH.add(register("wheelbarrow_" + "monarch", () -> {
-//            return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        WHEELBARROW_MONARCH.add(register("wheelbarrow_" + "monarch", () -> {
+            return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
         SLOW_FEEDER_MONARCH.add(register("slow_feeder_" + "monarch", () -> {
             return new SlowFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
         }, (block) -> {
@@ -562,13 +562,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new BlockItemBase((Block)block.get());
             };
         }));
-//        GRAIN_FEEDER_MONARCH.add(register("grain_feeder_" + "monarch", () -> {
-//            return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        GRAIN_FEEDER_MONARCH.add(register("grain_feeder_" + "monarch", () -> {
+            return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
         PASTURE_GATE_HORSE_MONARCH.add(register("pasture_gate_horse_" + "monarch", () -> {
             return new HorseDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
         }, (block) -> {
@@ -611,13 +611,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new BlockItemBase((Block)block.get());
             };
         }));
-//        BIN_GRAIN_MONARCH.add(register("bin_grain_" + "monarch", () -> {
-//            return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        BIN_GRAIN_MONARCH.add(register("bin_grain_" + "monarch", () -> {
+            return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
 
 /// ════════════════════════════════════ RAINBOW ════════════════════════════════════ ///
         TACK_BOX_RAINBOW = new ArrayList();
@@ -729,17 +729,17 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
 /// ════════════════════════════════════ HOUND ════════════════════════════════════ ///
         TACK_BOX_HOUND = new ArrayList();
         CONE_HOUND = new ArrayList();
-//        WHEELBARROW_HOUND = new ArrayList();
+        WHEELBARROW_HOUND = new ArrayList();
         SLOW_FEEDER_HOUND = new ArrayList();
         SEPARATOR_HOUND = new ArrayList();
-//        GRAIN_FEEDER_HOUND = new ArrayList();
+        GRAIN_FEEDER_HOUND = new ArrayList();
         PASTURE_GATE_HORSE_HOUND = new ArrayList();
         PASTURE_GATE_CARE_HOUND = new ArrayList();
         WEB_GUARD_CARE_HOUND = new ArrayList();
         WEB_GUARD_HORSE_HOUND = new ArrayList();
         WEB_GUARD_RIDER_HOUND = new ArrayList();
         HALF_BARREL_HOUND = new ArrayList();
-//        BIN_GRAIN_HOUND = new ArrayList();
+        BIN_GRAIN_HOUND = new ArrayList();
 
         TACK_BOX_HOUND.add(register("tack_box_" + "hound", () -> {
             return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
@@ -755,13 +755,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new ConeBlockItem((Block) block.get());
             };
         }));
-//        WHEELBARROW_HOUND.add(register("wheelbarrow_" + "hound", () -> {
-//            return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        WHEELBARROW_HOUND.add(register("wheelbarrow_" + "hound", () -> {
+            return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
         SLOW_FEEDER_HOUND.add(register("slow_feeder_" + "hound", () -> {
             return new SlowFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
         }, (block) -> {
@@ -776,13 +776,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new BlockItemBase((Block)block.get());
             };
         }));
-//        GRAIN_FEEDER_HOUND.add(register("grain_feeder_" + "hound", () -> {
-//            return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        GRAIN_FEEDER_HOUND.add(register("grain_feeder_" + "hound", () -> {
+            return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
         PASTURE_GATE_HORSE_HOUND.add(register("pasture_gate_horse_" + "hound", () -> {
             return new HorseDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
         }, (block) -> {
@@ -825,28 +825,28 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                 return new BlockItemBase((Block)block.get());
             };
         }));
-//        BIN_GRAIN_HOUND.add(register("bin_grain_" + "hound", () -> {
-//            return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
-//        }, (block) -> {
-//            return () -> {
-//                return new BlockItemBase((Block)block.get());
-//            };
-//        }));
+        BIN_GRAIN_HOUND.add(register("bin_grain_" + "hound", () -> {
+            return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
+        }, (block) -> {
+            return () -> {
+                return new BlockItemBase((Block)block.get());
+            };
+        }));
 
 /// ════════════════════════════════════ CRAFTABLE NUMBERED (Tackshop Colors) ════════════════════════════════════ ///
         TACK_BOXES = new ArrayList<>();
         CONES = new ArrayList();
-//        WHEELBARROWS = new ArrayList();
+        WHEELBARROWS = new ArrayList();
         SLOW_FEEDERS = new ArrayList();
         SEPARATORS = new ArrayList();
-//        GRAIN_FEEDERS = new ArrayList();
+        GRAIN_FEEDERS = new ArrayList();
         PASTURE_GATE_HORSES = new ArrayList();
         PASTURE_GATE_CARES = new ArrayList();
         WEB_GUARD_CARES = new ArrayList();
         WEB_GUARD_HORSES = new ArrayList();
         WEB_GUARD_RIDERS = new ArrayList();
         HALF_BARRELS = new ArrayList();
-//        BIN_GRAINS = new ArrayList();
+        BIN_GRAINS = new ArrayList();
         EGG_TROPHY_THICK = new ArrayList<>();
         EGG_TROPHY_THIN = new ArrayList<>();
         EGG_TROPHY_CHEVRON = new ArrayList<>();
@@ -914,13 +914,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                     return new ConeBlockItem((Block) block.get());
                 };
             }));
-//            WHEELBARROWS.add(register("wheelbarrow_" + counter, () -> {
-//                return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
+            WHEELBARROWS.add(register("wheelbarrow_" + counter, () -> {
+                return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
             SLOW_FEEDERS.add(register("slow_feeder_" + counter, () -> {
                 return new SlowFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
             }, (block) -> {
@@ -935,13 +935,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                     return new BlockItemBase((Block)block.get());
                 };
             }));
-//            GRAIN_FEEDERS.add(register("grain_feeder_" + counter, () -> {
-//                return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
+            GRAIN_FEEDERS.add(register("grain_feeder_" + counter, () -> {
+                return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
             PASTURE_GATE_HORSES.add(register("pasture_gate_horse_" + counter, () -> {
                 return new HorseDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
             }, (block) -> {
@@ -984,13 +984,13 @@ public static final List<RegistryObject<TackBoxBlock>> TACK_BOX_HOUND;
                     return new BlockItemBase((Block)block.get());
                 };
             }));
-//            BIN_GRAINS.add(register("bin_grain_" + counter, () -> {
-//                return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
+            BIN_GRAINS.add(register("bin_grain_" + counter, () -> {
+                return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
 
             EGG_TROPHY_THICK.add(register("egg_trophy_thick_" + counter, () -> {
                 return new TrophyBlock(Properties.of().strength(1.0F).noOcclusion());

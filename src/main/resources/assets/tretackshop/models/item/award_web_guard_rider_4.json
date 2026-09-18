@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "tretackshop:item/awards/web_guards/award_web_guard_rider_4"
-  }
+  },
+  "render_type": "minecraft:cutout"
 }
-      

@@ -1,5 +1,6 @@
 package com.kyraltre.tretackshop;
 
+import com.kyraltre.tretackshop.compat.SwemBlockEntityCompat;
 import com.kyraltre.tretackshop.item.AwardShopCreativeModTab;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
 import com.kyraltre.tretackshop.registry.*;
@@ -58,6 +59,7 @@ public class TreTackShop {
     private void commonSetup(final FMLCommonSetupEvent event) {
         LOGGER.info("Tre says plant a tree <3");
         LOGGER.info(24 + " Award Sets Loaded.");
+        SwemBlockEntityCompat.apply();
     }
 
 

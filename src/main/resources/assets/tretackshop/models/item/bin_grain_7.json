@@ -1,6 +1,6 @@
 {
   "parent": "swem:item/bin_grain",
   "textures": {
-    "texture": "tretackshop:block/bin_grain_7"
+    "texture": "tretackshop:block/bin_grains/bin_grain_7"
   }
 }

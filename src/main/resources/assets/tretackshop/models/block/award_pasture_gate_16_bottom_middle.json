@@ -3,5 +3,6 @@
   "textures": {
     "top": "tretackshop:block/awards/pasture_gates/acacia_stall_care_upper_left",
     "bottom": "tretackshop:block/awards/pasture_gates/award_pasture_16_lower_middle"
-  }
+  },
+  "render_type": "minecraft:cutout"
 }

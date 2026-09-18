@@ -3,5 +3,6 @@
   "textures": {
     "top": "tretackshop:block/pasture_gates/pasture_4_upper_middle",
     "bottom": "swem:block/transparent_46_46"
-  }
+  },
+  "render_type": "minecraft:cutout"
 }

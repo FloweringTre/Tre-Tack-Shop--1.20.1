@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "tretackshop:item/awards/pasture_gates/award_pasture_gate_horse_16"
-  }
+  },
+  "render_type": "minecraft:cutout"
 }
-      

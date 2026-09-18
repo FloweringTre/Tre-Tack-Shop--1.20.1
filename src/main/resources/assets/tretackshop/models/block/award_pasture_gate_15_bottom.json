@@ -2,5 +2,6 @@
   "parent": "minecraft:block/door_bottom_left",
   "textures": {
     "bottom": "tretackshop:block/awards/pasture_gates/award_pasture_15_lower_left"
-  }
+  },
+  "render_type": "minecraft:cutout"
 }

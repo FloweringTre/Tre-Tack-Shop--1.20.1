@@ -2,5 +2,6 @@
   "parent": "swem:block/bin_grain",
   "textures": {
     "texture": "tretackshop:block/bin_grains/bin_grain_13"
-  }
+  },
+  "render_type": "minecraft:cutout"
 }

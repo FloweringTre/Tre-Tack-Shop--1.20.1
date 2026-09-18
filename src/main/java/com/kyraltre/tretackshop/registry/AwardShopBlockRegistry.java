@@ -29,17 +29,17 @@ public class AwardShopBlockRegistry {
 /// ════════════════════════════════════ AWARD SETS (Blank Sets) ════════════════════════════════════ ///
     public static final List<RegistryObject<TackBoxBlock>> AWARD_TACK_BOXES;
     public static final List<RegistryObject<Block>> AWARD_CONES;
-//    public static final List<RegistryObject<WheelBarrowBlock>> AWARD_WHEELBARROWS;
+    public static final List<RegistryObject<WheelBarrowBlock>> AWARD_WHEELBARROWS;
     public static final List<RegistryObject<SlowFeederBlock>> AWARD_SLOW_FEEDERS;
     public static final List<RegistryObject<SeparatorBlock>> AWARD_SEPARATORS;
-//    public static final List<RegistryObject<GrainFeederBlock>> AWARD_GRAIN_FEEDERS;
+    public static final List<RegistryObject<GrainFeederBlock>> AWARD_GRAIN_FEEDERS;
     public static final List<RegistryObject<HorseDoorBlock>> AWARD_PASTURE_GATE_HORSES;
     public static final List<RegistryObject<CareDoorBlock>> AWARD_PASTURE_GATE_CARES;
     public static final List<RegistryObject<CareDoorHalfBlock>> AWARD_WEB_GUARD_CARES;
     public static final List<RegistryObject<HorseDoorHalfBlock>> AWARD_WEB_GUARD_HORSES;
     public static final List<RegistryObject<HalfDoorBlock>> AWARD_WEB_GUARD_RIDERS;
     public static final List<RegistryObject<HalfBarrelBlock>> AWARD_HALF_BARRELS;
-//    public static final List<RegistryObject<GrainBinBlock>> AWARD_BIN_GRAINS;
+    public static final List<RegistryObject<GrainBinBlock>> AWARD_BIN_GRAINS;
 
     public AwardShopBlockRegistry() {
     }
@@ -73,17 +73,17 @@ public class AwardShopBlockRegistry {
 /// ════════════════════════════════════ AWARD SETS (Blank Sets) ════════════════════════════════════ ///
         AWARD_TACK_BOXES = new ArrayList<>();
         AWARD_CONES = new ArrayList();
-//        AWARD_WHEELBARROWS = new ArrayList();
+        AWARD_WHEELBARROWS = new ArrayList();
         AWARD_SLOW_FEEDERS = new ArrayList();
         AWARD_SEPARATORS = new ArrayList();
-//        AWARD_GRAIN_FEEDERS = new ArrayList();
+        AWARD_GRAIN_FEEDERS = new ArrayList();
         AWARD_PASTURE_GATE_HORSES = new ArrayList();
         AWARD_PASTURE_GATE_CARES = new ArrayList();
         AWARD_WEB_GUARD_CARES = new ArrayList();
         AWARD_WEB_GUARD_HORSES = new ArrayList();
         AWARD_WEB_GUARD_RIDERS = new ArrayList();
         AWARD_HALF_BARRELS = new ArrayList();
-//        AWARD_BIN_GRAINS = new ArrayList();
+        AWARD_BIN_GRAINS = new ArrayList();
 
 
         int var5 = 24;
@@ -103,13 +103,13 @@ public class AwardShopBlockRegistry {
                     return new ConeBlockItem((Block) block.get());
                 };
             }));
-//            AWARD_WHEELBARROWS.add(register("award_wheelbarrow_" + counter, () -> {
-//                return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
+            AWARD_WHEELBARROWS.add(register("award_wheelbarrow_" + counter, () -> {
+                return new WheelBarrowBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
             AWARD_SLOW_FEEDERS.add(register("award_slow_feeder_" + counter, () -> {
                 return new SlowFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
             }, (block) -> {
@@ -124,13 +124,13 @@ public class AwardShopBlockRegistry {
                     return new BlockItemBase((Block)block.get());
                 };
             }));
-//            AWARD_GRAIN_FEEDERS.add(register("award_grain_feeder_" + counter, () -> {
-//                return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
+            AWARD_GRAIN_FEEDERS.add(register("award_grain_feeder_" + counter, () -> {
+                return new GrainFeederBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), null);
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
             AWARD_PASTURE_GATE_HORSES.add(register("award_pasture_gate_horse_" + counter, () -> {
                 return new HorseDoorBlock(Properties.of().noOcclusion().sound(SoundType.METAL).strength(2.0F, 3.0F), BlockSetType.OAK,null);
             }, (block) -> {
@@ -173,13 +173,13 @@ public class AwardShopBlockRegistry {
                     return new BlockItemBase((Block)block.get());
                 };
             }));
-//            AWARD_BIN_GRAINS.add(register("award_bin_grain_" + counter, () -> {
-//                return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
-//            }, (block) -> {
-//                return () -> {
-//                    return new BlockItemBase((Block)block.get());
-//                };
-//            }));
+            AWARD_BIN_GRAINS.add(register("award_bin_grain_" + counter, () -> {
+                return new GrainBinBlock(Properties.of().strength(1.0F, 2.0F).noOcclusion());
+            }, (block) -> {
+                return () -> {
+                    return new BlockItemBase((Block)block.get());
+                };
+            }));
        }
     }
 

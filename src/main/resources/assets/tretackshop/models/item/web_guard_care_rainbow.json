@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "tretackshop:item/web_guards/web_guard_care_rainbow"
-  }
+  },
+  "render_type": "minecraft:cutout"
 }
-      
