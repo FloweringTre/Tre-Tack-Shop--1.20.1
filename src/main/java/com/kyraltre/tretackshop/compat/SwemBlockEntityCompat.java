@@ -1,129 +1,112 @@
 package com.kyraltre.tretackshop.compat;
 
-import com.alaharranhonor.swem.forge.blocks.AwardBlock;
 import com.alaharranhonor.swem.forge.blocks.GrainBinBlock;
-import com.alaharranhonor.swem.forge.blocks.GrainFeederBlock;
-import com.alaharranhonor.swem.forge.blocks.SlowFeederBlock;
-import com.alaharranhonor.swem.forge.blocks.TackBoxBlock;
-import com.alaharranhonor.swem.forge.blocks.WheelBarrowBlock;
-import com.alaharranhonor.swem.forge.registry.BlockEntitySetup;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import com.alaharranhonor.swem.forge.registry.BlockSetup;
+import com.kyraltre.tretackshop.registry.AwardShopBlockRegistry;
+import com.kyraltre.tretackshop.registry.TackShopBlockRegistry;
+import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 
-import java.lang.reflect.Field;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
+import java.util.Map;
 
-/**
- * Makes SWEM's existing BlockEntityTypes recognize Tre's Tack Shop copies
- * of SWEM blocks as valid blocks.
- *
- * Tre's Tack Shop reuses SWEM block classes. Those blocks therefore create
- * SWEM block entities, but SWEM originally registered only its own blocks
- * with the corresponding BlockEntityType.
- */
 public final class SwemBlockEntityCompat {
-
-    private static final String TACK_SHOP_NAMESPACE = "tretackshop";
-
-    private static final Field VALID_BLOCKS_FIELD;
-
-    static {
-        try {
-            VALID_BLOCKS_FIELD =
-                    BlockEntityType.class.getDeclaredField("validBlocks");
-
-            VALID_BLOCKS_FIELD.setAccessible(true);
-        } catch (ReflectiveOperationException e) {
-            throw new ExceptionInInitializerError(
-                    "Unable to access BlockEntityType.validBlocks"
-            );
-        }
-    }
 
     private SwemBlockEntityCompat() {
     }
 
-    /**
-     * Adds every registered Tre's Tack Shop block that uses a SWEM block
-     * entity to the corresponding SWEM BlockEntityType.
-     *
-     * This MUST be called after block registration has completed.
-     */
     public static void apply() {
-        addMatchingBlocks(
-                BlockEntitySetup.AWARD.get(),
-                AwardBlock.class
+        // Tack boxes -> SWEM TackBoxBE
+        addAllIfMissing(
+                BlockSetup.TACK_BOX,
+                TackShopBlockRegistry.TACK_BOX_BAMBOO,
+                TackShopBlockRegistry.TACK_BOX_SWDM_BAMBOO,
+                TackShopBlockRegistry.TACK_BOX_WHITEWASH,
+                TackShopBlockRegistry.TACK_BOX_THATCH,
+                TackShopBlockRegistry.TACK_BOX_MANGROVE,
+                TackShopBlockRegistry.TACK_BOX_CHERRY,
+                TackShopBlockRegistry.TACK_BOX_ACACIA,
+                TackShopBlockRegistry.TACK_BOX_BIRCH,
+                TackShopBlockRegistry.TACK_BOX_CRIMSON,
+                TackShopBlockRegistry.TACK_BOX_JUNGLE,
+                TackShopBlockRegistry.TACK_BOX_DARK_OAK,
+                TackShopBlockRegistry.TACK_BOX_OAK,
+                TackShopBlockRegistry.TACK_BOX_SPRUCE,
+                TackShopBlockRegistry.TACK_BOX_WARPED,
+                TackShopBlockRegistry.TACK_BOX_PALE_OAK,
+                TackShopBlockRegistry.TACK_BOX_MORPHO,
+                TackShopBlockRegistry.TACK_BOX_MONARCH,
+                TackShopBlockRegistry.TACK_BOX_RAINBOW,
+                TackShopBlockRegistry.TACK_BOX_HOUND,
+                TackShopBlockRegistry.TACK_BOXES,
+                AwardShopBlockRegistry.AWARD_TACK_BOXES
         );
 
-        addMatchingBlocks(
-                BlockEntitySetup.GRAIN_BIN_BLOCK_ENTITY.get(),
-                GrainBinBlock.class
+        // Wheelbarrows -> SWEM WheelBarrowBE
+        addAllIfMissing(
+                BlockSetup.WHEEL_BARROWS,
+                TackShopBlockRegistry.WHEELBARROW_MORPHO,
+                TackShopBlockRegistry.WHEELBARROW_MONARCH,
+                TackShopBlockRegistry.WHEELBARROW_HOUND,
+//                TackShopBlockRegistry.WHEELBARROW_RAINBOW,
+                TackShopBlockRegistry.WHEELBARROWS,
+                AwardShopBlockRegistry.AWARD_WHEELBARROWS
         );
 
-        addMatchingBlocks(
-                BlockEntitySetup.GRAIN_FEEDER_BLOCK_ENTITY.get(),
-                GrainFeederBlock.class
+        // Slow feeders -> SWEM SlowFeederBE
+        addAllIfMissing(
+                BlockSetup.SLOW_FEEDERS,
+                TackShopBlockRegistry.SLOW_FEEDER_MORPHO,
+                TackShopBlockRegistry.SLOW_FEEDER_MONARCH,
+                TackShopBlockRegistry.SLOW_FEEDER_HOUND,
+//                TackShopBlockRegistry.SLOW_FEEDER_RAINBOW,
+                TackShopBlockRegistry.SLOW_FEEDERS,
+                AwardShopBlockRegistry.AWARD_SLOW_FEEDERS
         );
 
-        addMatchingBlocks(
-                BlockEntitySetup.SLOW_FEEDER_BLOCK_ENTITY.get(),
-                SlowFeederBlock.class
+        // Grain feeders -> SWEM GrainFeederBE
+        addAllIfMissing(
+                BlockSetup.GRAIN_FEEDERS,
+                TackShopBlockRegistry.GRAIN_FEEDER_MORPHO,
+                TackShopBlockRegistry.GRAIN_FEEDER_MONARCH,
+                TackShopBlockRegistry.GRAIN_FEEDER_HOUND,
+//                TackShopBlockRegistry.GRAIN_FEEDER_RAINBOW,
+                TackShopBlockRegistry.GRAIN_FEEDERS,
+                AwardShopBlockRegistry.AWARD_GRAIN_FEEDERS
         );
 
-        addMatchingBlocks(
-                BlockEntitySetup.TACK_BOX_BLOCK_ENTITY.get(),
-                TackBoxBlock.class
-        );
-
-        addMatchingBlocks(
-                BlockEntitySetup.WHEEL_BARROW_BLOCK_ENTITY.get(),
-                WheelBarrowBlock.class
-        );
+        // Grain bins -> SWEM GrainBinBE.
+        addGrainBins(TackShopBlockRegistry.BIN_GRAIN_MORPHO, "morpho");
+        addGrainBins(TackShopBlockRegistry.BIN_GRAIN_MONARCH, "monarch");
+        addGrainBins(TackShopBlockRegistry.BIN_GRAIN_HOUND, "hound");
+//        addGrainBins(TackShopBlockRegistry.BIN_GRAIN_RAINBOW, "rainbow");
+        addGrainBins(TackShopBlockRegistry.BIN_GRAINS, "numbered");
+        addGrainBins(AwardShopBlockRegistry.AWARD_BIN_GRAINS, "award");
     }
 
-    /**
-     * Finds every block registered by Tre's Tack Shop which is an instance
-     * of the specified SWEM block class, then adds it to the SWEM
-     * BlockEntityType's valid block set.
-     */
-    private static void addMatchingBlocks(
-            BlockEntityType<?> blockEntityType,
-            Class<? extends Block> swemBlockClass) {
+    @SafeVarargs
+    private static <T extends Block> void addAllIfMissing(
+            List<RegistryObject<T>> target,
+            List<RegistryObject<T>>... sources) {
 
-        try {
-            @SuppressWarnings("unchecked")
-            Set<Block> validBlocks =
-                    new HashSet<>(
-                            (Set<Block>) VALID_BLOCKS_FIELD.get(blockEntityType)
-                    );
-
-            for (Block block : BuiltInRegistries.BLOCK) {
-
-                ResourceLocation id =
-                        BuiltInRegistries.BLOCK.getKey(block);
-
-                if (!TACK_SHOP_NAMESPACE.equals(id.getNamespace())) {
-                    continue;
+        for (List<RegistryObject<T>> source : sources) {
+            for (RegistryObject<T> block : source) {
+                if (!target.contains(block)) {
+                    target.add(block);
                 }
-
-                if (!swemBlockClass.isInstance(block)) {
-                    continue;
-                }
-
-                validBlocks.add(block);
             }
+        }
+    }
 
-            VALID_BLOCKS_FIELD.set(blockEntityType, validBlocks);
+    private static void addGrainBins(
+            List<RegistryObject<GrainBinBlock>> source,
+            String group) {
 
-        } catch (IllegalAccessException e) {
-            throw new RuntimeException(
-                    "Unable to add Tre's Tack Shop blocks to "
-                            + BuiltInRegistries.BLOCK_ENTITY_TYPE.getKey(blockEntityType),
-                    e
-            );
+        Map<String, RegistryObject<GrainBinBlock>> target = BlockSetup.GRAIN_BINS_WOOD;
+
+        int index = 0;
+        for (RegistryObject<GrainBinBlock> block : source) {
+            target.putIfAbsent("tretackshop_" + group + "_" + index++, block);
         }
     }
 }
