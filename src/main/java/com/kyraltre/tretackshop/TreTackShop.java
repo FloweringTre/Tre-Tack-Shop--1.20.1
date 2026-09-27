@@ -46,6 +46,8 @@ public class TreTackShop {
         AwardShopBlockRegistry.init(modEventBus);
         AwardShopItems.init(modEventBus);
 
+        SwemBlockEntityCompat.apply();
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -59,7 +61,6 @@ public class TreTackShop {
     private void commonSetup(final FMLCommonSetupEvent event) {
         LOGGER.info("Tre says plant a tree <3");
         LOGGER.info(24 + " Award Sets Loaded.");
-        SwemBlockEntityCompat.apply();
     }
 
 
