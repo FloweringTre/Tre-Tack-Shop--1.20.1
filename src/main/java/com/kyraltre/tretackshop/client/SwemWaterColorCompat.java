@@ -44,7 +44,6 @@ public final class SwemWaterColorCompat {
             }
 
             if (level == null || pos == null) {
-                // Vanilla water color for inventory/item rendering.
                 return 0x3F76E4;
             }
 

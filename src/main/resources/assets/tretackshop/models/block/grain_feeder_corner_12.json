@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/grain_feeder_corner",
+  "textures": {
+    "0": "tretackshop:block/grain_feeders/grain_feeder_corner_12",
+    "particle": "tretackshop:block/grain_feeders/grain_feeder_corner_12"
+  }
+}

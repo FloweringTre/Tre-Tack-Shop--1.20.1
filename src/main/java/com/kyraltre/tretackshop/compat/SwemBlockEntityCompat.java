@@ -16,7 +16,6 @@ public final class SwemBlockEntityCompat {
     }
 
     public static void apply() {
-        // Tack boxes -> SWEM TackBoxBE
         addAllIfMissing(
                 BlockSetup.TACK_BOX,
                 TackShopBlockRegistry.TACK_BOX_BAMBOO,
@@ -42,7 +41,6 @@ public final class SwemBlockEntityCompat {
                 AwardShopBlockRegistry.AWARD_TACK_BOXES
         );
 
-        // Wheelbarrows -> SWEM WheelBarrowBE
         addAllIfMissing(
                 BlockSetup.WHEEL_BARROWS,
                 TackShopBlockRegistry.WHEELBARROW_MORPHO,
@@ -53,7 +51,6 @@ public final class SwemBlockEntityCompat {
                 AwardShopBlockRegistry.AWARD_WHEELBARROWS
         );
 
-        // Slow feeders -> SWEM SlowFeederBE
         addAllIfMissing(
                 BlockSetup.SLOW_FEEDERS,
                 TackShopBlockRegistry.SLOW_FEEDER_MORPHO,
@@ -64,7 +61,6 @@ public final class SwemBlockEntityCompat {
                 AwardShopBlockRegistry.AWARD_SLOW_FEEDERS
         );
 
-        // Grain feeders -> SWEM GrainFeederBE
         addAllIfMissing(
                 BlockSetup.GRAIN_FEEDERS,
                 TackShopBlockRegistry.GRAIN_FEEDER_MORPHO,
@@ -75,7 +71,6 @@ public final class SwemBlockEntityCompat {
                 AwardShopBlockRegistry.AWARD_GRAIN_FEEDERS
         );
 
-        // Grain bins -> SWEM GrainBinBE.
         addGrainBins(TackShopBlockRegistry.BIN_GRAIN_MORPHO, "morpho");
         addGrainBins(TackShopBlockRegistry.BIN_GRAIN_MONARCH, "monarch");
         addGrainBins(TackShopBlockRegistry.BIN_GRAIN_HOUND, "hound");

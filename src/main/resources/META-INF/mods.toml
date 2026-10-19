@@ -65,7 +65,7 @@ description='''${mod_description}'''
 [[dependencies.tretackshop]] #our parent mod
     modId="swem"
     mandatory=true
-    versionRange="[1.6.6,)"
+    versionRange="[1.6.5,1.6.6]"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.tretackshop]] #Filterssss
@@ -74,12 +74,6 @@ description='''${mod_description}'''
     versionRange="[1.1.0+1.20.1,)"
     ordering="AFTER"
     side="CLIENT"
-#[[dependencies.ssedeco]]
-#    modId="ssedeco"
-#    mandatory=false
-#    versionRange="[1.1,)"
-#    ordering="AFTER"
-#    side="BOTH"
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't

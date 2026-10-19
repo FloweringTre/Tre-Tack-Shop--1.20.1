@@ -52,14 +52,11 @@ public class TreTackShop {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-
-//        if (ModList.get().isLoaded("ssedeco")) {
-//            SSECCompat.init(modEventBus);
-//        }
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         LOGGER.info("Tre says plant a tree <3");
+        LOGGER.info("Riley says raise some hell <3");
         LOGGER.info(24 + " Award Sets Loaded.");
     }
 
